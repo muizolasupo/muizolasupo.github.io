@@ -55,18 +55,17 @@ footer .meso-logo img{filter:none;width:30px;height:30px}.teaching-gallery{margi
  .nav .links a:hover{background:#eee;color:#111}.nav .links a.active:hover{background:#333;color:#fff}
 }
 
-/* Captioned photo slideshows (Teaching and About): photo above, short description below. */
-.story-carousel.photo-gallery .story-slide{display:flex;flex-direction:column;gap:0;align-items:stretch;height:620px;min-height:0;padding:0;background:#101010}
-.story-carousel.photo-gallery .story-slide[hidden]{display:none}
-.story-carousel.photo-gallery .story-surface{position:relative;inset:auto;flex:1 1 auto;min-height:0;height:auto}
+/* Captioned photo slideshows (Teaching and About): same dark overlay caption as the home page. */
+.story-carousel.photo-gallery .story-slide{height:600px}
 .photo-gallery .story-photo img{object-fit:contain;background:#101010}
-.photo-gallery .slide-caption{flex:none;padding:16px 28px 20px;border-top:1px solid #262626;color:#fff;background:#101010}
-.photo-gallery .slide-caption h3{margin:0 0 4px;font-size:1rem;font-weight:600;line-height:1.4;letter-spacing:0;color:#fff}
-.photo-gallery .slide-caption p{margin:0;max-width:760px;font-size:.9rem;line-height:1.6;color:#cfcfcf}
 @media(max-width:700px){
- .story-carousel.photo-gallery .story-slide{height:540px}
- .photo-gallery .slide-caption{padding:14px 18px 16px}
- .photo-gallery .slide-caption p{font-size:.85rem}
+ /* On phones the overlay would cover the subject, so the caption sits directly under the photo on the same dark ground. */
+ .story-carousel.photo-gallery .story-slide{display:flex;flex-direction:column;gap:0;align-items:stretch;height:560px}
+ .story-carousel.photo-gallery .story-slide[hidden]{display:none}
+ .story-carousel.photo-gallery .story-surface{position:relative;inset:auto;flex:1 1 auto;min-height:0;height:auto}
+ .photo-gallery .story-text{position:static;flex:none;background:#101010;padding:14px 18px 18px}
+ .photo-gallery .story-text h2{font-size:1.3rem;margin-bottom:6px}
+ .photo-gallery .story-text p{margin:0}
 }
 
 /* Research page: agenda, coauthors, abstracts, version metadata, links. */
@@ -89,3 +88,7 @@ footer .meso-logo img{filter:none;width:30px;height:30px}.teaching-gallery{margi
  .paper .year{flex-direction:row;align-items:center;gap:10px}
  .paper-links{flex-direction:row;gap:18px;align-items:center}
 }
+
+/* About page slideshow block. */
+.about-gallery{margin:6px 0 34px}
+.about-gallery-title{font-size:1.4rem;margin:0 0 16px;line-height:1.4}
