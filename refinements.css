@@ -126,3 +126,7 @@ footer .meso-logo img{filter:none;width:30px;height:30px}.teaching-gallery{margi
 /* Button inside a slideshow caption (e.g. link to the SIU Hall of Fellows). */
 .photo-gallery .story-text .slide-button{display:inline-block;margin-top:12px;padding:8px 14px;border:1px solid rgba(255,255,255,.85);color:#fff;background:transparent;font-size:.82rem;font-weight:600;letter-spacing:.02em;text-decoration:none;line-height:1.3}
 .photo-gallery .story-text .slide-button:hover,.photo-gallery .story-text .slide-button:focus-visible{background:#fff;color:#080808}
+
+/* Justified body text for long paragraphs (About, Teaching, Innovation, paper abstracts).
+   Hyphenation keeps word spacing even, especially in narrow phone columns. */
+.bio-copy p,.about-row>p:not(.software-list),.venture>p,.paper-abstract p{text-align:justify;text-justify:inter-word;-webkit-hyphens:auto;hyphens:auto}
