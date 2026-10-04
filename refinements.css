@@ -130,3 +130,7 @@ footer .meso-logo img{filter:none;width:30px;height:30px}.teaching-gallery{margi
 /* Justified body text for long paragraphs (About, Teaching, Innovation, paper abstracts).
    Hyphenation keeps word spacing even, especially in narrow phone columns. */
 .bio-copy p,.about-row>p:not(.software-list),.venture>p,.paper-abstract p{text-align:justify;text-justify:inter-word;-webkit-hyphens:auto;hyphens:auto}
+
+/* Monogram icon to the left of the name in the top bar. */
+.brand{display:inline-flex;align-items:center;gap:12px}
+.brand .brand-icon{width:1.4em;height:1.4em;flex:none;display:block;border-radius:4px}
