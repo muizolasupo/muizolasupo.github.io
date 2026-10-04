@@ -54,3 +54,38 @@ footer .meso-logo img{filter:none;width:30px;height:30px}.teaching-gallery{margi
  .nav .links a.active{background:#111;color:#fff;border-color:#111;padding-bottom:8px}
  .nav .links a:hover{background:#eee;color:#111}.nav .links a.active:hover{background:#333;color:#fff}
 }
+
+/* Captioned photo slideshows (Teaching and About): photo above, short description below. */
+.story-carousel.photo-gallery .story-slide{display:flex;flex-direction:column;gap:0;align-items:stretch;height:620px;min-height:0;padding:0;background:#101010}
+.story-carousel.photo-gallery .story-slide[hidden]{display:none}
+.story-carousel.photo-gallery .story-surface{position:relative;inset:auto;flex:1 1 auto;min-height:0;height:auto}
+.photo-gallery .story-photo img{object-fit:contain;background:#101010}
+.photo-gallery .slide-caption{flex:none;padding:16px 28px 20px;border-top:1px solid #262626;color:#fff;background:#101010}
+.photo-gallery .slide-caption h3{margin:0 0 4px;font-size:1rem;font-weight:600;line-height:1.4;letter-spacing:0;color:#fff}
+.photo-gallery .slide-caption p{margin:0;max-width:760px;font-size:.9rem;line-height:1.6;color:#cfcfcf}
+@media(max-width:700px){
+ .story-carousel.photo-gallery .story-slide{height:540px}
+ .photo-gallery .slide-caption{padding:14px 18px 16px}
+ .photo-gallery .slide-caption p{font-size:.85rem}
+}
+
+/* Research page: agenda, coauthors, abstracts, version metadata, links. */
+.page-head .research-agenda{max-width:820px;font-size:1.02rem;line-height:1.75;color:#333;margin-top:6px}
+.papers-section{padding-top:44px}
+.papers-section .paper{grid-template-columns:110px 1fr auto}
+.paper .paper-label{white-space:nowrap}
+.paper .year{display:flex;flex-direction:column;gap:6px}
+.paper .paper-label{display:inline-block;align-self:flex-start;font-size:.68rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:#080808;padding:3px 7px}
+.paper .paper-authors{margin:2px 0 10px;font-size:.92rem;color:#333}
+.paper .paper-meta{margin:10px 0 0;font-size:.8rem;color:#666}
+.paper-abstract summary{cursor:pointer;font-size:.85rem;font-weight:600;color:#080808;list-style-position:inside;width:max-content}
+.paper-abstract summary:hover{text-decoration:underline;text-underline-offset:4px}
+.paper-abstract p{margin:8px 0 0;max-width:760px;font-size:.92rem!important;line-height:1.7;color:#333!important}
+.paper-links{display:flex;flex-direction:column;gap:8px;align-items:flex-end;padding-top:3px}
+.paper-links a{font-size:.85rem;font-weight:500;color:#080808;text-decoration:underline;text-underline-offset:5px;white-space:nowrap}
+.paper-lead{border-top:2px solid #080808}
+@media(max-width:700px){
+ .papers-section .paper{grid-template-columns:1fr}
+ .paper .year{flex-direction:row;align-items:center;gap:10px}
+ .paper-links{flex-direction:row;gap:18px;align-items:center}
+}
