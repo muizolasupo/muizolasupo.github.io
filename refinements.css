@@ -92,3 +92,7 @@ footer .meso-logo img{filter:none;width:30px;height:30px}.teaching-gallery{margi
 /* About page slideshow block. */
 .about-gallery{margin:6px 0 34px}
 .about-gallery-title{font-size:1.4rem;margin:0 0 16px;line-height:1.4}
+
+/* Place-and-date line above slideshow titles. */
+.photo-gallery .story-text .slide-kicker{display:block;margin:0 0 8px;font-size:.75rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#d6d6d6}
+@media(max-width:700px){.photo-gallery .story-text .slide-kicker{font-size:.68rem;margin-bottom:6px}}
