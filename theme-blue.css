@@ -5,7 +5,7 @@
  *           return to the black theme. Body text stays near-black for
  *           readability, and photo slideshow backgrounds stay neutral.
  */
-:root{--accent:#0b3a7e;--accent-dark:#082c61;--accent-soft:#e8eef8}
+:root{--accent:#0a1f44;--accent-dark:#061531;--accent-soft:#e6ebf4}
 
 /* Top bar, name, menu */
 .nav{border-top-color:var(--accent)}
