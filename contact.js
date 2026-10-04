@@ -66,3 +66,21 @@
     }
   });
 })();
+
+/*
+ * Booking dialog: "See available times" opens the Google Calendar booking page
+ * in an on-page dialog. The calendar loads only the first time it is opened.
+ */
+(() => {
+  const open = document.querySelector('[data-booking-open]');
+  const dialog = document.querySelector('[data-booking-dialog]');
+  if (!open || !dialog || typeof dialog.showModal !== 'function') return; // old browsers keep the new-tab link
+  const frame = dialog.querySelector('iframe');
+  open.addEventListener('click', () => {
+    if (!frame.src) frame.src = frame.dataset.src;
+    dialog.showModal();
+  });
+  dialog.querySelector('[data-booking-close]').addEventListener('click', () => dialog.close());
+  // Clicking the dimmed backdrop (outside the dialog box) also closes it.
+  dialog.addEventListener('click', (e) => { if (e.target === dialog) dialog.close(); });
+})();
