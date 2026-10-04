@@ -50,7 +50,7 @@ footer .meso-logo img{filter:none;width:30px;height:30px}.teaching-gallery{margi
  .nav .brand{align-self:flex-start;font-size:1.3rem}
  .nav .links,.nav .links.open{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));position:static;width:100%;gap:6px;padding:0;margin:0;border:0;background:transparent}
  .nav .links a{display:flex;align-items:center;justify-content:center;min-height:44px;padding:8px 4px;border:1px solid #e4e4e4;border-radius:4px;background:#fafafa;font-size:1rem;line-height:1.2;text-transform:none;letter-spacing:0;text-align:center;color:#222;text-decoration:none}
- .nav .links a[href="papers.html"]{grid-column:span 2}
+ .nav .links a[href="contact.html"]{grid-column:span 2}
  .nav .links a.active{background:#111;color:#fff;border-color:#111;padding-bottom:8px}
  .nav .links a:hover{background:#eee;color:#111}.nav .links a.active:hover{background:#333;color:#fff}
 }
