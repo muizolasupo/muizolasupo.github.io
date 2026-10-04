@@ -1,0 +1,48 @@
+/*
+ * theme-blue.css
+ * Purpose : Replace the black accent colour with a deep blue across the site.
+ *           Loaded after every other stylesheet; delete its <link> tags to
+ *           return to the black theme. Body text stays near-black for
+ *           readability, and photo slideshow backgrounds stay neutral.
+ */
+:root{--accent:#0b3a7e;--accent-dark:#082c61;--accent-soft:#e8eef8}
+
+/* Top bar, name, menu */
+.nav{border-top-color:var(--accent)}
+.brand,.nav .brand{color:var(--accent)}
+.links a.active{border-bottom-color:var(--accent);color:var(--accent)}
+.links a:hover{color:var(--accent)}
+
+/* Headings and labels */
+h1,h2,h3,.icon-card h3,.page-head h1,.paper h2,.venture h3,.venture.acwis h3,.about-row h2,.contact-simple h2,.contact-block h2,.about-gallery-title{color:var(--accent)}
+.eyebrow,.kicker,.page-head .kicker,.section-head .kicker,.venture .mini,.venture.meso .mini{color:var(--accent)}
+.icon-card svg{stroke:var(--accent)}
+
+/* Buttons and links */
+.btn.primary,.hero .btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn.primary:hover{background:var(--accent-dark);border-color:var(--accent-dark)}
+.btn.outline,.hero .btn.outline{color:var(--accent);border-color:var(--accent)}
+.btn.outline:hover{background:var(--accent);color:#fff}
+.bio-copy a,.contact-simple .email-link,.paper-links a,.paper .ssrn,.paper-abstract summary,.story-action{color:var(--accent)}
+
+/* Papers page */
+.paper .paper-label{background:var(--accent)}
+.paper-lead{border-top-color:var(--accent)}
+
+/* Slideshow controls */
+.story-bottom .carousel-dot.active:before{background:var(--accent)}
+.carousel-btn:hover{color:var(--accent);background:var(--accent-soft)}
+
+/* Focus rings and form */
+:focus-visible,.story-carousel :focus-visible{outline-color:var(--accent)}
+.form-row input:focus,.form-row textarea:focus{outline-color:var(--accent);border-color:var(--accent)}
+
+/* Footer */
+footer{background:var(--accent)}
+
+/* Phone menu */
+@media(max-width:900px){
+ .nav .links a.active{background:var(--accent);border-color:var(--accent);color:#fff}
+ .nav .links a.active:hover{background:var(--accent-dark);color:#fff}
+ .nav .links a:hover{color:var(--accent)}
+}
