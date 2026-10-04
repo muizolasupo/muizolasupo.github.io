@@ -93,3 +93,23 @@ footer .meso-logo img{filter:none;width:30px;height:30px}.teaching-gallery{margi
 .about-gallery{margin:6px 0 34px}
 .about-gallery-title{font-size:1.4rem;margin:0 0 16px;line-height:1.4}
 
+
+/* Contact page: message form. */
+.contact-block{margin-top:48px;padding-top:32px;border-top:1px solid #e2e2e2;max-width:700px}
+.contact-block h2{font-size:1.5rem;margin:0 0 6px}
+.contact-note{margin:0 0 22px;color:#555;font-size:.92rem}
+.contact-form{display:grid;grid-template-columns:1fr 1fr;gap:16px 18px}
+.contact-form .form-wide{grid-column:1/-1}
+.form-row{display:flex;flex-direction:column;gap:6px}
+.form-row label{font-size:.8rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:#222}
+.form-row input,.form-row textarea{font:inherit;font-size:.95rem;color:#080808;background:#fff;border:1px solid #cfcfcf;border-radius:0;padding:11px 12px;width:100%}
+.form-row textarea{resize:vertical;min-height:140px}
+.form-row input:focus,.form-row textarea:focus{outline:2px solid #080808;outline-offset:1px;border-color:#080808}
+.form-actions{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.form-actions .btn{cursor:pointer;font:inherit;font-weight:600}
+.form-actions .btn[disabled]{opacity:.6;cursor:wait}
+.form-status{margin:0;font-size:.9rem;color:#555}
+.form-status[data-state="ok"]{color:#14532d}
+.form-status[data-state="error"]{color:#9b1c1c}
+.contact-honey{position:absolute!important;left:-9999px!important;width:1px;height:1px;opacity:0}
+@media(max-width:700px){.contact-form{grid-template-columns:1fr}}
