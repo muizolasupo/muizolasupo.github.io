@@ -113,3 +113,12 @@ footer .meso-logo img{filter:none;width:30px;height:30px}.teaching-gallery{margi
 .form-status[data-state="error"]{color:#9b1c1c}
 .contact-honey{position:absolute!important;left:-9999px!important;width:1px;height:1px;opacity:0}
 @media(max-width:700px){.contact-form{grid-template-columns:1fr}}
+
+/* Document slides (newspaper clippings): show the whole page, caption on a dark strip beneath it. */
+.story-carousel.photo-gallery .story-slide.slide-doc{display:flex;flex-direction:column;gap:0;align-items:stretch}
+.story-carousel.photo-gallery .story-slide.slide-doc[hidden]{display:none}
+.story-carousel.photo-gallery .slide-doc .story-surface{position:relative;inset:auto;flex:1 1 auto;min-height:0;height:auto}
+.photo-gallery .slide-doc .story-text{position:static;flex:none;background:#101010;padding:16px 34px 20px}
+.photo-gallery .slide-doc .story-text h2{font-size:1.5rem;margin-bottom:6px}
+.photo-gallery .slide-doc .story-text p{margin:0}
+@media(max-width:700px){.photo-gallery .slide-doc .story-text{padding:14px 18px 18px}.photo-gallery .slide-doc .story-text h2{font-size:1.3rem}}
