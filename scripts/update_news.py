@@ -2,9 +2,11 @@
 update_news.py
 Purpose : Refresh the "Economy & markets" headlines on the Home page.
           Reads a fixed list of publisher RSS/Atom feeds, keeps each item's
-          headline, link, source and publication time (never article text),
-          and writes the newest items per category to news.json, which
-          news.js renders on index.html.
+          headline, link, source, publication time and thumbnail image URL
+          (never article text), and writes the newest items per category to
+          news.json, which news.js renders on index.html. Thumbnails come from
+          the feed itself or, failing that, the article page's og:image; images
+          are linked from the publisher, not copied.
 Inputs  : the FEEDS list below; the previous news.json (if any), used to keep
           a stable first-seen time for items whose feed carries no date.
 Outputs : news.json at the repository root, rewritten only when the set of
@@ -23,6 +25,7 @@ import sys
 import time
 import urllib.request
 from datetime import datetime, timezone
+from urllib.parse import urljoin
 from pathlib import Path
 
 import feedparser
@@ -36,6 +39,8 @@ TIMEOUT_S = 20            # per-feed network timeout
 PER_CATEGORY = 6          # headlines shown per tab
 PER_SOURCE_FIRST_PASS = 2 # variety: at most this many per source before back-filling
 MAX_TITLE = 170           # characters; longer headlines are trimmed at a word boundary
+PAGE_BYTES = 400_000      # read at most this much of an article page when looking for og:image
+MAX_PAGE_LOOKUPS = 24     # og:image page fetches per run (only for newly chosen headlines)
 
 # Category id -> (tab label, maximum item age in days)
 CATEGORIES = {
@@ -106,6 +111,57 @@ def fetch(url: str) -> bytes:
         return resp.read()
 
 
+def usable_image(url: str | None, base: str = "") -> str | None:
+    """Absolute https image URL, or None. http images would be blocked as mixed content."""
+    if not url:
+        return None
+    url = urljoin(base, html.unescape(url.strip()))
+    if not url.startswith("https://"):
+        return None
+    if re.search(r"(spacer|pixel|1x1|blank|logo)[^/]*\.(gif|png|svg)", url, re.I):
+        return None  # tracking pixels and site logos are not thumbnails
+    return url
+
+
+def entry_image(entry) -> str | None:
+    """The thumbnail a feed item carries: media tags, image enclosures, or an <img> in its HTML."""
+    for media in (entry.get("media_thumbnail") or []):
+        if (img := usable_image(media.get("url"))):
+            return img
+    for media in (entry.get("media_content") or []):
+        kind = (media.get("medium") or media.get("type") or "image")
+        if kind.startswith("image") and (img := usable_image(media.get("url"))):
+            return img
+    for link in (entry.get("enclosures") or []) + [l for l in (entry.get("links") or []) if l.get("rel") == "enclosure"]:
+        if str(link.get("type", "")).startswith("image") and (img := usable_image(link.get("href") or link.get("url"))):
+            return img
+    blobs = [c.get("value", "") for c in (entry.get("content") or [])] + [entry.get("summary", "")]
+    for blob in blobs:
+        m = re.search(r"<img[^>]+src=[\"']([^\"']+)", blob or "", re.I)
+        if m and (img := usable_image(m.group(1))):
+            return img
+    return None
+
+
+OG_IMAGE = re.compile(
+    r"<meta[^>]+(?:property|name)=[\"'](?:og:image(?::secure_url)?|twitter:image(?::src)?)[\"'][^>]*>", re.I)
+
+
+def page_image(url: str) -> str:
+    """og:image (or twitter:image) of an article page; "" when none is found or the page refuses."""
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "text/html"})
+        with urllib.request.urlopen(req, timeout=TIMEOUT_S) as resp:
+            head = resp.read(PAGE_BYTES).decode("utf-8", "replace")
+        for tag in OG_IMAGE.findall(head):
+            m = re.search(r"content=[\"']([^\"']+)", tag, re.I)
+            if m and (img := usable_image(m.group(1), base=url)):
+                return img
+    except Exception as exc:
+        print(f"      no page image for {url[:80]} ({exc})")
+    return ""
+
+
 def load_previous() -> dict:
     try:
         return json.loads(OUT.read_text(encoding="utf-8"))
@@ -150,7 +206,10 @@ def main() -> int:
                     undated += 1
                     published = first_seen[link] = old_first_seen.get(link, iso(now))
                 dates.append(published)
-                pools[cat].append({"title": title, "url": link, "source": source, "published": published})
+                item = {"title": title, "url": link, "source": source, "published": published}
+                if (img := entry_image(e)):
+                    item["image"] = img
+                pools[cat].append(item)
                 kept += 1
             # Diagnostics, visible in news.json and the workflow log.
             status.append({"source": source, "feed": url, "ok": True, "items": kept, "skipped": skipped,
@@ -194,6 +253,23 @@ def main() -> int:
         if not chosen:
             chosen = next((c["items"] for c in previous.get("categories", []) if c.get("id") == cat), [])
         categories.append({"id": cat, "label": label, "items": chosen})
+
+    # Thumbnails for chosen headlines whose feed gave none: reuse what an earlier
+    # run found (including "" for "looked, none"), otherwise read the article's og:image.
+    previous_images = {it["url"]: it.get("image", "")
+                       for c in previous.get("categories", []) for it in c.get("items", []) if "image" in it}
+    lookups = 0
+    for c in categories:
+        for it in c["items"]:
+            if it.get("image"):
+                continue
+            if it["url"] in previous_images:
+                it["image"] = previous_images[it["url"]]
+            elif lookups < MAX_PAGE_LOOKUPS:
+                lookups += 1
+                it["image"] = page_image(it["url"])
+    print(f"Thumbnails: {sum(1 for c in categories for it in c['items'] if it.get('image'))} of "
+          f"{sum(len(c['items']) for c in categories)} headlines ({lookups} article pages read)")
 
     # Source status alone never forces a commit; headlines or first-seen times do.
     if categories == previous.get("categories") and first_seen == previous.get("first_seen", {}):
