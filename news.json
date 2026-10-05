@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05T20:29:20Z",
+ "updated": "2026-10-05T21:08:45Z",
  "categories": [
   {
    "id": "economy",
@@ -54,6 +54,34 @@
    "label": "Markets",
    "items": [
     {
+     "title": "Brazilian stocks jump as Bolsonaro now seen as heavy favorite to win presidency",
+     "url": "https://www.cnbc.com/2026/10/05/brazilian-stocks-jump-bolsonaro-now-heavy-favorite-to-win-presidency.html",
+     "source": "CNBC",
+     "published": "2026-10-05T20:41:23Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108340187-1785005687925-gettyimages-2286947071-AFP_C37K7ZT.jpeg?v=1789825071&w=1920&h=1080"
+    },
+    {
+     "title": "Trump is promising $90 Medicare rebate checks ahead of the midterms. Here’s the hidden cost.",
+     "url": "https://www.marketwatch.com/story/trump-is-promising-90-medicare-rebate-checks-ahead-of-the-midterms-heres-the-hidden-cost-14b7e2ce?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-05T20:39:00Z",
+     "image": "https://images.mktw.net/im-82465321"
+    },
+    {
+     "title": "House Democrat targets candidate prediction market trades after opponent’s Kalshi penalty",
+     "url": "https://www.cnbc.com/2026/10/05/don-davis-prediction-market-candidate-trading.html",
+     "source": "CNBC",
+     "published": "2026-10-05T20:31:19Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108048072-1729022260550-gettyimages-2176702756-davis_112_091924.jpeg?v=1791234447&w=1920&h=1080"
+    },
+    {
+     "title": "Intel’s stock drops after Musk hints at an additional partner for big chip venture",
+     "url": "https://www.marketwatch.com/story/musk-hints-tsmc-may-join-his-mega-chip-venture-and-intels-stock-is-taking-a-hit-61c67ef9?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-05T20:30:00Z",
+     "image": "https://images.mktw.net/im-13099115"
+    },
+    {
      "title": "Investors see big opportunity in ferocious 2026 bond-market rout",
      "url": "https://www.marketwatch.com/story/investors-see-big-opportunity-in-ferocious-2026-bond-market-rout-e5cc94f3?mod=mw_rss_topstories",
      "source": "MarketWatch",
@@ -66,34 +94,6 @@
      "source": "MarketWatch",
      "published": "2026-10-05T19:18:00Z",
      "image": "https://images.mktw.net/im-26944456"
-    },
-    {
-     "title": "Saudi Aramco’s CEO may be too downbeat about the road to restocking global oil supplies",
-     "url": "https://www.marketwatch.com/story/saudi-aramcos-ceo-may-be-too-downbeat-about-the-road-to-restocking-global-oil-supplies-1fdbb70b?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-05T17:54:00Z",
-     "image": "https://images.mktw.net/im-14513121"
-    },
-    {
-     "title": "AI chatbots recommend shopping at Walmart over just about anywhere else, analysts find",
-     "url": "https://www.marketwatch.com/story/ai-chatbots-recommend-shopping-at-walmart-over-just-about-anywhere-else-analysts-find-9483b266?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-05T17:53:00Z",
-     "image": "https://images.mktw.net/im-47459510"
-    },
-    {
-     "title": "Brazilian stocks jump as Bolsonaro now seen as heavy favorite to win presidency",
-     "url": "https://www.cnbc.com/2026/10/05/brazilian-stocks-jump-bolsonaro-now-heavy-favorite-to-win-presidency.html",
-     "source": "CNBC",
-     "published": "2026-10-05T15:47:42Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108340187-1785005687925-gettyimages-2286947071-AFP_C37K7ZT.jpeg?v=1789825071&w=1920&h=1080"
-    },
-    {
-     "title": "Nvidia's $6 trillion milestone looms. Here's when options traders see it happening",
-     "url": "https://www.cnbc.com/2026/10/05/nvidias-6-trillion-milestone-looms-heres-when-options-traders-see-it-happening.html",
-     "source": "CNBC",
-     "published": "2026-10-05T13:56:58Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108369801-17907123772026-09-29t195629z_871974065_rc27tna0rien_rtrmadp_0_usa-trump.jpeg?v=1790712473&w=1920&h=1080"
     }
    ]
   },
@@ -157,11 +157,25 @@
      "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/Power-Minister-Tegbe-and-Lagos-Governor-Sanwo-olu.jpeg"
     },
     {
+     "title": "British-based Nigerian host JideScata named MC of the Year",
+     "url": "https://businessday.ng/briefs/article/british-based-nigerian-host-jidescata-named-mc-of-the-year/",
+     "source": "BusinessDay",
+     "published": "2026-10-05T20:01:27Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/IMG-20261004-WA0004-large.jpg"
+    },
+    {
      "title": "NGX slips 0.06% as Nestlé, insurers drag market lower",
      "url": "https://nairametrics.com/2026/10/05/ngx-slips-0-06-as-nestle-insurers-drag-market-lower/",
      "source": "Nairametrics",
      "published": "2026-10-05T19:42:09Z",
      "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/stock-drop-image.webp"
+    },
+    {
+     "title": "The mental health cost of always being available",
+     "url": "https://businessday.ng/insight-2/article/the-mental-health-cost-of-always-being-available/",
+     "source": "BusinessDay",
+     "published": "2026-10-05T19:29:24Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/Amogu-Chinonye-Grace-Headshot-large.jpg"
     },
     {
      "title": "Seven-Up Bottling Company advances community wellbeing",
@@ -176,20 +190,6 @@
      "source": "Premium Times",
      "published": "2026-10-05T17:20:28Z",
      "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2024/09/NNPCL-Trucks.jpeg?fit=600%2C303&ssl=1"
-    },
-    {
-     "title": "Africa's Top Banks 2026: the development banks",
-     "url": "https://african.business/2026/10/finance-services/africas-top-banks-2026-the-development-banks",
-     "source": "African Business",
-     "published": "2026-10-05T14:01:21Z",
-     "image": "https://african.business/wp-content/uploads/2026/10/000_48JU9KD-scaled.jpg"
-    },
-    {
-     "title": "Kenya: ‘If we can do a refinery, we can do anything,’ says James Mwangi",
-     "url": "https://www.theafricareport.com/432276/kenya-if-we-can-do-a-refinery-we-can-do-anything-says-james-mwangi/",
-     "source": "The Africa Report",
-     "published": "2026-10-05T14:00:00Z",
-     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=2560,height=1707,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2025/10/13/afp__20220613__32ce7ag__v1__highres__icoastafricaeconomypolitics-scaled.jpg"
     }
    ]
   }
@@ -239,10 +239,10 @@
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 6,
-   "skipped": 4,
+   "items": 8,
+   "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-05T20:14:00Z",
+   "newest": "2026-10-05T20:39:00Z",
    "oldest": "2026-10-05T17:02:00Z"
   },
   {
@@ -252,8 +252,8 @@
    "items": 29,
    "skipped": 1,
    "undated": 0,
-   "newest": "2026-10-05T15:47:42Z",
-   "oldest": "2026-09-24T04:55:59Z"
+   "newest": "2026-10-05T20:41:23Z",
+   "oldest": "2026-09-24T14:16:27Z"
   },
   {
    "source": "CNBC",
@@ -327,9 +327,13 @@
   },
   {
    "source": "BusinessDay",
-   "feed": "https://businessday.ng/category/economy/feed/",
-   "ok": false,
-   "error": "HTTP Error 404: Not Found"
+   "feed": "https://businessday.ng/feed/",
+   "ok": true,
+   "items": 5,
+   "skipped": 0,
+   "undated": 0,
+   "newest": "2026-10-05T20:01:27Z",
+   "oldest": "2026-10-05T19:07:39Z"
   },
   {
    "source": "Premium Times",
@@ -340,18 +344,6 @@
    "undated": 0,
    "newest": "2026-10-05T18:57:18Z",
    "oldest": "2026-09-30T22:01:27Z"
-  },
-  {
-   "source": "The Guardian Nigeria",
-   "feed": "https://guardian.ng/category/business-services/feed/",
-   "ok": false,
-   "error": "HTTP Error 403: Forbidden"
-  },
-  {
-   "source": "CNBC Africa",
-   "feed": "https://www.cnbcafrica.com/feed/",
-   "ok": false,
-   "error": "HTTP Error 404: Not Found"
   },
   {
    "source": "African Business",
