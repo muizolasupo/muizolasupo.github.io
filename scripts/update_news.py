@@ -44,10 +44,12 @@ CATEGORIES = {
     "policy":  ("Policy & research", 45),
 }
 
-# Headlines written in the first person singular are personal-finance advice
-# columns ("I'm 67 and ...", "My wife ..."), not market news; they are skipped
-# for the feeds that carry them.
-FIRST_PERSON = re.compile(r"(?<![\w’'])(I|I’m|I'm|I’ve|I've|I’d|I'd|I’ll|I'll|[Mm]y|me)(?![\w’'])")
+# Personal-finance advice columns ("I'm 67 and ...", "My wife ...",
+# "'The pain was excruciating': ...") are not market news; they are skipped for
+# the feeds that carry them. Signals: first person singular, or a headline that
+# opens with a quoted phrase followed by a colon.
+ADVICE_COLUMN = re.compile(r"(?<![\w’'])(I|I’m|I'm|I’ve|I've|I’d|I'd|I’ll|I'll|[Mm]y|me)(?![\w’'])"
+                           r"|^[‘'“\"][^:]{3,90}[’'”\"]:")
 
 # (source shown on the site, feed URL, category id, headline pattern to skip or None)
 FEEDS = [
@@ -55,13 +57,12 @@ FEEDS = [
     ("PBS NewsHour",             "https://www.pbs.org/newshour/feeds/rss/economy",                    "economy", None),
     ("The Economist",            "https://www.economist.com/finance-and-economics/rss.xml",           "economy", None),
     ("CNBC",                     "https://www.cnbc.com/id/20910258/device/rss/rss.html",              "economy", None),
-    ("MarketWatch",              "https://feeds.content.dowjones.io/public/rss/mw_topstories",        "markets", FIRST_PERSON),
-    ("MarketWatch",              "https://feeds.content.dowjones.io/public/rss/mw_realtimeheadlines", "markets", FIRST_PERSON),
-    ("Yahoo Finance",            "https://finance.yahoo.com/news/rssindex",                           "markets", FIRST_PERSON),
+    ("MarketWatch",              "https://feeds.content.dowjones.io/public/rss/mw_topstories",        "markets", ADVICE_COLUMN),
+    ("CNBC",                     "https://www.cnbc.com/id/10000664/device/rss/rss.html",              "markets", ADVICE_COLUMN),
+    ("CNBC",                     "https://www.cnbc.com/id/15839069/device/rss/rss.html",              "markets", ADVICE_COLUMN),
     ("Federal Reserve",          "https://www.federalreserve.gov/feeds/press_monetary.xml",           "policy",  None),
     ("Federal Reserve",          "https://www.federalreserve.gov/feeds/speeches.xml",                 "policy",  None),
     ("BEA",                      "https://apps.bea.gov/rss/rss.xml",                                  "policy",  None),
-    ("BLS",                      "https://www.bls.gov/feed/bls_latest.rss",                           "policy",  None),
     ("NBER",                     "https://www.nber.org/rss/new.xml",                                  "policy",  None),
     ("Liberty Street Economics", "https://libertystreeteconomics.newyorkfed.org/feed/",               "policy",  None),
 ]
@@ -74,6 +75,7 @@ def clean_title(raw: str) -> str:
     """Strip markup and entities, collapse whitespace, trim very long headlines."""
     text = html.unescape(re.sub(r"<[^>]+>", " ", raw or ""))
     text = re.sub(r"\s+", " ", text).strip()
+    text = re.split(r"\s+--\s+by\s+", text, maxsplit=1)[0]  # NBER author suffix
     if len(text) > MAX_TITLE:
         text = text[:MAX_TITLE].rsplit(" ", 1)[0].rstrip(",;:") + "…"
     return text
@@ -163,10 +165,11 @@ def main() -> int:
         return 0
 
     categories = []
+    taken_keys, taken_urls = set(), set()  # a story shown in one tab is not repeated in another
     for cat, (label, max_age_days) in CATEGORIES.items():
         cutoff = now - max_age_days * 86400
         items = sorted(pools[cat], key=lambda it: it["published"], reverse=True)
-        fresh, keys, urls = [], set(), set()
+        fresh, keys, urls = [], set(taken_keys), set(taken_urls)
         for it in items:  # drop stale items and duplicates
             ts = calendar.timegm(time.strptime(it["published"], "%Y-%m-%dT%H:%M:%SZ"))
             k = norm_key(it["title"])
@@ -186,6 +189,7 @@ def main() -> int:
             if it not in chosen:
                 chosen.append(it)
         chosen.sort(key=lambda it: it["published"], reverse=True)
+        taken_keys.update(norm_key(it["title"]) for it in chosen); taken_urls.update(it["url"] for it in chosen)
         # Keep the previous headlines for a tab whose feeds all failed this run.
         if not chosen:
             chosen = next((c["items"] for c in previous.get("categories", []) if c.get("id") == cat), [])
