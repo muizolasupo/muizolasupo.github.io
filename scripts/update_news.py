@@ -47,6 +47,7 @@ CATEGORIES = {
     "economy": ("Economy", 10),
     "markets": ("Markets", 4),
     "policy":  ("Policy & research", 45),
+    "africa":  ("Nigeria & Africa", 5),
 }
 
 # Personal-finance advice columns ("I'm 67 and ...", "My wife ...",
@@ -70,6 +71,14 @@ FEEDS = [
     ("BEA",                      "https://apps.bea.gov/rss/rss.xml",                                  "policy",  None),
     ("NBER",                     "https://www.nber.org/rss/new.xml",                                  "policy",  None),
     ("Liberty Street Economics", "https://libertystreeteconomics.newyorkfed.org/feed/",               "policy",  None),
+    # Nigeria (business and economy desks) and Africa-wide business coverage.
+    ("Nairametrics",             "https://nairametrics.com/feed/",                                    "africa",  ADVICE_COLUMN),
+    ("BusinessDay",              "https://businessday.ng/category/economy/feed/",                     "africa",  None),
+    ("Premium Times",            "https://www.premiumtimesng.com/business/feed",                      "africa",  None),
+    ("The Guardian Nigeria",     "https://guardian.ng/category/business-services/feed/",              "africa",  None),
+    ("CNBC Africa",              "https://www.cnbcafrica.com/feed/",                                  "africa",  None),
+    ("African Business",         "https://african.business/feed",                                     "africa",  None),
+    ("The Africa Report",        "https://www.theafricareport.com/feed/",                             "africa",  None),
 ]
 
 

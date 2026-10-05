@@ -50,6 +50,8 @@
   const INITIALS = {
     'Federal Reserve': 'FED', 'Liberty Street Economics': 'NY FED', 'The Economist': 'TE',
     'PBS NewsHour': 'PBS', MarketWatch: 'MW', NBER: 'NBER', BEA: 'BEA', CNBC: 'CNBC', NPR: 'NPR',
+    Nairametrics: 'NM', BusinessDay: 'BD', 'Premium Times': 'PT', 'The Guardian Nigeria': 'GN',
+    'CNBC Africa': 'CNBC', 'African Business': 'AB', 'The Africa Report': 'TAR',
   };
   const initials = (source) => INITIALS[source] ||
     source.split(/\s+/).map((w) => w[0]).join('').slice(0, 4).toUpperCase();
