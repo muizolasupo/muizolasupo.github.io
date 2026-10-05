@@ -1,24 +1,37 @@
 """
 update_signals.py
-Purpose : Refresh the "Economic signals" panel on the Home page: twelve
-          official U.S. indicators for rates, inflation, growth and labor,
-          each with its latest value, change since the prior observation, a
-          trend series for the sparkline, and (where meaningful) a factual
-          status note.
-Inputs  : FRED graph CSV downloads (Federal Reserve Bank of St. Louis), which
-          need no API key: https://fred.stlouisfed.org/graph/fredgraph.csv?id=SERIES
-          Only public-domain government series are used (Federal Reserve Board,
-          BLS, BEA, EIA, Department of Labor) plus FRED's own Sahm rule series;
-          equity indexes such as the S&P 500 and VIX are excluded because their
-          licences prohibit reproduction.
+Purpose : Refresh the economic signals on the News page (and the four-chip
+          preview on Home). Two panels:
+            United States : twelve official FRED series (rates, inflation,
+                            growth, labor);
+            Nigeria & world: naira per US dollar, Nigeria inflation and real
+                            GDP growth, Brent crude, world GDP growth, global
+                            food prices, the euro and the Chinese yuan.
+          Each series carries its latest value, the change since the prior
+          observation, a trend series for the sparkline, a factual status
+          note where meaningful, its source, and a polarity ("up_good",
+          "up_bad" or "neutral") that signals.js uses to colour moves.
+Inputs  : FRED graph CSV downloads (no key):
+            https://fred.stlouisfed.org/graph/fredgraph.csv?id=SERIES
+          IMF World Economic Outlook DataMapper API (annual, includes the
+          current-year estimate), with the World Bank API as fallback:
+            https://www.imf.org/external/datamapper/api/v1/IND/COUNTRY
+            https://api.worldbank.org/v2/country/C/indicator/IND?format=json
+          Daily exchange rates from the open currency API (fawazahmed0),
+          dated snapshots served by jsDelivr, with its Cloudflare mirror:
+            https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@DATE/v1/currencies/usd.min.json
+          FRED series are limited to public-domain government data; equity
+          indexes (S&P 500, VIX) are excluded because their licences prohibit
+          reproduction.
 Outputs : signals.json at the repository root, rewritten only when a value
-          changes; signals.js renders it on index.html.
+          changes.
 Depends : Python 3.9+ standard library only.
 Run by  : .github/workflows/news.yml, alongside update_news.py.
-Notes   : 12-month inflation rates are computed here from the price indexes
+Notes   : 12-month inflation rates are computed from the price indexes
           (CPIAUCSL, PCEPILFE) as 100 * (x_t / x_{t-12} - 1). A series that
           fails to download keeps its previous entry, so one outage never
-          blanks a tile.
+          blanks a tile. Exchange-rate history is cached in signals.json, so
+          after the first run only new dates are downloaded.
 """
 from __future__ import annotations
 
@@ -26,7 +39,6 @@ import csv
 import io
 import json
 import sys
-import time
 import urllib.request
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
@@ -36,64 +48,143 @@ from pathlib import Path
 # ---------------------------------------------------------------------------
 OUT = Path(__file__).resolve().parent.parent / "signals.json"
 USER_AGENT = "Mozilla/5.0 (compatible; muizolasupo.com signals reader; +https://muizolasupo.com)"
-FRED_CSV = "https://fred.stlouisfed.org/graph/fredgraph.csv?id={id}&cosd={start}"
 TIMEOUT_S = 30
 
-# Trend window (days of history shown in the sparkline) and thinning step by frequency.
-WINDOW = {"daily": (365, 5), "weekly": (365, 1), "monthly": (3 * 365, 1), "quarterly": (5 * 365, 1)}
-WINDOW_LABEL = {"daily": "Past year", "weekly": "Past year", "monthly": "Past 3 years", "quarterly": "Past 5 years"}
+FRED_CSV = "https://fred.stlouisfed.org/graph/fredgraph.csv?id={id}&cosd={start}"
+IMF_API = "https://www.imf.org/external/datamapper/api/v1/{ind}/{cty}"
+WB_API = "https://api.worldbank.org/v2/country/{cty}/indicator/{ind}?format=json&per_page=80&date={y0}:{y1}"
+FX_URLS = [  # tried in order; {d} is YYYY-MM-DD or "latest"
+    "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@{d}/v1/currencies/{base}.min.json",
+    "https://{d}.currency-api.pages.dev/v1/currencies/{base}.min.json",
+]
+
+# Trend window (days of history in the sparkline) and thinning step by frequency.
+WINDOW = {"daily": (365, 5), "weekly": (365, 1), "monthly": (3 * 365, 1),
+          "quarterly": (5 * 365, 1), "annual": (10 * 366, 1)}
+WINDOW_LABEL = {"daily": "Past year", "weekly": "Past year", "monthly": "Past 3 years",
+                "quarterly": "Past 5 years", "annual": "Past 10 years"}
 
 # Display formats (interpreted by signals.js):
-#   value: "pct2" 4.21%, "pct1" 3.4%, "bp" 55 bp, "usd2" $61.23, "k" 218K, "num2" 0.30
-#   change: "bp" (percentage-point change shown in basis points), "pt" (percentage points),
-#           "pct" (percent change), "k" (thousands), "num2"
-GROUPS = [
-    ("Rates & policy", [
-        dict(id="DFF",    label="Fed funds rate",          sub="Effective, daily",            freq="daily",  value="pct2", change="bp"),
-        dict(id="DGS2",   label="2-year Treasury yield",   sub="Constant maturity",           freq="daily",  value="pct2", change="bp"),
-        dict(id="DGS10",  label="10-year Treasury yield",  sub="Constant maturity",           freq="daily",  value="pct2", change="bp"),
-        dict(id="T10Y2Y", label="Yield curve",             sub="10-year minus 2-year",        freq="daily",  value="bp",   change="bp",
-             status="curve"),
+#   value : pct2 4.21% | pct1 3.4% | bp 55 bp | usd2 $61.23 | k 218K | num1 128.4 | num2 0.30
+#           | fx4 1.0842 | ngn ₦1,530.12
+#   change: bp (percentage-point change in basis points) | pt (percentage points) | pct (percent
+#           change) | k (thousands) | num2
+# Polarity: whether a rise is favourable ("up_good"), unfavourable ("up_bad"), or neither
+#           ("neutral"; coloured by market convention, green up and red down).
+FRED = "fred"
+PANELS = [
+    ("us", "United States", [
+        ("Rates & policy", [
+            dict(src=FRED, id="DFF",    label="Fed funds rate",         sub="Effective, daily",         freq="daily", value="pct2", change="bp", polarity="neutral"),
+            dict(src=FRED, id="DGS2",   label="2-year Treasury yield",  sub="Constant maturity",        freq="daily", value="pct2", change="bp", polarity="neutral"),
+            dict(src=FRED, id="DGS10",  label="10-year Treasury yield", sub="Constant maturity",        freq="daily", value="pct2", change="bp", polarity="neutral"),
+            dict(src=FRED, id="T10Y2Y", label="Yield curve",            sub="10-year minus 2-year",     freq="daily", value="bp",   change="bp", polarity="neutral", status="curve"),
+        ]),
+        ("Inflation & prices", [
+            dict(src=FRED, id="CPIAUCSL", label="CPI inflation",        sub="12-month change",          freq="monthly", value="pct1", change="pt", polarity="up_bad", transform="yoy"),
+            dict(src=FRED, id="PCEPILFE", label="Core PCE inflation",   sub="12-month change; Fed target 2%", freq="monthly", value="pct1", change="pt", polarity="up_bad", transform="yoy", status="target2"),
+            dict(src=FRED, id="T10YIE", label="10-year breakeven inflation", sub="Market-implied",      freq="daily", value="pct2", change="bp", polarity="neutral"),
+            dict(src=FRED, id="DCOILWTICO", label="WTI crude oil",      sub="Spot, dollars per barrel", freq="daily", value="usd2", change="pct", polarity="neutral"),
+        ]),
+        ("Growth & labor", [
+            dict(src=FRED, id="A191RL1Q225SBEA", label="Real GDP growth", sub="Quarterly, annualized",  freq="quarterly", value="pct1", change="pt", polarity="up_good"),
+            dict(src=FRED, id="UNRATE", label="Unemployment rate",      sub="Seasonally adjusted",      freq="monthly", value="pct1", change="pt", polarity="up_bad"),
+            dict(src=FRED, id="ICSA",   label="Initial jobless claims", sub="Weekly, seasonally adjusted", freq="weekly", value="k", change="k", polarity="up_bad"),
+            dict(src=FRED, id="SAHMREALTIME", label="Sahm rule indicator", sub="Recession signal at 0.50", freq="monthly", value="num2", change="num2", polarity="up_bad", status="sahm"),
+        ]),
     ]),
-    ("Inflation & prices", [
-        dict(id="CPIAUCSL", label="CPI inflation",         sub="12-month change",             freq="monthly", value="pct1", change="pt",
-             transform="yoy"),
-        dict(id="PCEPILFE", label="Core PCE inflation",    sub="12-month change; Fed target 2%", freq="monthly", value="pct1", change="pt",
-             transform="yoy", status="target2"),
-        dict(id="T10YIE", label="10-year breakeven inflation", sub="Market-implied",          freq="daily",  value="pct2", change="bp"),
-        dict(id="DCOILWTICO", label="WTI crude oil",       sub="Spot, dollars per barrel",    freq="daily",  value="usd2", change="pct"),
-    ]),
-    ("Growth & labor", [
-        dict(id="A191RL1Q225SBEA", label="Real GDP growth", sub="Quarterly, annualized",      freq="quarterly", value="pct1", change="pt"),
-        dict(id="UNRATE", label="Unemployment rate",       sub="Seasonally adjusted",         freq="monthly", value="pct1", change="pt"),
-        dict(id="ICSA",   label="Initial jobless claims",  sub="Weekly, seasonally adjusted", freq="weekly",  value="k",    change="k"),
-        dict(id="SAHMREALTIME", label="Sahm rule indicator", sub="Recession signal at 0.50",  freq="monthly", value="num2", change="num2",
-             status="sahm"),
+    ("global", "Nigeria & world", [
+        ("Nigeria", [
+            dict(src="fx", id="USDNGN", base="usd", quote="ngn", label="Naira per US dollar", sub="Daily market rate", freq="daily", value="ngn", change="pct", polarity="up_bad"),
+            dict(src="annual", id="NGA_INFL", imf=("PCPIPCH", "NGA"), wb=("FP.CPI.TOTL.ZG", "NGA"), label="Nigeria inflation", sub="Annual average, consumer prices", freq="annual", value="pct1", change="pt", polarity="up_bad"),
+            dict(src="annual", id="NGA_GDP", imf=("NGDP_RPCH", "NGA"), wb=("NY.GDP.MKTP.KD.ZG", "NGA"), label="Nigeria real GDP growth", sub="Annual", freq="annual", value="pct1", change="pt", polarity="up_good"),
+            dict(src=FRED, id="DCOILBRENTEU", label="Brent crude oil", sub="Nigeria's export benchmark, $ per barrel", freq="daily", value="usd2", change="pct", polarity="neutral"),
+        ]),
+        ("World", [
+            dict(src="annual", id="WLD_GDP", imf=("NGDP_RPCH", "WEOWORLD"), wb=("NY.GDP.MKTP.KD.ZG", "WLD"), label="World real GDP growth", sub="Annual", freq="annual", value="pct1", change="pt", polarity="up_good"),
+            dict(src=FRED, id="PFOODINDEXM", label="Global food prices", sub="IMF index, 2016 = 100", freq="monthly", value="num1", change="pct", polarity="up_bad"),
+            dict(src=FRED, id="DEXUSEU", label="Euro", sub="US dollars per euro", freq="daily", value="fx4", change="pct", polarity="neutral"),
+            dict(src=FRED, id="DEXCHUS", label="Chinese yuan", sub="Yuan per US dollar", freq="daily", value="fx4", change="pct", polarity="neutral"),
+        ]),
     ]),
 ]
 
 
 # ---------------------------------------------------------------------------
-# Data access and transforms
+# Data access
 # ---------------------------------------------------------------------------
-def fetch_series(series_id: str, start: date) -> list[tuple[str, float]]:
-    """(ISO date, value) observations from FRED's CSV download, missing values dropped."""
-    url = FRED_CSV.format(id=series_id, start=start.isoformat())
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "text/csv"})
+def get(url: str, accept: str) -> bytes:
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": accept})
     with urllib.request.urlopen(req, timeout=TIMEOUT_S) as resp:
-        text = resp.read().decode("utf-8")
+        return resp.read()
+
+
+def fetch_fred(series_id: str, start: date) -> list[tuple[str, float]]:
+    """(ISO date, value) observations from FRED's CSV download, missing values dropped."""
+    text = get(FRED_CSV.format(id=series_id, start=start.isoformat()), "text/csv").decode("utf-8")
     rows = csv.reader(io.StringIO(text))
     header = next(rows)
     if len(header) < 2:
         raise ValueError(f"unexpected CSV header {header}")
-    out = []
-    for row in rows:
-        if len(row) < 2 or row[1] in ("", "."):
-            continue  # FRED marks missing observations (e.g. market holidays) with "."
-        out.append((row[0], float(row[1])))
+    out = [(r[0], float(r[1])) for r in rows if len(r) >= 2 and r[1] not in ("", ".")]
     if not out:
         raise ValueError("no observations")
     return out
+
+
+def fetch_annual(spec: dict, today: date) -> tuple[list[tuple[str, float]], str, str]:
+    """Annual series up to the current year: IMF WEO first (has current-year estimates), World Bank fallback.
+    Returns (observations, source name, source URL)."""
+    first, last = today.year - 11, today.year
+    ind, cty = spec["imf"]
+    try:
+        data = json.loads(get(IMF_API.format(ind=ind, cty=cty), "application/json"))
+        values = data["values"][ind][cty]
+        obs = sorted((f"{y}-01-01", float(v)) for y, v in values.items()
+                     if v is not None and first <= int(y) <= last)
+        if len(obs) >= 2:
+            return obs, "IMF", f"https://www.imf.org/external/datamapper/{ind}@WEO/{cty}"
+        raise ValueError("too few IMF observations")
+    except Exception as exc:
+        print(f"      IMF {ind}/{cty} unavailable ({exc}); trying World Bank")
+    ind, cty = spec["wb"]
+    data = json.loads(get(WB_API.format(ind=ind, cty=cty, y0=first, y1=last), "application/json"))
+    rows = data[1] if isinstance(data, list) and len(data) > 1 and data[1] else []
+    obs = sorted((f"{r['date']}-01-01", float(r["value"])) for r in rows if r.get("value") is not None)
+    if len(obs) < 2:
+        raise ValueError("too few World Bank observations")
+    return obs, "World Bank", f"https://data.worldbank.org/indicator/{ind}?locations={cty[:2] if cty != 'WLD' else '1W'}"
+
+
+def fx_rate(base: str, quote: str, day: str) -> tuple[str, float]:
+    """(date, rate) for one dated snapshot ("latest" or YYYY-MM-DD), trying the mirrors in order."""
+    last_exc = None
+    for pattern in FX_URLS:
+        try:
+            data = json.loads(get(pattern.format(d=day, base=base), "application/json"))
+            return data["date"], float(data[base][quote])
+        except Exception as exc:
+            last_exc = exc
+    raise ValueError(f"currency API unavailable for {day} ({last_exc})")
+
+
+def fetch_fx(spec: dict, today: date, cached: list) -> list[tuple[str, float]]:
+    """Weekly points over the past year plus the latest two days; cached points are not re-downloaded."""
+    have = {d: v for d, v in cached}
+    latest_date, latest = fx_rate(spec["base"], spec["quote"], "latest")
+    have[latest_date] = latest
+    end = date.fromisoformat(latest_date)
+    wanted = [(end - timedelta(days=1)).isoformat()] + \
+             [(end - timedelta(days=7 * k)).isoformat() for k in range(1, 53)]
+    for d in wanted:
+        if d not in have:
+            try:
+                got_date, rate = fx_rate(spec["base"], spec["quote"], d)
+                have[got_date] = rate
+            except Exception as exc:
+                print(f"      {spec['id']} {d}: {exc}")
+    cutoff = (end - timedelta(days=366)).isoformat()
+    return sorted((d, v) for d, v in have.items() if cutoff <= d <= latest_date)
 
 
 def yoy(obs: list[tuple[str, float]]) -> list[tuple[str, float]]:
@@ -113,7 +204,9 @@ def trend(obs: list[tuple[str, float]], freq: str, today: date) -> list[list]:
     days, step = WINDOW[freq]
     cutoff = (today - timedelta(days=days)).isoformat()
     window = [o for o in obs if o[0] >= cutoff]
-    thinned = window[::-1][::step][::-1]  # keep every step-th point counting back from the latest
+    if freq == "daily" and len(window) < 70:
+        step = 1  # already sparse (e.g. weekly exchange-rate snapshots)
+    thinned = window[::-1][::step][::-1]
     return [[d, round(v, 4)] for d, v in thinned]
 
 
@@ -125,66 +218,84 @@ def status_note(kind: str | None, value: float) -> str | None:
         return "At or above 0.50 threshold" if value >= 0.5 else "Below 0.50 threshold"
     if kind == "target2":
         gap = value - 2.0
-        return "Near 2% target" if abs(gap) < 0.25 else (f"{gap:+.1f} pt vs 2% target")
+        return "Near 2% target" if abs(gap) < 0.25 else f"{gap:+.1f} pt vs 2% target"
     return None
 
 
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
+def build_series(spec: dict, today: date, previous: dict | None) -> dict:
+    sid, freq = spec["id"], spec["freq"]
+    source_name, source_url = "FRED", f"https://fred.stlouisfed.org/series/{sid}"
+    if spec["src"] == FRED:
+        start = today - timedelta(days=WINDOW[freq][0] + (420 if spec.get("transform") == "yoy" else 30))
+        obs = fetch_fred(sid, start)
+        if spec.get("transform") == "yoy":
+            obs = yoy(obs)
+    elif spec["src"] == "annual":
+        obs, source_name, source_url = fetch_annual(spec, today)
+    elif spec["src"] == "fx":
+        obs = fetch_fx(spec, today, (previous or {}).get("trend", []))
+        source_name, source_url = "Currency API", "https://github.com/fawazahmed0/exchange-api"
+    else:
+        raise ValueError(f"unknown source {spec['src']}")
+    if len(obs) < 2:
+        raise ValueError("fewer than two observations")
+    (d1, v1), (d0, v0) = obs[-1], obs[-2]
+    status = status_note(spec.get("status"), v1)
+    if spec["src"] == "annual" and source_name == "IMF" and int(d1[:4]) >= today.year:
+        status = "IMF estimate"  # the current year in the WEO is a projection
+    return {
+        "id": sid, "label": spec["label"], "sub": spec["sub"], "freq": freq,
+        "format": spec["value"], "change_format": spec["change"], "polarity": spec["polarity"],
+        "date": d1, "value": round(v1, 4), "prev_date": d0, "prev_value": round(v0, 4),
+        "window": WINDOW_LABEL[freq], "trend": trend(obs, freq, today), "status": status,
+        "source_name": source_name, "source_url": source_url,
+    }
+
+
 def main() -> int:
     today = datetime.now(timezone.utc).date()
     try:
         previous = json.loads(OUT.read_text(encoding="utf-8"))
     except (FileNotFoundError, json.JSONDecodeError):
         previous = {}
-    prev_by_id = {s["id"]: s for g in previous.get("groups", []) for s in g.get("series", [])}
+    prev_by_id = {s["id"]: s for p in previous.get("panels", []) for g in p.get("groups", []) for s in g.get("series", [])}
+    prev_by_id.update({s["id"]: s for g in previous.get("groups", []) for s in g.get("series", [])
+                       if s["id"] not in prev_by_id})  # first run after the single-panel format
 
-    groups, failures = [], 0
-    for group_label, specs in GROUPS:
-        series_out = []
-        for spec in specs:
-            sid, freq = spec["id"], spec["freq"]
-            # History: the trend window plus 13 months for 12-month changes and a margin.
-            start = today - timedelta(days=WINDOW[freq][0] + (420 if spec.get("transform") == "yoy" else 30))
-            try:
-                obs = fetch_series(sid, start)
-                if spec.get("transform") == "yoy":
-                    obs = yoy(obs)
-                if len(obs) < 2:
-                    raise ValueError("fewer than two observations")
-                (d1, v1), (d0, v0) = obs[-1], obs[-2]
-                entry = {
-                    "id": sid, "label": spec["label"], "sub": spec["sub"], "freq": freq,
-                    "format": spec["value"], "change_format": spec["change"],
-                    "date": d1, "value": round(v1, 4),
-                    "prev_date": d0, "prev_value": round(v0, 4),
-                    "window": WINDOW_LABEL[freq], "trend": trend(obs, freq, today),
-                    "status": status_note(spec.get("status"), v1),
-                    "source_url": f"https://fred.stlouisfed.org/series/{sid}",
-                }
-                print(f"ok    {sid:16s} {d1}  {v1:10.4f}  (prev {d0} {v0:.4f})  {len(entry['trend'])} trend points")
-            except Exception as exc:  # keep the last good tile rather than dropping it
-                failures += 1
-                entry = prev_by_id.get(sid)
-                print(f"FAIL  {sid:16s} ({exc}); {'kept previous value' if entry else 'no previous value'}")
-                if entry is None:
-                    continue
-            series_out.append(entry)
-        groups.append({"label": group_label, "series": series_out})
+    panels, failures, total = [], 0, 0
+    for panel_id, panel_title, groups_spec in PANELS:
+        groups = []
+        for group_label, specs in groups_spec:
+            series_out = []
+            for spec in specs:
+                total += 1
+                try:
+                    entry = build_series(spec, today, prev_by_id.get(spec["id"]))
+                    print(f"ok    {spec['id']:16s} {entry['date']}  {entry['value']:12.4f}  ({entry['source_name']}, {len(entry['trend'])} points)")
+                except Exception as exc:  # keep the last good tile rather than dropping it
+                    failures += 1
+                    entry = prev_by_id.get(spec["id"])
+                    print(f"FAIL  {spec['id']:16s} ({exc}); {'kept previous value' if entry else 'no previous value'}")
+                    if entry is None:
+                        continue
+                series_out.append(entry)
+            groups.append({"label": group_label, "series": series_out})
+        panels.append({"id": panel_id, "title": panel_title, "groups": groups})
 
-    if failures == sum(len(s) for _, s in GROUPS) and not previous:
+    if failures == total and not previous:
         print("Every series failed and there is no previous file; nothing written.")
         return 0
-    if groups == previous.get("groups"):
+    if panels == previous.get("panels"):
         print("No change in signals.")
         return 0
     OUT.write_text(json.dumps({
         "updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "source": "FRED, Federal Reserve Bank of St. Louis",
-        "groups": groups,
+        "panels": panels,
     }, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    print(f"Wrote {OUT.name} ({failures} series failed).")
+    print(f"Wrote {OUT.name} ({failures} of {total} series failed).")
     return 0
 
 

@@ -68,7 +68,7 @@ ECON_TERMS = re.compile(
     r"capital|funding|\bipo\b|\bsmes?\b|industr|\bports?\b|customs|subsid|privati[sz]|growth|recession|"
     r"deficit|reserves|insur|pension|remittance|eurobond|sukuk|liquidity|\bfirms?\b",
     re.I)
-ECON_ONLY = {"BusinessDay", "Premium Times", "The Africa Report"}
+ECON_ONLY = {"BusinessDay", "Premium Times", "The Africa Report", "PBS NewsHour"}  # PBS economy feed also carries "News Wrap"
 
 # (source shown on the site, feed URL, category id, headline pattern to skip or None)
 FEEDS = [
@@ -170,12 +170,20 @@ OG_IMAGE = re.compile(
 def page_image(url: str) -> str:
     """og:image (or twitter:image) of an article page; "" when none is found or the page refuses."""
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "text/html"})
+        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept-Language": "en",
+                                                   "Accept": "text/html,application/xhtml+xml;q=0.9,*/*;q=0.8"})
         with urllib.request.urlopen(req, timeout=TIMEOUT_S) as resp:
             head = resp.read(PAGE_BYTES).decode("utf-8", "replace")
         for tag in OG_IMAGE.findall(head):
             m = re.search(r"content=[\"']([^\"']+)", tag, re.I)
             if m and (img := usable_image(m.group(1), base=url)):
+                return img
+        # Fallbacks some publishers use instead of Open Graph tags.
+        for pattern in (r"<link[^>]+rel=[\"']image_src[\"'][^>]+href=[\"']([^\"']+)",
+                        r"\"image\"\s*:\s*\{[^}]*\"url\"\s*:\s*\"([^\"]+)\"",
+                        r"\"image\"\s*:\s*\[?\s*\"(https://[^\"]+)\""):
+            m = re.search(pattern, head, re.I)
+            if m and (img := usable_image(m.group(1).replace("\\/", "/"), base=url)):
                 return img
     except Exception as exc:
         print(f"      no page image for {url[:80]} ({exc})")
@@ -274,10 +282,11 @@ def main() -> int:
             chosen = next((c["items"] for c in previous.get("categories", []) if c.get("id") == cat), [])
         categories.append({"id": cat, "label": label, "items": chosen})
 
-    # Thumbnails for chosen headlines whose feed gave none: reuse what an earlier
-    # run found (including "" for "looked, none"), otherwise read the article's og:image.
-    previous_images = {it["url"]: it.get("image", "")
-                       for c in previous.get("categories", []) for it in c.get("items", []) if "image" in it}
+    # Thumbnails for chosen headlines whose feed gave none: reuse an image an
+    # earlier run found; otherwise (including earlier misses, which are retried,
+    # since pages can refuse one request and serve the next) read the article's og:image.
+    previous_images = {it["url"]: it["image"]
+                       for c in previous.get("categories", []) for it in c.get("items", []) if it.get("image")}
     lookups = 0
     for c in categories:
         for it in c["items"]:

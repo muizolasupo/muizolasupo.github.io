@@ -1,67 +1,69 @@
 /*
  * signals.js
- * Purpose : Render the "Economic signals" panel on the Home page: twelve stat
- *           tiles (value, change since the prior release, factual status note,
- *           sparkline with crosshair read-out) in three groups.
- * Inputs  : /signals.json, written every three hours by scripts/update_signals.py
- *           from FRED (Federal Reserve Bank of St. Louis);
- *           the <div data-signals> block in index.html.
- * Outputs : tile markup inside [data-signals-groups].
- * Notes   : 1. All text from the data file is inserted with textContent.
- *           2. Changes are shown in neutral ink with an up/down glyph: whether a
- *              rise is good depends on the indicator, so no red/green is implied.
- *           3. Sparklines are drawn at their real pixel size (redrawn on resize)
- *              so strokes and the end dot stay crisp. Pointer and keyboard
- *              (arrow keys, Home, End) both move the crosshair; every value it
- *              shows is also summarised in the sparkline's accessible label.
+ * Purpose : Render the economic signals from /signals.json:
+ *             - on the News page, one panel per [data-signals-panel="ID"]
+ *               ("us" = United States, "global" = Nigeria & world): grouped
+ *               stat tiles with value, coloured change bubble, status note,
+ *               coloured sparkline with crosshair read-out, date and source;
+ *             - on Home, compact chips in [data-signals-chips] for the series
+ *               ids listed in its data-ids attribute.
+ * Inputs  : /signals.json, written every three hours by scripts/update_signals.py.
+ * Outputs : DOM inside the mounts above; the "updated" line beside each live dot.
+ * Notes   : 1. Colour follows the reading, not just the arithmetic: each series
+ *              has a polarity. For "up_good" (GDP growth) a rise is green; for
+ *              "up_bad" (inflation, unemployment, jobless claims, naira per
+ *              dollar, food prices) a rise is red; "neutral" market prices use
+ *              the market convention (green up, red down). Colour never stands
+ *              alone: every move also has an up/down glyph and words for
+ *              screen readers.
+ *           2. The bubble shows the latest change; the sparkline colour shows
+ *              the direction over the whole window shown.
+ *           3. All text from the data file is inserted with textContent.
+ *           4. Sparklines are drawn at their real pixel size (redrawn on resize);
+ *              pointer and keyboard (arrow keys, Home, End) move the crosshair.
  */
 (() => {
-  const root = document.querySelector('[data-signals]');
-  if (!root) return;
-  const mount = root.querySelector('[data-signals-groups]');
-  const updatedLine = root.querySelector('[data-signals-updated]');
+  const panelMounts = [...document.querySelectorAll('[data-signals-panel]')];
+  const chipMount = document.querySelector('[data-signals-chips]');
+  if (!panelMounts.length && !chipMount) return;
   const SVG = 'http://www.w3.org/2000/svg';
   const MINUS = '−';
 
   // ---- Formatting ---------------------------------------------------------
-  const signed = (x, digits) => {
-    const r = Number(x.toFixed(digits));
-    if (r === 0) return (0).toFixed(digits);
-    return (r > 0 ? '+' : MINUS) + Math.abs(r).toFixed(digits);
-  };
+  const DIGITS = { pct2: 2, pct1: 1, bp: 2, usd2: 2, num1: 1, num2: 2, fx4: 4, ngn: 2 };
   const fmtValue = (f, v) => ({
     pct2: () => v.toFixed(2) + '%',
     pct1: () => v.toFixed(1) + '%',
     bp: () => (Math.round(v * 100) < 0 ? MINUS : '') + Math.abs(Math.round(v * 100)) + ' bp',
     usd2: () => '$' + v.toFixed(2),
     k: () => Math.round(v / 1000).toLocaleString() + 'K',
+    num1: () => v.toFixed(1),
     num2: () => v.toFixed(2),
+    fx4: () => v.toFixed(4),
+    ngn: () => '₦' + v.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
   }[f] || (() => String(v)))();
-  // Round a value to the precision it is displayed at, so the change agrees with
-  // the two numbers a reader would compare (e.g. 3.3% -> 3.4% reads as +0.1 pt).
-  const asShown = (valueFormat, v) => {
-    if (valueFormat === 'k') return Math.round(v / 1000) * 1000;
-    const digits = { pct2: 2, pct1: 1, bp: 2, usd2: 2, num2: 2 }[valueFormat];
-    return digits == null ? v : Number(v.toFixed(digits));
+  // Round to the displayed precision so the change agrees with the numbers shown.
+  const asShown = (f, v) => (f === 'k' ? Math.round(v / 1000) * 1000 : DIGITS[f] == null ? v : Number(v.toFixed(DIGITS[f])));
+  // Change since the prior observation: magnitude text (no sign) and direction -1/0/1.
+  const fmtChange = (cf, v1raw, v0raw, vf) => {
+    const v1 = asShown(vf, v1raw), v0 = asShown(vf, v0raw);
+    const [d, digits, unit] = {
+      bp: [(v1 - v0) * 100, 0, ' bp'], pt: [v1 - v0, 1, ' pt'], pct: [(v1 / v0 - 1) * 100, 1, '%'],
+      k: [(v1 - v0) / 1000, 0, 'K'], num2: [v1 - v0, 2, ''],
+    }[cf] || [v1 - v0, 2, ''];
+    const r = Number(d.toFixed(digits));
+    return { text: Math.abs(r).toFixed(digits) + unit, dir: r === 0 ? 0 : Math.sign(r) };
   };
-  // Change since the prior observation, plus its direction (-1, 0, 1) after rounding.
-  const fmtChange = (f, v1raw, v0raw, valueFormat) => {
-    const v1 = asShown(valueFormat, v1raw), v0 = asShown(valueFormat, v0raw);
-    const spec = {
-      bp: [(v1 - v0) * 100, 0, ' bp'],
-      pt: [v1 - v0, 1, ' pt'],
-      pct: [(v1 / v0 - 1) * 100, 1, '%'],
-      k: [(v1 - v0) / 1000, 0, 'K'],
-      num2: [v1 - v0, 2, ''],
-    }[f] || [v1 - v0, 2, ''];
-    const [d, digits, unit] = spec;
-    const text = signed(d, digits);
-    const dir = Number(d.toFixed(digits)) === 0 ? 0 : Math.sign(d);
-    return { text: dir === 0 ? 'Unchanged' : text + unit, dir };
+  // "good" / "bad" / "flat" for a move in direction dir, given the series polarity.
+  const tone = (polarity, dir) => {
+    if (dir === 0) return 'flat';
+    const favourable = polarity === 'up_bad' ? -dir : dir;
+    return favourable > 0 ? 'good' : 'bad';
   };
   const utc = (iso) => new Date(iso + 'T00:00:00Z');
   const fmtDate = (iso, freq, long) => {
     const d = utc(iso);
+    if (freq === 'annual') return String(d.getUTCFullYear());
     if (freq === 'quarterly') return 'Q' + (Math.floor(d.getUTCMonth() / 3) + 1) + ' ' + d.getUTCFullYear();
     if (freq === 'monthly') return d.toLocaleDateString(undefined, { month: 'short', year: 'numeric', timeZone: 'UTC' });
     const sameYear = d.getUTCFullYear() === new Date().getUTCFullYear();
@@ -69,7 +71,10 @@
       month: 'short', day: 'numeric', timeZone: 'UTC', ...(long || !sameYear ? { year: 'numeric' } : {}),
     });
   };
-  // Reference lines that give a tile its benchmark (also forced into the y-range).
+  const fmtStamp = (iso) => new Date(iso).toLocaleString(undefined, {
+    month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZoneName: 'short',
+  });
+  // Benchmark lines (also forced into the y-range).
   const REFERENCE = { T10Y2Y: [0, '0'], PCEPILFE: [2, '2%'], SAHMREALTIME: [0.5, '0.50'] };
 
   const el = (tag, cls, text) => {
@@ -84,10 +89,27 @@
     return n;
   };
 
+  // Coloured change bubble: glyph + magnitude + "vs <prior date>"; words for screen readers.
+  function bubble(s, withVs) {
+    const ch = fmtChange(s.change_format, s.value, s.prev_value, s.format);
+    const wrap = el('span', 'signal-change');
+    const pill = el('span', 'signal-bubble ' + tone(s.polarity, ch.dir));
+    const glyph = el('span', 'signal-glyph', ch.dir > 0 ? '▲' : ch.dir < 0 ? '▼' : '●');
+    glyph.setAttribute('aria-hidden', 'true');
+    pill.append(glyph, ch.dir === 0 ? el('span', null, 'Unchanged')
+      : el('span', null, ch.text));
+    if (ch.dir !== 0) pill.prepend(el('span', 'sr-only', ch.dir > 0 ? 'Up ' : 'Down '));
+    wrap.append(pill);
+    if (withVs) wrap.append(el('span', 'signal-vs', 'vs ' + fmtDate(s.prev_date, s.freq)));
+    return wrap;
+  }
+
   // ---- Sparkline ----------------------------------------------------------
   function sparkline(box, s) {
     const pts = s.trend.map(([d, v]) => ({ d, v }));
     const ref = REFERENCE[s.id];
+    const first = pts[0].v, last = pts[pts.length - 1].v;
+    box.classList.add('spark-' + tone(s.polarity, Math.sign(Number((last - first).toFixed(6)))));
     const tip = el('div', 'spark-tip');
     tip.hidden = true;
     let geom = null, active = -1;
@@ -110,14 +132,13 @@
       const line = pts.map((p, i) => `${i ? 'L' : 'M'}${x(i).toFixed(1)},${y(p.v).toFixed(1)}`).join('');
       svg.append(svgEl('path', { d: `${line}L${x(pts.length - 1).toFixed(1)},${H}L${x(0).toFixed(1)},${H}Z`, class: 'spark-area' }));
       svg.append(svgEl('path', { d: line, class: 'spark-line' }));
-      const last = pts.length - 1;
-      svg.append(svgEl('circle', { cx: x(last), cy: y(pts[last].v), r: 4, class: 'spark-end' }));
+      const n = pts.length - 1;
+      svg.append(svgEl('circle', { cx: x(n), cy: y(pts[n].v), r: 4, class: 'spark-end' }));
       svg.append(svgEl('line', { x1: 0, x2: 0, y1: 0, y2: H, class: 'spark-cross', visibility: 'hidden' }));
       svg.append(svgEl('circle', { cx: 0, cy: 0, r: 4, class: 'spark-hover', visibility: 'hidden' }));
       box.replaceChildren(svg, tip);
       if (active >= 0) show(active);
     };
-
     const show = (i) => {
       active = i;
       const svg = box.querySelector('svg');
@@ -127,21 +148,19 @@
       dot.setAttribute('cx', px); dot.setAttribute('cy', py); dot.setAttribute('visibility', 'visible');
       tip.replaceChildren(el('strong', null, fmtValue(s.format, pts[i].v)), el('span', null, fmtDate(pts[i].d, s.freq, true)));
       tip.hidden = false;
-      // Keep the read-out inside the tile.
       const w = tip.offsetWidth;
       tip.style.left = Math.min(Math.max(px - w / 2, 0), geom.W - w) + 'px';
     };
     const hide = () => {
       active = -1;
       tip.hidden = true;
-      box.querySelectorAll('.spark-cross, .spark-hover').forEach((n) => n.setAttribute('visibility', 'hidden'));
+      box.querySelectorAll('.spark-cross, .spark-hover').forEach((m) => m.setAttribute('visibility', 'hidden'));
     };
     const nearest = (clientX) => {
       const r = box.getBoundingClientRect();
       const t = (clientX - r.left - 5) / Math.max(r.width - 10, 1);
       return Math.min(pts.length - 1, Math.max(0, Math.round(t * (pts.length - 1))));
     };
-
     box.addEventListener('pointermove', (e) => show(nearest(e.clientX)));
     box.addEventListener('pointerleave', () => { if (document.activeElement !== box) hide(); });
     box.addEventListener('focus', () => show(pts.length - 1));
@@ -155,8 +174,6 @@
     });
     if ('ResizeObserver' in window) new ResizeObserver(draw).observe(box);
     draw();
-
-    // Accessible summary of what the line shows.
     const low = pts.reduce((a, b) => (b.v < a.v ? b : a)), high = pts.reduce((a, b) => (b.v > a.v ? b : a));
     box.setAttribute('aria-label',
       `${s.window} trend of ${s.label}: low ${fmtValue(s.format, low.v)} (${fmtDate(low.d, s.freq, true)}), ` +
@@ -168,62 +185,81 @@
     const card = el('article', 'signal');
     const head = el('div', 'signal-head');
     head.append(el('h4', 'signal-label', s.label), el('p', 'signal-sub', s.sub));
-    const value = el('p', 'signal-value', fmtValue(s.format, s.value));
-    const ch = fmtChange(s.change_format, s.value, s.prev_value, s.format);
-    const change = el('p', 'signal-change');
-    const glyph = el('span', 'signal-glyph', ch.dir > 0 ? '▲' : ch.dir < 0 ? '▼' : '–');
-    glyph.setAttribute('aria-hidden', 'true');
-    // The glyph carries direction visually; screen readers get the words "Up"/"Down".
-    change.append(glyph,
-      ch.dir === 0 ? el('span', 'signal-delta', 'Unchanged') : el('span', 'sr-only', ch.dir > 0 ? 'Up ' : 'Down '),
-      ch.dir === 0 ? '' : ch.text.replace(/^[+−]/, ''), el('span', 'signal-vs', ' vs ' + fmtDate(s.prev_date, s.freq)));
-    card.append(head, value, change);
+    card.append(head, el('p', 'signal-value', fmtValue(s.format, s.value)), bubble(s, true));
     if (s.status) card.append(el('p', 'signal-status', s.status));
     const box = el('div', 'spark');
     box.tabIndex = 0;
     card.append(box);
     const foot = el('div', 'signal-foot');
-    const asOf = el('span', null, fmtDate(s.date, s.freq, true));
-    const src = el('a', 'signal-src', 'FRED');
+    const src = el('a', 'signal-src', s.source_name || 'FRED');
     src.href = s.source_url;
     src.target = '_blank';
     src.rel = 'noopener noreferrer';
-    src.setAttribute('aria-label', `${s.label} on FRED`);
-    foot.append(asOf, el('span', 'signal-window', s.window), src);
+    src.setAttribute('aria-label', `${s.label} source: ${s.source_name || 'FRED'}`);
+    foot.append(el('span', null, fmtDate(s.date, s.freq, true)), el('span', 'signal-window', s.window), src);
     card.append(foot);
     return { card, draw: () => sparkline(box, s) };
   }
 
-  function render(data) {
+  function renderPanel(mount, panel, updated) {
+    const groupsMount = mount.querySelector('[data-signals-groups]');
     const frag = document.createDocumentFragment(), drawers = [];
-    for (const g of data.groups || []) {
-      if (!g.series || !g.series.length) continue;
-      const group = el('div', 'signal-group');
+    for (const g of panel.groups || []) {
       const grid = el('div', 'signal-grid');
-      for (const s of g.series) {
+      for (const s of g.series || []) {
         if (!s.trend || s.trend.length < 2) continue;
         const t = tile(s);
         grid.append(t.card);
         drawers.push(t.draw);
       }
+      if (!grid.children.length) continue;
+      const group = el('div', 'signal-group');
       group.append(el('h4', 'signal-group-label', g.label), grid);
       frag.append(group);
     }
     if (!drawers.length) throw new Error('no series');
-    mount.replaceChildren(frag);
-    drawers.forEach((draw) => draw()); // after insertion, so each sparkline knows its width
-    if (data.updated && updatedLine) {
-      updatedLine.textContent = 'Checked for new releases ' + new Date(data.updated).toLocaleString(undefined, {
-        month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZoneName: 'short',
-      }) + '. Market series update after each trading day; monthly and quarterly series on their official release dates.';
-    }
+    groupsMount.replaceChildren(frag);
+    drawers.forEach((draw) => draw());
+    const stamp = mount.querySelector('[data-signals-updated]');
+    if (stamp && updated) stamp.textContent = 'Updated ' + fmtStamp(updated);
+  }
+
+  // Home: compact chips linking to the News page's signals.
+  function renderChips(data) {
+    const ids = (chipMount.dataset.ids || '').split(',').map((x) => x.trim()).filter(Boolean);
+    const byId = {};
+    for (const p of data.panels || []) for (const g of p.groups || []) for (const s of g.series || []) byId[s.id] = s;
+    const chips = ids.map((id) => byId[id]).filter(Boolean).map((s) => {
+      const a = el('a', 'signal-chip');
+      a.href = chipMount.dataset.href || 'news.html#signals';
+      a.append(el('span', 'chip-label', s.label), el('span', 'chip-value', fmtValue(s.format, s.value)), bubble(s, false));
+      return a;
+    });
+    if (!chips.length) throw new Error('no chips');
+    chipMount.replaceChildren(...chips);
   }
 
   fetch('/signals.json', { cache: 'no-cache' })
     .then((r) => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-    .then(render)
+    .then((data) => {
+      // Files written before the two-panel format hold a single United States panel.
+      if (!data.panels && data.groups) data.panels = [{ id: 'us', title: 'United States', groups: data.groups }];
+      for (const mount of panelMounts) {
+        const panel = (data.panels || []).find((p) => p.id === mount.dataset.signalsPanel);
+        try {
+          if (!panel) throw new Error('missing panel');
+          renderPanel(mount, panel, data.updated);
+        } catch (err) {
+          mount.querySelector('[data-signals-groups]').replaceChildren(el('p', 'news-status', 'These signals will appear here shortly.'));
+        }
+      }
+      if (chipMount) renderChips(data);
+    })
     .catch((err) => {
       console.warn('Signals: could not load data.', err);
-      mount.replaceChildren(el('p', 'news-status', 'Economic signals will appear here shortly.'));
+      for (const mount of panelMounts) {
+        mount.querySelector('[data-signals-groups]').replaceChildren(el('p', 'news-status', 'Economic signals will appear here shortly.'));
+      }
+      if (chipMount) chipMount.replaceChildren();
     });
 })();
