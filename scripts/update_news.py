@@ -73,10 +73,8 @@ FEEDS = [
     ("Liberty Street Economics", "https://libertystreeteconomics.newyorkfed.org/feed/",               "policy",  None),
     # Nigeria (business and economy desks) and Africa-wide business coverage.
     ("Nairametrics",             "https://nairametrics.com/feed/",                                    "africa",  ADVICE_COLUMN),
-    ("BusinessDay",              "https://businessday.ng/category/economy/feed/",                     "africa",  None),
+    ("BusinessDay",              "https://businessday.ng/feed/",                                      "africa",  None),
     ("Premium Times",            "https://www.premiumtimesng.com/business/feed",                      "africa",  None),
-    ("The Guardian Nigeria",     "https://guardian.ng/category/business-services/feed/",              "africa",  None),
-    ("CNBC Africa",              "https://www.cnbcafrica.com/feed/",                                  "africa",  None),
     ("African Business",         "https://african.business/feed",                                     "africa",  None),
     ("The Africa Report",        "https://www.theafricareport.com/feed/",                             "africa",  None),
 ]
