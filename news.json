@@ -1,10 +1,16 @@
 {
- "updated": "2026-10-05T19:00:19Z",
+ "updated": "2026-10-05T19:03:33Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
+    {
+     "title": "The 2029 tipping point: Western populations are about to start shrinking, piling pressure on public finances",
+     "url": "https://www.cnbc.com/2026/10/05/aging-population-moodys-public-finances.html",
+     "source": "CNBC",
+     "published": "2026-10-05T05:00:01Z"
+    },
     {
      "title": "The world is facing an almighty LNG crunch",
      "url": "https://www.economist.com/finance-and-economics/2026/10/04/the-world-is-facing-an-almighty-lng-crunch",
@@ -30,16 +36,10 @@
      "published": "2026-10-02T22:55:34Z"
     },
     {
-     "title": "The U.S. added only 29,000 jobs in September as job market lacks spark",
-     "url": "https://www.npr.org/2026/10/02/nx-s1-5989140/jobs-labor-wages-federal-reserve",
-     "source": "NPR",
-     "published": "2026-10-02T13:54:18Z"
-    },
-    {
-     "title": "Governments want to hold America’s shares more than its debts",
-     "url": "https://www.economist.com/finance-and-economics/2026/10/01/governments-want-to-hold-americas-shares-more-than-its-debts",
-     "source": "The Economist",
-     "published": "2026-10-01T09:08:56Z"
+     "title": "Men are losing ground in the labor market. Here's why",
+     "url": "https://www.cnbc.com/2026/10/02/men-labor-market-jobs-report.html",
+     "source": "CNBC",
+     "published": "2026-10-02T17:38:59Z"
     }
    ]
   },
@@ -72,16 +72,16 @@
      "published": "2026-10-05T17:02:00Z"
     },
     {
-     "title": "‘I don’t want to die on the sales floor’: I’m 67 and earn $19.50 an hour at a big-box store. When can I finally retire?",
-     "url": "https://www.marketwatch.com/story/i-dont-want-to-die-on-the-sales-floor-im-67-and-earn-19-50-an-hour-at-a-big-box-store-when-can-i-finally-retire-369abcf9?mod=mw_rss_topstories",
+     "title": "‘The pain was excruciating’: A friend in her 80s fell down her basement stairs. Could it have been avoided?",
+     "url": "https://www.marketwatch.com/story/the-pain-was-excruciating-a-friend-in-her-80s-fell-down-her-basement-stairs-could-it-have-been-avoided-ce105db6?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-05T17:00:00Z"
+     "published": "2026-10-05T16:00:00Z"
     },
     {
-     "title": "My wife never went back to work after raising our kids. Do I have to share my retirement savings 50/50?",
-     "url": "https://www.marketwatch.com/story/my-wife-never-went-back-to-work-after-raising-our-kids-do-i-have-to-share-my-retirement-savings-50-50-f0727f82?mod=mw_rss_topstories",
+     "title": "SpaceX’s stock could actually be a bargain, according to this metric",
+     "url": "https://www.marketwatch.com/story/spacexs-stock-could-actually-be-a-bargain-according-to-this-metric-ac3ddf45?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-05T16:31:00Z"
+     "published": "2026-10-05T15:45:00Z"
     }
    ]
   },
@@ -90,22 +90,28 @@
    "label": "Policy & research",
    "items": [
     {
-     "title": "Inference for Regression with Clustered or Spatially Correlated Data I: Framework and Clustering -- by A. Colin Cameron, Douglas L. Miller",
-     "url": "https://www.nber.org/papers/w35800#fromrss",
+     "title": "Crowding Out Temptation: Experimental Evidence on Savings and Health Behaviors in Kenya -- by Harsha Thirumurthy, Elizabeth Bair, Dean Yang, Teniola Egbe, Benard Ayieko…",
+     "url": "https://www.nber.org/papers/w35833#fromrss",
      "source": "NBER",
-     "published": "2026-10-05T19:00:19Z"
+     "published": "2026-10-05T19:03:33Z"
     },
     {
-     "title": "Inference for Regression with Clustered or Spatially Correlated Data II: Spatial Correlation -- by A. Colin Cameron, Douglas L. Miller",
-     "url": "https://www.nber.org/papers/w35801#fromrss",
+     "title": "A Framework for Integrating Climate Goals into Trade Agreements -- by Farid Farrokhi, Ahmad Lashkaripour, Homa Taheri",
+     "url": "https://www.nber.org/papers/w35834#fromrss",
      "source": "NBER",
-     "published": "2026-10-05T19:00:19Z"
+     "published": "2026-10-05T19:03:33Z"
     },
     {
      "title": "Insured, but Still on the Hook: Who Bears the Most Risk in Homeowner’s Insurance?",
      "url": "https://libertystreeteconomics.newyorkfed.org/2026/10/insured-but-still-on-the-hook-who-bears-the-most-risk-in-homeowners-insurance/",
      "source": "Liberty Street Economics",
      "published": "2026-10-05T11:00:00Z"
+    },
+    {
+     "title": "Major Economic Indicators Latest Numbers",
+     "url": "https://www.bls.gov/bls/",
+     "source": "BLS",
+     "published": "2026-10-02T12:32:11Z"
     },
     {
      "title": "Bowman, Modernizing Financial Regulation: Initial Observations from eSLR",
@@ -118,12 +124,6 @@
      "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
      "source": "Federal Reserve",
      "published": "2026-10-01T17:30:00Z"
-    },
-    {
-     "title": "Navigating Geoeconomic Risk in the U.S. Stock Market",
-     "url": "https://libertystreeteconomics.newyorkfed.org/2026/10/navigating-geoeconomic-risk-in-the-u-s-stock-market/",
-     "source": "Liberty Street Economics",
-     "published": "2026-10-01T11:00:00Z"
     }
    ]
   }
@@ -133,79 +133,178 @@
    "source": "NPR",
    "feed": "https://feeds.npr.org/1017/rss.xml",
    "ok": true,
-   "items": 10
-  },
-  {
-   "source": "Marketplace",
-   "feed": "https://www.marketplace.org/feed/",
-   "ok": false,
-   "error": "HTTP Error 404: Not Found"
+   "items": 10,
+   "skipped": 0,
+   "undated": 0,
+   "newest": "2026-10-03T11:47:09Z",
+   "oldest": "2026-09-26T11:37:58Z"
   },
   {
    "source": "PBS NewsHour",
    "feed": "https://www.pbs.org/newshour/feeds/rss/economy",
    "ok": true,
-   "items": 20
+   "items": 20,
+   "skipped": 0,
+   "undated": 0,
+   "newest": "2026-10-03T22:06:17Z",
+   "oldest": "2026-09-28T22:40:32Z"
   },
   {
    "source": "The Economist",
    "feed": "https://www.economist.com/finance-and-economics/rss.xml",
    "ok": true,
-   "items": 300
+   "items": 300,
+   "skipped": 0,
+   "undated": 0,
+   "newest": "2026-10-04T17:11:12Z",
+   "oldest": "2025-12-03T19:26:16Z"
+  },
+  {
+   "source": "CNBC",
+   "feed": "https://www.cnbc.com/id/20910258/device/rss/rss.html",
+   "ok": true,
+   "items": 30,
+   "skipped": 0,
+   "undated": 0,
+   "newest": "2026-10-05T05:00:01Z",
+   "oldest": "2026-09-11T16:53:23Z"
   },
   {
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 10
+   "items": 6,
+   "skipped": 4,
+   "undated": 0,
+   "newest": "2026-10-05T17:54:00Z",
+   "oldest": "2026-10-05T15:45:00Z"
   },
   {
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_realtimeheadlines",
    "ok": true,
-   "items": 10
+   "items": 10,
+   "skipped": 0,
+   "undated": 0,
+   "newest": "2025-06-11T07:09:00Z",
+   "oldest": "2024-02-27T12:40:00Z"
   },
   {
    "source": "Yahoo Finance",
    "feed": "https://finance.yahoo.com/news/rssindex",
    "ok": true,
-   "items": 49
+   "items": 49,
+   "skipped": 0,
+   "undated": 0,
+   "newest": "2026-09-23T06:00:41Z",
+   "oldest": "2024-11-20T18:16:32Z"
   },
   {
    "source": "Federal Reserve",
    "feed": "https://www.federalreserve.gov/feeds/press_monetary.xml",
    "ok": true,
-   "items": 15
+   "items": 15,
+   "skipped": 0,
+   "undated": 0,
+   "newest": "2026-09-16T18:00:00Z",
+   "oldest": "2026-04-08T18:00:00Z"
   },
   {
    "source": "Federal Reserve",
    "feed": "https://www.federalreserve.gov/feeds/speeches.xml",
    "ok": true,
-   "items": 15
+   "items": 15,
+   "skipped": 0,
+   "undated": 0,
+   "newest": "2026-10-01T19:00:00Z",
+   "oldest": "2026-08-28T14:00:00Z"
   },
   {
    "source": "BEA",
    "feed": "https://apps.bea.gov/rss/rss.xml",
    "ok": true,
-   "items": 48
+   "items": 48,
+   "skipped": 0,
+   "undated": 0,
+   "newest": "2026-09-30T12:31:00Z",
+   "oldest": "2013-04-18T12:30:00Z"
+  },
+  {
+   "source": "BLS",
+   "feed": "https://www.bls.gov/feed/bls_latest.rss",
+   "ok": true,
+   "items": 1,
+   "skipped": 0,
+   "undated": 0,
+   "newest": "2026-10-02T12:32:11Z",
+   "oldest": "2026-10-02T12:32:11Z"
   },
   {
    "source": "NBER",
    "feed": "https://www.nber.org/rss/new.xml",
    "ok": true,
-   "items": 45
+   "items": 45,
+   "skipped": 0,
+   "undated": 45,
+   "newest": "2026-10-05T19:03:33Z",
+   "oldest": "2026-10-05T19:00:19Z"
   },
   {
    "source": "Liberty Street Economics",
    "feed": "https://libertystreeteconomics.newyorkfed.org/feed/",
    "ok": true,
-   "items": 100
-  },
-  {
-   "source": "IMF",
-   "feed": "https://www.imf.org/en/News/RSS?Language=ENG",
-   "ok": false,
-   "error": "HTTP Error 403: Forbidden"
+   "items": 100,
+   "skipped": 0,
+   "undated": 0,
+   "newest": "2026-10-05T11:00:00Z",
+   "oldest": "2025-10-06T11:00:00Z"
   }
- ]
+ ],
+ "first_seen": {
+  "https://www.nber.org/papers/w35800#fromrss": "2026-10-05T19:00:19Z",
+  "https://www.nber.org/papers/w35801#fromrss": "2026-10-05T19:00:19Z",
+  "https://www.nber.org/papers/w35833#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35834#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35835#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35836#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35837#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35838#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35839#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35840#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35841#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35842#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35843#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35844#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35845#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35846#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35847#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35848#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35849#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35850#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35851#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35852#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35853#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35854#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35855#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35856#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35857#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35858#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35859#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35860#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35861#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35862#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35863#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35864#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35865#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35866#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35867#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35868#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35869#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35870#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35871#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35872#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35873#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35874#fromrss": "2026-10-05T19:03:33Z",
+  "https://www.nber.org/papers/w35875#fromrss": "2026-10-05T19:03:33Z"
+ }
 }
