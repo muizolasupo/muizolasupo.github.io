@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05T21:08:45Z",
+ "updated": "2026-10-05T21:10:32Z",
  "categories": [
   {
    "id": "economy",
@@ -157,13 +157,6 @@
      "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/Power-Minister-Tegbe-and-Lagos-Governor-Sanwo-olu.jpeg"
     },
     {
-     "title": "British-based Nigerian host JideScata named MC of the Year",
-     "url": "https://businessday.ng/briefs/article/british-based-nigerian-host-jidescata-named-mc-of-the-year/",
-     "source": "BusinessDay",
-     "published": "2026-10-05T20:01:27Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/IMG-20261004-WA0004-large.jpg"
-    },
-    {
      "title": "NGX slips 0.06% as Nestlé, insurers drag market lower",
      "url": "https://nairametrics.com/2026/10/05/ngx-slips-0-06-as-nestle-insurers-drag-market-lower/",
      "source": "Nairametrics",
@@ -171,25 +164,32 @@
      "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/stock-drop-image.webp"
     },
     {
-     "title": "The mental health cost of always being available",
-     "url": "https://businessday.ng/insight-2/article/the-mental-health-cost-of-always-being-available/",
-     "source": "BusinessDay",
-     "published": "2026-10-05T19:29:24Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/Amogu-Chinonye-Grace-Headshot-large.jpg"
-    },
-    {
-     "title": "Seven-Up Bottling Company advances community wellbeing",
-     "url": "https://www.premiumtimesng.com/business/business-news/914755-seven-up-bottling-company-advances-community-wellbeing.html",
-     "source": "Premium Times",
-     "published": "2026-10-05T18:57:18Z",
-     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/10/WhatsApp-Image-2026-10-05-at-7.36.04-PM-2.jpeg?fit=1080%2C720&ssl=1"
-    },
-    {
      "title": "NNPC’s Federation receivables fall to ₦11.2 trillion after energy security costs offset",
      "url": "https://www.premiumtimesng.com/business/business-news/914712-nnpcs-federation-receivables-fall-to-%e2%82%a611-2-trillion-after-energy-security-costs-offset.html",
      "source": "Premium Times",
      "published": "2026-10-05T17:20:28Z",
      "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2024/09/NNPCL-Trucks.jpeg?fit=600%2C303&ssl=1"
+    },
+    {
+     "title": "Zenith, Fidson, NEM top stock pick this week",
+     "url": "https://www.premiumtimesng.com/business/business-news/914629-zenith-fidson-nem-top-stock-pick-this-week.html",
+     "source": "Premium Times",
+     "published": "2026-10-05T14:01:50Z",
+     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2024/06/NGX-Group.webp?fit=1584%2C1020&ssl=1"
+    },
+    {
+     "title": "Africa's Top Banks 2026: the development banks",
+     "url": "https://african.business/2026/10/finance-services/africas-top-banks-2026-the-development-banks",
+     "source": "African Business",
+     "published": "2026-10-05T14:01:21Z",
+     "image": "https://african.business/wp-content/uploads/2026/10/000_48JU9KD-scaled.jpg"
+    },
+    {
+     "title": "Kenya: ‘If we can do a refinery, we can do anything,’ says James Mwangi",
+     "url": "https://www.theafricareport.com/432276/kenya-if-we-can-do-a-refinery-we-can-do-anything-says-james-mwangi/",
+     "source": "The Africa Report",
+     "published": "2026-10-05T14:00:00Z",
+     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=2560,height=1707,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2025/10/13/afp__20220613__32ce7ag__v1__highres__icoastafricaeconomypolitics-scaled.jpg"
     }
    ]
   }
@@ -329,21 +329,21 @@
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 5,
-   "skipped": 0,
+   "items": 0,
+   "skipped": 5,
    "undated": 0,
-   "newest": "2026-10-05T20:01:27Z",
-   "oldest": "2026-10-05T19:07:39Z"
+   "newest": null,
+   "oldest": null
   },
   {
    "source": "Premium Times",
    "feed": "https://www.premiumtimesng.com/business/feed",
    "ok": true,
-   "items": 15,
-   "skipped": 0,
+   "items": 12,
+   "skipped": 3,
    "undated": 0,
-   "newest": "2026-10-05T18:57:18Z",
-   "oldest": "2026-09-30T22:01:27Z"
+   "newest": "2026-10-05T17:20:28Z",
+   "oldest": "2026-10-01T07:16:10Z"
   },
   {
    "source": "African Business",
@@ -359,11 +359,11 @@
    "source": "The Africa Report",
    "feed": "https://www.theafricareport.com/feed/",
    "ok": true,
-   "items": 10,
-   "skipped": 0,
+   "items": 3,
+   "skipped": 7,
    "undated": 0,
    "newest": "2026-10-05T14:00:00Z",
-   "oldest": "2026-10-03T07:00:00Z"
+   "oldest": "2026-10-05T11:43:52Z"
   }
  ],
  "first_seen": {
