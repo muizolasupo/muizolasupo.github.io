@@ -57,6 +57,19 @@ CATEGORIES = {
 ADVICE_COLUMN = re.compile(r"(?<![\w’'])(I|I’m|I'm|I’ve|I've|I’d|I'd|I’ll|I'll|[Mm]y|me)(?![\w’'])"
                            r"|^[‘'“\"][^:]{3,90}[’'”\"]:")
 
+# General-interest feeds also carry lifestyle, entertainment and corporate PR items;
+# for the sources listed in ECON_ONLY a headline must mention an economic topic.
+ECON_TERMS = re.compile(
+    r"naira|₦|\bcbn\b|central bank|inflation|\bgdp\b|econom|\bbank|\bngx\b|stock|\bshares?\b|equit|bond|"
+    r"treasur|debt|loan|credit|budget|fiscal|monetary|\btax|tariff|revenue|forex|\bfx\b|exchange rate|dollar|"
+    r"interest rate|\bmpc\b|\boil\b|crude|refiner|petrol|\bfuel|\bgas\b|nnpc|\bpower\b|electricity|energy|"
+    r"mining|export|import|\btrade|invest|market|price|cost of living|wage|salar|\bjobs?\b|unemploy|\bimf\b|"
+    r"world bank|afdb|afrexim|ecowas|agri|\bfood|manufactur|telecom|fintech|startup|earnings|profit|dividend|"
+    r"capital|funding|\bipo\b|\bsmes?\b|industr|\bports?\b|customs|subsid|privati[sz]|growth|recession|"
+    r"deficit|reserves|insur|pension|remittance|eurobond|sukuk|liquidity|\bfirms?\b",
+    re.I)
+ECON_ONLY = {"BusinessDay", "Premium Times", "The Africa Report"}
+
 # (source shown on the site, feed URL, category id, headline pattern to skip or None)
 FEEDS = [
     ("NPR",                      "https://feeds.npr.org/1017/rss.xml",                                "economy", None),
@@ -203,7 +216,7 @@ def main() -> int:
                 title, link = clean_title(e.get("title", "")), (e.get("link") or "").strip()
                 if not title or not link.startswith(("https://", "http://")):
                     continue
-                if skip is not None and skip.search(title):
+                if (skip is not None and skip.search(title)) or (source in ECON_ONLY and not ECON_TERMS.search(title)):
                     skipped += 1
                     continue
                 ts = entry_time(e)
