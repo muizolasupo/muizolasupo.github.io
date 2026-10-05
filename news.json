@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-05T21:10:32Z",
+ "updated": "2026-10-05T23:41:15Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
+    {
+     "title": "News Wrap: Cornell students protest handling of alleged rape",
+     "url": "https://www.pbs.org/newshour/show/news-wrap-cornell-students-protest-handling-of-alleged-rape",
+     "source": "PBS NewsHour",
+     "published": "2026-10-05T22:45:10Z",
+     "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/newswrapcornell-1024x688.jpg"
+    },
     {
      "title": "The bond market sell-off is helping the dollar",
      "url": "https://www.economist.com/finance-and-economics/2026/10/05/the-bond-market-sell-off-is-helping-the-dollar",
@@ -39,13 +46,6 @@
      "source": "NPR",
      "published": "2026-10-03T11:47:09Z",
      "image": ""
-    },
-    {
-     "title": "What a hiring slowdown signals about the state of the U.S. economy",
-     "url": "https://www.pbs.org/newshour/show/what-a-hiring-slowdown-signals-about-the-state-of-the-u-s-economy",
-     "source": "PBS NewsHour",
-     "published": "2026-10-02T22:55:34Z",
-     "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/hiring-1024x683.jpg"
     }
    ]
   },
@@ -54,46 +54,46 @@
    "label": "Markets",
    "items": [
     {
-     "title": "Brazilian stocks jump as Bolsonaro now seen as heavy favorite to win presidency",
-     "url": "https://www.cnbc.com/2026/10/05/brazilian-stocks-jump-bolsonaro-now-heavy-favorite-to-win-presidency.html",
-     "source": "CNBC",
-     "published": "2026-10-05T20:41:23Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108340187-1785005687925-gettyimages-2286947071-AFP_C37K7ZT.jpeg?v=1789825071&w=1920&h=1080"
+     "title": "The case for Nvidia’s stock to march even higher after clinching its first record high in months",
+     "url": "https://www.marketwatch.com/story/the-case-for-nvidias-stock-to-march-even-higher-after-clinching-its-first-record-high-in-months-2bb5a937?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-05T21:52:00Z",
+     "image": "https://images.mktw.net/im-88850361"
     },
     {
-     "title": "Trump is promising $90 Medicare rebate checks ahead of the midterms. Here’s the hidden cost.",
-     "url": "https://www.marketwatch.com/story/trump-is-promising-90-medicare-rebate-checks-ahead-of-the-midterms-heres-the-hidden-cost-14b7e2ce?mod=mw_rss_topstories",
+     "title": "This new AI model could help America close a technological gap with China",
+     "url": "https://www.marketwatch.com/story/this-new-ai-model-could-help-america-close-a-technological-gap-with-china-c1d74492?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-05T20:39:00Z",
-     "image": "https://images.mktw.net/im-82465321"
+     "published": "2026-10-05T21:43:00Z",
+     "image": "https://images.mktw.net/im-05464234"
+    },
+    {
+     "title": "Microsoft’s blazing stock comeback isn’t even close to being over, analyst says",
+     "url": "https://www.marketwatch.com/story/microsofts-blazing-stock-comeback-isnt-even-close-to-being-over-analyst-says-265f7b6d?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-05T21:27:00Z",
+     "image": "https://images.mktw.net/im-61223941"
+    },
+    {
+     "title": "Western Digital and Seagate shares bounce back as analysts downplay the Toshiba threat",
+     "url": "https://www.marketwatch.com/story/western-digital-and-seagate-shares-bounce-back-as-analysts-downplay-the-toshiba-threat-4979dbff?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-05T21:25:00Z",
+     "image": "https://images.mktw.net/im-47691818"
     },
     {
      "title": "House Democrat targets candidate prediction market trades after opponent’s Kalshi penalty",
      "url": "https://www.cnbc.com/2026/10/05/don-davis-prediction-market-candidate-trading.html",
      "source": "CNBC",
-     "published": "2026-10-05T20:31:19Z",
+     "published": "2026-10-05T21:24:25Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108048072-1729022260550-gettyimages-2176702756-davis_112_091924.jpeg?v=1791234447&w=1920&h=1080"
     },
     {
-     "title": "Intel’s stock drops after Musk hints at an additional partner for big chip venture",
-     "url": "https://www.marketwatch.com/story/musk-hints-tsmc-may-join-his-mega-chip-venture-and-intels-stock-is-taking-a-hit-61c67ef9?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-05T20:30:00Z",
-     "image": "https://images.mktw.net/im-13099115"
-    },
-    {
-     "title": "Investors see big opportunity in ferocious 2026 bond-market rout",
-     "url": "https://www.marketwatch.com/story/investors-see-big-opportunity-in-ferocious-2026-bond-market-rout-e5cc94f3?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-05T20:14:00Z",
-     "image": "https://images.mktw.net/im-78855211"
-    },
-    {
-     "title": "Go ahead and get that poetry degree. Republican law won’t prevent people with humanities majors from getting student loans.",
-     "url": "https://www.marketwatch.com/story/go-ahead-and-get-that-poetry-degree-republican-law-wont-prevent-people-with-humanities-majors-from-getting-student-loans-f94587cf?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-05T19:18:00Z",
-     "image": "https://images.mktw.net/im-26944456"
+     "title": "Brazilian stocks jump as Bolsonaro now seen as heavy favorite to win presidency",
+     "url": "https://www.cnbc.com/2026/10/05/brazilian-stocks-jump-bolsonaro-now-heavy-favorite-to-win-presidency.html",
+     "source": "CNBC",
+     "published": "2026-10-05T20:41:23Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108340187-1785005687925-gettyimages-2286947071-AFP_C37K7ZT.jpeg?v=1789825071&w=1920&h=1080"
     }
    ]
   },
@@ -150,6 +150,13 @@
    "label": "Nigeria & Africa",
    "items": [
     {
+     "title": "Naira gains as reserves hit $54.9bn on stronger oil receipts",
+     "url": "https://businessday.ng/business-economy/article/naira-gains-as-reserves-hit-54-9bn-on-stronger-oil-receipts/",
+     "source": "BusinessDay",
+     "published": "2026-10-05T20:54:26Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/01/photo-1678693362793-e2fffac536d0-large.jpeg"
+    },
+    {
      "title": "FG, Lagos begin 24/7 power pilot with joint technical committee",
      "url": "https://nairametrics.com/2026/10/05/fg-lagos-begin-24-7-power-pilot-with-joint-technical-committee/",
      "source": "Nairametrics",
@@ -183,13 +190,6 @@
      "source": "African Business",
      "published": "2026-10-05T14:01:21Z",
      "image": "https://african.business/wp-content/uploads/2026/10/000_48JU9KD-scaled.jpg"
-    },
-    {
-     "title": "Kenya: ‘If we can do a refinery, we can do anything,’ says James Mwangi",
-     "url": "https://www.theafricareport.com/432276/kenya-if-we-can-do-a-refinery-we-can-do-anything-says-james-mwangi/",
-     "source": "The Africa Report",
-     "published": "2026-10-05T14:00:00Z",
-     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=2560,height=1707,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2025/10/13/afp__20220613__32ce7ag__v1__highres__icoastafricaeconomypolitics-scaled.jpg"
     }
    ]
   }
@@ -212,8 +212,8 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-03T22:06:17Z",
-   "oldest": "2026-09-28T22:40:32Z"
+   "newest": "2026-10-05T22:45:10Z",
+   "oldest": "2026-09-28T22:55:54Z"
   },
   {
    "source": "The Economist",
@@ -242,8 +242,8 @@
    "items": 8,
    "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-05T20:39:00Z",
-   "oldest": "2026-10-05T17:02:00Z"
+   "newest": "2026-10-05T21:52:00Z",
+   "oldest": "2026-10-05T20:14:00Z"
   },
   {
    "source": "CNBC",
@@ -252,7 +252,7 @@
    "items": 29,
    "skipped": 1,
    "undated": 0,
-   "newest": "2026-10-05T20:41:23Z",
+   "newest": "2026-10-05T21:24:25Z",
    "oldest": "2026-09-24T14:16:27Z"
   },
   {
@@ -329,11 +329,11 @@
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 0,
-   "skipped": 5,
+   "items": 1,
+   "skipped": 4,
    "undated": 0,
-   "newest": null,
-   "oldest": null
+   "newest": "2026-10-05T20:54:26Z",
+   "oldest": "2026-10-05T20:54:26Z"
   },
   {
    "source": "Premium Times",
