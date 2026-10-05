@@ -4,13 +4,16 @@
  * Inputs  : /news.json, refreshed every three hours by
  *           .github/workflows/news.yml (scripts/update_news.py);
  *           the <div data-news> block in index.html.
- * Outputs : one tab per news category and a list of headlines, each linking to
- *           the original publisher in a new tab.
+ * Outputs : one tab per news category and a list of headlines, each with a
+ *           small thumbnail and linking to the original publisher in a new tab.
  * Notes   : 1. Feed text is inserted with textContent only (never innerHTML) and
  *              only http(s) links are rendered, so feed content cannot inject markup.
  *           2. Tabs follow the WAI-ARIA tabs pattern: arrow keys, Home and End
  *              move between categories.
  *           3. If news.json is missing or unreadable, a short notice replaces the list.
+ *           4. Thumbnails are the publishers' own images, loaded lazily without a
+ *              referrer; a headline without one (or whose image fails to load)
+ *              shows a tile with the source's initials instead.
  */
 (() => {
   const root = document.querySelector('[data-news]');
@@ -20,7 +23,6 @@
   const list = root.querySelector('[data-news-list]');
   const statusLine = root.querySelector('[data-news-status]');
   const updatedLine = root.querySelector('[data-news-updated]');
-  const SVG = 'http://www.w3.org/2000/svg';
 
   // ---- Formatting helpers -------------------------------------------------
   // "12 min ago", "5 h ago", or a short date for anything older than a day.
@@ -44,16 +46,33 @@
     if (text) node.textContent = text;
     return node;
   };
-  // Small "opens elsewhere" arrow drawn after each headline.
-  const arrow = () => {
-    const svg = document.createElementNS(SVG, 'svg');
-    svg.setAttribute('viewBox', '0 0 24 24');
-    svg.setAttribute('class', 'news-arrow');
-    svg.setAttribute('aria-hidden', 'true');
-    const path = document.createElementNS(SVG, 'path');
-    path.setAttribute('d', 'M7 17 17 7M8 7h9v9');
-    svg.appendChild(path);
-    return svg;
+  // Short labels for the fallback tile when a headline has no usable image.
+  const INITIALS = {
+    'Federal Reserve': 'FED', 'Liberty Street Economics': 'NY FED', 'The Economist': 'TE',
+    'PBS NewsHour': 'PBS', MarketWatch: 'MW', NBER: 'NBER', BEA: 'BEA', CNBC: 'CNBC', NPR: 'NPR',
+  };
+  const initials = (source) => INITIALS[source] ||
+    source.split(/\s+/).map((w) => w[0]).join('').slice(0, 4).toUpperCase();
+  const fallbackTile = (source) => {
+    const tile = el('span', 'news-thumb news-thumb-fallback', initials(source));
+    tile.setAttribute('aria-hidden', 'true');
+    return tile;
+  };
+  const thumb = (item) => {
+    const src = item.image ? safeUrl(item.image) : null;
+    if (!src || !src.startsWith('https://')) return fallbackTile(item.source);
+    const frame = el('span', 'news-thumb');
+    const img = el('img');
+    img.alt = '';
+    img.loading = 'lazy';
+    img.decoding = 'async';
+    img.referrerPolicy = 'no-referrer';
+    img.width = 112;
+    img.height = 84;
+    img.addEventListener('error', () => frame.replaceWith(fallbackTile(item.source)), { once: true });
+    img.src = src;
+    frame.appendChild(img);
+    return frame;
   };
   const notice = (text) => { list.replaceChildren(); statusLine.textContent = text; statusLine.hidden = false; };
 
@@ -71,7 +90,7 @@
       const when = el('time', null, ago(item.published));
       when.dateTime = item.published;
       source.append(' · ', when);
-      a.append(source, el('span', 'news-title', item.title), arrow());
+      a.append(thumb(item), source, el('span', 'news-title', item.title));
       const li = el('li', 'news-item');
       li.appendChild(a);
       list.appendChild(li);
