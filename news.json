@@ -1,0 +1,211 @@
+{
+ "updated": "2026-10-05T19:00:19Z",
+ "categories": [
+  {
+   "id": "economy",
+   "label": "Economy",
+   "items": [
+    {
+     "title": "The world is facing an almighty LNG crunch",
+     "url": "https://www.economist.com/finance-and-economics/2026/10/04/the-world-is-facing-an-almighty-lng-crunch",
+     "source": "The Economist",
+     "published": "2026-10-04T17:11:12Z"
+    },
+    {
+     "title": "A $28 billion hemp THC industry is fighting to save itself from a looming federal ban",
+     "url": "https://www.pbs.org/newshour/economy/a-28-billion-hemp-thc-industry-is-fighting-to-save-itself-from-a-looming-federal-ban",
+     "source": "PBS NewsHour",
+     "published": "2026-10-03T22:06:17Z"
+    },
+    {
+     "title": "Economist Betsey Stevenson breaks down the gender gap in recent hiring reports",
+     "url": "https://www.npr.org/2026/10/03/nx-s1-5989546/economist-betsey-stevenson-breaks-down-the-gender-gap-in-recent-hiring-reports",
+     "source": "NPR",
+     "published": "2026-10-03T11:47:09Z"
+    },
+    {
+     "title": "What a hiring slowdown signals about the state of the U.S. economy",
+     "url": "https://www.pbs.org/newshour/show/what-a-hiring-slowdown-signals-about-the-state-of-the-u-s-economy",
+     "source": "PBS NewsHour",
+     "published": "2026-10-02T22:55:34Z"
+    },
+    {
+     "title": "The U.S. added only 29,000 jobs in September as job market lacks spark",
+     "url": "https://www.npr.org/2026/10/02/nx-s1-5989140/jobs-labor-wages-federal-reserve",
+     "source": "NPR",
+     "published": "2026-10-02T13:54:18Z"
+    },
+    {
+     "title": "Governments want to hold America’s shares more than its debts",
+     "url": "https://www.economist.com/finance-and-economics/2026/10/01/governments-want-to-hold-americas-shares-more-than-its-debts",
+     "source": "The Economist",
+     "published": "2026-10-01T09:08:56Z"
+    }
+   ]
+  },
+  {
+   "id": "markets",
+   "label": "Markets",
+   "items": [
+    {
+     "title": "Saudi Aramco’s CEO may be too downbeat about the road to restocking global oil supplies",
+     "url": "https://www.marketwatch.com/story/saudi-aramcos-ceo-may-be-too-downbeat-about-the-road-to-restocking-global-oil-supplies-1fdbb70b?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-05T17:54:00Z"
+    },
+    {
+     "title": "AI chatbots recommend shopping at Walmart over just about anywhere else, analysts find",
+     "url": "https://www.marketwatch.com/story/ai-chatbots-recommend-shopping-at-walmart-over-just-about-anywhere-else-analysts-find-9483b266?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-05T17:53:00Z"
+    },
+    {
+     "title": "Western Digital and Seagate shares bounce back as analysts downplay the Toshiba threat",
+     "url": "https://www.marketwatch.com/story/western-digital-and-seagate-shares-bounce-back-as-analysts-downplay-the-toshiba-threat-4979dbff?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-05T17:34:00Z"
+    },
+    {
+     "title": "Microsoft’s blazing stock comeback isn’t even close to being over, analyst says",
+     "url": "https://www.marketwatch.com/story/microsofts-blazing-stock-comeback-isnt-even-close-to-being-over-analyst-says-265f7b6d?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-05T17:02:00Z"
+    },
+    {
+     "title": "‘I don’t want to die on the sales floor’: I’m 67 and earn $19.50 an hour at a big-box store. When can I finally retire?",
+     "url": "https://www.marketwatch.com/story/i-dont-want-to-die-on-the-sales-floor-im-67-and-earn-19-50-an-hour-at-a-big-box-store-when-can-i-finally-retire-369abcf9?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-05T17:00:00Z"
+    },
+    {
+     "title": "My wife never went back to work after raising our kids. Do I have to share my retirement savings 50/50?",
+     "url": "https://www.marketwatch.com/story/my-wife-never-went-back-to-work-after-raising-our-kids-do-i-have-to-share-my-retirement-savings-50-50-f0727f82?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-05T16:31:00Z"
+    }
+   ]
+  },
+  {
+   "id": "policy",
+   "label": "Policy & research",
+   "items": [
+    {
+     "title": "Inference for Regression with Clustered or Spatially Correlated Data I: Framework and Clustering -- by A. Colin Cameron, Douglas L. Miller",
+     "url": "https://www.nber.org/papers/w35800#fromrss",
+     "source": "NBER",
+     "published": "2026-10-05T19:00:19Z"
+    },
+    {
+     "title": "Inference for Regression with Clustered or Spatially Correlated Data II: Spatial Correlation -- by A. Colin Cameron, Douglas L. Miller",
+     "url": "https://www.nber.org/papers/w35801#fromrss",
+     "source": "NBER",
+     "published": "2026-10-05T19:00:19Z"
+    },
+    {
+     "title": "Insured, but Still on the Hook: Who Bears the Most Risk in Homeowner’s Insurance?",
+     "url": "https://libertystreeteconomics.newyorkfed.org/2026/10/insured-but-still-on-the-hook-who-bears-the-most-risk-in-homeowners-insurance/",
+     "source": "Liberty Street Economics",
+     "published": "2026-10-05T11:00:00Z"
+    },
+    {
+     "title": "Bowman, Modernizing Financial Regulation: Initial Observations from eSLR",
+     "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261001a.htm",
+     "source": "Federal Reserve",
+     "published": "2026-10-01T19:00:00Z"
+    },
+    {
+     "title": "Jefferson, The U.S. Economy and Monetary Policy",
+     "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+     "source": "Federal Reserve",
+     "published": "2026-10-01T17:30:00Z"
+    },
+    {
+     "title": "Navigating Geoeconomic Risk in the U.S. Stock Market",
+     "url": "https://libertystreeteconomics.newyorkfed.org/2026/10/navigating-geoeconomic-risk-in-the-u-s-stock-market/",
+     "source": "Liberty Street Economics",
+     "published": "2026-10-01T11:00:00Z"
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "source": "NPR",
+   "feed": "https://feeds.npr.org/1017/rss.xml",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "source": "Marketplace",
+   "feed": "https://www.marketplace.org/feed/",
+   "ok": false,
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "source": "PBS NewsHour",
+   "feed": "https://www.pbs.org/newshour/feeds/rss/economy",
+   "ok": true,
+   "items": 20
+  },
+  {
+   "source": "The Economist",
+   "feed": "https://www.economist.com/finance-and-economics/rss.xml",
+   "ok": true,
+   "items": 300
+  },
+  {
+   "source": "MarketWatch",
+   "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "source": "MarketWatch",
+   "feed": "https://feeds.content.dowjones.io/public/rss/mw_realtimeheadlines",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "source": "Yahoo Finance",
+   "feed": "https://finance.yahoo.com/news/rssindex",
+   "ok": true,
+   "items": 49
+  },
+  {
+   "source": "Federal Reserve",
+   "feed": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+   "ok": true,
+   "items": 15
+  },
+  {
+   "source": "Federal Reserve",
+   "feed": "https://www.federalreserve.gov/feeds/speeches.xml",
+   "ok": true,
+   "items": 15
+  },
+  {
+   "source": "BEA",
+   "feed": "https://apps.bea.gov/rss/rss.xml",
+   "ok": true,
+   "items": 48
+  },
+  {
+   "source": "NBER",
+   "feed": "https://www.nber.org/rss/new.xml",
+   "ok": true,
+   "items": 45
+  },
+  {
+   "source": "Liberty Street Economics",
+   "feed": "https://libertystreeteconomics.newyorkfed.org/feed/",
+   "ok": true,
+   "items": 100
+  },
+  {
+   "source": "IMF",
+   "feed": "https://www.imf.org/en/News/RSS?Language=ENG",
+   "ok": false,
+   "error": "HTTP Error 403: Forbidden"
+  }
+ ]
+}
