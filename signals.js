@@ -37,8 +37,16 @@
     k: () => Math.round(v / 1000).toLocaleString() + 'K',
     num2: () => v.toFixed(2),
   }[f] || (() => String(v)))();
+  // Round a value to the precision it is displayed at, so the change agrees with
+  // the two numbers a reader would compare (e.g. 3.3% -> 3.4% reads as +0.1 pt).
+  const asShown = (valueFormat, v) => {
+    if (valueFormat === 'k') return Math.round(v / 1000) * 1000;
+    const digits = { pct2: 2, pct1: 1, bp: 2, usd2: 2, num2: 2 }[valueFormat];
+    return digits == null ? v : Number(v.toFixed(digits));
+  };
   // Change since the prior observation, plus its direction (-1, 0, 1) after rounding.
-  const fmtChange = (f, v1, v0) => {
+  const fmtChange = (f, v1raw, v0raw, valueFormat) => {
+    const v1 = asShown(valueFormat, v1raw), v0 = asShown(valueFormat, v0raw);
     const spec = {
       bp: [(v1 - v0) * 100, 0, ' bp'],
       pt: [v1 - v0, 1, ' pt'],
@@ -161,7 +169,7 @@
     const head = el('div', 'signal-head');
     head.append(el('h4', 'signal-label', s.label), el('p', 'signal-sub', s.sub));
     const value = el('p', 'signal-value', fmtValue(s.format, s.value));
-    const ch = fmtChange(s.change_format, s.value, s.prev_value);
+    const ch = fmtChange(s.change_format, s.value, s.prev_value, s.format);
     const change = el('p', 'signal-change');
     const glyph = el('span', 'signal-glyph', ch.dir > 0 ? '▲' : ch.dir < 0 ? '▼' : '–');
     glyph.setAttribute('aria-hidden', 'true');
