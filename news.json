@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-05T19:52:42Z",
+ "updated": "2026-10-05T20:29:20Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
+    {
+     "title": "The bond market sell-off is helping the dollar",
+     "url": "https://www.economist.com/finance-and-economics/2026/10/05/the-bond-market-sell-off-is-helping-the-dollar",
+     "source": "The Economist",
+     "published": "2026-10-05T19:31:48Z",
+     "image": ""
+    },
     {
      "title": "The 2029 tipping point: Western populations are about to start shrinking, piling pressure on public finances",
      "url": "https://www.cnbc.com/2026/10/05/aging-population-moodys-public-finances.html",
@@ -39,13 +46,6 @@
      "source": "PBS NewsHour",
      "published": "2026-10-02T22:55:34Z",
      "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/hiring-1024x683.jpg"
-    },
-    {
-     "title": "Men are losing ground in the labor market. Here's why",
-     "url": "https://www.cnbc.com/2026/10/02/men-labor-market-jobs-report.html",
-     "source": "CNBC",
-     "published": "2026-10-02T17:38:59Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108368239-1790358451627-Over_50_Employers_Look_To_Hire_At_South_Florida_Jo-2297111592-Getty.jpg?v=1790959897&w=1920&h=1080"
     }
    ]
   },
@@ -53,6 +53,13 @@
    "id": "markets",
    "label": "Markets",
    "items": [
+    {
+     "title": "Investors see big opportunity in ferocious 2026 bond-market rout",
+     "url": "https://www.marketwatch.com/story/investors-see-big-opportunity-in-ferocious-2026-bond-market-rout-e5cc94f3?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-05T20:14:00Z",
+     "image": "https://images.mktw.net/im-78855211"
+    },
     {
      "title": "Go ahead and get that poetry degree. Republican law won’t prevent people with humanities majors from getting student loans.",
      "url": "https://www.marketwatch.com/story/go-ahead-and-get-that-poetry-degree-republican-law-wont-prevent-people-with-humanities-majors-from-getting-student-loans-f94587cf?mod=mw_rss_topstories",
@@ -73,13 +80,6 @@
      "source": "MarketWatch",
      "published": "2026-10-05T17:53:00Z",
      "image": "https://images.mktw.net/im-47459510"
-    },
-    {
-     "title": "Western Digital and Seagate shares bounce back as analysts downplay the Toshiba threat",
-     "url": "https://www.marketwatch.com/story/western-digital-and-seagate-shares-bounce-back-as-analysts-downplay-the-toshiba-threat-4979dbff?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-05T17:34:00Z",
-     "image": "https://images.mktw.net/im-47691818"
     },
     {
      "title": "Brazilian stocks jump as Bolsonaro now seen as heavy favorite to win presidency",
@@ -144,6 +144,54 @@
      "image": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2026/10/LSE_2026_geoeconomics-risk_crosignani_460_1a8ed1.jpg?quality=80&w=460"
     }
    ]
+  },
+  {
+   "id": "africa",
+   "label": "Nigeria & Africa",
+   "items": [
+    {
+     "title": "FG, Lagos begin 24/7 power pilot with joint technical committee",
+     "url": "https://nairametrics.com/2026/10/05/fg-lagos-begin-24-7-power-pilot-with-joint-technical-committee/",
+     "source": "Nairametrics",
+     "published": "2026-10-05T20:21:11Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/Power-Minister-Tegbe-and-Lagos-Governor-Sanwo-olu.jpeg"
+    },
+    {
+     "title": "NGX slips 0.06% as Nestlé, insurers drag market lower",
+     "url": "https://nairametrics.com/2026/10/05/ngx-slips-0-06-as-nestle-insurers-drag-market-lower/",
+     "source": "Nairametrics",
+     "published": "2026-10-05T19:42:09Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/stock-drop-image.webp"
+    },
+    {
+     "title": "Seven-Up Bottling Company advances community wellbeing",
+     "url": "https://www.premiumtimesng.com/business/business-news/914755-seven-up-bottling-company-advances-community-wellbeing.html",
+     "source": "Premium Times",
+     "published": "2026-10-05T18:57:18Z",
+     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/10/WhatsApp-Image-2026-10-05-at-7.36.04-PM-2.jpeg?fit=1080%2C720&ssl=1"
+    },
+    {
+     "title": "NNPC’s Federation receivables fall to ₦11.2 trillion after energy security costs offset",
+     "url": "https://www.premiumtimesng.com/business/business-news/914712-nnpcs-federation-receivables-fall-to-%e2%82%a611-2-trillion-after-energy-security-costs-offset.html",
+     "source": "Premium Times",
+     "published": "2026-10-05T17:20:28Z",
+     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2024/09/NNPCL-Trucks.jpeg?fit=600%2C303&ssl=1"
+    },
+    {
+     "title": "Africa's Top Banks 2026: the development banks",
+     "url": "https://african.business/2026/10/finance-services/africas-top-banks-2026-the-development-banks",
+     "source": "African Business",
+     "published": "2026-10-05T14:01:21Z",
+     "image": "https://african.business/wp-content/uploads/2026/10/000_48JU9KD-scaled.jpg"
+    },
+    {
+     "title": "Kenya: ‘If we can do a refinery, we can do anything,’ says James Mwangi",
+     "url": "https://www.theafricareport.com/432276/kenya-if-we-can-do-a-refinery-we-can-do-anything-says-james-mwangi/",
+     "source": "The Africa Report",
+     "published": "2026-10-05T14:00:00Z",
+     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=2560,height=1707,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2025/10/13/afp__20220613__32ce7ag__v1__highres__icoastafricaeconomypolitics-scaled.jpg"
+    }
+   ]
   }
  ],
  "sources": [
@@ -174,8 +222,8 @@
    "items": 300,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-04T17:11:12Z",
-   "oldest": "2025-12-03T19:26:16Z"
+   "newest": "2026-10-05T19:31:48Z",
+   "oldest": "2025-12-03T20:06:58Z"
   },
   {
    "source": "CNBC",
@@ -194,8 +242,8 @@
    "items": 6,
    "skipped": 4,
    "undated": 0,
-   "newest": "2026-10-05T19:18:00Z",
-   "oldest": "2026-10-05T15:45:00Z"
+   "newest": "2026-10-05T20:14:00Z",
+   "oldest": "2026-10-05T17:02:00Z"
   },
   {
    "source": "CNBC",
@@ -266,6 +314,64 @@
    "undated": 0,
    "newest": "2026-10-05T11:00:00Z",
    "oldest": "2025-10-06T11:00:00Z"
+  },
+  {
+   "source": "Nairametrics",
+   "feed": "https://nairametrics.com/feed/",
+   "ok": true,
+   "items": 20,
+   "skipped": 0,
+   "undated": 0,
+   "newest": "2026-10-05T20:21:11Z",
+   "oldest": "2026-10-05T11:11:03Z"
+  },
+  {
+   "source": "BusinessDay",
+   "feed": "https://businessday.ng/category/economy/feed/",
+   "ok": false,
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "source": "Premium Times",
+   "feed": "https://www.premiumtimesng.com/business/feed",
+   "ok": true,
+   "items": 15,
+   "skipped": 0,
+   "undated": 0,
+   "newest": "2026-10-05T18:57:18Z",
+   "oldest": "2026-09-30T22:01:27Z"
+  },
+  {
+   "source": "The Guardian Nigeria",
+   "feed": "https://guardian.ng/category/business-services/feed/",
+   "ok": false,
+   "error": "HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "CNBC Africa",
+   "feed": "https://www.cnbcafrica.com/feed/",
+   "ok": false,
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "source": "African Business",
+   "feed": "https://african.business/feed",
+   "ok": true,
+   "items": 25,
+   "skipped": 0,
+   "undated": 0,
+   "newest": "2026-10-05T14:01:21Z",
+   "oldest": "2026-09-29T10:35:30Z"
+  },
+  {
+   "source": "The Africa Report",
+   "feed": "https://www.theafricareport.com/feed/",
+   "ok": true,
+   "items": 10,
+   "skipped": 0,
+   "undated": 0,
+   "newest": "2026-10-05T14:00:00Z",
+   "oldest": "2026-10-03T07:00:00Z"
   }
  ],
  "first_seen": {
