@@ -1,0 +1,184 @@
+"""
+update_news.py
+Purpose : Refresh the "Economy & markets" headlines on the Home page.
+          Reads a fixed list of publisher RSS/Atom feeds, keeps each item's
+          headline, link, source and publication time (never article text),
+          and writes the newest items per category to news.json, which
+          news.js renders on index.html.
+Inputs  : the FEEDS list below; the previous news.json (if any), used to keep
+          a stable first-seen time for items whose feed carries no date.
+Outputs : news.json at the repository root, rewritten only when the set of
+          headlines changes, so the scheduled workflow commits only real updates.
+Depends : Python 3.9+, feedparser (pip install feedparser).
+Run by  : .github/workflows/news.yml (every three hours, on demand, and when
+          this script or the workflow changes).
+"""
+from __future__ import annotations
+
+import calendar
+import html
+import json
+import re
+import sys
+import time
+import urllib.request
+from datetime import datetime, timezone
+from pathlib import Path
+
+import feedparser
+
+# ---------------------------------------------------------------------------
+# Configuration
+# ---------------------------------------------------------------------------
+OUT = Path(__file__).resolve().parent.parent / "news.json"
+USER_AGENT = "Mozilla/5.0 (compatible; muizolasupo.com headline reader; +https://muizolasupo.com)"
+TIMEOUT_S = 20            # per-feed network timeout
+PER_CATEGORY = 6          # headlines shown per tab
+PER_SOURCE_FIRST_PASS = 2 # variety: at most this many per source before back-filling
+MAX_TITLE = 170           # characters; longer headlines are trimmed at a word boundary
+
+# Category id -> (tab label, maximum item age in days)
+CATEGORIES = {
+    "economy": ("Economy", 10),
+    "markets": ("Markets", 4),
+    "policy":  ("Policy & research", 45),
+}
+
+# (source shown on the site, feed URL, category id)
+FEEDS = [
+    ("NPR",                      "https://feeds.npr.org/1017/rss.xml",                                "economy"),
+    ("Marketplace",              "https://www.marketplace.org/feed/",                                 "economy"),
+    ("PBS NewsHour",             "https://www.pbs.org/newshour/feeds/rss/economy",                    "economy"),
+    ("The Economist",            "https://www.economist.com/finance-and-economics/rss.xml",           "economy"),
+    ("MarketWatch",              "https://feeds.content.dowjones.io/public/rss/mw_topstories",        "markets"),
+    ("MarketWatch",              "https://feeds.content.dowjones.io/public/rss/mw_realtimeheadlines", "markets"),
+    ("Yahoo Finance",            "https://finance.yahoo.com/news/rssindex",                           "markets"),
+    ("Federal Reserve",          "https://www.federalreserve.gov/feeds/press_monetary.xml",           "policy"),
+    ("Federal Reserve",          "https://www.federalreserve.gov/feeds/speeches.xml",                 "policy"),
+    ("BEA",                      "https://apps.bea.gov/rss/rss.xml",                                  "policy"),
+    ("NBER",                     "https://www.nber.org/rss/new.xml",                                  "policy"),
+    ("Liberty Street Economics", "https://libertystreeteconomics.newyorkfed.org/feed/",               "policy"),
+    ("IMF",                      "https://www.imf.org/en/News/RSS?Language=ENG",                      "policy"),
+]
+
+
+# ---------------------------------------------------------------------------
+# Helpers
+# ---------------------------------------------------------------------------
+def clean_title(raw: str) -> str:
+    """Strip markup and entities, collapse whitespace, trim very long headlines."""
+    text = html.unescape(re.sub(r"<[^>]+>", " ", raw or ""))
+    text = re.sub(r"\s+", " ", text).strip()
+    if len(text) > MAX_TITLE:
+        text = text[:MAX_TITLE].rsplit(" ", 1)[0].rstrip(",;:") + "…"
+    return text
+
+
+def norm_key(title: str) -> str:
+    """Key used to drop the same story syndicated under two feeds."""
+    return re.sub(r"[^a-z0-9]+", " ", title.lower()).strip()
+
+
+def iso(ts: float) -> str:
+    return datetime.fromtimestamp(ts, tz=timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def entry_time(entry) -> float | None:
+    """Publication (or update) time as a UTC epoch, if the feed provides one."""
+    for key in ("published_parsed", "updated_parsed", "created_parsed"):
+        st = entry.get(key)
+        if st:
+            return float(calendar.timegm(st))  # feedparser normalises to UTC
+    return None
+
+
+def fetch(url: str) -> bytes:
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT,
+                                               "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.5"})
+    with urllib.request.urlopen(req, timeout=TIMEOUT_S) as resp:
+        return resp.read()
+
+
+def load_previous() -> dict:
+    try:
+        return json.loads(OUT.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+# ---------------------------------------------------------------------------
+# Main
+# ---------------------------------------------------------------------------
+def main() -> int:
+    now = time.time()
+    previous = load_previous()
+    # First-seen times of earlier headlines, so undated items keep a stable age.
+    seen_before = {it["url"]: it["published"]
+                   for cat in previous.get("categories", []) for it in cat.get("items", [])}
+
+    pools: dict[str, list[dict]] = {c: [] for c in CATEGORIES}
+    status = []
+    for source, url, cat in FEEDS:
+        try:
+            parsed = feedparser.parse(fetch(url))
+            if parsed.bozo and not parsed.entries:
+                raise ValueError(f"unreadable feed ({parsed.bozo_exception})")
+            kept = 0
+            for e in parsed.entries:
+                title, link = clean_title(e.get("title", "")), (e.get("link") or "").strip()
+                if not title or not link.startswith(("https://", "http://")):
+                    continue
+                ts = entry_time(e)
+                published = iso(ts) if ts else seen_before.get(link, iso(now))
+                pools[cat].append({"title": title, "url": link, "source": source, "published": published})
+                kept += 1
+            status.append({"source": source, "feed": url, "ok": True, "items": kept})
+            print(f"ok    {kept:3d}  {source:26s} {url}")
+        except Exception as exc:  # one failing publisher must not stop the others
+            status.append({"source": source, "feed": url, "ok": False, "error": str(exc)[:160]})
+            print(f"FAIL       {source:26s} {url}  ({exc})")
+
+    if not any(s["ok"] for s in status):
+        print("Every feed failed; keeping the previous news.json.")
+        return 0
+
+    categories = []
+    for cat, (label, max_age_days) in CATEGORIES.items():
+        cutoff = now - max_age_days * 86400
+        items = sorted(pools[cat], key=lambda it: it["published"], reverse=True)
+        fresh, keys, urls = [], set(), set()
+        for it in items:  # drop stale items and duplicates
+            ts = calendar.timegm(time.strptime(it["published"], "%Y-%m-%dT%H:%M:%SZ"))
+            k = norm_key(it["title"])
+            if ts < cutoff or ts > now + 3600 or k in keys or it["url"] in urls:
+                continue
+            keys.add(k); urls.add(it["url"]); fresh.append(it)
+        # First pass caps each source for variety; second pass back-fills.
+        chosen, per_source = [], {}
+        for it in fresh:
+            if per_source.get(it["source"], 0) < PER_SOURCE_FIRST_PASS:
+                chosen.append(it); per_source[it["source"]] = per_source.get(it["source"], 0) + 1
+            if len(chosen) == PER_CATEGORY:
+                break
+        for it in fresh:
+            if len(chosen) == PER_CATEGORY:
+                break
+            if it not in chosen:
+                chosen.append(it)
+        chosen.sort(key=lambda it: it["published"], reverse=True)
+        # Keep the previous headlines for a tab whose feeds all failed this run.
+        if not chosen:
+            chosen = next((c["items"] for c in previous.get("categories", []) if c.get("id") == cat), [])
+        categories.append({"id": cat, "label": label, "items": chosen})
+
+    if categories == previous.get("categories"):  # source status alone never forces a commit
+        print("No change in headlines.")
+        return 0
+    OUT.write_text(json.dumps({"updated": iso(now), "categories": categories, "sources": status},
+                              ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    print(f"Wrote {OUT.name}: " + ", ".join(f"{c['label']} {len(c['items'])}" for c in categories))
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
