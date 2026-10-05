@@ -44,21 +44,26 @@ CATEGORIES = {
     "policy":  ("Policy & research", 45),
 }
 
-# (source shown on the site, feed URL, category id)
+# Headlines written in the first person singular are personal-finance advice
+# columns ("I'm 67 and ...", "My wife ..."), not market news; they are skipped
+# for the feeds that carry them.
+FIRST_PERSON = re.compile(r"(?<![\w’'])(I|I’m|I'm|I’ve|I've|I’d|I'd|I’ll|I'll|[Mm]y|me)(?![\w’'])")
+
+# (source shown on the site, feed URL, category id, headline pattern to skip or None)
 FEEDS = [
-    ("NPR",                      "https://feeds.npr.org/1017/rss.xml",                                "economy"),
-    ("Marketplace",              "https://www.marketplace.org/feed/",                                 "economy"),
-    ("PBS NewsHour",             "https://www.pbs.org/newshour/feeds/rss/economy",                    "economy"),
-    ("The Economist",            "https://www.economist.com/finance-and-economics/rss.xml",           "economy"),
-    ("MarketWatch",              "https://feeds.content.dowjones.io/public/rss/mw_topstories",        "markets"),
-    ("MarketWatch",              "https://feeds.content.dowjones.io/public/rss/mw_realtimeheadlines", "markets"),
-    ("Yahoo Finance",            "https://finance.yahoo.com/news/rssindex",                           "markets"),
-    ("Federal Reserve",          "https://www.federalreserve.gov/feeds/press_monetary.xml",           "policy"),
-    ("Federal Reserve",          "https://www.federalreserve.gov/feeds/speeches.xml",                 "policy"),
-    ("BEA",                      "https://apps.bea.gov/rss/rss.xml",                                  "policy"),
-    ("NBER",                     "https://www.nber.org/rss/new.xml",                                  "policy"),
-    ("Liberty Street Economics", "https://libertystreeteconomics.newyorkfed.org/feed/",               "policy"),
-    ("IMF",                      "https://www.imf.org/en/News/RSS?Language=ENG",                      "policy"),
+    ("NPR",                      "https://feeds.npr.org/1017/rss.xml",                                "economy", None),
+    ("PBS NewsHour",             "https://www.pbs.org/newshour/feeds/rss/economy",                    "economy", None),
+    ("The Economist",            "https://www.economist.com/finance-and-economics/rss.xml",           "economy", None),
+    ("CNBC",                     "https://www.cnbc.com/id/20910258/device/rss/rss.html",              "economy", None),
+    ("MarketWatch",              "https://feeds.content.dowjones.io/public/rss/mw_topstories",        "markets", FIRST_PERSON),
+    ("MarketWatch",              "https://feeds.content.dowjones.io/public/rss/mw_realtimeheadlines", "markets", FIRST_PERSON),
+    ("Yahoo Finance",            "https://finance.yahoo.com/news/rssindex",                           "markets", FIRST_PERSON),
+    ("Federal Reserve",          "https://www.federalreserve.gov/feeds/press_monetary.xml",           "policy",  None),
+    ("Federal Reserve",          "https://www.federalreserve.gov/feeds/speeches.xml",                 "policy",  None),
+    ("BEA",                      "https://apps.bea.gov/rss/rss.xml",                                  "policy",  None),
+    ("BLS",                      "https://www.bls.gov/feed/bls_latest.rss",                           "policy",  None),
+    ("NBER",                     "https://www.nber.org/rss/new.xml",                                  "policy",  None),
+    ("Liberty Street Economics", "https://libertystreeteconomics.newyorkfed.org/feed/",               "policy",  None),
 ]
 
 
@@ -112,28 +117,43 @@ def load_previous() -> dict:
 def main() -> int:
     now = time.time()
     previous = load_previous()
-    # First-seen times of earlier headlines, so undated items keep a stable age.
-    seen_before = {it["url"]: it["published"]
-                   for cat in previous.get("categories", []) for it in cat.get("items", [])}
+    # First-seen times for items whose feed gives no date (e.g. NBER's new papers),
+    # carried between runs so such items age normally instead of looking new every run.
+    old_first_seen = dict(previous.get("first_seen", {}))
+    old_first_seen.update({it["url"]: it["published"]
+                           for cat in previous.get("categories", []) for it in cat.get("items", [])
+                           if it["url"] not in old_first_seen})
+    first_seen: dict[str, str] = {}
 
     pools: dict[str, list[dict]] = {c: [] for c in CATEGORIES}
     status = []
-    for source, url, cat in FEEDS:
+    for source, url, cat, skip in FEEDS:
         try:
             parsed = feedparser.parse(fetch(url))
             if parsed.bozo and not parsed.entries:
                 raise ValueError(f"unreadable feed ({parsed.bozo_exception})")
-            kept = 0
+            kept = skipped = undated = 0
+            dates = []
             for e in parsed.entries:
                 title, link = clean_title(e.get("title", "")), (e.get("link") or "").strip()
                 if not title or not link.startswith(("https://", "http://")):
                     continue
+                if skip is not None and skip.search(title):
+                    skipped += 1
+                    continue
                 ts = entry_time(e)
-                published = iso(ts) if ts else seen_before.get(link, iso(now))
+                if ts:
+                    published = iso(ts)
+                else:
+                    undated += 1
+                    published = first_seen[link] = old_first_seen.get(link, iso(now))
+                dates.append(published)
                 pools[cat].append({"title": title, "url": link, "source": source, "published": published})
                 kept += 1
-            status.append({"source": source, "feed": url, "ok": True, "items": kept})
-            print(f"ok    {kept:3d}  {source:26s} {url}")
+            # Diagnostics, visible in news.json and the workflow log.
+            status.append({"source": source, "feed": url, "ok": True, "items": kept, "skipped": skipped,
+                           "undated": undated, "newest": max(dates, default=None), "oldest": min(dates, default=None)})
+            print(f"ok    {kept:3d}  {source:26s} newest {max(dates, default='-')}  skipped {skipped}  undated {undated}")
         except Exception as exc:  # one failing publisher must not stop the others
             status.append({"source": source, "feed": url, "ok": False, "error": str(exc)[:160]})
             print(f"FAIL       {source:26s} {url}  ({exc})")
@@ -171,10 +191,12 @@ def main() -> int:
             chosen = next((c["items"] for c in previous.get("categories", []) if c.get("id") == cat), [])
         categories.append({"id": cat, "label": label, "items": chosen})
 
-    if categories == previous.get("categories"):  # source status alone never forces a commit
+    # Source status alone never forces a commit; headlines or first-seen times do.
+    if categories == previous.get("categories") and first_seen == previous.get("first_seen", {}):
         print("No change in headlines.")
         return 0
-    OUT.write_text(json.dumps({"updated": iso(now), "categories": categories, "sources": status},
+    OUT.write_text(json.dumps({"updated": iso(now), "categories": categories, "sources": status,
+                               "first_seen": first_seen},
                               ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"Wrote {OUT.name}: " + ", ".join(f"{c['label']} {len(c['items'])}" for c in categories))
     return 0
