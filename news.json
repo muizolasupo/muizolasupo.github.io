@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05T19:03:33Z",
+ "updated": "2026-10-05T19:04:54Z",
  "categories": [
   {
    "id": "economy",
@@ -72,16 +72,16 @@
      "published": "2026-10-05T17:02:00Z"
     },
     {
-     "title": "‘The pain was excruciating’: A friend in her 80s fell down her basement stairs. Could it have been avoided?",
-     "url": "https://www.marketwatch.com/story/the-pain-was-excruciating-a-friend-in-her-80s-fell-down-her-basement-stairs-could-it-have-been-avoided-ce105db6?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-05T16:00:00Z"
+     "title": "Brazilian stocks jump as Bolsonaro now seen as heavy favorite to win presidency",
+     "url": "https://www.cnbc.com/2026/10/05/brazilian-stocks-jump-bolsonaro-now-heavy-favorite-to-win-presidency.html",
+     "source": "CNBC",
+     "published": "2026-10-05T15:47:42Z"
     },
     {
-     "title": "SpaceX’s stock could actually be a bargain, according to this metric",
-     "url": "https://www.marketwatch.com/story/spacexs-stock-could-actually-be-a-bargain-according-to-this-metric-ac3ddf45?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-05T15:45:00Z"
+     "title": "Nvidia's $6 trillion milestone looms. Here's when options traders see it happening",
+     "url": "https://www.cnbc.com/2026/10/05/nvidias-6-trillion-milestone-looms-heres-when-options-traders-see-it-happening.html",
+     "source": "CNBC",
+     "published": "2026-10-05T13:56:58Z"
     }
    ]
   },
@@ -90,13 +90,13 @@
    "label": "Policy & research",
    "items": [
     {
-     "title": "Crowding Out Temptation: Experimental Evidence on Savings and Health Behaviors in Kenya -- by Harsha Thirumurthy, Elizabeth Bair, Dean Yang, Teniola Egbe, Benard Ayieko…",
+     "title": "Crowding Out Temptation: Experimental Evidence on Savings and Health Behaviors in Kenya",
      "url": "https://www.nber.org/papers/w35833#fromrss",
      "source": "NBER",
      "published": "2026-10-05T19:03:33Z"
     },
     {
-     "title": "A Framework for Integrating Climate Goals into Trade Agreements -- by Farid Farrokhi, Ahmad Lashkaripour, Homa Taheri",
+     "title": "A Framework for Integrating Climate Goals into Trade Agreements",
      "url": "https://www.nber.org/papers/w35834#fromrss",
      "source": "NBER",
      "published": "2026-10-05T19:03:33Z"
@@ -106,12 +106,6 @@
      "url": "https://libertystreeteconomics.newyorkfed.org/2026/10/insured-but-still-on-the-hook-who-bears-the-most-risk-in-homeowners-insurance/",
      "source": "Liberty Street Economics",
      "published": "2026-10-05T11:00:00Z"
-    },
-    {
-     "title": "Major Economic Indicators Latest Numbers",
-     "url": "https://www.bls.gov/bls/",
-     "source": "BLS",
-     "published": "2026-10-02T12:32:11Z"
     },
     {
      "title": "Bowman, Modernizing Financial Regulation: Initial Observations from eSLR",
@@ -124,6 +118,12 @@
      "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
      "source": "Federal Reserve",
      "published": "2026-10-01T17:30:00Z"
+    },
+    {
+     "title": "Navigating Geoeconomic Risk in the U.S. Stock Market",
+     "url": "https://libertystreeteconomics.newyorkfed.org/2026/10/navigating-geoeconomic-risk-in-the-u-s-stock-market/",
+     "source": "Liberty Street Economics",
+     "published": "2026-10-01T11:00:00Z"
     }
    ]
   }
@@ -173,31 +173,31 @@
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 6,
-   "skipped": 4,
+   "items": 5,
+   "skipped": 5,
    "undated": 0,
    "newest": "2026-10-05T17:54:00Z",
    "oldest": "2026-10-05T15:45:00Z"
   },
   {
-   "source": "MarketWatch",
-   "feed": "https://feeds.content.dowjones.io/public/rss/mw_realtimeheadlines",
+   "source": "CNBC",
+   "feed": "https://www.cnbc.com/id/10000664/device/rss/rss.html",
    "ok": true,
-   "items": 10,
-   "skipped": 0,
+   "items": 29,
+   "skipped": 1,
    "undated": 0,
-   "newest": "2025-06-11T07:09:00Z",
-   "oldest": "2024-02-27T12:40:00Z"
+   "newest": "2026-10-05T15:47:42Z",
+   "oldest": "2026-09-24T04:55:59Z"
   },
   {
-   "source": "Yahoo Finance",
-   "feed": "https://finance.yahoo.com/news/rssindex",
+   "source": "CNBC",
+   "feed": "https://www.cnbc.com/id/15839069/device/rss/rss.html",
    "ok": true,
-   "items": 49,
+   "items": 30,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-09-23T06:00:41Z",
-   "oldest": "2024-11-20T18:16:32Z"
+   "newest": "2026-10-05T13:56:58Z",
+   "oldest": "2026-09-05T12:20:42Z"
   },
   {
    "source": "Federal Reserve",
@@ -228,16 +228,6 @@
    "undated": 0,
    "newest": "2026-09-30T12:31:00Z",
    "oldest": "2013-04-18T12:30:00Z"
-  },
-  {
-   "source": "BLS",
-   "feed": "https://www.bls.gov/feed/bls_latest.rss",
-   "ok": true,
-   "items": 1,
-   "skipped": 0,
-   "undated": 0,
-   "newest": "2026-10-02T12:32:11Z",
-   "oldest": "2026-10-02T12:32:11Z"
   },
   {
    "source": "NBER",
