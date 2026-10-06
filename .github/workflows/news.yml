@@ -1,6 +1,6 @@
 # Refreshes the Home page "Economy & markets" section: headlines (news.json,
-# scripts/update_news.py) and economic signals from FRED (signals.json,
-# scripts/update_signals.py). Runs every three hours, on demand, and when either
+# scripts/update_news.py), economic signals (signals.json, scripts/update_signals.py)
+# and U.S./NGX stock prices for the bubble maps (markets.json, scripts/update_markets.py). Runs every three hours, on demand, and when either
 # script changes; commits only files whose content changed. Each commit
 # redeploys GitHub Pages, so the site shows the new data.
 name: Update news headlines
@@ -14,6 +14,7 @@ on:
     paths:
       - scripts/update_news.py
       - scripts/update_signals.py
+      - scripts/update_markets.py
       - .github/workflows/news.yml
 
 permissions:
@@ -45,9 +46,13 @@ jobs:
         run: python scripts/update_signals.py
         continue-on-error: true
 
+      - name: Fetch stock market data (U.S. and NGX)
+        run: python scripts/update_markets.py
+        continue-on-error: true
+
       - name: Commit data files that changed
         run: |
-          for f in news.json signals.json; do [ -f "$f" ] && git add "$f"; done
+          for f in news.json signals.json markets.json; do [ -f "$f" ] && git add "$f"; done
           if git diff --cached --quiet; then
             echo "No data changed; nothing to commit."
             exit 0
