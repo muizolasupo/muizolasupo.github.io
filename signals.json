@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05T23:59:59Z",
+ "updated": "2026-10-06T00:16:38Z",
  "panels": [
   {
    "id": "us",
@@ -11,6 +11,7 @@
       {
        "id": "DFF",
        "label": "Fed funds rate",
+       "short": "Fed funds",
        "sub": "Effective, daily",
        "freq": "daily",
        "format": "pct2",
@@ -317,11 +318,13 @@
        ],
        "status": null,
        "source_name": "FRED",
-       "source_url": "https://fred.stlouisfed.org/series/DFF"
+       "source_url": "https://fred.stlouisfed.org/series/DFF",
+       "move_z": 0.0
       },
       {
        "id": "DGS2",
        "label": "2-year Treasury yield",
+       "short": "2Y yield",
        "sub": "Constant maturity",
        "freq": "daily",
        "format": "pct2",
@@ -536,11 +539,13 @@
        ],
        "status": null,
        "source_name": "FRED",
-       "source_url": "https://fred.stlouisfed.org/series/DGS2"
+       "source_url": "https://fred.stlouisfed.org/series/DGS2",
+       "move_z": 1.28
       },
       {
        "id": "DGS10",
        "label": "10-year Treasury yield",
+       "short": "10Y yield",
        "sub": "Constant maturity",
        "freq": "daily",
        "format": "pct2",
@@ -755,11 +760,13 @@
        ],
        "status": null,
        "source_name": "FRED",
-       "source_url": "https://fred.stlouisfed.org/series/DGS10"
+       "source_url": "https://fred.stlouisfed.org/series/DGS10",
+       "move_z": 1.14
       },
       {
        "id": "T10Y2Y",
        "label": "Yield curve",
+       "short": "10Y−2Y",
        "sub": "10-year minus 2-year",
        "freq": "daily",
        "format": "bp",
@@ -974,7 +981,8 @@
        ],
        "status": "Positively sloped",
        "source_name": "FRED",
-       "source_url": "https://fred.stlouisfed.org/series/T10Y2Y"
+       "source_url": "https://fred.stlouisfed.org/series/T10Y2Y",
+       "move_z": 0.74
       }
      ]
     },
@@ -984,6 +992,7 @@
       {
        "id": "CPIAUCSL",
        "label": "CPI inflation",
+       "short": "CPI",
        "sub": "12-month change",
        "freq": "monthly",
        "format": "pct1",
@@ -1130,11 +1139,13 @@
        ],
        "status": null,
        "source_name": "FRED",
-       "source_url": "https://fred.stlouisfed.org/series/CPIAUCSL"
+       "source_url": "https://fred.stlouisfed.org/series/CPIAUCSL",
+       "move_z": 0.16
       },
       {
        "id": "PCEPILFE",
        "label": "Core PCE inflation",
+       "short": "Core PCE",
        "sub": "12-month change; Fed target 2%",
        "freq": "monthly",
        "format": "pct1",
@@ -1285,11 +1296,13 @@
        ],
        "status": "+1.0 pt vs 2% target",
        "source_name": "FRED",
-       "source_url": "https://fred.stlouisfed.org/series/PCEPILFE"
+       "source_url": "https://fred.stlouisfed.org/series/PCEPILFE",
+       "move_z": 0.24
       },
       {
        "id": "T10YIE",
        "label": "10-year breakeven inflation",
+       "short": "Breakeven",
        "sub": "Market-implied",
        "freq": "daily",
        "format": "pct2",
@@ -1504,11 +1517,13 @@
        ],
        "status": null,
        "source_name": "FRED",
-       "source_url": "https://fred.stlouisfed.org/series/T10YIE"
+       "source_url": "https://fred.stlouisfed.org/series/T10YIE",
+       "move_z": 0.0
       },
       {
        "id": "DCOILWTICO",
        "label": "WTI crude oil",
+       "short": "WTI oil",
        "sub": "Spot, dollars per barrel",
        "freq": "daily",
        "format": "usd2",
@@ -1719,7 +1734,8 @@
        ],
        "status": null,
        "source_name": "FRED",
-       "source_url": "https://fred.stlouisfed.org/series/DCOILWTICO"
+       "source_url": "https://fred.stlouisfed.org/series/DCOILWTICO",
+       "move_z": -1.06
       }
      ]
     },
@@ -1729,6 +1745,7 @@
       {
        "id": "A191RL1Q225SBEA",
        "label": "Real GDP growth",
+       "short": "GDP",
        "sub": "Quarterly, annualized",
        "freq": "quarterly",
        "format": "pct1",
@@ -1815,11 +1832,13 @@
        ],
        "status": null,
        "source_name": "FRED",
-       "source_url": "https://fred.stlouisfed.org/series/A191RL1Q225SBEA"
+       "source_url": "https://fred.stlouisfed.org/series/A191RL1Q225SBEA",
+       "move_z": -0.15
       },
       {
        "id": "UNRATE",
        "label": "Unemployment rate",
+       "short": "Unemployment",
        "sub": "Seasonally adjusted",
        "freq": "monthly",
        "format": "pct1",
@@ -1970,11 +1989,13 @@
        ],
        "status": null,
        "source_name": "FRED",
-       "source_url": "https://fred.stlouisfed.org/series/UNRATE"
+       "source_url": "https://fred.stlouisfed.org/series/UNRATE",
+       "move_z": 0.94
       },
       {
        "id": "ICSA",
        "label": "Initial jobless claims",
+       "short": "Jobless claims",
        "sub": "Weekly, seasonally adjusted",
        "freq": "weekly",
        "format": "k",
@@ -2193,11 +2214,13 @@
        ],
        "status": null,
        "source_name": "FRED",
-       "source_url": "https://fred.stlouisfed.org/series/ICSA"
+       "source_url": "https://fred.stlouisfed.org/series/ICSA",
+       "move_z": -0.1
       },
       {
        "id": "SAHMREALTIME",
        "label": "Sahm rule indicator",
+       "short": "Sahm rule",
        "sub": "Recession signal at 0.50",
        "freq": "monthly",
        "format": "num2",
@@ -2348,7 +2371,8 @@
        ],
        "status": "Below 0.50 threshold",
        "source_name": "FRED",
-       "source_url": "https://fred.stlouisfed.org/series/SAHMREALTIME"
+       "source_url": "https://fred.stlouisfed.org/series/SAHMREALTIME",
+       "move_z": 1.02
       }
      ]
     }
@@ -2364,6 +2388,7 @@
       {
        "id": "USDNGN",
        "label": "Naira per US dollar",
+       "short": "USD/NGN",
        "sub": "Daily market rate",
        "freq": "daily",
        "format": "ngn",
@@ -2594,11 +2619,13 @@
        ],
        "status": null,
        "source_name": "Currency API",
-       "source_url": "https://github.com/fawazahmed0/exchange-api"
+       "source_url": "https://github.com/fawazahmed0/exchange-api",
+       "move_z": -0.73
       },
       {
        "id": "NGA_INFL",
        "label": "Nigeria inflation",
+       "short": "NG inflation",
        "sub": "Annual average, consumer prices",
        "freq": "annual",
        "format": "pct1",
@@ -2653,11 +2680,13 @@
        ],
        "status": "IMF estimate",
        "source_name": "IMF",
-       "source_url": "https://www.imf.org/external/datamapper/PCPIPCH@WEO/NGA"
+       "source_url": "https://www.imf.org/external/datamapper/PCPIPCH@WEO/NGA",
+       "move_z": -1.18
       },
       {
        "id": "NGA_GDP",
        "label": "Nigeria real GDP growth",
+       "short": "NG growth",
        "sub": "Annual",
        "freq": "annual",
        "format": "pct1",
@@ -2712,11 +2741,13 @@
        ],
        "status": "IMF estimate",
        "source_name": "IMF",
-       "source_url": "https://www.imf.org/external/datamapper/NGDP_RPCH@WEO/NGA"
+       "source_url": "https://www.imf.org/external/datamapper/NGDP_RPCH@WEO/NGA",
+       "move_z": 0.02
       },
       {
        "id": "DCOILBRENTEU",
        "label": "Brent crude oil",
+       "short": "Brent",
        "sub": "Nigeria's export benchmark, $ per barrel",
        "freq": "daily",
        "format": "usd2",
@@ -2931,7 +2962,8 @@
        ],
        "status": null,
        "source_name": "FRED",
-       "source_url": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
+       "source_url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
+       "move_z": -1.56
       }
      ]
     },
@@ -2941,6 +2973,7 @@
       {
        "id": "WLD_GDP",
        "label": "World real GDP growth",
+       "short": "World GDP",
        "sub": "Annual",
        "freq": "annual",
        "format": "pct1",
@@ -2995,11 +3028,13 @@
        ],
        "status": "IMF estimate",
        "source_name": "IMF",
-       "source_url": "https://www.imf.org/external/datamapper/NGDP_RPCH@WEO/WEOWORLD"
+       "source_url": "https://www.imf.org/external/datamapper/NGDP_RPCH@WEO/WEOWORLD",
+       "move_z": -0.07
       },
       {
        "id": "PFOODINDEXM",
        "label": "Global food prices",
+       "short": "Food prices",
        "sub": "IMF index, 2016 = 100",
        "freq": "monthly",
        "format": "num1",
@@ -3146,11 +3181,13 @@
        ],
        "status": null,
        "source_name": "FRED",
-       "source_url": "https://fred.stlouisfed.org/series/PFOODINDEXM"
+       "source_url": "https://fred.stlouisfed.org/series/PFOODINDEXM",
+       "move_z": 0.51
       },
       {
        "id": "DEXUSEU",
        "label": "Euro",
+       "short": "EUR/USD",
        "sub": "US dollars per euro",
        "freq": "daily",
        "format": "fx4",
@@ -3365,11 +3402,13 @@
        ],
        "status": null,
        "source_name": "FRED",
-       "source_url": "https://fred.stlouisfed.org/series/DEXUSEU"
+       "source_url": "https://fred.stlouisfed.org/series/DEXUSEU",
+       "move_z": 0.84
       },
       {
        "id": "DEXCHUS",
        "label": "Chinese yuan",
+       "short": "USD/CNY",
        "sub": "Yuan per US dollar",
        "freq": "daily",
        "format": "fx4",
@@ -3584,7 +3623,8 @@
        ],
        "status": null,
        "source_name": "FRED",
-       "source_url": "https://fred.stlouisfed.org/series/DEXCHUS"
+       "source_url": "https://fred.stlouisfed.org/series/DEXCHUS",
+       "move_z": 0.0
       }
      ]
     }
