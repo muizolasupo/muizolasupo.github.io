@@ -1,52 +1,35 @@
 {
- "updated": "2026-10-06T00:44:42Z",
+ "updated": "2026-10-06T00:57:14Z",
  "boards": [
   {
    "id": "us",
    "title": "U.S. stocks",
    "source": "Finnhub",
    "source_url": "https://finnhub.io/",
+   "ranking": "market value",
    "date": "2026-10-05",
    "items": [
-    {
-     "symbol": "AAPL",
-     "name": "Apple",
-     "price": 332.89,
-     "prev": 333.69,
-     "change_pct": -0.24,
-     "date": "2026-10-05",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/aapl"
-    },
-    {
-     "symbol": "MSFT",
-     "name": "Microsoft",
-     "price": 525.18,
-     "prev": 517.53,
-     "change_pct": 1.48,
-     "date": "2026-10-05",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/msft"
-    },
     {
      "symbol": "NVDA",
      "name": "Nvidia",
      "price": 238.9,
      "prev": 233.95,
      "change_pct": 2.12,
+     "market_cap": 5757489924896.866,
      "date": "2026-10-05",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/nvda"
     },
     {
-     "symbol": "AMZN",
-     "name": "Amazon",
-     "price": 251.4,
-     "prev": 251.52,
-     "change_pct": -0.05,
+     "symbol": "AAPL",
+     "name": "Apple",
+     "price": 332.89,
+     "prev": 333.69,
+     "change_pct": -0.24,
+     "market_cap": 4858256511716.579,
      "date": "2026-10-05",
      "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/amzn"
+     "url": "https://www.nasdaq.com/market-activity/stocks/aapl"
     },
     {
      "symbol": "GOOGL",
@@ -54,16 +37,40 @@
      "price": 346.47,
      "prev": 343.5,
      "change_pct": 0.86,
+     "market_cap": 4237328100000.0005,
      "date": "2026-10-05",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/googl"
     },
     {
+     "symbol": "MSFT",
+     "name": "Microsoft",
+     "price": 525.18,
+     "prev": 517.53,
+     "change_pct": 1.48,
+     "market_cap": 3899748159266.389,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/msft"
+    },
+    {
+     "symbol": "AMZN",
+     "name": "Amazon",
+     "price": 251.4,
+     "prev": 251.52,
+     "change_pct": -0.05,
+     "market_cap": 2711679499577.638,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/amzn"
+    },
+    {
      "symbol": "META",
-     "name": "Meta Platforms",
+     "name": "Meta",
      "price": 741.9,
      "prev": 728.08,
      "change_pct": 1.9,
+     "market_cap": 1889994845153.8242,
      "date": "2026-10-05",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/meta"
@@ -74,6 +81,7 @@
      "price": 362.51,
      "prev": 355.14,
      "change_pct": 2.08,
+     "market_cap": 1730488640195.458,
      "date": "2026-10-05",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/avgo"
@@ -84,29 +92,10 @@
      "price": 378.73,
      "prev": 370.59,
      "change_pct": 2.2,
+     "market_cap": 1495812150577.7244,
      "date": "2026-10-05",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/tsla"
-    },
-    {
-     "symbol": "BRK.B",
-     "name": "Berkshire Hathaway",
-     "price": 504.26,
-     "prev": 502.65,
-     "change_pct": 0.32,
-     "date": "2026-10-05",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/brk-b"
-    },
-    {
-     "symbol": "JPM",
-     "name": "JPMorgan Chase",
-     "price": 332.38,
-     "prev": 332.38,
-     "change_pct": 0.0,
-     "date": "2026-10-05",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/jpm"
     },
     {
      "symbol": "LLY",
@@ -114,149 +103,10 @@
      "price": 1143.12,
      "prev": 1142.85,
      "change_pct": 0.02,
+     "market_cap": 1076084054482.5997,
      "date": "2026-10-05",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/lly"
-    },
-    {
-     "symbol": "V",
-     "name": "Visa",
-     "price": 369.71,
-     "prev": 360.66,
-     "change_pct": 2.51,
-     "date": "2026-10-05",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/v"
-    },
-    {
-     "symbol": "MA",
-     "name": "Mastercard",
-     "price": 564.59,
-     "prev": 552.26,
-     "change_pct": 2.23,
-     "date": "2026-10-05",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/ma"
-    },
-    {
-     "symbol": "XOM",
-     "name": "Exxon Mobil",
-     "price": 164,
-     "prev": 164.01,
-     "change_pct": -0.01,
-     "date": "2026-10-05",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/xom"
-    },
-    {
-     "symbol": "UNH",
-     "name": "UnitedHealth",
-     "price": 378.58,
-     "prev": 371.9,
-     "change_pct": 1.8,
-     "date": "2026-10-05",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/unh"
-    },
-    {
-     "symbol": "WMT",
-     "name": "Walmart",
-     "price": 105.07,
-     "prev": 104.26,
-     "change_pct": 0.78,
-     "date": "2026-10-05",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/wmt"
-    },
-    {
-     "symbol": "JNJ",
-     "name": "Johnson & Johnson",
-     "price": 252.93,
-     "prev": 256.03,
-     "change_pct": -1.21,
-     "date": "2026-10-05",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/jnj"
-    },
-    {
-     "symbol": "PG",
-     "name": "Procter & Gamble",
-     "price": 145.94,
-     "prev": 144.91,
-     "change_pct": 0.71,
-     "date": "2026-10-05",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/pg"
-    },
-    {
-     "symbol": "HD",
-     "name": "Home Depot",
-     "price": 281.15,
-     "prev": 282.85,
-     "change_pct": -0.6,
-     "date": "2026-10-05",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/hd"
-    },
-    {
-     "symbol": "COST",
-     "name": "Costco",
-     "price": 923.52,
-     "prev": 920.65,
-     "change_pct": 0.31,
-     "date": "2026-10-05",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/cost"
-    },
-    {
-     "symbol": "ORCL",
-     "name": "Oracle",
-     "price": 142.48,
-     "prev": 142.3,
-     "change_pct": 0.13,
-     "date": "2026-10-05",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/orcl"
-    },
-    {
-     "symbol": "NFLX",
-     "name": "Netflix",
-     "price": 67.5,
-     "prev": 67.06,
-     "change_pct": 0.66,
-     "date": "2026-10-05",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/nflx"
-    },
-    {
-     "symbol": "BAC",
-     "name": "Bank of America",
-     "price": 54,
-     "prev": 53.75,
-     "change_pct": 0.47,
-     "date": "2026-10-05",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/bac"
-    },
-    {
-     "symbol": "CVX",
-     "name": "Chevron",
-     "price": 206.47,
-     "prev": 206.69,
-     "change_pct": -0.11,
-     "date": "2026-10-05",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/cvx"
-    },
-    {
-     "symbol": "KO",
-     "name": "Coca-Cola",
-     "price": 86.51,
-     "prev": 85.65,
-     "change_pct": 1.0,
-     "date": "2026-10-05",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/ko"
     },
     {
      "symbol": "AMD",
@@ -264,29 +114,296 @@
      "price": 631.75,
      "prev": 633.91,
      "change_pct": -0.34,
+     "market_cap": 1031316022135.1182,
      "date": "2026-10-05",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/amd"
     },
     {
-     "symbol": "CRM",
-     "name": "Salesforce",
-     "price": 229.79,
-     "prev": 234.69,
-     "change_pct": -2.09,
+     "symbol": "BRK.B",
+     "name": "Berkshire Hathaway",
+     "price": 504.26,
+     "prev": 502.65,
+     "change_pct": 0.32,
+     "market_cap": 970022995911.7417,
      "date": "2026-10-05",
      "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/crm"
+     "url": "https://www.nasdaq.com/market-activity/stocks/brk-b"
     },
     {
-     "symbol": "PEP",
-     "name": "PepsiCo",
-     "price": 125.65,
-     "prev": 125.89,
-     "change_pct": -0.19,
+     "symbol": "WMT",
+     "name": "Walmart",
+     "price": 105.07,
+     "prev": 104.26,
+     "change_pct": 0.78,
+     "market_cap": 884142590000.0,
      "date": "2026-10-05",
      "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/pep"
+     "url": "https://www.nasdaq.com/market-activity/stocks/wmt"
+    },
+    {
+     "symbol": "JPM",
+     "name": "JPMorgan Chase",
+     "price": 332.38,
+     "prev": 332.38,
+     "change_pct": 0.0,
+     "market_cap": 883527968492.0001,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/jpm"
+    },
+    {
+     "symbol": "V",
+     "name": "Visa",
+     "price": 369.71,
+     "prev": 360.66,
+     "change_pct": 2.51,
+     "market_cap": 690266085918.9697,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/v"
+    },
+    {
+     "symbol": "XOM",
+     "name": "Exxon Mobil",
+     "price": 164,
+     "prev": 164.01,
+     "change_pct": -0.01,
+     "market_cap": 650632360000.0,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/xom"
+    },
+    {
+     "symbol": "INTC",
+     "name": "Intel",
+     "price": 116.19,
+     "prev": 119.33,
+     "change_pct": -2.63,
+     "market_cap": 614192603838.4341,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/intc"
+    },
+    {
+     "symbol": "JNJ",
+     "name": "Johnson & Johnson",
+     "price": 252.93,
+     "prev": 256.03,
+     "change_pct": -1.21,
+     "market_cap": 609535608890.3732,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/jnj"
+    },
+    {
+     "symbol": "MA",
+     "name": "Mastercard",
+     "price": 564.59,
+     "prev": 552.26,
+     "change_pct": 2.23,
+     "market_cap": 494586458696.91583,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/ma"
+    },
+    {
+     "symbol": "ABBV",
+     "name": "AbbVie",
+     "price": 265.76,
+     "prev": 262.82,
+     "change_pct": 1.12,
+     "market_cap": 469629109278.91876,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/abbv"
+    },
+    {
+     "symbol": "PLTR",
+     "name": "Palantir",
+     "price": 189.4,
+     "prev": 188.75,
+     "change_pct": 0.34,
+     "market_cap": 455139239323.74677,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/pltr"
+    },
+    {
+     "symbol": "CSCO",
+     "name": "Cisco",
+     "price": 112.82,
+     "prev": 112.2,
+     "change_pct": 0.55,
+     "market_cap": 444802616001.86316,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/csco"
+    },
+    {
+     "symbol": "ORCL",
+     "name": "Oracle",
+     "price": 142.48,
+     "prev": 142.3,
+     "change_pct": 0.13,
+     "market_cap": 430821926485.7899,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/orcl"
+    },
+    {
+     "symbol": "COST",
+     "name": "Costco",
+     "price": 923.52,
+     "prev": 920.65,
+     "change_pct": 0.31,
+     "market_cap": 409365019058.5104,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/cost"
+    },
+    {
+     "symbol": "CVX",
+     "name": "Chevron",
+     "price": 206.47,
+     "prev": 206.69,
+     "change_pct": -0.11,
+     "market_cap": 407937492790.01385,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/cvx"
+    },
+    {
+     "symbol": "CAT",
+     "name": "Caterpillar",
+     "price": 848.14,
+     "prev": 845.42,
+     "change_pct": 0.32,
+     "market_cap": 389868632732.48944,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/cat"
+    },
+    {
+     "symbol": "BAC",
+     "name": "Bank of America",
+     "price": 54,
+     "prev": 53.75,
+     "change_pct": 0.47,
+     "market_cap": 377608420898.7907,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/bac"
+    },
+    {
+     "symbol": "KO",
+     "name": "Coca-Cola",
+     "price": 86.51,
+     "prev": 85.65,
+     "change_pct": 1.0,
+     "market_cap": 372213505752.1067,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/ko"
+    },
+    {
+     "symbol": "MRK",
+     "name": "Merck",
+     "price": 139.54,
+     "prev": 144.3,
+     "change_pct": -3.3,
+     "market_cap": 344269136650.7518,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/mrk"
+    },
+    {
+     "symbol": "UNH",
+     "name": "UnitedHealth",
+     "price": 378.58,
+     "prev": 371.9,
+     "change_pct": 1.8,
+     "market_cap": 339811452218.4626,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/unh"
+    },
+    {
+     "symbol": "PG",
+     "name": "Procter & Gamble",
+     "price": 145.94,
+     "prev": 144.91,
+     "change_pct": 0.71,
+     "market_cap": 338970813263.6385,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/pg"
+    },
+    {
+     "symbol": "GE",
+     "name": "GE Aerospace",
+     "price": 306.34,
+     "prev": 309.56,
+     "change_pct": -1.04,
+     "market_cap": 317846893743.3479,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/ge"
+    },
+    {
+     "symbol": "MS",
+     "name": "Morgan Stanley",
+     "price": 190.19,
+     "prev": 190.31,
+     "change_pct": -0.06,
+     "market_cap": 298705997756.3161,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/ms"
+    },
+    {
+     "symbol": "PM",
+     "name": "Philip Morris",
+     "price": 189.53,
+     "prev": 187.46,
+     "change_pct": 1.1,
+     "market_cap": 295404032047.1088,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/pm"
+    },
+    {
+     "symbol": "NFLX",
+     "name": "Netflix",
+     "price": 67.5,
+     "prev": 67.06,
+     "change_pct": 0.66,
+     "market_cap": 281065935812.5187,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/nflx"
+    },
+    {
+     "symbol": "HD",
+     "name": "Home Depot",
+     "price": 281.15,
+     "prev": 282.85,
+     "change_pct": -0.6,
+     "market_cap": 280500447278.8105,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/hd"
+    },
+    {
+     "symbol": "TXN",
+     "name": "Texas Instruments",
+     "price": 294.9,
+     "prev": 293.8,
+     "change_pct": 0.37,
+     "market_cap": 269316729837.9915,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/txn"
     },
     {
      "symbol": "GS",
@@ -294,9 +411,153 @@
      "price": 893.46,
      "prev": 902.56,
      "change_pct": -1.01,
+     "market_cap": 260150013740.31622,
      "date": "2026-10-05",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/gs"
+    },
+    {
+     "symbol": "WFC",
+     "name": "Wells Fargo",
+     "price": 81.44,
+     "prev": 80.45,
+     "change_pct": 1.23,
+     "market_cap": 258340260000.0,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/wfc"
+    },
+    {
+     "symbol": "TMO",
+     "name": "Thermo Fisher",
+     "price": 676.76,
+     "prev": 654.8,
+     "change_pct": 3.35,
+     "market_cap": 250230167210.83893,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/tmo"
+    },
+    {
+     "symbol": "RTX",
+     "name": "RTX",
+     "price": 184.33,
+     "prev": 184.68,
+     "change_pct": -0.19,
+     "market_cap": 248432255229.15903,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/rtx"
+    },
+    {
+     "symbol": "LIN",
+     "name": "Linde",
+     "price": 482.38,
+     "prev": 479.48,
+     "change_pct": 0.6,
+     "market_cap": 222367616399.99603,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/lin"
+    },
+    {
+     "symbol": "AMGN",
+     "name": "Amgen",
+     "price": 402.98,
+     "prev": 403.04,
+     "change_pct": -0.01,
+     "market_cap": 217863895653.16965,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/amgn"
+    },
+    {
+     "symbol": "C",
+     "name": "Citigroup",
+     "price": 128.55,
+     "prev": 128.5,
+     "change_pct": 0.04,
+     "market_cap": 215634496472.37903,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/c"
+    },
+    {
+     "symbol": "IBM",
+     "name": "IBM",
+     "price": 221.58,
+     "prev": 222.64,
+     "change_pct": -0.48,
+     "market_cap": 208758139650.35657,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/ibm"
+    },
+    {
+     "symbol": "AXP",
+     "name": "American Express",
+     "price": 304.02,
+     "prev": 302.78,
+     "change_pct": 0.41,
+     "market_cap": 205307688962.5468,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/axp"
+    },
+    {
+     "symbol": "VZ",
+     "name": "Verizon",
+     "price": 45.85,
+     "prev": 45.92,
+     "change_pct": -0.15,
+     "market_cap": 190579545270.5814,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/vz"
+    },
+    {
+     "symbol": "QCOM",
+     "name": "Qualcomm",
+     "price": 180.79,
+     "prev": 184.87,
+     "change_pct": -2.21,
+     "market_cap": 189871779365.35345,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/qcom"
+    },
+    {
+     "symbol": "CRM",
+     "name": "Salesforce",
+     "price": 229.79,
+     "prev": 234.69,
+     "change_pct": -2.09,
+     "market_cap": 189117171967.0549,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/crm"
+    },
+    {
+     "symbol": "DE",
+     "name": "Deere",
+     "price": 682.2,
+     "prev": 687,
+     "change_pct": -0.7,
+     "market_cap": 183938445647.7066,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/de"
+    },
+    {
+     "symbol": "GILD",
+     "name": "Gilead",
+     "price": 144.63,
+     "prev": 144.74,
+     "change_pct": -0.08,
+     "market_cap": 179334709755.22986,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/gild"
     },
     {
      "symbol": "DIS",
@@ -304,9 +565,571 @@
      "price": 103.61,
      "prev": 102.19,
      "change_pct": 1.39,
+     "market_cap": 178902032910.8826,
      "date": "2026-10-05",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/dis"
+    },
+    {
+     "symbol": "TMUS",
+     "name": "T-Mobile US",
+     "price": 164.64,
+     "prev": 163.64,
+     "change_pct": 0.61,
+     "market_cap": 176604656645.8578,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/tmus"
+    },
+    {
+     "symbol": "BLK",
+     "name": "BlackRock",
+     "price": 1066.45,
+     "prev": 1059.63,
+     "change_pct": 0.64,
+     "market_cap": 173272733298.8269,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/blk"
+    },
+    {
+     "symbol": "ABT",
+     "name": "Abbott",
+     "price": 100.1,
+     "prev": 97.5,
+     "change_pct": 2.67,
+     "market_cap": 173211368408.02664,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/abt"
+    },
+    {
+     "symbol": "PEP",
+     "name": "PepsiCo",
+     "price": 125.65,
+     "prev": 125.89,
+     "change_pct": -0.19,
+     "market_cap": 171498613566.51047,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/pep"
+    },
+    {
+     "symbol": "SCHW",
+     "name": "Charles Schwab",
+     "price": 97.96,
+     "prev": 96.7,
+     "change_pct": 1.3,
+     "market_cap": 169405719174.86246,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/schw"
+    },
+    {
+     "symbol": "T",
+     "name": "AT&T",
+     "price": 24.24,
+     "prev": 24.3,
+     "change_pct": -0.25,
+     "market_cap": 166101825175.37778,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/t"
+    },
+    {
+     "symbol": "MCD",
+     "name": "McDonald's",
+     "price": 233.04,
+     "prev": 231.89,
+     "change_pct": 0.5,
+     "market_cap": 164908769947.27637,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/mcd"
+    },
+    {
+     "symbol": "UNP",
+     "name": "Union Pacific",
+     "price": 277.06,
+     "prev": 278.28,
+     "change_pct": -0.44,
+     "market_cap": 164594557443.5822,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/unp"
+    },
+    {
+     "symbol": "NEE",
+     "name": "NextEra Energy",
+     "price": 76.28,
+     "prev": 76.83,
+     "change_pct": -0.72,
+     "market_cap": 159118426341.33853,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/nee"
+    },
+    {
+     "symbol": "PFE",
+     "name": "Pfizer",
+     "price": 27.41,
+     "prev": 27.8,
+     "change_pct": -1.4,
+     "market_cap": 156228041957.46725,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/pfe"
+    },
+    {
+     "symbol": "DHR",
+     "name": "Danaher",
+     "price": 221.21,
+     "prev": 214.06,
+     "change_pct": 3.34,
+     "market_cap": 155507549864.14746,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/dhr"
+    },
+    {
+     "symbol": "COP",
+     "name": "ConocoPhillips",
+     "price": 128.4,
+     "prev": 126.75,
+     "change_pct": 1.3,
+     "market_cap": 154251738134.27692,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/cop"
+    },
+    {
+     "symbol": "BA",
+     "name": "Boeing",
+     "price": 192.72,
+     "prev": 193.56,
+     "change_pct": -0.43,
+     "market_cap": 152320103537.47675,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/ba"
+    },
+    {
+     "symbol": "ISRG",
+     "name": "Intuitive Surgical",
+     "price": 406.48,
+     "prev": 391.95,
+     "change_pct": 3.71,
+     "market_cap": 143600464470.23694,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/isrg"
+    },
+    {
+     "symbol": "UBER",
+     "name": "Uber",
+     "price": 69.48,
+     "prev": 68.11,
+     "change_pct": 2.01,
+     "market_cap": 141917082624.59198,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/uber"
+    },
+    {
+     "symbol": "NOW",
+     "name": "ServiceNow",
+     "price": 136.08,
+     "prev": 134.38,
+     "change_pct": 1.27,
+     "market_cap": 140706725112.87338,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/now"
+    },
+    {
+     "symbol": "BMY",
+     "name": "Bristol Myers Squibb",
+     "price": 58.81,
+     "prev": 61.15,
+     "change_pct": -3.83,
+     "market_cap": 120132048600.64154,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/bmy"
+    },
+    {
+     "symbol": "COF",
+     "name": "Capital One",
+     "price": 195.14,
+     "prev": 194.72,
+     "change_pct": 0.22,
+     "market_cap": 119715425060.55814,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/cof"
+    },
+    {
+     "symbol": "ACN",
+     "name": "Accenture",
+     "price": 195.05,
+     "prev": 198.9,
+     "change_pct": -1.94,
+     "market_cap": 119359310485.4065,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/acn"
+    },
+    {
+     "symbol": "BKNG",
+     "name": "Booking Holdings",
+     "price": 158.33,
+     "prev": 159.02,
+     "change_pct": -0.43,
+     "market_cap": 118966076678.78813,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/bkng"
+    },
+    {
+     "symbol": "LMT",
+     "name": "Lockheed Martin",
+     "price": 506.63,
+     "prev": 505.41,
+     "change_pct": 0.24,
+     "market_cap": 116925521673.635,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/lmt"
+    },
+    {
+     "symbol": "MO",
+     "name": "Altria",
+     "price": 67.88,
+     "prev": 67.35,
+     "change_pct": 0.79,
+     "market_cap": 113342213125.0839,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/mo"
+    },
+    {
+     "symbol": "MDT",
+     "name": "Medtronic",
+     "price": 87.97,
+     "prev": 86.38,
+     "change_pct": 1.84,
+     "market_cap": 112525750216.96504,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/mdt"
+    },
+    {
+     "symbol": "CVS",
+     "name": "CVS Health",
+     "price": 87.01,
+     "prev": 86.46,
+     "change_pct": 0.64,
+     "market_cap": 111283207836.85623,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/cvs"
+    },
+    {
+     "symbol": "SBUX",
+     "name": "Starbucks",
+     "price": 94.43,
+     "prev": 94.71,
+     "change_pct": -0.3,
+     "market_cap": 107650198959.0865,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/sbux"
+    },
+    {
+     "symbol": "LOW",
+     "name": "Lowe's",
+     "price": 179.5,
+     "prev": 180.8,
+     "change_pct": -0.72,
+     "market_cap": 100709197591.74501,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/low"
+    },
+    {
+     "symbol": "SO",
+     "name": "Southern Company",
+     "price": 83.79,
+     "prev": 83.72,
+     "change_pct": 0.08,
+     "market_cap": 96388920284.77174,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/so"
+    },
+    {
+     "symbol": "ADBE",
+     "name": "Adobe",
+     "price": 238.78,
+     "prev": 237.69,
+     "change_pct": 0.46,
+     "market_cap": 92935125869.74554,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/adbe"
+    },
+    {
+     "symbol": "EMR",
+     "name": "Emerson",
+     "price": 162.33,
+     "prev": 161.61,
+     "change_pct": 0.45,
+     "market_cap": 90547672360.72916,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/emr"
+    },
+    {
+     "symbol": "GD",
+     "name": "General Dynamics",
+     "price": 331.72,
+     "prev": 330.09,
+     "change_pct": 0.49,
+     "market_cap": 89749230051.7121,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/gd"
+    },
+    {
+     "symbol": "USB",
+     "name": "U.S. Bancorp",
+     "price": 57.27,
+     "prev": 57.51,
+     "change_pct": -0.42,
+     "market_cap": 89229607583.63278,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/usb"
+    },
+    {
+     "symbol": "DUK",
+     "name": "Duke Energy",
+     "price": 113.84,
+     "prev": 114.13,
+     "change_pct": -0.25,
+     "market_cap": 88761297390.69344,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/duk"
+    },
+    {
+     "symbol": "MMM",
+     "name": "3M",
+     "price": 163.19,
+     "prev": 161.89,
+     "change_pct": 0.8,
+     "market_cap": 84160740115.21762,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/mmm"
+    },
+    {
+     "symbol": "UPS",
+     "name": "UPS",
+     "price": 93.14,
+     "prev": 93.02,
+     "change_pct": 0.13,
+     "market_cap": 79241789984.38422,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/ups"
+    },
+    {
+     "symbol": "CMCSA",
+     "name": "Comcast",
+     "price": 21.57,
+     "prev": 21.57,
+     "change_pct": 0.0,
+     "market_cap": 76544088517.0,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/cmcsa"
+    },
+    {
+     "symbol": "INTU",
+     "name": "Intuit",
+     "price": 284.68,
+     "prev": 281.08,
+     "change_pct": 1.28,
+     "market_cap": 76076738690.79095,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/intu"
+    },
+    {
+     "symbol": "AMT",
+     "name": "American Tower",
+     "price": 162.26,
+     "prev": 162.2,
+     "change_pct": 0.04,
+     "market_cap": 75606676694.62343,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/amt"
+    },
+    {
+     "symbol": "MDLZ",
+     "name": "Mondelez",
+     "price": 58.49,
+     "prev": 58.19,
+     "change_pct": 0.52,
+     "market_cap": 74651252186.98213,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/mdlz"
+    },
+    {
+     "symbol": "GM",
+     "name": "General Motors",
+     "price": 80.23,
+     "prev": 78.27,
+     "change_pct": 2.5,
+     "market_cap": 70397933880.87645,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/gm"
+    },
+    {
+     "symbol": "TGT",
+     "name": "Target",
+     "price": 152.99,
+     "prev": 156,
+     "change_pct": -1.93,
+     "market_cap": 69502860230.68225,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/tgt"
+    },
+    {
+     "symbol": "CL",
+     "name": "Colgate-Palmolive",
+     "price": 86.19,
+     "prev": 84.26,
+     "change_pct": 2.29,
+     "market_cap": 68708324557.7293,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/cl"
+    },
+    {
+     "symbol": "FDX",
+     "name": "FedEx",
+     "price": 289.13,
+     "prev": 290.36,
+     "change_pct": -0.42,
+     "market_cap": 68428521059.65804,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/fdx"
+    },
+    {
+     "symbol": "HON",
+     "name": "Honeywell",
+     "price": 214.14,
+     "prev": 213.99,
+     "change_pct": 0.07,
+     "market_cap": 67869533864.58628,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/hon"
+    },
+    {
+     "symbol": "SPG",
+     "name": "Simon Property",
+     "price": 201.4,
+     "prev": 200.95,
+     "change_pct": 0.22,
+     "market_cap": 65163273863.941284,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/spg"
+    },
+    {
+     "symbol": "MET",
+     "name": "MetLife",
+     "price": 96.88,
+     "prev": 94.43,
+     "change_pct": 2.59,
+     "market_cap": 61565005052.370636,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/met"
+    },
+    {
+     "symbol": "NKE",
+     "name": "Nike",
+     "price": 33.96,
+     "prev": 33.87,
+     "change_pct": 0.27,
+     "market_cap": 50366446678.36316,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/nke"
+    },
+    {
+     "symbol": "F",
+     "name": "Ford",
+     "price": 12.15,
+     "prev": 12.1,
+     "change_pct": 0.41,
+     "market_cap": 48449286660.49588,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/f"
+    },
+    {
+     "symbol": "PYPL",
+     "name": "PayPal",
+     "price": 54.41,
+     "prev": 52.8,
+     "change_pct": 3.05,
+     "market_cap": 46545625616.21685,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/pypl"
+    },
+    {
+     "symbol": "AIG",
+     "name": "AIG",
+     "price": 75.12,
+     "prev": 74.93,
+     "change_pct": 0.25,
+     "market_cap": 39279731893.61911,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/aig"
+    },
+    {
+     "symbol": "CHTR",
+     "name": "Charter",
+     "price": 107.77,
+     "prev": 109.29,
+     "change_pct": -1.39,
+     "market_cap": 18872163722.48504,
+     "date": "2026-10-05",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/chtr"
+    },
+    {
+     "symbol": "BK",
+     "name": "BNY",
+     "price": 150.17,
+     "prev": 153.89,
+     "change_pct": -2.42,
+     "market_cap": null,
+     "date": "2026-09-22",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/bk"
     }
    ]
   },
@@ -315,6 +1138,7 @@
    "title": "Nigerian Exchange (NGX)",
    "source": "Nigerian Exchange Group",
    "source_url": "https://ngxgroup.com/exchange/data/equities-price-list/",
+   "ranking": "value traded",
    "date": "2026-10-05",
    "items": [
     {
@@ -323,19 +1147,13 @@
      "price": 30.45,
      "prev": 30.5,
      "change_pct": -0.16,
+     "value_traded": 13229041138.85,
+     "trades": 2704,
+     "sector": "Financial Services",
+     "board": "Premium Board",
      "date": "2026-10-05",
      "currency": "NGN",
      "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=ACCESSCORP&directory=companydirectory"
-    },
-    {
-     "symbol": "AIRTELAFRI",
-     "name": "Airtel Africa",
-     "price": 6300.0,
-     "prev": 6300.0,
-     "change_pct": 0.0,
-     "date": "2026-10-05",
-     "currency": "NGN",
-     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=AIRTELAFRI&directory=companydirectory"
     },
     {
      "symbol": "ARADEL",
@@ -343,169 +1161,13 @@
      "price": 1530.0,
      "prev": 1530.0,
      "change_pct": 0.0,
+     "value_traded": 5106854192.9,
+     "trades": 2134,
+     "sector": "Oil And Gas",
+     "board": "Main Board",
      "date": "2026-10-05",
      "currency": "NGN",
      "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=ARADEL&directory=companydirectory"
-    },
-    {
-     "symbol": "BUACEMENT",
-     "name": "BUA Cement",
-     "price": 297.0,
-     "prev": 297.0,
-     "change_pct": 0.0,
-     "date": "2026-10-05",
-     "currency": "NGN",
-     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=BUACEMENT&directory=companydirectory"
-    },
-    {
-     "symbol": "BUAFOODS",
-     "name": "BUA Foods",
-     "price": 760.6,
-     "prev": 760.6,
-     "change_pct": 0.0,
-     "date": "2026-10-05",
-     "currency": "NGN",
-     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=BUAFOODS&directory=companydirectory"
-    },
-    {
-     "symbol": "CADBURY",
-     "name": "Cadbury Nigeria",
-     "price": 58.0,
-     "prev": 59.5,
-     "change_pct": -2.52,
-     "date": "2026-10-05",
-     "currency": "NGN",
-     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=CADBURY&directory=companydirectory"
-    },
-    {
-     "symbol": "CONOIL",
-     "name": "Conoil",
-     "price": 210.0,
-     "prev": 210.0,
-     "change_pct": 0.0,
-     "date": "2026-10-05",
-     "currency": "NGN",
-     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=CONOIL&directory=companydirectory"
-    },
-    {
-     "symbol": "DANGCEM",
-     "name": "Dangote Cement",
-     "price": 1066.7,
-     "prev": 1066.7,
-     "change_pct": 0.0,
-     "date": "2026-10-05",
-     "currency": "NGN",
-     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=DANGCEM&directory=companydirectory"
-    },
-    {
-     "symbol": "DANGSUGAR",
-     "name": "Dangote Sugar",
-     "price": 70.0,
-     "prev": 68.0,
-     "change_pct": 2.94,
-     "date": "2026-10-05",
-     "currency": "NGN",
-     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=DANGSUGAR&directory=companydirectory"
-    },
-    {
-     "symbol": "FCMB",
-     "name": "FCMB Group",
-     "price": 11.1,
-     "prev": 11.1,
-     "change_pct": -0.45,
-     "date": "2026-10-05",
-     "currency": "NGN",
-     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=FCMB&directory=companydirectory"
-    },
-    {
-     "symbol": "FIDELITYBK",
-     "name": "Fidelity Bank",
-     "price": 23.4,
-     "prev": 23.5,
-     "change_pct": -0.43,
-     "date": "2026-10-05",
-     "currency": "NGN",
-     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=FIDELITYBK&directory=companydirectory"
-    },
-    {
-     "symbol": "FIRSTHOLDCO",
-     "name": "First HoldCo",
-     "price": 150.15,
-     "prev": 150.05,
-     "change_pct": 0.07,
-     "date": "2026-10-05",
-     "currency": "NGN",
-     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=FIRSTHOLDCO&directory=companydirectory"
-    },
-    {
-     "symbol": "GEREGU",
-     "name": "Geregu Power",
-     "price": 825.7,
-     "prev": 825.7,
-     "change_pct": 0.0,
-     "date": "2026-10-05",
-     "currency": "NGN",
-     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=GEREGU&directory=companydirectory"
-    },
-    {
-     "symbol": "GTCO",
-     "name": "GTCO",
-     "price": 132.2,
-     "prev": 132.8,
-     "change_pct": -0.45,
-     "date": "2026-10-05",
-     "currency": "NGN",
-     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=GTCO&directory=companydirectory"
-    },
-    {
-     "symbol": "INTBREW",
-     "name": "International Breweries",
-     "price": 9.85,
-     "prev": 10.0,
-     "change_pct": -1.5,
-     "date": "2026-10-05",
-     "currency": "NGN",
-     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=INTBREW&directory=companydirectory"
-    },
-    {
-     "symbol": "JBERGER",
-     "name": "Julius Berger",
-     "price": 310.8,
-     "prev": 310.8,
-     "change_pct": 0.0,
-     "date": "2026-10-05",
-     "currency": "NGN",
-     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=JBERGER&directory=companydirectory"
-    },
-    {
-     "symbol": "MTNN",
-     "name": "MTN Nigeria",
-     "price": 842.0,
-     "prev": 840.0,
-     "change_pct": 0.24,
-     "date": "2026-10-05",
-     "currency": "NGN",
-     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=MTNN&directory=companydirectory"
-    },
-    {
-     "symbol": "NAHCO",
-     "name": "NAHCO",
-     "price": 150.0,
-     "prev": 150.0,
-     "change_pct": 0.0,
-     "date": "2026-10-05",
-     "currency": "NGN",
-     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=NAHCO&directory=companydirectory"
-    },
-    {
-     "symbol": "NB",
-     "name": "Nigerian Breweries",
-     "price": 73.8,
-     "prev": 74.7,
-     "change_pct": -1.2,
-     "date": "2026-10-05",
-     "currency": "NGN",
-     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=NB&directory=companydirectory"
     },
     {
      "symbol": "NESTLE",
@@ -513,109 +1175,13 @@
      "price": 2750.0,
      "prev": 2900.0,
      "change_pct": -5.17,
+     "value_traded": 3798261843.8,
+     "trades": 264,
+     "sector": "Consumer Goods",
+     "board": "Main Board",
      "date": "2026-10-05",
      "currency": "NGN",
      "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=NESTLE&directory=companydirectory"
-    },
-    {
-     "symbol": "OANDO",
-     "name": "Oando",
-     "price": 34.5,
-     "prev": 35.0,
-     "change_pct": -1.43,
-     "date": "2026-10-05",
-     "currency": "NGN",
-     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=OANDO&directory=companydirectory"
-    },
-    {
-     "symbol": "OKOMUOIL",
-     "name": "Okomu Oil",
-     "price": 1276.2,
-     "prev": 1276.2,
-     "change_pct": 0.0,
-     "date": "2026-10-05",
-     "currency": "NGN",
-     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=OKOMUOIL&directory=companydirectory"
-    },
-    {
-     "symbol": "PRESCO",
-     "name": "Presco",
-     "price": 2045.3,
-     "prev": 2045.3,
-     "change_pct": 0.0,
-     "date": "2026-10-05",
-     "currency": "NGN",
-     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=PRESCO&directory=companydirectory"
-    },
-    {
-     "symbol": "SEPLAT",
-     "name": "Seplat Energy",
-     "price": 16000.1,
-     "prev": 16000.1,
-     "change_pct": 0.0,
-     "date": "2026-10-05",
-     "currency": "NGN",
-     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=SEPLAT&directory=companydirectory"
-    },
-    {
-     "symbol": "STANBIC",
-     "name": "Stanbic IBTC",
-     "price": 164.0,
-     "prev": 163.0,
-     "change_pct": 0.61,
-     "date": "2026-10-05",
-     "currency": "NGN",
-     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=STANBIC&directory=companydirectory"
-    },
-    {
-     "symbol": "TOTAL",
-     "name": "TotalEnergies Marketing",
-     "price": 518.4,
-     "prev": 518.4,
-     "change_pct": 0.0,
-     "date": "2026-10-05",
-     "currency": "NGN",
-     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=TOTAL&directory=companydirectory"
-    },
-    {
-     "symbol": "TRANSCORP",
-     "name": "Transcorp",
-     "price": 36.25,
-     "prev": 36.5,
-     "change_pct": -0.68,
-     "date": "2026-10-05",
-     "currency": "NGN",
-     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=TRANSCORP&directory=companydirectory"
-    },
-    {
-     "symbol": "TRANSPOWER",
-     "name": "Transcorp Power",
-     "price": 178.0,
-     "prev": 178.0,
-     "change_pct": 0.0,
-     "date": "2026-10-05",
-     "currency": "NGN",
-     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=TRANSPOWER&directory=companydirectory"
-    },
-    {
-     "symbol": "UBA",
-     "name": "UBA",
-     "price": 45.0,
-     "prev": 45.3,
-     "change_pct": -0.66,
-     "date": "2026-10-05",
-     "currency": "NGN",
-     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=UBA&directory=companydirectory"
-    },
-    {
-     "symbol": "WEMABANK",
-     "name": "Wema Bank",
-     "price": 31.5,
-     "prev": 31.35,
-     "change_pct": 0.48,
-     "date": "2026-10-05",
-     "currency": "NGN",
-     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=WEMABANK&directory=companydirectory"
     },
     {
      "symbol": "ZENITHBANK",
@@ -623,35 +1189,2417 @@
      "price": 135.4,
      "prev": 134.5,
      "change_pct": 0.67,
+     "value_traded": 3435241205.4,
+     "trades": 3465,
+     "sector": "Financial Services",
+     "board": "Premium Board",
      "date": "2026-10-05",
      "currency": "NGN",
      "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=ZENITHBANK&directory=companydirectory"
+    },
+    {
+     "symbol": "MTNN",
+     "name": "MTN Nigeria",
+     "price": 842.0,
+     "prev": 840.0,
+     "change_pct": 0.24,
+     "value_traded": 2519194245.9,
+     "trades": 4522,
+     "sector": "Ict",
+     "board": "Premium Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=MTNN&directory=companydirectory"
+    },
+    {
+     "symbol": "UBA",
+     "name": "UBA",
+     "price": 45.0,
+     "prev": 45.3,
+     "change_pct": -0.66,
+     "value_traded": 2045697664.45,
+     "trades": 1641,
+     "sector": "Financial Services",
+     "board": "Premium Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=UBA&directory=companydirectory"
+    },
+    {
+     "symbol": "GTCO",
+     "name": "GTCO",
+     "price": 132.2,
+     "prev": 132.8,
+     "change_pct": -0.45,
+     "value_traded": 1831647865.8,
+     "trades": 3669,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=GTCO&directory=companydirectory"
+    },
+    {
+     "symbol": "FIRSTHOLDCO",
+     "name": "First HoldCo",
+     "price": 150.15,
+     "prev": 150.05,
+     "change_pct": 0.07,
+     "value_traded": 913873709.8,
+     "trades": 1721,
+     "sector": "Financial Services",
+     "board": "Premium Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=FIRSTHOLDCO&directory=companydirectory"
+    },
+    {
+     "symbol": "STANBIC",
+     "name": "Stanbic IBTC",
+     "price": 164.0,
+     "prev": 163.0,
+     "change_pct": 0.61,
+     "value_traded": 818320662.0,
+     "trades": 707,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=STANBIC&directory=companydirectory"
+    },
+    {
+     "symbol": "FIDELITYBK",
+     "name": "Fidelity Bank",
+     "price": 23.4,
+     "prev": 23.5,
+     "change_pct": -0.43,
+     "value_traded": 780899343.0,
+     "trades": 1019,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=FIDELITYBK&directory=companydirectory"
+    },
+    {
+     "symbol": "HBMNG",
+     "name": null,
+     "price": 355.0,
+     "prev": 355.0,
+     "change_pct": 0.0,
+     "value_traded": 708447173.6,
+     "trades": 905,
+     "sector": "Industrial Goods",
+     "board": "Premium Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=HBMNG&directory=companydirectory"
+    },
+    {
+     "symbol": "SEPLAT",
+     "name": "Seplat Energy",
+     "price": 16000.1,
+     "prev": 16000.1,
+     "change_pct": 0.0,
+     "value_traded": 609018329.7,
+     "trades": 663,
+     "sector": "Oil And Gas",
+     "board": "Premium Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=SEPLAT&directory=companydirectory"
+    },
+    {
+     "symbol": "NGXGROUP",
+     "name": "NGX Group",
+     "price": 168.6,
+     "prev": 168.6,
+     "change_pct": 0.0,
+     "value_traded": 358277198.5,
+     "trades": 1815,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=NGXGROUP&directory=companydirectory"
+    },
+    {
+     "symbol": "DANGCEM",
+     "name": "Dangote Cement",
+     "price": 1066.7,
+     "prev": 1066.7,
+     "change_pct": 0.0,
+     "value_traded": 283837414.8,
+     "trades": 1533,
+     "sector": "Industrial Goods",
+     "board": "Premium Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=DANGCEM&directory=companydirectory"
+    },
+    {
+     "symbol": "TRANSCORP",
+     "name": "Transcorp",
+     "price": 36.25,
+     "prev": 36.5,
+     "change_pct": -0.68,
+     "value_traded": 280238782.05,
+     "trades": 334,
+     "sector": "Conglomerates",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=TRANSCORP&directory=companydirectory"
+    },
+    {
+     "symbol": "DANGSUGAR",
+     "name": "Dangote Sugar",
+     "price": 70.0,
+     "prev": 68.0,
+     "change_pct": 2.94,
+     "value_traded": 244699844.95,
+     "trades": 1280,
+     "sector": "Consumer Goods",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=DANGSUGAR&directory=companydirectory"
+    },
+    {
+     "symbol": "CMFC",
+     "name": null,
+     "price": 4.05,
+     "prev": 4.49,
+     "change_pct": -9.8,
+     "value_traded": 235000014.76,
+     "trades": 297,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=CMFC&directory=companydirectory"
+    },
+    {
+     "symbol": "BUACEMENT",
+     "name": "BUA Cement",
+     "price": 297.0,
+     "prev": 297.0,
+     "change_pct": 0.0,
+     "value_traded": 225647996.0,
+     "trades": 1343,
+     "sector": "Industrial Goods",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=BUACEMENT&directory=companydirectory"
+    },
+    {
+     "symbol": "FIDSON",
+     "name": "Fidson Healthcare",
+     "price": 85.0,
+     "prev": 85.0,
+     "change_pct": 0.0,
+     "value_traded": 199133127.9,
+     "trades": 706,
+     "sector": "Healthcare",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=FIDSON&directory=companydirectory"
+    },
+    {
+     "symbol": "AIRTELAFRI",
+     "name": "Airtel Africa",
+     "price": 6300.0,
+     "prev": 6300.0,
+     "change_pct": 0.0,
+     "value_traded": 197419954.3,
+     "trades": 258,
+     "sector": "Ict",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=AIRTELAFRI&directory=companydirectory"
+    },
+    {
+     "symbol": "NB",
+     "name": "Nigerian Breweries",
+     "price": 73.8,
+     "prev": 74.7,
+     "change_pct": -1.2,
+     "value_traded": 192663491.1,
+     "trades": 392,
+     "sector": "Consumer Goods",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=NB&directory=companydirectory"
+    },
+    {
+     "symbol": "WEMABANK",
+     "name": "Wema Bank",
+     "price": 31.5,
+     "prev": 31.35,
+     "change_pct": 0.48,
+     "value_traded": 155138536.6,
+     "trades": 624,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=WEMABANK&directory=companydirectory"
+    },
+    {
+     "symbol": "UCAP",
+     "name": "United Capital",
+     "price": 17.0,
+     "prev": 17.1,
+     "change_pct": -0.58,
+     "value_traded": 153517226.65,
+     "trades": 488,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=UCAP&directory=companydirectory"
+    },
+    {
+     "symbol": "NAHCO",
+     "name": "NAHCO",
+     "price": 150.0,
+     "prev": 150.0,
+     "change_pct": 0.0,
+     "value_traded": 148038988.6,
+     "trades": 562,
+     "sector": "Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=NAHCO&directory=companydirectory"
+    },
+    {
+     "symbol": "FCMB",
+     "name": "FCMB Group",
+     "price": 11.1,
+     "prev": 11.1,
+     "change_pct": -0.45,
+     "value_traded": 145788464.55,
+     "trades": 673,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=FCMB&directory=companydirectory"
+    },
+    {
+     "symbol": "TIP",
+     "name": null,
+     "price": 27.0,
+     "prev": 27.1,
+     "change_pct": -0.37,
+     "value_traded": 140342893.85,
+     "trades": 937,
+     "sector": "Services",
+     "board": "Growth Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=TIP&directory=companydirectory"
+    },
+    {
+     "symbol": "UACN",
+     "name": "UAC of Nigeria",
+     "price": 181.0,
+     "prev": 181.0,
+     "change_pct": 0.0,
+     "value_traded": 138287859.2,
+     "trades": 266,
+     "sector": "Conglomerates",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=UACN&directory=companydirectory"
+    },
+    {
+     "symbol": "NASCON",
+     "name": null,
+     "price": 188.9,
+     "prev": 188.9,
+     "change_pct": 0.0,
+     "value_traded": 131166837.6,
+     "trades": 375,
+     "sector": "Consumer Goods",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=NASCON&directory=companydirectory"
+    },
+    {
+     "symbol": "OANDO",
+     "name": "Oando",
+     "price": 34.5,
+     "prev": 35.0,
+     "change_pct": -1.43,
+     "value_traded": 124490081.85,
+     "trades": 499,
+     "sector": "Oil And Gas",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=OANDO&directory=companydirectory"
+    },
+    {
+     "symbol": "BUAFOODS",
+     "name": "BUA Foods",
+     "price": 760.6,
+     "prev": 760.6,
+     "change_pct": 0.0,
+     "value_traded": 108984814.2,
+     "trades": 967,
+     "sector": "Consumer Goods",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=BUAFOODS&directory=companydirectory"
+    },
+    {
+     "symbol": "LIVESTOCK",
+     "name": "Livestock Feeds",
+     "price": 9.75,
+     "prev": 8.9,
+     "change_pct": 9.55,
+     "value_traded": 100815830.25,
+     "trades": 531,
+     "sector": "Agriculture",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=LIVESTOCK&directory=companydirectory"
+    },
+    {
+     "symbol": "PZ",
+     "name": "PZ Cussons Nigeria",
+     "price": 66.4,
+     "prev": 66.4,
+     "change_pct": 0.0,
+     "value_traded": 97102018.65,
+     "trades": 499,
+     "sector": "Consumer Goods",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=PZ&directory=companydirectory"
+    },
+    {
+     "symbol": "CHAMS",
+     "name": "Chams",
+     "price": 3.39,
+     "prev": 3.23,
+     "change_pct": 4.95,
+     "value_traded": 85119295.96,
+     "trades": 809,
+     "sector": "Ict",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=CHAMS&directory=companydirectory"
+    },
+    {
+     "symbol": "CAP",
+     "name": null,
+     "price": 100.0,
+     "prev": 100.0,
+     "change_pct": 0.0,
+     "value_traded": 82257943.55,
+     "trades": 148,
+     "sector": "Industrial Goods",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=CAP&directory=companydirectory"
+    },
+    {
+     "symbol": "JAIZBANK",
+     "name": "Jaiz Bank",
+     "price": 8.15,
+     "prev": 8.2,
+     "change_pct": -0.61,
+     "value_traded": 76019855.2,
+     "trades": 1665,
+     "sector": "Financial Services",
+     "board": "NON-INTEREST FINANCE BOARD",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=JAIZBANK&directory=companydirectory"
+    },
+    {
+     "symbol": "UPDCREIT",
+     "name": null,
+     "price": 21.6,
+     "prev": 20.65,
+     "change_pct": 4.6,
+     "value_traded": 73259515.7,
+     "trades": 774,
+     "sector": "Construction/Real Estate",
+     "board": "Real Estate Investment Trust & Close End Fund",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=UPDCREIT&directory=companydirectory"
+    },
+    {
+     "symbol": "VFDGROUP",
+     "name": null,
+     "price": 13.4,
+     "prev": 13.5,
+     "change_pct": -0.74,
+     "value_traded": 67499518.35,
+     "trades": 304,
+     "sector": "Investment",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=VFDGROUP&directory=companydirectory"
+    },
+    {
+     "symbol": "ETI",
+     "name": "Ecobank Transnational",
+     "price": 69.9,
+     "prev": 69.9,
+     "change_pct": 0.0,
+     "value_traded": 63930482.7,
+     "trades": 222,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=ETI&directory=companydirectory"
+    },
+    {
+     "symbol": "CADBURY",
+     "name": "Cadbury Nigeria",
+     "price": 58.0,
+     "prev": 59.5,
+     "change_pct": -2.52,
+     "value_traded": 62722063.7,
+     "trades": 387,
+     "sector": "Consumer Goods",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=CADBURY&directory=companydirectory"
+    },
+    {
+     "symbol": "ETERNA",
+     "name": "Eterna",
+     "price": 44.0,
+     "prev": 44.0,
+     "change_pct": 0.0,
+     "value_traded": 52164041.25,
+     "trades": 286,
+     "sector": "Oil And Gas",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=ETERNA&directory=companydirectory"
+    },
+    {
+     "symbol": "NIDF",
+     "name": null,
+     "price": 147.7,
+     "prev": 147.7,
+     "change_pct": 0.0,
+     "value_traded": 47599511.5,
+     "trades": 359,
+     "sector": "Construction/Real Estate",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=NIDF&directory=companydirectory"
+    },
+    {
+     "symbol": "AFRIPRUD",
+     "name": null,
+     "price": 10.15,
+     "prev": 10.95,
+     "change_pct": -7.31,
+     "value_traded": 42192663.4,
+     "trades": 337,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=AFRIPRUD&directory=companydirectory"
+    },
+    {
+     "symbol": "UNILEVER",
+     "name": "Unilever Nigeria",
+     "price": 103.5,
+     "prev": 103.5,
+     "change_pct": 0.0,
+     "value_traded": 38821194.8,
+     "trades": 284,
+     "sector": "Consumer Goods",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=UNILEVER&directory=companydirectory"
+    },
+    {
+     "symbol": "OKOMUOIL",
+     "name": "Okomu Oil",
+     "price": 1276.2,
+     "prev": 1276.2,
+     "change_pct": 0.0,
+     "value_traded": 35199995.6,
+     "trades": 226,
+     "sector": "Agriculture",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=OKOMUOIL&directory=companydirectory"
+    },
+    {
+     "symbol": "FTNCOCOA",
+     "name": null,
+     "price": 8.38,
+     "prev": 7.62,
+     "change_pct": 9.97,
+     "value_traded": 34134639.59,
+     "trades": 265,
+     "sector": "Agriculture",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=FTNCOCOA&directory=companydirectory"
+    },
+    {
+     "symbol": "VITAFOAM",
+     "name": "Vitafoam Nigeria",
+     "price": 194.0,
+     "prev": 194.0,
+     "change_pct": 0.0,
+     "value_traded": 33722942.4,
+     "trades": 123,
+     "sector": "Consumer Goods",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=VITAFOAM&directory=companydirectory"
+    },
+    {
+     "symbol": "GUINNESS",
+     "name": "Guinness Nigeria",
+     "price": 384.8,
+     "prev": 384.8,
+     "change_pct": 0.0,
+     "value_traded": 33127460.1,
+     "trades": 185,
+     "sector": "Consumer Goods",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=GUINNESS&directory=companydirectory"
+    },
+    {
+     "symbol": "BETAGLAS",
+     "name": "Beta Glass",
+     "price": 511.5,
+     "prev": 511.5,
+     "change_pct": 0.0,
+     "value_traded": 24823902.0,
+     "trades": 239,
+     "sector": "Industrial Goods",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=BETAGLAS&directory=companydirectory"
+    },
+    {
+     "symbol": "CONHALLPLC",
+     "name": null,
+     "price": 7.0,
+     "prev": 7.44,
+     "change_pct": -5.91,
+     "value_traded": 24584088.81,
+     "trades": 181,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=CONHALLPLC&directory=companydirectory"
+    },
+    {
+     "symbol": "AIICO",
+     "name": "AIICO Insurance",
+     "price": 4.05,
+     "prev": 4.18,
+     "change_pct": -3.11,
+     "value_traded": 24068886.16,
+     "trades": 637,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=AIICO&directory=companydirectory"
+    },
+    {
+     "symbol": "MAYBAKER",
+     "name": "May & Baker",
+     "price": 39.2,
+     "prev": 39.2,
+     "change_pct": 0.0,
+     "value_traded": 23341392.3,
+     "trades": 316,
+     "sector": "Healthcare",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=MAYBAKER&directory=companydirectory"
+    },
+    {
+     "symbol": "ELLAHLAKES",
+     "name": "Ellah Lakes",
+     "price": 8.2,
+     "prev": 8.2,
+     "change_pct": -0.61,
+     "value_traded": 23083789.25,
+     "trades": 239,
+     "sector": "Agriculture",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=ELLAHLAKES&directory=companydirectory"
+    },
+    {
+     "symbol": "CHAMPION",
+     "name": "Champion Breweries",
+     "price": 10.0,
+     "prev": 10.0,
+     "change_pct": 0.0,
+     "value_traded": 22544602.75,
+     "trades": 139,
+     "sector": "Consumer Goods",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=CHAMPION&directory=companydirectory"
+    },
+    {
+     "symbol": "NEM",
+     "name": "NEM Insurance",
+     "price": 28.7,
+     "prev": 28.7,
+     "change_pct": 0.0,
+     "value_traded": 22412240.0,
+     "trades": 105,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=NEM&directory=companydirectory"
+    },
+    {
+     "symbol": "ABCTRANS",
+     "name": null,
+     "price": 6.7,
+     "prev": 7.4,
+     "change_pct": -9.46,
+     "value_traded": 21286826.55,
+     "trades": 631,
+     "sector": "Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=ABCTRANS&directory=companydirectory"
+    },
+    {
+     "symbol": "PRESCO",
+     "name": "Presco",
+     "price": 2045.3,
+     "prev": 2045.3,
+     "change_pct": 0.0,
+     "value_traded": 18868200.0,
+     "trades": 169,
+     "sector": "Agriculture",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=PRESCO&directory=companydirectory"
+    },
+    {
+     "symbol": "CUSTODIAN",
+     "name": "Custodian Investment",
+     "price": 70.0,
+     "prev": 70.0,
+     "change_pct": 0.0,
+     "value_traded": 18358050.2,
+     "trades": 250,
+     "sector": "Conglomerates",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=CUSTODIAN&directory=companydirectory"
+    },
+    {
+     "symbol": "INTENEGINS",
+     "name": null,
+     "price": 2.25,
+     "prev": 2.25,
+     "change_pct": -0.44,
+     "value_traded": 17677632.18,
+     "trades": 325,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=INTENEGINS&directory=companydirectory"
+    },
+    {
+     "symbol": "CWG",
+     "name": "CWG",
+     "price": 20.75,
+     "prev": 20.75,
+     "change_pct": 0.0,
+     "value_traded": 17618509.1,
+     "trades": 241,
+     "sector": "Ict",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=CWG&directory=companydirectory"
+    },
+    {
+     "symbol": "TANTALIZER",
+     "name": null,
+     "price": 3.92,
+     "prev": 3.9,
+     "change_pct": 0.51,
+     "value_traded": 17244294.28,
+     "trades": 263,
+     "sector": "Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=TANTALIZER&directory=companydirectory"
+    },
+    {
+     "symbol": "SOVRENINS",
+     "name": "Sovereign Trust Insurance",
+     "price": 2.31,
+     "prev": 2.1,
+     "change_pct": 10.0,
+     "value_traded": 16650392.25,
+     "trades": 109,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=SOVRENINS&directory=companydirectory"
+    },
+    {
+     "symbol": "TRANSCOHOT",
+     "name": "Transcorp Hotels",
+     "price": 290.5,
+     "prev": 290.5,
+     "change_pct": 0.0,
+     "value_traded": 15299174.4,
+     "trades": 172,
+     "sector": "Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=TRANSCOHOT&directory=companydirectory"
+    },
+    {
+     "symbol": "ZICHIS",
+     "name": null,
+     "price": 18.25,
+     "prev": 18.25,
+     "change_pct": 0.0,
+     "value_traded": 14798890.67,
+     "trades": 227,
+     "sector": "Agriculture",
+     "board": "Growth Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=ZICHIS&directory=companydirectory"
+    },
+    {
+     "symbol": "HONYFLOUR",
+     "name": "Honeywell Flour Mills",
+     "price": 17.35,
+     "prev": 17.35,
+     "change_pct": 0.0,
+     "value_traded": 14770311.55,
+     "trades": 256,
+     "sector": "Consumer Goods",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=HONYFLOUR&directory=companydirectory"
+    },
+    {
+     "symbol": "UPDC",
+     "name": "UPDC",
+     "price": 4.1,
+     "prev": 3.95,
+     "change_pct": 3.8,
+     "value_traded": 14250727.65,
+     "trades": 191,
+     "sector": "Construction/Real Estate",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=UPDC&directory=companydirectory"
+    },
+    {
+     "symbol": "NEIMETH",
+     "name": null,
+     "price": 8.1,
+     "prev": 7.45,
+     "change_pct": 8.72,
+     "value_traded": 14031390.15,
+     "trades": 220,
+     "sector": "Healthcare",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=NEIMETH&directory=companydirectory"
+    },
+    {
+     "symbol": "MANSARD",
+     "name": "AXA Mansard",
+     "price": 11.4,
+     "prev": 11.4,
+     "change_pct": 0.0,
+     "value_traded": 12852226.2,
+     "trades": 148,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=MANSARD&directory=companydirectory"
+    },
+    {
+     "symbol": "JAPAULGOLD",
+     "name": null,
+     "price": 2.68,
+     "prev": 2.88,
+     "change_pct": -6.94,
+     "value_traded": 12060244.59,
+     "trades": 345,
+     "sector": "Oil And Gas",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=JAPAULGOLD&directory=companydirectory"
+    },
+    {
+     "symbol": "MBENEFIT",
+     "name": null,
+     "price": 3.2,
+     "prev": 3.15,
+     "change_pct": 1.59,
+     "value_traded": 11698842.96,
+     "trades": 215,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=MBENEFIT&directory=companydirectory"
+    },
+    {
+     "symbol": "AVACAP",
+     "name": null,
+     "price": 5.7,
+     "prev": 5.6,
+     "change_pct": 1.79,
+     "value_traded": 10424418.6,
+     "trades": 135,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=AVACAP&directory=companydirectory"
+    },
+    {
+     "symbol": "CORNERST",
+     "name": "Cornerstone Insurance",
+     "price": 5.05,
+     "prev": 5.25,
+     "change_pct": -3.81,
+     "value_traded": 9519837.8,
+     "trades": 79,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=CORNERST&directory=companydirectory"
+    },
+    {
+     "symbol": "ABBEYBANK",
+     "name": null,
+     "price": 7.05,
+     "prev": 7.0,
+     "change_pct": 0.71,
+     "value_traded": 9352275.05,
+     "trades": 201,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=ABBEYBANK&directory=companydirectory"
+    },
+    {
+     "symbol": "IKEJAHOTEL",
+     "name": "Ikeja Hotel",
+     "price": 44.5,
+     "prev": 44.5,
+     "change_pct": 0.0,
+     "value_traded": 8938415.95,
+     "trades": 76,
+     "sector": "Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=IKEJAHOTEL&directory=companydirectory"
+    },
+    {
+     "symbol": "INTBREW",
+     "name": "International Breweries",
+     "price": 9.85,
+     "prev": 10.0,
+     "change_pct": -1.5,
+     "value_traded": 8691922.95,
+     "trades": 136,
+     "sector": "Consumer Goods",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=INTBREW&directory=companydirectory"
+    },
+    {
+     "symbol": "MECURE",
+     "name": "Mecure Industries",
+     "price": 56.2,
+     "prev": 56.2,
+     "change_pct": 0.0,
+     "value_traded": 8645513.55,
+     "trades": 47,
+     "sector": "Healthcare",
+     "board": "Growth Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=MECURE&directory=companydirectory"
+    },
+    {
+     "symbol": "WAPIC",
+     "name": null,
+     "price": 2.21,
+     "prev": 2.36,
+     "change_pct": -6.36,
+     "value_traded": 8436922.28,
+     "trades": 195,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=WAPIC&directory=companydirectory"
+    },
+    {
+     "symbol": "CUTIX",
+     "name": "Cutix",
+     "price": 2.29,
+     "prev": 2.29,
+     "change_pct": 0.44,
+     "value_traded": 8051344.86,
+     "trades": 210,
+     "sector": "Industrial Goods",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=CUTIX&directory=companydirectory"
+    },
+    {
+     "symbol": "RTBRISCOE",
+     "name": null,
+     "price": 10.05,
+     "prev": 10.0,
+     "change_pct": 0.5,
+     "value_traded": 7278870.25,
+     "trades": 113,
+     "sector": "Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=RTBRISCOE&directory=companydirectory"
+    },
+    {
+     "symbol": "LINKASSURE",
+     "name": null,
+     "price": 1.68,
+     "prev": 1.63,
+     "change_pct": 3.07,
+     "value_traded": 6950290.11,
+     "trades": 78,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=LINKASSURE&directory=companydirectory"
+    },
+    {
+     "symbol": "LEARNAFRCA",
+     "name": "Learn Africa",
+     "price": 8.4,
+     "prev": 7.65,
+     "change_pct": 9.8,
+     "value_traded": 5569026.25,
+     "trades": 94,
+     "sector": "Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=LEARNAFRCA&directory=companydirectory"
+    },
+    {
+     "symbol": "MCNICHOLS",
+     "name": null,
+     "price": 5.1,
+     "prev": 5.15,
+     "change_pct": -0.97,
+     "value_traded": 5518607.0,
+     "trades": 100,
+     "sector": "Consumer Goods",
+     "board": "Growth Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=MCNICHOLS&directory=companydirectory"
+    },
+    {
+     "symbol": "GEREGU",
+     "name": "Geregu Power",
+     "price": 825.7,
+     "prev": 825.7,
+     "change_pct": 0.0,
+     "value_traded": 5429819.2,
+     "trades": 37,
+     "sector": "Utilities",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=GEREGU&directory=companydirectory"
+    },
+    {
+     "symbol": "LIVINGTRUST",
+     "name": null,
+     "price": 3.45,
+     "prev": 3.45,
+     "change_pct": -1.45,
+     "value_traded": 5250377.21,
+     "trades": 88,
+     "sector": "Financial Services",
+     "board": "Growth Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=LIVINGTRUST&directory=companydirectory"
+    },
+    {
+     "symbol": "CAVERTON",
+     "name": "Caverton",
+     "price": 4.0,
+     "prev": 4.05,
+     "change_pct": -1.23,
+     "value_traded": 5229751.4,
+     "trades": 73,
+     "sector": "Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=CAVERTON&directory=companydirectory"
+    },
+    {
+     "symbol": "GUINEAINS",
+     "name": null,
+     "price": 0.68,
+     "prev": 0.72,
+     "change_pct": -5.56,
+     "value_traded": 4985155.51,
+     "trades": 130,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=GUINEAINS&directory=companydirectory"
+    },
+    {
+     "symbol": "LASACO",
+     "name": "LASACO Assurance",
+     "price": 1.77,
+     "prev": 1.77,
+     "change_pct": 1.13,
+     "value_traded": 4133645.62,
+     "trades": 106,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=LASACO&directory=companydirectory"
+    },
+    {
+     "symbol": "UHOMREIT",
+     "name": null,
+     "price": 70.0,
+     "prev": 70.0,
+     "change_pct": 0.0,
+     "value_traded": 3618297.7,
+     "trades": 50,
+     "sector": "Construction/Real Estate",
+     "board": "Real Estate Investment Trust & Close End Fund",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=UHOMREIT&directory=companydirectory"
+    },
+    {
+     "symbol": "ROYALEX",
+     "name": null,
+     "price": 1.0,
+     "prev": 1.06,
+     "change_pct": -5.66,
+     "value_traded": 3421892.75,
+     "trades": 114,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=ROYALEX&directory=companydirectory"
+    },
+    {
+     "symbol": "CILEASING",
+     "name": null,
+     "price": 5.55,
+     "prev": 5.5,
+     "change_pct": 0.91,
+     "value_traded": 3205805.05,
+     "trades": 61,
+     "sector": "Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=CILEASING&directory=companydirectory"
+    },
+    {
+     "symbol": "TRANSPOWER",
+     "name": "Transcorp Power",
+     "price": 178.0,
+     "prev": 178.0,
+     "change_pct": 0.0,
+     "value_traded": 3036270.6,
+     "trades": 82,
+     "sector": "Utilities",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=TRANSPOWER&directory=companydirectory"
+    },
+    {
+     "symbol": "ETRANZACT",
+     "name": null,
+     "price": 11.0,
+     "prev": 11.0,
+     "change_pct": 0.0,
+     "value_traded": 3017811.7,
+     "trades": 90,
+     "sector": "Ict",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=ETRANZACT&directory=companydirectory"
+    },
+    {
+     "symbol": "JBERGER",
+     "name": "Julius Berger",
+     "price": 310.8,
+     "prev": 310.8,
+     "change_pct": 0.0,
+     "value_traded": 2810311.2,
+     "trades": 58,
+     "sector": "Construction/Real Estate",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=JBERGER&directory=companydirectory"
+    },
+    {
+     "symbol": "REGALINS",
+     "name": null,
+     "price": 0.73,
+     "prev": 0.7,
+     "change_pct": 4.29,
+     "value_traded": 2749010.07,
+     "trades": 65,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=REGALINS&directory=companydirectory"
+    },
+    {
+     "symbol": "SFSREIT",
+     "name": null,
+     "price": 418.75,
+     "prev": 418.75,
+     "change_pct": 0.0,
+     "value_traded": 2679876.05,
+     "trades": 26,
+     "sector": "Construction/Real Estate",
+     "board": "Real Estate Investment Trust & Close End Fund",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=SFSREIT&directory=companydirectory"
+    },
+    {
+     "symbol": "REDSTAREX",
+     "name": "Red Star Express",
+     "price": 14.85,
+     "prev": 14.85,
+     "change_pct": 0.0,
+     "value_traded": 2543601.05,
+     "trades": 48,
+     "sector": "Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=REDSTAREX&directory=companydirectory"
+    },
+    {
+     "symbol": "NCR",
+     "name": null,
+     "price": 161.2,
+     "prev": 161.2,
+     "change_pct": 0.0,
+     "value_traded": 2492616.9,
+     "trades": 52,
+     "sector": "Ict",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=NCR&directory=companydirectory"
+    },
+    {
+     "symbol": "VERITASKAP",
+     "name": null,
+     "price": 1.11,
+     "prev": 1.11,
+     "change_pct": 2.7,
+     "value_traded": 2434950.68,
+     "trades": 99,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=VERITASKAP&directory=companydirectory"
+    },
+    {
+     "symbol": "NREIT",
+     "name": null,
+     "price": 113.0,
+     "prev": 113.0,
+     "change_pct": 0.0,
+     "value_traded": 2390604.0,
+     "trades": 48,
+     "sector": "Construction/Real Estate",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=NREIT&directory=companydirectory"
+    },
+    {
+     "symbol": "NSLTECH",
+     "name": "SecureID",
+     "price": 0.71,
+     "prev": 0.71,
+     "change_pct": -1.41,
+     "value_traded": 2377756.62,
+     "trades": 120,
+     "sector": "Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=NSLTECH&directory=companydirectory"
+    },
+    {
+     "symbol": "AUSTINLAZ",
+     "name": null,
+     "price": 2.2,
+     "prev": 2.2,
+     "change_pct": 0.0,
+     "value_traded": 2249898.99,
+     "trades": 57,
+     "sector": "Industrial Goods",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=AUSTINLAZ&directory=companydirectory"
+    },
+    {
+     "symbol": "FTGINSURE",
+     "name": null,
+     "price": 1.8,
+     "prev": 1.81,
+     "change_pct": -0.55,
+     "value_traded": 2111917.03,
+     "trades": 57,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=FTGINSURE&directory=companydirectory"
+    },
+    {
+     "symbol": "NPFMCRFBK",
+     "name": null,
+     "price": 4.2,
+     "prev": 4.4,
+     "change_pct": -4.55,
+     "value_traded": 2089376.25,
+     "trades": 62,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=NPFMCRFBK&directory=companydirectory"
+    },
+    {
+     "symbol": "JOHNHOLT",
+     "name": null,
+     "price": 8.75,
+     "prev": 8.75,
+     "change_pct": 0.0,
+     "value_traded": 2064641.35,
+     "trades": 44,
+     "sector": "Conglomerates",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=JOHNHOLT&directory=companydirectory"
+    },
+    {
+     "symbol": "OMATEK",
+     "name": null,
+     "price": 1.42,
+     "prev": 1.45,
+     "change_pct": -2.07,
+     "value_traded": 1803581.89,
+     "trades": 87,
+     "sector": "Ict",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=OMATEK&directory=companydirectory"
+    },
+    {
+     "symbol": "TOTAL",
+     "name": "TotalEnergies Marketing",
+     "price": 518.4,
+     "prev": 518.4,
+     "change_pct": 0.0,
+     "value_traded": 1538380.2,
+     "trades": 45,
+     "sector": "Oil And Gas",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=TOTAL&directory=companydirectory"
+    },
+    {
+     "symbol": "UNIONDICON",
+     "name": null,
+     "price": 23.75,
+     "prev": 23.75,
+     "change_pct": 0.0,
+     "value_traded": 1468767.6,
+     "trades": 10,
+     "sector": "Consumer Goods",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=UNIONDICON&directory=companydirectory"
+    },
+    {
+     "symbol": "SCOA",
+     "name": null,
+     "price": 33.05,
+     "prev": 33.05,
+     "change_pct": 0.0,
+     "value_traded": 1419848.5,
+     "trades": 26,
+     "sector": "Conglomerates",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=SCOA&directory=companydirectory"
+    },
+    {
+     "symbol": "DAARCOMM",
+     "name": null,
+     "price": 1.46,
+     "prev": 1.44,
+     "change_pct": 1.39,
+     "value_traded": 1407942.04,
+     "trades": 114,
+     "sector": "Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=DAARCOMM&directory=companydirectory"
+    },
+    {
+     "symbol": "CONOIL",
+     "name": "Conoil",
+     "price": 210.0,
+     "prev": 210.0,
+     "change_pct": 0.0,
+     "value_traded": 1001511.0,
+     "trades": 58,
+     "sector": "Oil And Gas",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=CONOIL&directory=companydirectory"
+    },
+    {
+     "symbol": "MULTIVERSE",
+     "name": null,
+     "price": 19.2,
+     "prev": 19.2,
+     "change_pct": 0.0,
+     "value_traded": 983522.3,
+     "trades": 18,
+     "sector": "Natural Resources",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=MULTIVERSE&directory=companydirectory"
+    },
+    {
+     "symbol": "TRIPPLEG",
+     "name": null,
+     "price": 2.56,
+     "prev": 2.33,
+     "change_pct": 9.87,
+     "value_traded": 921907.0,
+     "trades": 24,
+     "sector": "Industrial Goods",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=TRIPPLEG&directory=companydirectory"
+    },
+    {
+     "symbol": "HMCALL",
+     "name": null,
+     "price": 3.41,
+     "prev": 3.41,
+     "change_pct": 0.0,
+     "value_traded": 752800.21,
+     "trades": 46,
+     "sector": "Construction/Real Estate",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=HMCALL&directory=companydirectory"
+    },
+    {
+     "symbol": "ACADEMY",
+     "name": "Academy Press",
+     "price": 5.1,
+     "prev": 5.1,
+     "change_pct": 0.0,
+     "value_traded": 735828.7,
+     "trades": 60,
+     "sector": "Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=ACADEMY&directory=companydirectory"
+    },
+    {
+     "symbol": "TRANSEXPR",
+     "name": null,
+     "price": 2.97,
+     "prev": 2.97,
+     "change_pct": 0.0,
+     "value_traded": 628215.84,
+     "trades": 133,
+     "sector": "Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=TRANSEXPR&directory=companydirectory"
+    },
+    {
+     "symbol": "EUNISELL",
+     "name": null,
+     "price": 189.0,
+     "prev": 189.0,
+     "change_pct": 0.0,
+     "value_traded": 598241.7,
+     "trades": 23,
+     "sector": "Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=EUNISELL&directory=companydirectory"
+    },
+    {
+     "symbol": "BERGER",
+     "name": "Berger Paints",
+     "price": 147.6,
+     "prev": 147.6,
+     "change_pct": 0.0,
+     "value_traded": 593308.1,
+     "trades": 48,
+     "sector": "Industrial Goods",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=BERGER&directory=companydirectory"
+    },
+    {
+     "symbol": "SUNUASSUR",
+     "name": null,
+     "price": 3.08,
+     "prev": 3.08,
+     "change_pct": 0.0,
+     "value_traded": 591907.29,
+     "trades": 32,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=SUNUASSUR&directory=companydirectory"
+    },
+    {
+     "symbol": "LEGENDINT",
+     "name": null,
+     "price": 3.65,
+     "prev": 3.65,
+     "change_pct": 0.0,
+     "value_traded": 572044.4,
+     "trades": 36,
+     "sector": "Ict",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=LEGENDINT&directory=companydirectory"
+    },
+    {
+     "symbol": "SKYAVN",
+     "name": null,
+     "price": 171.2,
+     "prev": 171.2,
+     "change_pct": 0.0,
+     "value_traded": 549982.9,
+     "trades": 26,
+     "sector": "Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=SKYAVN&directory=companydirectory"
+    },
+    {
+     "symbol": "UPL",
+     "name": "University Press",
+     "price": 5.15,
+     "prev": 5.15,
+     "change_pct": 0.0,
+     "value_traded": 543283.65,
+     "trades": 63,
+     "sector": "Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=UPL&directory=companydirectory"
+    },
+    {
+     "symbol": "PRESTIGE",
+     "name": null,
+     "price": 1.38,
+     "prev": 1.38,
+     "change_pct": 0.0,
+     "value_traded": 535312.84,
+     "trades": 30,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=PRESTIGE&directory=companydirectory"
+    },
+    {
+     "symbol": "MEYER",
+     "name": null,
+     "price": 15.95,
+     "prev": 15.95,
+     "change_pct": 0.0,
+     "value_traded": 386201.25,
+     "trades": 20,
+     "sector": "Industrial Goods",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=MEYER&directory=companydirectory"
+    },
+    {
+     "symbol": "THOMASWY",
+     "name": null,
+     "price": 2.67,
+     "prev": 2.67,
+     "change_pct": 0.0,
+     "value_traded": 282322.9,
+     "trades": 19,
+     "sector": "Natural Resources",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=THOMASWY&directory=companydirectory"
+    },
+    {
+     "symbol": "NNFM",
+     "name": null,
+     "price": 79.4,
+     "prev": 79.4,
+     "change_pct": 0.0,
+     "value_traded": 264192.5,
+     "trades": 14,
+     "sector": "Consumer Goods",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=NNFM&directory=companydirectory"
+    },
+    {
+     "symbol": "IMG",
+     "name": null,
+     "price": 28.0,
+     "prev": 28.0,
+     "change_pct": 0.0,
+     "value_traded": 192648.35,
+     "trades": 15,
+     "sector": "Natural Resources",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=IMG&directory=companydirectory"
+    },
+    {
+     "symbol": "PREMPAINTS",
+     "name": null,
+     "price": 30.4,
+     "prev": 30.4,
+     "change_pct": 0.0,
+     "value_traded": 97742.45,
+     "trades": 6,
+     "sector": "Industrial Goods",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=PREMPAINTS&directory=companydirectory"
+    },
+    {
+     "symbol": "MORISON",
+     "name": null,
+     "price": 10.4,
+     "prev": 10.4,
+     "change_pct": 0.0,
+     "value_traded": 48170.0,
+     "trades": 4,
+     "sector": "Healthcare",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=MORISON&directory=companydirectory"
+    },
+    {
+     "symbol": "CHELLARAM",
+     "name": null,
+     "price": 9.7,
+     "prev": 9.7,
+     "change_pct": 0.0,
+     "value_traded": 37202.0,
+     "trades": 9,
+     "sector": "Conglomerates",
+     "board": "Growth Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=CHELLARAM&directory=companydirectory"
+    },
+    {
+     "symbol": "CNIF",
+     "name": null,
+     "price": 154.3,
+     "prev": 154.3,
+     "change_pct": 0.0,
+     "value_traded": 30710.1,
+     "trades": 9,
+     "sector": "Construction/Real Estate",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=CNIF&directory=companydirectory"
+    },
+    {
+     "symbol": "JULI",
+     "name": null,
+     "price": 6.55,
+     "prev": 6.55,
+     "change_pct": 0.0,
+     "value_traded": 12470.05,
+     "trades": 4,
+     "sector": "Services",
+     "board": "Growth Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=JULI&directory=companydirectory"
+    },
+    {
+     "symbol": "INFINITY",
+     "name": "Infinity Trust",
+     "price": 11.25,
+     "prev": 11.25,
+     "change_pct": 0.0,
+     "value_traded": 69.9,
+     "trades": 2,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=INFINITY&directory=companydirectory"
+    },
+    {
+     "symbol": "AFRINSURE",
+     "name": null,
+     "price": 0.2,
+     "prev": 0.2,
+     "change_pct": 0.0,
+     "value_traded": 0.0,
+     "trades": 0,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=AFRINSURE&directory=companydirectory"
+    },
+    {
+     "symbol": "AFROMEDIA",
+     "name": null,
+     "price": 0.24,
+     "prev": 0.24,
+     "change_pct": 0.0,
+     "value_traded": 0.0,
+     "trades": 0,
+     "sector": "Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=AFROMEDIA&directory=companydirectory"
+    },
+    {
+     "symbol": "ALEX",
+     "name": null,
+     "price": 9.9,
+     "prev": 9.9,
+     "change_pct": 0.0,
+     "value_traded": 0.0,
+     "trades": 0,
+     "sector": "Natural Resources",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=ALEX&directory=companydirectory"
+    },
+    {
+     "symbol": "AVAIF",
+     "name": null,
+     "price": 1000000.0,
+     "prev": 1000000.0,
+     "change_pct": 0.0,
+     "value_traded": 0.0,
+     "trades": 0,
+     "sector": "Construction/Real Estate",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=AVAIF&directory=companydirectory"
+    },
+    {
+     "symbol": "BAPLC",
+     "name": null,
+     "price": 6.25,
+     "prev": 6.25,
+     "change_pct": 0.0,
+     "value_traded": 0.0,
+     "trades": 0,
+     "sector": "Ict",
+     "board": "Growth Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=BAPLC&directory=companydirectory"
+    },
+    {
+     "symbol": "EKOCORP",
+     "name": null,
+     "price": 5.8,
+     "prev": 5.8,
+     "change_pct": 0.0,
+     "value_traded": 0.0,
+     "trades": 0,
+     "sector": "Healthcare",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=EKOCORP&directory=companydirectory"
+    },
+    {
+     "symbol": "ENAMELWA",
+     "name": null,
+     "price": 40.7,
+     "prev": 40.7,
+     "change_pct": 0.0,
+     "value_traded": 0.0,
+     "trades": 0,
+     "sector": "Consumer Goods",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=ENAMELWA&directory=companydirectory"
+    },
+    {
+     "symbol": "GOLDBREW",
+     "name": null,
+     "price": 7.1,
+     "prev": 7.1,
+     "change_pct": 0.0,
+     "value_traded": 0.0,
+     "trades": 0,
+     "sector": "Consumer Goods",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=GOLDBREW&directory=companydirectory"
+    },
+    {
+     "symbol": "MOFIREIF",
+     "name": null,
+     "price": 100.0,
+     "prev": 100.0,
+     "change_pct": 0.0,
+     "value_traded": 0.0,
+     "trades": 0,
+     "sector": "Construction/Real Estate",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=MOFIREIF&directory=companydirectory"
+    },
+    {
+     "symbol": "MULTITREX",
+     "name": null,
+     "price": 0.36,
+     "prev": 0.36,
+     "change_pct": 0.0,
+     "value_traded": 0.0,
+     "trades": 0,
+     "sector": "Consumer Goods",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=MULTITREX&directory=companydirectory"
+    },
+    {
+     "symbol": "PHARMDEKO",
+     "name": null,
+     "price": 1.83,
+     "prev": 1.83,
+     "change_pct": 0.0,
+     "value_traded": 0.0,
+     "trades": 0,
+     "sector": "Healthcare",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=PHARMDEKO&directory=companydirectory"
+    },
+    {
+     "symbol": "RONCHESS",
+     "name": null,
+     "price": 81.0,
+     "prev": 81.0,
+     "change_pct": 0.0,
+     "value_traded": 0.0,
+     "trades": 0,
+     "sector": "Construction/Real Estate",
+     "board": "Growth Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=RONCHESS&directory=companydirectory"
+    },
+    {
+     "symbol": "STERLINGNG",
+     "name": "Sterling Financial",
+     "price": 7.7,
+     "prev": 7.7,
+     "change_pct": 0.0,
+     "value_traded": 0.0,
+     "trades": 0,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=STERLINGNG&directory=companydirectory"
+    },
+    {
+     "symbol": "UNITYBNK",
+     "name": "Unity Bank",
+     "price": 1.51,
+     "prev": 1.51,
+     "change_pct": 0.0,
+     "value_traded": 0.0,
+     "trades": 0,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=UNITYBNK&directory=companydirectory"
+    },
+    {
+     "symbol": "UNIVINSURE",
+     "name": null,
+     "price": 0.77,
+     "prev": 0.77,
+     "change_pct": 0.0,
+     "value_traded": 0.0,
+     "trades": 0,
+     "sector": "Financial Services",
+     "board": "Main Board",
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=UNIVINSURE&directory=companydirectory"
     }
    ]
   }
  ],
+ "profiles": {
+  "AAPL": {
+   "cap": 4858256511716.579,
+   "checked": "2026-10-06"
+  },
+  "ABBV": {
+   "cap": 469629109278.91876,
+   "checked": "2026-10-06"
+  },
+  "ABT": {
+   "cap": 173211368408.02664,
+   "checked": "2026-10-06"
+  },
+  "ACN": {
+   "cap": 119359310485.4065,
+   "checked": "2026-10-06"
+  },
+  "ADBE": {
+   "cap": 92935125869.74554,
+   "checked": "2026-10-06"
+  },
+  "AIG": {
+   "cap": 39279731893.61911,
+   "checked": "2026-10-06"
+  },
+  "AMD": {
+   "cap": 1031316022135.1182,
+   "checked": "2026-10-06"
+  },
+  "AMGN": {
+   "cap": 217863895653.16965,
+   "checked": "2026-10-06"
+  },
+  "AMT": {
+   "cap": 75606676694.62343,
+   "checked": "2026-10-06"
+  },
+  "AMZN": {
+   "cap": 2711679499577.638,
+   "checked": "2026-10-06"
+  },
+  "AVGO": {
+   "cap": 1730488640195.458,
+   "checked": "2026-10-06"
+  },
+  "AXP": {
+   "cap": 205307688962.5468,
+   "checked": "2026-10-06"
+  },
+  "BA": {
+   "cap": 152320103537.47675,
+   "checked": "2026-10-06"
+  },
+  "BAC": {
+   "cap": 377608420898.7907,
+   "checked": "2026-10-06"
+  },
+  "BK": {
+   "cap": null,
+   "checked": "2026-10-06"
+  },
+  "BKNG": {
+   "cap": 118966076678.78813,
+   "checked": "2026-10-06"
+  },
+  "BLK": {
+   "cap": 173272733298.8269,
+   "checked": "2026-10-06"
+  },
+  "BMY": {
+   "cap": 120132048600.64154,
+   "checked": "2026-10-06"
+  },
+  "BRK.B": {
+   "cap": 970022995911.7417,
+   "checked": "2026-10-06"
+  },
+  "C": {
+   "cap": 215634496472.37903,
+   "checked": "2026-10-06"
+  },
+  "CAT": {
+   "cap": 389868632732.48944,
+   "checked": "2026-10-06"
+  },
+  "CHTR": {
+   "cap": 18872163722.48504,
+   "checked": "2026-10-06"
+  },
+  "CL": {
+   "cap": 68708324557.7293,
+   "checked": "2026-10-06"
+  },
+  "CMCSA": {
+   "cap": 76544088517.0,
+   "checked": "2026-10-06"
+  },
+  "COF": {
+   "cap": 119715425060.55814,
+   "checked": "2026-10-06"
+  },
+  "COP": {
+   "cap": 154251738134.27692,
+   "checked": "2026-10-06"
+  },
+  "COST": {
+   "cap": 409365019058.5104,
+   "checked": "2026-10-06"
+  },
+  "CRM": {
+   "cap": 189117171967.0549,
+   "checked": "2026-10-06"
+  },
+  "CSCO": {
+   "cap": 444802616001.86316,
+   "checked": "2026-10-06"
+  },
+  "CVS": {
+   "cap": 111283207836.85623,
+   "checked": "2026-10-06"
+  },
+  "CVX": {
+   "cap": 407937492790.01385,
+   "checked": "2026-10-06"
+  },
+  "DE": {
+   "cap": 183938445647.7066,
+   "checked": "2026-10-06"
+  },
+  "DHR": {
+   "cap": 155507549864.14746,
+   "checked": "2026-10-06"
+  },
+  "DIS": {
+   "cap": 178902032910.8826,
+   "checked": "2026-10-06"
+  },
+  "DUK": {
+   "cap": 88761297390.69344,
+   "checked": "2026-10-06"
+  },
+  "EMR": {
+   "cap": 90547672360.72916,
+   "checked": "2026-10-06"
+  },
+  "F": {
+   "cap": 48449286660.49588,
+   "checked": "2026-10-06"
+  },
+  "FDX": {
+   "cap": 68428521059.65804,
+   "checked": "2026-10-06"
+  },
+  "GD": {
+   "cap": 89749230051.7121,
+   "checked": "2026-10-06"
+  },
+  "GE": {
+   "cap": 317846893743.3479,
+   "checked": "2026-10-06"
+  },
+  "GILD": {
+   "cap": 179334709755.22986,
+   "checked": "2026-10-06"
+  },
+  "GM": {
+   "cap": 70397933880.87645,
+   "checked": "2026-10-06"
+  },
+  "GOOGL": {
+   "cap": 4237328100000.0005,
+   "checked": "2026-10-06"
+  },
+  "GS": {
+   "cap": 260150013740.31622,
+   "checked": "2026-10-06"
+  },
+  "HD": {
+   "cap": 280500447278.8105,
+   "checked": "2026-10-06"
+  },
+  "HON": {
+   "cap": 67869533864.58628,
+   "checked": "2026-10-06"
+  },
+  "IBM": {
+   "cap": 208758139650.35657,
+   "checked": "2026-10-06"
+  },
+  "INTC": {
+   "cap": 614192603838.4341,
+   "checked": "2026-10-06"
+  },
+  "INTU": {
+   "cap": 76076738690.79095,
+   "checked": "2026-10-06"
+  },
+  "ISRG": {
+   "cap": 143600464470.23694,
+   "checked": "2026-10-06"
+  },
+  "JNJ": {
+   "cap": 609535608890.3732,
+   "checked": "2026-10-06"
+  },
+  "JPM": {
+   "cap": 883527968492.0001,
+   "checked": "2026-10-06"
+  },
+  "KO": {
+   "cap": 372213505752.1067,
+   "checked": "2026-10-06"
+  },
+  "LIN": {
+   "cap": 222367616399.99603,
+   "checked": "2026-10-06"
+  },
+  "LLY": {
+   "cap": 1076084054482.5997,
+   "checked": "2026-10-06"
+  },
+  "LMT": {
+   "cap": 116925521673.635,
+   "checked": "2026-10-06"
+  },
+  "LOW": {
+   "cap": 100709197591.74501,
+   "checked": "2026-10-06"
+  },
+  "MA": {
+   "cap": 494586458696.91583,
+   "checked": "2026-10-06"
+  },
+  "MCD": {
+   "cap": 164908769947.27637,
+   "checked": "2026-10-06"
+  },
+  "MDLZ": {
+   "cap": 74651252186.98213,
+   "checked": "2026-10-06"
+  },
+  "MDT": {
+   "cap": 112525750216.96504,
+   "checked": "2026-10-06"
+  },
+  "MET": {
+   "cap": 61565005052.370636,
+   "checked": "2026-10-06"
+  },
+  "META": {
+   "cap": 1889994845153.8242,
+   "checked": "2026-10-06"
+  },
+  "MMM": {
+   "cap": 84160740115.21762,
+   "checked": "2026-10-06"
+  },
+  "MO": {
+   "cap": 113342213125.0839,
+   "checked": "2026-10-06"
+  },
+  "MRK": {
+   "cap": 344269136650.7518,
+   "checked": "2026-10-06"
+  },
+  "MS": {
+   "cap": 298705997756.3161,
+   "checked": "2026-10-06"
+  },
+  "MSFT": {
+   "cap": 3899748159266.389,
+   "checked": "2026-10-06"
+  },
+  "NEE": {
+   "cap": 159118426341.33853,
+   "checked": "2026-10-06"
+  },
+  "NFLX": {
+   "cap": 281065935812.5187,
+   "checked": "2026-10-06"
+  },
+  "NKE": {
+   "cap": 50366446678.36316,
+   "checked": "2026-10-06"
+  },
+  "NOW": {
+   "cap": 140706725112.87338,
+   "checked": "2026-10-06"
+  },
+  "NVDA": {
+   "cap": 5757489924896.866,
+   "checked": "2026-10-06"
+  },
+  "ORCL": {
+   "cap": 430821926485.7899,
+   "checked": "2026-10-06"
+  },
+  "PEP": {
+   "cap": 171498613566.51047,
+   "checked": "2026-10-06"
+  },
+  "PFE": {
+   "cap": 156228041957.46725,
+   "checked": "2026-10-06"
+  },
+  "PG": {
+   "cap": 338970813263.6385,
+   "checked": "2026-10-06"
+  },
+  "PLTR": {
+   "cap": 455139239323.74677,
+   "checked": "2026-10-06"
+  },
+  "PM": {
+   "cap": 295404032047.1088,
+   "checked": "2026-10-06"
+  },
+  "PYPL": {
+   "cap": 46545625616.21685,
+   "checked": "2026-10-06"
+  },
+  "QCOM": {
+   "cap": 189871779365.35345,
+   "checked": "2026-10-06"
+  },
+  "RTX": {
+   "cap": 248432255229.15903,
+   "checked": "2026-10-06"
+  },
+  "SBUX": {
+   "cap": 107650198959.0865,
+   "checked": "2026-10-06"
+  },
+  "SCHW": {
+   "cap": 169405719174.86246,
+   "checked": "2026-10-06"
+  },
+  "SO": {
+   "cap": 96388920284.77174,
+   "checked": "2026-10-06"
+  },
+  "SPG": {
+   "cap": 65163273863.941284,
+   "checked": "2026-10-06"
+  },
+  "T": {
+   "cap": 166101825175.37778,
+   "checked": "2026-10-06"
+  },
+  "TGT": {
+   "cap": 69502860230.68225,
+   "checked": "2026-10-06"
+  },
+  "TMO": {
+   "cap": 250230167210.83893,
+   "checked": "2026-10-06"
+  },
+  "TMUS": {
+   "cap": 176604656645.8578,
+   "checked": "2026-10-06"
+  },
+  "TSLA": {
+   "cap": 1495812150577.7244,
+   "checked": "2026-10-06"
+  },
+  "TXN": {
+   "cap": 269316729837.9915,
+   "checked": "2026-10-06"
+  },
+  "UBER": {
+   "cap": 141917082624.59198,
+   "checked": "2026-10-06"
+  },
+  "UNH": {
+   "cap": 339811452218.4626,
+   "checked": "2026-10-06"
+  },
+  "UNP": {
+   "cap": 164594557443.5822,
+   "checked": "2026-10-06"
+  },
+  "UPS": {
+   "cap": 79241789984.38422,
+   "checked": "2026-10-06"
+  },
+  "USB": {
+   "cap": 89229607583.63278,
+   "checked": "2026-10-06"
+  },
+  "V": {
+   "cap": 690266085918.9697,
+   "checked": "2026-10-06"
+  },
+  "VZ": {
+   "cap": 190579545270.5814,
+   "checked": "2026-10-06"
+  },
+  "WFC": {
+   "cap": 258340260000.0,
+   "checked": "2026-10-06"
+  },
+  "WMT": {
+   "cap": 884142590000.0,
+   "checked": "2026-10-06"
+  },
+  "XOM": {
+   "cap": 650632360000.0,
+   "checked": "2026-10-06"
+  }
+ },
  "status": {
   "us_problems": [],
-  "ng_problems": [],
-  "ng_sample": {
-   "$id": "1",
-   "CalculateChangePercent": 0.7142857142857143,
-   "Id": 51,
-   "Symbol": "ABBEYBANK",
-   "PrevClosingPrice": 7.0,
-   "OpeningPrice": 7.0,
-   "HighPrice": 7.05,
-   "LowPrice": 7.0,
-   "ClosePrice": 7.05,
-   "Change": 0.05,
-   "PercChange": 0.71,
-   "Trades": 201,
-   "Volume": 1320898.0,
-   "Value": 9352275.05,
-   "Market": "Main Board",
-   "Sector": "FINANCIAL SERVICES",
-   "Company2": "ABBEYBANK ",
-   "TradeDate": "2026-10-05T00:00:00"
-  }
+  "ng_problems": []
  }
 }
