@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T00:25:17Z",
+ "updated": "2026-10-06T00:27:52Z",
  "boards": [
   {
    "id": "us",
@@ -65,6 +65,16 @@
      "date": "2026-10-05",
      "currency": "NGN",
      "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=BUAFOODS&directory=companydirectory"
+    },
+    {
+     "symbol": "CADBURY",
+     "name": "Cadbury Nigeria",
+     "price": 58.0,
+     "prev": 59.5,
+     "change_pct": -2.52,
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=CADBURY&directory=companydirectory"
     },
     {
      "symbol": "CONOIL",
@@ -155,6 +165,16 @@
      "date": "2026-10-05",
      "currency": "NGN",
      "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=INTBREW&directory=companydirectory"
+    },
+    {
+     "symbol": "JBERGER",
+     "name": "Julius Berger",
+     "price": 310.8,
+     "prev": 310.8,
+     "change_pct": 0.0,
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=JBERGER&directory=companydirectory"
     },
     {
      "symbol": "MTNN",
@@ -311,6 +331,7 @@
  ],
  "status": {
   "us_problems": [
+   "Nasdaq: The read operation timed out",
    "AAPL: unexpected reply: <!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"no",
    "MSFT: unexpected reply: <!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"no",
    "NVDA: unexpected reply: <!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"no",
@@ -319,8 +340,7 @@
    "META: unexpected reply: <!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"no",
    "AVGO: unexpected reply: <!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"no",
    "TSLA: unexpected reply: <!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"no",
-   "BRK.B: unexpected reply: <!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"no",
-   "JPM: unexpected reply: <!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"no"
+   "BRK.B: unexpected reply: <!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"no"
   ],
   "ng_problems": [],
   "ng_sample": {
