@@ -5,8 +5,10 @@ Purpose : Daily stock-market data for the bubble maps on the News page:
             ng : about thirty major companies on the Nigerian Exchange (NGX).
           For each stock it records the latest close, the previous close, the
           one-day percentage change, the date, and a link to a quote page.
-Inputs  : U.S.: Stooq daily price files (free CSV downloads, no key):
-            https://stooq.com/q/d/l/?s=aapl.us&i=d&d1=YYYYMMDD&d2=YYYYMMDD
+Inputs  : U.S.: Nasdaq's public stock screener (the JSON behind nasdaq.com's
+          screener page, no key), which lists every U.S.-listed stock with its
+          last price, change and market value; the thirty largest by market
+          value are shown. Stooq daily price files are a fallback.
           Nigeria: the NGX public equities price list (the JSON feed behind
           ngxgroup.com's price-list page), no key.
 Outputs : markets.json at the repository root, rewritten only when prices
@@ -52,10 +54,11 @@ NG_STOCKS = [
     ("ACCESSCORP", "Access Holdings"), ("UBA", "UBA"), ("FIRSTHOLDCO", "First HoldCo"),
     ("STANBIC", "Stanbic IBTC"), ("FIDELITYBK", "Fidelity Bank"), ("FCMB", "FCMB Group"),
     ("WEMABANK", "Wema Bank"), ("NESTLE", "Nestle Nigeria"), ("NB", "Nigerian Breweries"),
-    ("INTBREW", "International Breweries"), ("DANGSUGAR", "Dangote Sugar"), ("WAPCO", "Lafarge Africa"),
+    ("INTBREW", "International Breweries"), ("DANGSUGAR", "Dangote Sugar"),
     ("TRANSCORP", "Transcorp"), ("TRANSPOWER", "Transcorp Power"), ("GEREGU", "Geregu Power"),
     ("OANDO", "Oando"), ("PRESCO", "Presco"), ("OKOMUOIL", "Okomu Oil"),
     ("NAHCO", "NAHCO"), ("CONOIL", "Conoil"), ("TOTAL", "TotalEnergies Marketing"),
+    ("JBERGER", "Julius Berger"), ("CADBURY", "Cadbury Nigeria"),
 ]
 NGX_FEEDS = [
     "https://doclib.ngxgroup.com/REST/api/statistics/equities/?market=&sector=&orderby=&pageSize=500&pageNo=0",
@@ -69,7 +72,51 @@ def get(url: str, accept: str) -> bytes:
 
 
 # ---------------------------------------------------------------------------
-# United States (Stooq)
+# United States (Nasdaq screener, Stooq fallback)
+# ---------------------------------------------------------------------------
+NASDAQ_SCREENER = "https://api.nasdaq.com/api/screener/stocks?tableonly=true&limit=25&offset=0&download=true"
+US_COUNT = 30
+
+
+def us_board_nasdaq(today: date) -> list[dict]:
+    """The largest U.S.-listed companies by market value with today's change."""
+    req = urllib.request.Request(NASDAQ_SCREENER, headers={
+        "User-Agent": USER_AGENT, "Accept": "application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.9"})
+    with urllib.request.urlopen(req, timeout=TIMEOUT_S) as resp:
+        data = json.loads(resp.read())
+    rows = (data.get("data") or {}).get("rows") or []
+    if not rows:
+        raise ValueError("no rows; keys " + str(list(data)[:6]))
+    def money(v):
+        return num(str(v).replace("$", "")) if v not in (None, "", "NA") else None
+    stocks = []
+    for r in rows:
+        sym = str(r.get("symbol", "")).strip()
+        cap, last, pct = money(r.get("marketCap")), money(r.get("lastsale")), num(r.get("pctchange"))
+        # Ordinary shares only: skip preferred shares, warrants and units (symbols with ^, /, or spaces).
+        if not sym or re.search(r"[\^/ ]", sym) or cap is None or last is None or pct is None:
+            continue
+        name = re.sub(r"\s+(Common Stock|Class [A-C] (Common|Capital|Ordinary) (Stock|Shares)|Ordinary Shares|"
+                      r"Common Shares|American Depositary Shares).*$", "", str(r.get("name", "")), flags=re.I).strip()
+        stocks.append({"symbol": sym, "name": name or sym, "price": round(last, 2),
+                       "prev": round(last / (1 + pct / 100), 2) if pct > -100 else None,
+                       "change_pct": round(pct, 2), "market_cap": cap, "date": today.isoformat(), "currency": "USD",
+                       "url": f"https://www.nasdaq.com/market-activity/stocks/{sym.lower()}"})
+    stocks.sort(key=lambda x: x["market_cap"], reverse=True)
+    # Two share classes of one company (GOOGL/GOOG, BRK.A/BRK.B): keep the larger listing only.
+    seen, out = set(), []
+    for st in stocks:
+        key = re.sub(r"[^a-z]", "", st["name"].lower())[:12]
+        if key in seen:
+            continue
+        seen.add(key); out.append(st)
+        if len(out) == US_COUNT:
+            break
+    return out
+
+
+# ---------------------------------------------------------------------------
+# United States (Stooq fallback)
 # ---------------------------------------------------------------------------
 def us_board(today: date) -> tuple[list[dict], list[str]]:
     d1, d2 = (today - timedelta(days=14)).strftime("%Y%m%d"), today.strftime("%Y%m%d")
@@ -164,14 +211,20 @@ def main() -> int:
         previous = {}
     prev_boards = {b["id"]: b for b in previous.get("boards", [])}
 
-    us_items, us_notes = us_board(today)
+    try:
+        us_items, us_notes, us_source = us_board_nasdaq(today), [], ("Nasdaq", "https://www.nasdaq.com/market-activity/stocks/screener")
+    except Exception as exc:
+        print(f"Nasdaq screener unavailable ({exc}); trying Stooq")
+        us_items, us_notes = us_board(today)
+        us_notes.insert(0, f"Nasdaq: {str(exc)[:160]}")
+        us_source = ("Stooq", "https://stooq.com/")
     ng_items, ng_notes, ng_sample = ng_board()
     print(f"US: {len(us_items)} stocks; problems: {us_notes[:5]}")
     print(f"NG: {len(ng_items)} stocks; problems: {ng_notes[:5]}; sample fields: {list(ng_sample)[:24]}")
 
     boards = []
     for bid, title, items, source, source_url in (
-        ("us", "U.S. stocks", us_items, "Stooq", "https://stooq.com/"),
+        ("us", "U.S. stocks", us_items, us_source[0], us_source[1]),
         ("ng", "Nigerian Exchange (NGX)", ng_items, "Nigerian Exchange Group", "https://ngxgroup.com/exchange/data/equities-price-list/"),
     ):
         if not items and bid in prev_boards:
