@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05T23:59:17Z",
+ "updated": "2026-10-06T00:24:11Z",
  "categories": [
   {
    "id": "economy",
@@ -157,20 +157,6 @@
      "image": "https://cdn.businessday.ng/wp-content/uploads/2026/01/photo-1678693362793-e2fffac536d0-large.jpeg"
     },
     {
-     "title": "FG, Lagos begin 24/7 power pilot with joint technical committee",
-     "url": "https://nairametrics.com/2026/10/05/fg-lagos-begin-24-7-power-pilot-with-joint-technical-committee/",
-     "source": "Nairametrics",
-     "published": "2026-10-05T20:21:11Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/Power-Minister-Tegbe-and-Lagos-Governor-Sanwo-olu.jpeg"
-    },
-    {
-     "title": "NGX slips 0.06% as Nestlé, insurers drag market lower",
-     "url": "https://nairametrics.com/2026/10/05/ngx-slips-0-06-as-nestle-insurers-drag-market-lower/",
-     "source": "Nairametrics",
-     "published": "2026-10-05T19:42:09Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/stock-drop-image.webp"
-    },
-    {
      "title": "NNPC’s Federation receivables fall to ₦11.2 trillion after energy security costs offset",
      "url": "https://www.premiumtimesng.com/business/business-news/914712-nnpcs-federation-receivables-fall-to-%e2%82%a611-2-trillion-after-energy-security-costs-offset.html",
      "source": "Premium Times",
@@ -190,6 +176,20 @@
      "source": "African Business",
      "published": "2026-10-05T14:01:21Z",
      "image": "https://african.business/wp-content/uploads/2026/10/000_48JU9KD-scaled.jpg"
+    },
+    {
+     "title": "Kenya: ‘If we can do a refinery, we can do anything,’ says James Mwangi",
+     "url": "https://www.theafricareport.com/432276/kenya-if-we-can-do-a-refinery-we-can-do-anything-says-james-mwangi/",
+     "source": "The Africa Report",
+     "published": "2026-10-05T14:00:00Z",
+     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=2560,height=1707,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2025/10/13/afp__20220613__32ce7ag__v1__highres__icoastafricaeconomypolitics-scaled.jpg"
+    },
+    {
+     "title": "Iran war pushes QatarEnergy into Africa for expansion",
+     "url": "https://www.theafricareport.com/432340/lng-partners-iran-war-pushes-qatarenergy-to-africa-for-expansion/",
+     "source": "The Africa Report",
+     "published": "2026-10-05T13:00:00Z",
+     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=1215,height=810,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/10/05/angola-qatarenergy.jpg"
     }
    ]
   }
@@ -318,12 +318,8 @@
   {
    "source": "Nairametrics",
    "feed": "https://nairametrics.com/feed/",
-   "ok": true,
-   "items": 20,
-   "skipped": 0,
-   "undated": 0,
-   "newest": "2026-10-05T20:21:11Z",
-   "oldest": "2026-10-05T11:11:03Z"
+   "ok": false,
+   "error": "The read operation timed out"
   },
   {
    "source": "BusinessDay",

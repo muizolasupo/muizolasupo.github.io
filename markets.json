@@ -1,0 +1,347 @@
+{
+ "updated": "2026-10-06T00:25:17Z",
+ "boards": [
+  {
+   "id": "us",
+   "title": "U.S. stocks",
+   "source": "Stooq",
+   "source_url": "https://stooq.com/",
+   "date": null,
+   "items": []
+  },
+  {
+   "id": "ng",
+   "title": "Nigerian Exchange (NGX)",
+   "source": "Nigerian Exchange Group",
+   "source_url": "https://ngxgroup.com/exchange/data/equities-price-list/",
+   "date": "2026-10-05",
+   "items": [
+    {
+     "symbol": "ACCESSCORP",
+     "name": "Access Holdings",
+     "price": 30.45,
+     "prev": 30.5,
+     "change_pct": -0.16,
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=ACCESSCORP&directory=companydirectory"
+    },
+    {
+     "symbol": "AIRTELAFRI",
+     "name": "Airtel Africa",
+     "price": 6300.0,
+     "prev": 6300.0,
+     "change_pct": 0.0,
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=AIRTELAFRI&directory=companydirectory"
+    },
+    {
+     "symbol": "ARADEL",
+     "name": "Aradel Holdings",
+     "price": 1530.0,
+     "prev": 1530.0,
+     "change_pct": 0.0,
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=ARADEL&directory=companydirectory"
+    },
+    {
+     "symbol": "BUACEMENT",
+     "name": "BUA Cement",
+     "price": 297.0,
+     "prev": 297.0,
+     "change_pct": 0.0,
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=BUACEMENT&directory=companydirectory"
+    },
+    {
+     "symbol": "BUAFOODS",
+     "name": "BUA Foods",
+     "price": 760.6,
+     "prev": 760.6,
+     "change_pct": 0.0,
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=BUAFOODS&directory=companydirectory"
+    },
+    {
+     "symbol": "CONOIL",
+     "name": "Conoil",
+     "price": 210.0,
+     "prev": 210.0,
+     "change_pct": 0.0,
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=CONOIL&directory=companydirectory"
+    },
+    {
+     "symbol": "DANGCEM",
+     "name": "Dangote Cement",
+     "price": 1066.7,
+     "prev": 1066.7,
+     "change_pct": 0.0,
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=DANGCEM&directory=companydirectory"
+    },
+    {
+     "symbol": "DANGSUGAR",
+     "name": "Dangote Sugar",
+     "price": 70.0,
+     "prev": 68.0,
+     "change_pct": 2.94,
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=DANGSUGAR&directory=companydirectory"
+    },
+    {
+     "symbol": "FCMB",
+     "name": "FCMB Group",
+     "price": 11.1,
+     "prev": 11.1,
+     "change_pct": -0.45,
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=FCMB&directory=companydirectory"
+    },
+    {
+     "symbol": "FIDELITYBK",
+     "name": "Fidelity Bank",
+     "price": 23.4,
+     "prev": 23.5,
+     "change_pct": -0.43,
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=FIDELITYBK&directory=companydirectory"
+    },
+    {
+     "symbol": "FIRSTHOLDCO",
+     "name": "First HoldCo",
+     "price": 150.15,
+     "prev": 150.05,
+     "change_pct": 0.07,
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=FIRSTHOLDCO&directory=companydirectory"
+    },
+    {
+     "symbol": "GEREGU",
+     "name": "Geregu Power",
+     "price": 825.7,
+     "prev": 825.7,
+     "change_pct": 0.0,
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=GEREGU&directory=companydirectory"
+    },
+    {
+     "symbol": "GTCO",
+     "name": "GTCO",
+     "price": 132.2,
+     "prev": 132.8,
+     "change_pct": -0.45,
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=GTCO&directory=companydirectory"
+    },
+    {
+     "symbol": "INTBREW",
+     "name": "International Breweries",
+     "price": 9.85,
+     "prev": 10.0,
+     "change_pct": -1.5,
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=INTBREW&directory=companydirectory"
+    },
+    {
+     "symbol": "MTNN",
+     "name": "MTN Nigeria",
+     "price": 842.0,
+     "prev": 840.0,
+     "change_pct": 0.24,
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=MTNN&directory=companydirectory"
+    },
+    {
+     "symbol": "NAHCO",
+     "name": "NAHCO",
+     "price": 150.0,
+     "prev": 150.0,
+     "change_pct": 0.0,
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=NAHCO&directory=companydirectory"
+    },
+    {
+     "symbol": "NB",
+     "name": "Nigerian Breweries",
+     "price": 73.8,
+     "prev": 74.7,
+     "change_pct": -1.2,
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=NB&directory=companydirectory"
+    },
+    {
+     "symbol": "NESTLE",
+     "name": "Nestle Nigeria",
+     "price": 2750.0,
+     "prev": 2900.0,
+     "change_pct": -5.17,
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=NESTLE&directory=companydirectory"
+    },
+    {
+     "symbol": "OANDO",
+     "name": "Oando",
+     "price": 34.5,
+     "prev": 35.0,
+     "change_pct": -1.43,
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=OANDO&directory=companydirectory"
+    },
+    {
+     "symbol": "OKOMUOIL",
+     "name": "Okomu Oil",
+     "price": 1276.2,
+     "prev": 1276.2,
+     "change_pct": 0.0,
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=OKOMUOIL&directory=companydirectory"
+    },
+    {
+     "symbol": "PRESCO",
+     "name": "Presco",
+     "price": 2045.3,
+     "prev": 2045.3,
+     "change_pct": 0.0,
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=PRESCO&directory=companydirectory"
+    },
+    {
+     "symbol": "SEPLAT",
+     "name": "Seplat Energy",
+     "price": 16000.1,
+     "prev": 16000.1,
+     "change_pct": 0.0,
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=SEPLAT&directory=companydirectory"
+    },
+    {
+     "symbol": "STANBIC",
+     "name": "Stanbic IBTC",
+     "price": 164.0,
+     "prev": 163.0,
+     "change_pct": 0.61,
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=STANBIC&directory=companydirectory"
+    },
+    {
+     "symbol": "TOTAL",
+     "name": "TotalEnergies Marketing",
+     "price": 518.4,
+     "prev": 518.4,
+     "change_pct": 0.0,
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=TOTAL&directory=companydirectory"
+    },
+    {
+     "symbol": "TRANSCORP",
+     "name": "Transcorp",
+     "price": 36.25,
+     "prev": 36.5,
+     "change_pct": -0.68,
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=TRANSCORP&directory=companydirectory"
+    },
+    {
+     "symbol": "TRANSPOWER",
+     "name": "Transcorp Power",
+     "price": 178.0,
+     "prev": 178.0,
+     "change_pct": 0.0,
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=TRANSPOWER&directory=companydirectory"
+    },
+    {
+     "symbol": "UBA",
+     "name": "UBA",
+     "price": 45.0,
+     "prev": 45.3,
+     "change_pct": -0.66,
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=UBA&directory=companydirectory"
+    },
+    {
+     "symbol": "WEMABANK",
+     "name": "Wema Bank",
+     "price": 31.5,
+     "prev": 31.35,
+     "change_pct": 0.48,
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=WEMABANK&directory=companydirectory"
+    },
+    {
+     "symbol": "ZENITHBANK",
+     "name": "Zenith Bank",
+     "price": 135.4,
+     "prev": 134.5,
+     "change_pct": 0.67,
+     "date": "2026-10-05",
+     "currency": "NGN",
+     "url": "https://ngxgroup.com/exchange/data/company-profile/?symbol=ZENITHBANK&directory=companydirectory"
+    }
+   ]
+  }
+ ],
+ "status": {
+  "us_problems": [
+   "AAPL: unexpected reply: <!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"no",
+   "MSFT: unexpected reply: <!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"no",
+   "NVDA: unexpected reply: <!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"no",
+   "AMZN: unexpected reply: <!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"no",
+   "GOOGL: unexpected reply: <!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"no",
+   "META: unexpected reply: <!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"no",
+   "AVGO: unexpected reply: <!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"no",
+   "TSLA: unexpected reply: <!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"no",
+   "BRK.B: unexpected reply: <!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"no",
+   "JPM: unexpected reply: <!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"no"
+  ],
+  "ng_problems": [],
+  "ng_sample": {
+   "$id": "1",
+   "CalculateChangePercent": 0.7142857142857143,
+   "Id": 51,
+   "Symbol": "ABBEYBANK",
+   "PrevClosingPrice": 7.0,
+   "OpeningPrice": 7.0,
+   "HighPrice": 7.05,
+   "LowPrice": 7.0,
+   "ClosePrice": 7.05,
+   "Change": 0.05,
+   "PercChange": 0.71,
+   "Trades": 201,
+   "Volume": 1320898.0,
+   "Value": 9352275.05,
+   "Market": "Main Board",
+   "Sector": "FINANCIAL SERVICES",
+   "Company2": "ABBEYBANK ",
+   "TradeDate": "2026-10-05T00:00:00"
+  }
+ }
+}
