@@ -21,14 +21,6 @@
  *           3. All text from the data file is inserted with textContent.
  *           4. Sparklines are drawn at their real pixel size (redrawn on resize);
  *              pointer and keyboard (arrow keys, Home, End) move the crosshair.
- *           5. Bubble map ([data-bubbles] inside a panel): one floating bubble per
- *              series, coloured like its change bubble and sized by how unusual
- *              the latest move is (move_z: the change in standard deviations of
- *              the series' past moves over the window, from update_signals.py).
- *              Bubbles drift gently and push apart; motion pauses while the
- *              pointer is over the field, when it is off screen, and entirely
- *              under prefers-reduced-motion. Each bubble is a button: hover or
- *              focus shows details, click jumps to the series' card.
  */
 (() => {
   const panelMounts = [...document.querySelectorAll('[data-signals-panel]')];
@@ -210,148 +202,6 @@
     return { card, draw: () => sparkline(box, s) };
   }
 
-  // ---- Bubble map ---------------------------------------------------------
-  const reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  function bubbles(field, panel) {
-    const series = (panel.groups || []).flatMap((g) => g.series || []).filter((s) => s.trend && s.trend.length > 1);
-    if (!series.length) return;
-    const tip = el('div', 'bubble-tip');
-    tip.hidden = true;
-    let nodes = [], W = 0, H = 0, paused = false, visible = true, raf = 0;
-
-    const build = () => {
-      W = field.clientWidth; H = field.clientHeight;
-      // Radius = base x (1 + 1.6 z/3): base is chosen so the bubbles cover about 30% of
-      // the field whatever its size or the number of series (capped on wide screens).
-      const info = series.map((s) => {
-        const ch = fmtChange(s.change_format, s.value, s.prev_value, s.format);
-        const t = tone(s.polarity, ch.dir);
-        const z = t === 'flat' || s.move_z == null ? 0 : Math.min(Math.abs(s.move_z), 3);
-        return { ch, t, f: 1 + 1.6 * z / 3 };
-      });
-      const sumF2 = info.reduce((a, b) => a + b.f * b.f, 0);
-      const base = Math.min(Math.sqrt((0.3 * W * H) / (Math.PI * sumF2)), 34, H * 0.12);
-      // Largest font (px) at which text fits across ~80% of the bubble's width.
-      const fit = (text, r, ratio, maxPx) => Math.max(8, Math.min(maxPx, r * ratio, (1.6 * r) / (Math.max(text.length, 3) * 0.58)));
-      const old = new Map(nodes.map((n) => [n.s.id, n]));
-      field.replaceChildren(tip);
-      nodes = series.map((s, i) => {
-        const { ch, t, f } = info[i];
-        const r = base * f;
-        const b = el('button', 'bubble bubble-' + t);
-        b.type = 'button';
-        b.style.width = b.style.height = (2 * r).toFixed(1) + 'px';
-        const glyph = ch.dir > 0 ? '▲ ' : ch.dir < 0 ? '▼ ' : '';
-        const nameText = s.short || s.label;
-        const name = el('span', 'bubble-name', nameText);
-        name.style.fontSize = fit(nameText, r, 0.24, 15).toFixed(1) + 'px';
-        b.append(name);
-        if (r >= 38) { // the value only where there is room for a third line
-          const valText = fmtValue(s.format, s.value);
-          const val = el('span', 'bubble-value', valText);
-          val.style.fontSize = fit(valText, r, 0.28, 19).toFixed(1) + 'px';
-          b.append(val);
-        }
-        const chgText = ch.dir === 0 ? 'Flat' : glyph + ch.text;
-        const chg = el('span', 'bubble-change', chgText);
-        chg.style.fontSize = fit(chgText, r, 0.2, 13).toFixed(1) + 'px';
-        b.append(chg);
-        const zText = s.move_z == null ? '' : ` Move size: ${Math.abs(s.move_z).toFixed(1)} standard deviations of its usual moves (${s.window.toLowerCase()}).`;
-        const words = ch.dir === 0 ? 'unchanged' : (ch.dir > 0 ? 'up ' : 'down ') + ch.text;
-        b.setAttribute('aria-label', `${s.label}: ${fmtValue(s.format, s.value)}, ${words} vs ${fmtDate(s.prev_date, s.freq)}.${zText} Opens its card.`);
-        const showTip = () => {
-          tip.replaceChildren(el('strong', null, s.label),
-            el('span', 'bubble-tip-line', fmtValue(s.format, s.value) + '  ·  ' + (ch.dir === 0 ? 'Unchanged' : glyph + ch.text) + ' vs ' + fmtDate(s.prev_date, s.freq)));
-          if (s.move_z != null) tip.append(el('span', 'bubble-tip-note', `${Math.abs(s.move_z).toFixed(1)}× a typical move (${s.window.toLowerCase()})`));
-          tip.hidden = false;
-          const n = nodes.find((m) => m.el === b);
-          const tw = tip.offsetWidth, th = tip.offsetHeight;
-          let tx = n.x - tw / 2, ty = n.y - n.r - th - 8;
-          if (ty < 6) ty = n.y + n.r + 8;
-          tip.style.transform = `translate(${Math.max(6, Math.min(W - tw - 6, tx)).toFixed(0)}px, ${Math.max(6, Math.min(H - th - 6, ty)).toFixed(0)}px)`;
-        };
-        b.addEventListener('pointerenter', showTip);
-        b.addEventListener('focus', showTip);
-        b.addEventListener('pointerleave', () => { tip.hidden = true; });
-        b.addEventListener('blur', () => { tip.hidden = true; });
-        b.addEventListener('click', () => {
-          const card = document.getElementById('signal-' + s.id);
-          if (!card) return;
-          card.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'center' });
-          card.classList.remove('signal-flash'); void card.offsetWidth; card.classList.add('signal-flash');
-        });
-        field.append(b);
-        const prev = old.get(s.id);
-        // Spread the starting positions on a loose grid so the first frames are calm.
-        const cols = Math.ceil(Math.sqrt(series.length * W / H));
-        const gx = ((i % cols) + 0.5) * (W / cols), gy = (Math.floor(i / cols) + 0.5) * (H / Math.ceil(series.length / cols));
-        return { s, el: b, r, x: prev ? Math.min(prev.x, W - r) : gx + (Math.random() - 0.5) * 20,
-                 y: prev ? Math.min(prev.y, H - r) : gy + (Math.random() - 0.5) * 20, vx: 0, vy: 0, phase: Math.random() * 6.283 };
-      });
-      for (let i = 0; i < 260; i++) step(0, true); // settle overlaps before the first paint
-      paint();
-    };
-
-    // One physics step: gentle drift, a soft pull to the centre, pairwise separation, walls.
-    const step = (t, settling) => {
-      for (const n of nodes) {
-        if (!settling) {
-          n.vx += Math.cos(t * 0.00035 + n.phase) * 0.010;
-          n.vy += Math.sin(t * 0.00045 + n.phase * 1.7) * 0.010;
-        }
-        n.vx += (W / 2 - n.x) * 0.00006;
-        n.vy += (H / 2 - n.y) * 0.00010;
-      }
-      for (let i = 0; i < nodes.length; i++) {
-        for (let j = i + 1; j < nodes.length; j++) {
-          const a = nodes[i], b = nodes[j];
-          let dx = b.x - a.x, dy = b.y - a.y, d = Math.hypot(dx, dy) || 0.01;
-          const min = a.r + b.r + 6;
-          if (d < min) {
-            const push = (min - d) / 2, ux = dx / d, uy = dy / d;
-            a.x -= ux * push; a.y -= uy * push; b.x += ux * push; b.y += uy * push;
-            a.vx -= ux * 0.02; a.vy -= uy * 0.02; b.vx += ux * 0.02; b.vy += uy * 0.02;
-          }
-        }
-      }
-      for (const n of nodes) {
-        n.vx *= 0.97; n.vy *= 0.97;
-        n.x += n.vx; n.y += n.vy;
-        if (n.x < n.r) { n.x = n.r; n.vx = Math.abs(n.vx) * 0.5; }
-        if (n.x > W - n.r) { n.x = W - n.r; n.vx = -Math.abs(n.vx) * 0.5; }
-        if (n.y < n.r) { n.y = n.r; n.vy = Math.abs(n.vy) * 0.5; }
-        if (n.y > H - n.r) { n.y = H - n.r; n.vy = -Math.abs(n.vy) * 0.5; }
-      }
-    };
-    const paint = () => {
-      for (const n of nodes) n.el.style.transform = `translate(${(n.x - n.r).toFixed(1)}px, ${(n.y - n.r).toFixed(1)}px)`;
-    };
-    const loop = (t) => {
-      raf = 0;
-      if (paused || !visible || reduceMotion || document.hidden) return;
-      step(t, false);
-      paint();
-      raf = requestAnimationFrame(loop);
-    };
-    const run = () => { if (!raf && !reduceMotion) raf = requestAnimationFrame(loop); };
-
-    field.addEventListener('pointerenter', () => { paused = true; });
-    field.addEventListener('pointerleave', () => { paused = false; tip.hidden = true; run(); });
-    field.addEventListener('focusin', () => { paused = true; });
-    field.addEventListener('focusout', () => { paused = false; run(); });
-    document.addEventListener('visibilitychange', run);
-    if ('IntersectionObserver' in window) {
-      new IntersectionObserver((entries) => { visible = entries[0].isIntersecting; run(); }).observe(field);
-    }
-    let lastW = 0;
-    if ('ResizeObserver' in window) {
-      new ResizeObserver(() => { if (Math.abs(field.clientWidth - lastW) > 2) { lastW = field.clientWidth; build(); } }).observe(field);
-    }
-    lastW = field.clientWidth;
-    build();
-    run();
-  }
-
   function renderPanel(mount, panel, updated) {
     const groupsMount = mount.querySelector('[data-signals-groups]');
     const frag = document.createDocumentFragment(), drawers = [];
@@ -371,8 +221,7 @@
     if (!drawers.length) throw new Error('no series');
     groupsMount.replaceChildren(frag);
     drawers.forEach((draw) => draw());
-    const field = mount.querySelector('[data-bubbles]');
-    if (field) bubbles(field, panel);
+
     const stamp = mount.querySelector('[data-signals-updated]');
     if (stamp && updated) stamp.textContent = 'Updated ' + fmtStamp(updated);
   }

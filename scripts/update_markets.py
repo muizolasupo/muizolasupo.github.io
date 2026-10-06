@@ -5,7 +5,10 @@ Purpose : Daily stock-market data for the bubble maps on the News page:
             ng : about thirty major companies on the Nigerian Exchange (NGX).
           For each stock it records the latest close, the previous close, the
           one-day percentage change, the date, and a link to a quote page.
-Inputs  : U.S.: Nasdaq's public stock screener (the JSON behind nasdaq.com's
+Inputs  : U.S.: Finnhub quotes when the repository secret FINNHUB_API_KEY is set
+          (free personal key from finnhub.io; the workflow passes it in as an
+          environment variable, so it never appears in the site). Without it,
+          Nasdaq's public stock screener (the JSON behind nasdaq.com's
           screener page, no key), which lists every U.S.-listed stock with its
           last price, change and market value; the thirty largest by market
           value are shown. Stooq daily price files are a fallback.
@@ -21,6 +24,7 @@ from __future__ import annotations
 import csv
 import io
 import json
+import os
 import re
 import sys
 import urllib.request
@@ -69,6 +73,28 @@ def get(url: str, accept: str) -> bytes:
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": accept})
     with urllib.request.urlopen(req, timeout=TIMEOUT_S) as resp:
         return resp.read()
+
+
+# ---------------------------------------------------------------------------
+# United States (Finnhub with a key; otherwise Nasdaq screener, then Stooq)
+# ---------------------------------------------------------------------------
+FINNHUB_QUOTE = "https://finnhub.io/api/v1/quote?symbol={sym}&token={key}"
+
+
+def us_board_finnhub(key: str, today: date) -> list[dict]:
+    """Quotes for the fixed list of large U.S. companies (c = price, pc = previous close, dp = % change, t = time)."""
+    items = []
+    for symbol, name, _ in US_STOCKS:
+        q = json.loads(get(FINNHUB_QUOTE.format(sym=symbol, key=key), "application/json"))  # BRK.B as listed
+        if not q or not q.get("c"):
+            continue
+        when = datetime.fromtimestamp(q["t"], tz=timezone.utc).date().isoformat() if q.get("t") else today.isoformat()
+        items.append({"symbol": symbol, "name": name, "price": round(q["c"], 2), "prev": round(q.get("pc") or 0, 2) or None,
+                      "change_pct": round(q.get("dp") or 0.0, 2), "date": when, "currency": "USD",
+                      "url": f"https://www.nasdaq.com/market-activity/stocks/{symbol.replace('.', '-').lower()}"})
+    if not items:
+        raise ValueError("no quotes returned")
+    return items
 
 
 # ---------------------------------------------------------------------------
@@ -200,6 +226,23 @@ def ng_board() -> tuple[list[dict], list[str], dict]:
     return [], notes, sample
 
 
+def us_data(today: date) -> tuple[list[dict], list[str], tuple[str, str]]:
+    """U.S. board from the first source that works: Finnhub (if a key is set), Nasdaq, Stooq."""
+    key = os.environ.get("FINNHUB_API_KEY", "").strip()
+    notes = []
+    if key:
+        try:
+            return us_board_finnhub(key, today), [], ("Finnhub", "https://finnhub.io/")
+        except Exception as exc:
+            notes.append("Finnhub: " + str(exc).replace(key, "***")[:160])
+    try:
+        return us_board_nasdaq(today), notes, ("Nasdaq", "https://www.nasdaq.com/market-activity/stocks/screener")
+    except Exception as exc:
+        notes.append(f"Nasdaq: {str(exc)[:160]}")
+    items, stooq_notes = us_board(today)
+    return items, notes + stooq_notes, ("Stooq", "https://stooq.com/")
+
+
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
@@ -211,13 +254,7 @@ def main() -> int:
         previous = {}
     prev_boards = {b["id"]: b for b in previous.get("boards", [])}
 
-    try:
-        us_items, us_notes, us_source = us_board_nasdaq(today), [], ("Nasdaq", "https://www.nasdaq.com/market-activity/stocks/screener")
-    except Exception as exc:
-        print(f"Nasdaq screener unavailable ({exc}); trying Stooq")
-        us_items, us_notes = us_board(today)
-        us_notes.insert(0, f"Nasdaq: {str(exc)[:160]}")
-        us_source = ("Stooq", "https://stooq.com/")
+    us_items, us_notes, us_source = us_data(today)
     ng_items, ng_notes, ng_sample = ng_board()
     print(f"US: {len(us_items)} stocks; problems: {us_notes[:5]}")
     print(f"NG: {len(ng_items)} stocks; problems: {ng_notes[:5]}; sample fields: {list(ng_sample)[:24]}")

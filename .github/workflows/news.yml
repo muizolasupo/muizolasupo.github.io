@@ -49,6 +49,8 @@ jobs:
       - name: Fetch stock market data (U.S. and NGX)
         run: python scripts/update_markets.py
         continue-on-error: true
+        env:
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}   # optional; enables the U.S. stock bubbles
 
       - name: Commit data files that changed
         run: |
