@@ -75,36 +75,36 @@ FRED = "fred"
 PANELS = [
     ("us", "United States", [
         ("Rates & policy", [
-            dict(src=FRED, id="DFF",    label="Fed funds rate",         sub="Effective, daily",         freq="daily", value="pct2", change="bp", polarity="neutral"),
-            dict(src=FRED, id="DGS2",   label="2-year Treasury yield",  sub="Constant maturity",        freq="daily", value="pct2", change="bp", polarity="neutral"),
-            dict(src=FRED, id="DGS10",  label="10-year Treasury yield", sub="Constant maturity",        freq="daily", value="pct2", change="bp", polarity="neutral"),
-            dict(src=FRED, id="T10Y2Y", label="Yield curve",            sub="10-year minus 2-year",     freq="daily", value="bp",   change="bp", polarity="neutral", status="curve"),
+            dict(src=FRED, id="DFF", short="Fed funds",    label="Fed funds rate",         sub="Effective, daily",         freq="daily", value="pct2", change="bp", polarity="neutral"),
+            dict(src=FRED, id="DGS2", short="2Y yield",   label="2-year Treasury yield",  sub="Constant maturity",        freq="daily", value="pct2", change="bp", polarity="neutral"),
+            dict(src=FRED, id="DGS10", short="10Y yield",  label="10-year Treasury yield", sub="Constant maturity",        freq="daily", value="pct2", change="bp", polarity="neutral"),
+            dict(src=FRED, id="T10Y2Y", short="10Y−2Y", label="Yield curve",            sub="10-year minus 2-year",     freq="daily", value="bp",   change="bp", polarity="neutral", status="curve"),
         ]),
         ("Inflation & prices", [
-            dict(src=FRED, id="CPIAUCSL", label="CPI inflation",        sub="12-month change",          freq="monthly", value="pct1", change="pt", polarity="up_bad", transform="yoy"),
-            dict(src=FRED, id="PCEPILFE", label="Core PCE inflation",   sub="12-month change; Fed target 2%", freq="monthly", value="pct1", change="pt", polarity="up_bad", transform="yoy", status="target2"),
-            dict(src=FRED, id="T10YIE", label="10-year breakeven inflation", sub="Market-implied",      freq="daily", value="pct2", change="bp", polarity="neutral"),
-            dict(src=FRED, id="DCOILWTICO", label="WTI crude oil",      sub="Spot, dollars per barrel", freq="daily", value="usd2", change="pct", polarity="neutral"),
+            dict(src=FRED, id="CPIAUCSL", short="CPI", label="CPI inflation",        sub="12-month change",          freq="monthly", value="pct1", change="pt", polarity="up_bad", transform="yoy"),
+            dict(src=FRED, id="PCEPILFE", short="Core PCE", label="Core PCE inflation",   sub="12-month change; Fed target 2%", freq="monthly", value="pct1", change="pt", polarity="up_bad", transform="yoy", status="target2"),
+            dict(src=FRED, id="T10YIE", short="Breakeven", label="10-year breakeven inflation", sub="Market-implied",      freq="daily", value="pct2", change="bp", polarity="neutral"),
+            dict(src=FRED, id="DCOILWTICO", short="WTI oil", label="WTI crude oil",      sub="Spot, dollars per barrel", freq="daily", value="usd2", change="pct", polarity="neutral"),
         ]),
         ("Growth & labor", [
-            dict(src=FRED, id="A191RL1Q225SBEA", label="Real GDP growth", sub="Quarterly, annualized",  freq="quarterly", value="pct1", change="pt", polarity="up_good"),
-            dict(src=FRED, id="UNRATE", label="Unemployment rate",      sub="Seasonally adjusted",      freq="monthly", value="pct1", change="pt", polarity="up_bad"),
-            dict(src=FRED, id="ICSA",   label="Initial jobless claims", sub="Weekly, seasonally adjusted", freq="weekly", value="k", change="k", polarity="up_bad"),
-            dict(src=FRED, id="SAHMREALTIME", label="Sahm rule indicator", sub="Recession signal at 0.50", freq="monthly", value="num2", change="num2", polarity="up_bad", status="sahm"),
+            dict(src=FRED, id="A191RL1Q225SBEA", short="GDP", label="Real GDP growth", sub="Quarterly, annualized",  freq="quarterly", value="pct1", change="pt", polarity="up_good"),
+            dict(src=FRED, id="UNRATE", short="Unemployment", label="Unemployment rate",      sub="Seasonally adjusted",      freq="monthly", value="pct1", change="pt", polarity="up_bad"),
+            dict(src=FRED, id="ICSA", short="Jobless claims",   label="Initial jobless claims", sub="Weekly, seasonally adjusted", freq="weekly", value="k", change="k", polarity="up_bad"),
+            dict(src=FRED, id="SAHMREALTIME", short="Sahm rule", label="Sahm rule indicator", sub="Recession signal at 0.50", freq="monthly", value="num2", change="num2", polarity="up_bad", status="sahm"),
         ]),
     ]),
     ("global", "Nigeria & world", [
         ("Nigeria", [
-            dict(src="fx", id="USDNGN", base="usd", quote="ngn", label="Naira per US dollar", sub="Daily market rate", freq="daily", value="ngn", change="pct", polarity="up_bad"),
-            dict(src="annual", id="NGA_INFL", imf=("PCPIPCH", "NGA"), wb=("FP.CPI.TOTL.ZG", "NGA"), label="Nigeria inflation", sub="Annual average, consumer prices", freq="annual", value="pct1", change="pt", polarity="up_bad"),
-            dict(src="annual", id="NGA_GDP", imf=("NGDP_RPCH", "NGA"), wb=("NY.GDP.MKTP.KD.ZG", "NGA"), label="Nigeria real GDP growth", sub="Annual", freq="annual", value="pct1", change="pt", polarity="up_good"),
-            dict(src=FRED, id="DCOILBRENTEU", label="Brent crude oil", sub="Nigeria's export benchmark, $ per barrel", freq="daily", value="usd2", change="pct", polarity="neutral"),
+            dict(src="fx", id="USDNGN", short="USD/NGN", base="usd", quote="ngn", label="Naira per US dollar", sub="Daily market rate", freq="daily", value="ngn", change="pct", polarity="up_bad"),
+            dict(src="annual", id="NGA_INFL", short="NG inflation", imf=("PCPIPCH", "NGA"), wb=("FP.CPI.TOTL.ZG", "NGA"), label="Nigeria inflation", sub="Annual average, consumer prices", freq="annual", value="pct1", change="pt", polarity="up_bad"),
+            dict(src="annual", id="NGA_GDP", short="NG growth", imf=("NGDP_RPCH", "NGA"), wb=("NY.GDP.MKTP.KD.ZG", "NGA"), label="Nigeria real GDP growth", sub="Annual", freq="annual", value="pct1", change="pt", polarity="up_good"),
+            dict(src=FRED, id="DCOILBRENTEU", short="Brent", label="Brent crude oil", sub="Nigeria's export benchmark, $ per barrel", freq="daily", value="usd2", change="pct", polarity="neutral"),
         ]),
         ("World", [
-            dict(src="annual", id="WLD_GDP", imf=("NGDP_RPCH", "WEOWORLD"), wb=("NY.GDP.MKTP.KD.ZG", "WLD"), label="World real GDP growth", sub="Annual", freq="annual", value="pct1", change="pt", polarity="up_good"),
-            dict(src=FRED, id="PFOODINDEXM", label="Global food prices", sub="IMF index, 2016 = 100", freq="monthly", value="num1", change="pct", polarity="up_bad"),
-            dict(src=FRED, id="DEXUSEU", label="Euro", sub="US dollars per euro", freq="daily", value="fx4", change="pct", polarity="neutral"),
-            dict(src=FRED, id="DEXCHUS", label="Chinese yuan", sub="Yuan per US dollar", freq="daily", value="fx4", change="pct", polarity="neutral"),
+            dict(src="annual", id="WLD_GDP", short="World GDP", imf=("NGDP_RPCH", "WEOWORLD"), wb=("NY.GDP.MKTP.KD.ZG", "WLD"), label="World real GDP growth", sub="Annual", freq="annual", value="pct1", change="pt", polarity="up_good"),
+            dict(src=FRED, id="PFOODINDEXM", short="Food prices", label="Global food prices", sub="IMF index, 2016 = 100", freq="monthly", value="num1", change="pct", polarity="up_bad"),
+            dict(src=FRED, id="DEXUSEU", short="EUR/USD", label="Euro", sub="US dollars per euro", freq="daily", value="fx4", change="pct", polarity="neutral"),
+            dict(src=FRED, id="DEXCHUS", short="USD/CNY", label="Chinese yuan", sub="Yuan per US dollar", freq="daily", value="fx4", change="pct", polarity="neutral"),
         ]),
     ]),
 ]
@@ -210,6 +210,32 @@ def trend(obs: list[tuple[str, float]], freq: str, today: date) -> list[list]:
     return [[d, round(v, 4)] for d, v in thinned]
 
 
+def move_z(obs: list[tuple[str, float]], change_format: str, freq: str, today: date) -> float | None:
+    """Size of the latest move in units of the series' typical move over the trend window:
+    z = latest change / standard deviation of past one-period changes. Changes are in the
+    displayed metric (percent changes for prices and exchange rates, level changes otherwise).
+    When history is sparser than the latest step (weekly exchange-rate snapshots vs a daily
+    change), the deviation is rescaled by sqrt(step ratio), as for a random walk."""
+    cutoff = (today - timedelta(days=WINDOW[freq][0])).isoformat()
+    window = [o for o in obs if o[0] >= cutoff]
+    if len(window) < 5:
+        return None
+    pct = change_format == "pct"
+    def step(a, b):
+        return (b[1] / a[1] - 1.0) * 100.0 if pct else b[1] - a[1]
+    diffs = [step(a, b) for a, b in zip(window[:-2], window[1:-1])]  # past moves, excluding the latest
+    days = [(date.fromisoformat(b[0]) - date.fromisoformat(a[0])).days for a, b in zip(window[:-2], window[1:-1])]
+    n = len(diffs)
+    mean = sum(diffs) / n
+    sd = (sum((d - mean) ** 2 for d in diffs) / max(n - 1, 1)) ** 0.5
+    if sd == 0:
+        return None
+    latest_days = (date.fromisoformat(window[-1][0]) - date.fromisoformat(window[-2][0])).days or 1
+    typical_days = (sum(days) / n) or 1
+    sd *= min(1.0, latest_days / typical_days) ** 0.5  # only for sparse history; weekends add no variance
+    return round(step(window[-2], window[-1]) / sd, 2)
+
+
 def status_note(kind: str | None, value: float) -> str | None:
     """Short, factual reading of the latest value against a standard benchmark."""
     if kind == "curve":
@@ -247,11 +273,12 @@ def build_series(spec: dict, today: date, previous: dict | None) -> dict:
     if spec["src"] == "annual" and source_name == "IMF" and int(d1[:4]) >= today.year:
         status = "IMF estimate"  # the current year in the WEO is a projection
     return {
-        "id": sid, "label": spec["label"], "sub": spec["sub"], "freq": freq,
+        "id": sid, "label": spec["label"], "short": spec.get("short", spec["label"]), "sub": spec["sub"], "freq": freq,
         "format": spec["value"], "change_format": spec["change"], "polarity": spec["polarity"],
         "date": d1, "value": round(v1, 4), "prev_date": d0, "prev_value": round(v0, 4),
         "window": WINDOW_LABEL[freq], "trend": trend(obs, freq, today), "status": status,
         "source_name": source_name, "source_url": source_url,
+        "move_z": move_z(obs, spec["change"], freq, today),
     }
 
 
