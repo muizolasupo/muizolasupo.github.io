@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-06T18:28:55Z",
+ "updated": "2026-10-07T00:49:19Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
     {
-     "title": "In search of tax alpha",
-     "url": "https://www.economist.com/finance-and-economics/2026/10/06/in-search-of-tax-alpha",
+     "title": "American investors’ trick to lower taxes: lose money",
+     "url": "https://www.economist.com/finance-and-economics/2026/10/06/american-investors-trick-to-lower-taxes-lose-money",
      "source": "The Economist",
      "published": "2026-10-06T17:41:20Z",
      "image": ""
@@ -54,46 +54,46 @@
    "label": "Markets",
    "items": [
     {
+     "title": "Chart: A look at the S&P 500's remarkable and defiant trip to a new record",
+     "url": "https://www.cnbc.com/2026/10/06/chart-a-look-at-the-sp-500s-remarkable-and-defiant-trip-a-new-record.html",
+     "source": "CNBC",
+     "published": "2026-10-06T22:23:01Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108370319-1791325984516-108370319-1790781020673-Traders-Photo-20260929-KK-PRESS-004.jpg?v=1791326037&w=1920&h=1080"
+    },
+    {
+     "title": "The S&P 500 is back in record territory as the ‘Magnificent Seven’ ride to the rescue",
+     "url": "https://www.marketwatch.com/story/the-s-p-500-is-back-in-record-territory-as-the-magnificent-seven-ride-to-the-rescue-e062724d?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-06T21:52:00Z",
+     "image": "https://images.mktw.net/im-33898223"
+    },
+    {
+     "title": "Oct. 9 has loomed large in stock-market history. Why investors still shouldn’t buy into an October jinx.",
+     "url": "https://www.marketwatch.com/story/oct-9-has-loomed-large-in-stock-market-history-why-investors-still-shouldnt-buy-into-an-october-jinx-81d7149b?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-06T20:37:00Z",
+     "image": "https://images.mktw.net/im-96714164"
+    },
+    {
+     "title": "Google makes a fresh bet on nuclear power as the AI energy crunch intensifies",
+     "url": "https://www.marketwatch.com/story/google-makes-a-fresh-bet-on-nuclear-power-as-the-ai-energy-crunch-intensifies-a757c296?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-06T20:24:00Z",
+     "image": "https://images.mktw.net/im-94295045"
+    },
+    {
      "title": "Marvell just impressed Wall Street with ‘good numbers plus a better story’",
      "url": "https://www.marketwatch.com/story/marvell-just-impressed-wall-street-with-good-numbers-plus-a-better-story-57fbbf23?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-06T18:25:00Z",
+     "published": "2026-10-06T20:21:00Z",
      "image": "https://images.mktw.net/im-789822"
     },
     {
-     "title": "How Meta’s stock can surge to $1,000, according to the biggest bull on Wall Street",
-     "url": "https://www.marketwatch.com/story/how-metas-stock-can-surge-to-1-000-according-to-the-biggest-bull-on-wall-street-a91afff3?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-06T18:20:00Z",
-     "image": "https://images.mktw.net/im-93074937"
-    },
-    {
-     "title": "America’s renters are emerging as a political movement",
-     "url": "https://www.marketwatch.com/story/locked-out-of-home-ownership-renters-are-rallying-voters-for-affordable-housing-policies-bf946d70?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-06T17:58:00Z",
-     "image": "https://images.mktw.net/im-21926696"
-    },
-    {
-     "title": "Loneliness and social isolation can take six years off your life",
-     "url": "https://www.marketwatch.com/story/loneliness-and-social-isolation-can-take-six-years-off-your-life-496af256?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-06T17:18:00Z",
-     "image": "https://images.mktw.net/im-31502291"
-    },
-    {
-     "title": "Unsure how long this AI bull has? Bonds now offer a cushion at the best values in years",
-     "url": "https://www.cnbc.com/2026/10/06/unsure-how-long-this-ai-bull-has-bonds-now-offer-a-cushion-at-the-best-values-in-years.html",
+     "title": "How event contract bundles are boosting volume on prediction markets",
+     "url": "https://www.cnbc.com/2026/10/06/prediction-market-combo-contract-volume.html",
      "source": "CNBC",
-     "published": "2026-10-06T11:08:28Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108370321-1790781020672-Traders-Photo-20260929-KK-PRESS-007.jpg?v=1790781195&w=1920&h=1080"
-    },
-    {
-     "title": "Goldman: Diesel prices set to stay high through 2027 as refineries struggle to meet demand",
-     "url": "https://www.cnbc.com/2026/10/06/diesel-oil-refinery-price-capacity-demand.html",
-     "source": "CNBC",
-     "published": "2026-10-06T08:47:30Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108373013-1791266478874-gettyimages-2296179693-AFP_C97K8CE.jpeg?v=1791266489&w=1920&h=1080"
+     "published": "2026-10-06T18:46:16Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108270194-1772061798995-gettyimages-2263571474-l1049595_copy_qr8q5yqa.jpeg?v=1791299887&w=1920&h=1080"
     }
    ]
   },
@@ -150,32 +150,39 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "Nigeria’s current account surplus to hit 6% of GDP in 2026 – World Bank",
-     "url": "https://businessday.ng/uncategorized/article/nigerias-current-account-surplus-to-hit-6-of-gdp-in-2026-world-bank/",
+     "title": "AI spending doubles as companies move beyond IT budgets",
+     "url": "https://businessday.ng/technology/article/ai-spending-doubles-as-companies-move-beyond-it-budgets/",
      "source": "BusinessDay",
-     "published": "2026-10-06T18:19:31Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2025/02/GDP.webp"
+     "published": "2026-10-06T23:55:17Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2025/06/Artificial-Intelligence-1024x628.jpg"
     },
     {
-     "title": "FG launches 2026 oil licensing round, offers 40 blocks to investors",
-     "url": "https://businessday.ng/energy/oilandgas/article/fg-launches-2026-oil-licensing-round-offers-40-blocks-to-investors/",
+     "title": "Jude Chiemeka targets liquidity and digital innovation as new ASEA president",
+     "url": "https://businessday.ng/news/article/jude-chiemeka-targets-liquidity-and-digital-innovation-as-new-asea-president/",
      "source": "BusinessDay",
-     "published": "2026-10-06T18:12:07Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2025/12/NUPRC-logo--large.webp"
+     "published": "2026-10-06T23:51:18Z",
+     "image": "https://cdn.businessday.ng/2023/04/20230428_093132_0000.png"
     },
     {
-     "title": "TenTrade brings traders and mentors together to build a community of shared learning in Lagos",
-     "url": "https://nairametrics.com/2026/10/06/tentrade-brings-traders-and-mentors-together-to-build-a-community-of-shared-learning-in-lagos/",
+     "title": "Anthropic CEO Amodei earned $18 million in 2025 but trails other top tech CEOs",
+     "url": "https://nairametrics.com/2026/10/06/anthropic-ceo-amodei-earned-18-million-in-2025-but-trails-other-top-tech-ceos/",
      "source": "Nairametrics",
-     "published": "2026-10-06T18:10:58Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/tentrade.jpg"
+     "published": "2026-10-06T20:55:22Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/Anthropic-CEO-Dario-Amodei-1.webp"
     },
     {
-     "title": "Lagos withdraws licences of six PSP waste operators",
-     "url": "https://nairametrics.com/2026/10/06/lagos-withdraws-licences-of-six-psp-waste-operators/",
+     "title": "Nigeria has reduced reliance on oil revenue – Tinubu",
+     "url": "https://www.premiumtimesng.com/business/business-news/915100-nigeria-has-reduced-reliance-on-oil-revenue-tinubu.html",
+     "source": "Premium Times",
+     "published": "2026-10-06T19:53:01Z",
+     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/09/795983524_1635134861682925_4976397448398499118_n-scaled-e1788466644254.jpg?fit=2445%2C1523&ssl=1"
+    },
+    {
+     "title": "NGX sheds N256 billion as five-day losing streak deepens",
+     "url": "https://nairametrics.com/2026/10/06/ngx-sheds-n256-billion-as-five-day-losing-streak-deepens/",
      "source": "Nairametrics",
-     "published": "2026-10-06T18:10:42Z",
-     "image": "https://media.nairametrics.com/2024/12/toks-e1739641246308.jpeg"
+     "published": "2026-10-06T19:41:19Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/stock-drop-image.webp"
     },
     {
      "title": "AI could reduce poverty, but poor Africans risk being left behind – World Bank",
@@ -183,13 +190,6 @@
      "source": "Premium Times",
      "published": "2026-10-06T17:53:22Z",
      "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2025/04/World-Bank.jpg?fit=1024%2C576&ssl=1"
-    },
-    {
-     "title": "5 questions on what’s at stake with Africa’s credit rating agency",
-     "url": "https://www.theafricareport.com/432512/5-questions-on-whats-at-stake-with-africas-credit-rating-agency/",
-     "source": "The Africa Report",
-     "published": "2026-10-06T14:45:31Z",
-     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=918,height=611,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/10/06/screenshot-2026-10-06-145938.png"
     }
    ]
   }
@@ -209,11 +209,11 @@
    "source": "PBS NewsHour",
    "feed": "https://www.pbs.org/newshour/feeds/rss/economy",
    "ok": true,
-   "items": 10,
-   "skipped": 10,
+   "items": 9,
+   "skipped": 11,
    "undated": 0,
    "newest": "2026-10-03T22:06:17Z",
-   "oldest": "2026-09-29T14:14:15Z"
+   "oldest": "2026-09-29T17:56:07Z"
   },
   {
    "source": "The Economist",
@@ -239,11 +239,11 @@
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 6,
-   "skipped": 4,
+   "items": 7,
+   "skipped": 3,
    "undated": 0,
-   "newest": "2026-10-06T18:25:00Z",
-   "oldest": "2026-10-06T14:29:00Z"
+   "newest": "2026-10-06T21:52:00Z",
+   "oldest": "2026-10-06T18:39:00Z"
   },
   {
    "source": "CNBC",
@@ -252,8 +252,8 @@
    "items": 29,
    "skipped": 1,
    "undated": 0,
-   "newest": "2026-10-06T08:47:30Z",
-   "oldest": "2026-09-24T17:12:04Z"
+   "newest": "2026-10-06T22:23:01Z",
+   "oldest": "2026-09-25T01:22:17Z"
   },
   {
    "source": "CNBC",
@@ -322,8 +322,8 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-06T18:10:58Z",
-   "oldest": "2026-10-06T09:42:39Z"
+   "newest": "2026-10-06T20:55:22Z",
+   "oldest": "2026-10-06T10:42:40Z"
   },
   {
    "source": "BusinessDay",
@@ -332,8 +332,8 @@
    "items": 3,
    "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-06T18:19:31Z",
-   "oldest": "2026-10-06T18:03:20Z"
+   "newest": "2026-10-06T23:55:17Z",
+   "oldest": "2026-10-06T23:32:25Z"
   },
   {
    "source": "Premium Times",
@@ -342,8 +342,8 @@
    "items": 13,
    "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-06T17:53:22Z",
-   "oldest": "2026-10-01T07:17:59Z"
+   "newest": "2026-10-06T19:53:01Z",
+   "oldest": "2026-10-01T07:21:53Z"
   },
   {
    "source": "African Business",
