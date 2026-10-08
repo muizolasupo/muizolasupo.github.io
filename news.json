@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-08T10:44:59Z",
+ "updated": "2026-10-08T18:54:30Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
+    {
+     "title": "Inflation on many everyday items was entirely due to tariffs, NY Fed says",
+     "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html",
+     "source": "CNBC",
+     "published": "2026-10-08T17:31:03Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108138159-1745946378116-gettyimages-2207589702-AFP_38VT4KD.jpeg?v=1783025629&w=1920&h=1080"
+    },
     {
      "title": "Governments are mishandling the affordability crisis",
      "url": "https://www.economist.com/finance-and-economics/2026/10/08/governments-are-mishandling-the-affordability-crisis",
@@ -27,13 +34,6 @@
      "image": "https://image.cnbcfm.com/api/v1/image/108374148-1791392801813-108374148-1791388061460-108374148-1791387933444-gettyimages-2297102806-US_DIESEL.jpg?v=1791392813&w=1920&h=1080"
     },
     {
-     "title": "ICE came to town and left behind weakened economies",
-     "url": "https://www.cnbc.com/2026/10/07/ice-raids-local-economies.html",
-     "source": "CNBC",
-     "published": "2026-10-07T12:24:32Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108259877-1769815783573-gettyimages-2258528609-_sm14983.jpeg?v=1769815824&w=1920&h=1080"
-    },
-    {
      "title": "Who will win the 2026 Nobel Prize in economics?",
      "url": "https://www.npr.org/sections/planet-money/2026/10/07/g-s1-146828/who-will-win-the-2026-nobel-prize-in-economics",
      "source": "NPR",
@@ -54,32 +54,39 @@
    "label": "Markets",
    "items": [
     {
-     "title": "A true ‘nuclear renaissance’ is taking shape, and these stocks could be big winners",
-     "url": "https://www.marketwatch.com/story/a-true-nuclear-renaissance-is-taking-shape-and-these-stocks-could-be-big-winners-e04f7364?mod=mw_rss_topstories",
+     "title": "The options market is reminding investors there’s a cure for rising bond yields — higher yields",
+     "url": "https://www.marketwatch.com/story/the-options-market-is-reminding-investors-theres-a-cure-for-rising-bond-yields-higher-yields-2dcac640?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-08T10:30:00Z",
-     "image": "https://images.mktw.net/im-19176669"
+     "published": "2026-10-08T18:51:00Z",
+     "image": "https://images.mktw.net/im-71395310"
     },
     {
-     "title": "Samsung just did something no tech company has ever done, and investors still aren’t satisfied",
-     "url": "https://www.marketwatch.com/story/samsung-just-did-something-no-tech-company-has-ever-done-and-investors-still-arent-satisfied-3ff5ecb2?mod=mw_rss_topstories",
+     "title": "Bond yields fell, as the Treasury market passed a crucial test of investor confidence",
+     "url": "https://www.marketwatch.com/story/the-treasury-market-is-facing-a-crucial-vote-of-investor-confidence-31fa8d41?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-08T09:50:00Z",
-     "image": "https://images.mktw.net/im-92890080"
+     "published": "2026-10-08T18:19:00Z",
+     "image": "https://images.mktw.net/im-47644886"
     },
     {
-     "title": "Oil prices are jumping again. How the S&P 500 has performed on days crude has seen big gains may be surprising.",
-     "url": "https://www.marketwatch.com/story/oil-prices-are-jumping-again-how-the-s-p-500-has-performed-on-days-crude-has-seen-big-gains-may-be-surprising-283555c1?mod=mw_rss_topstories",
+     "title": "Ken Paxton is right. Tax cuts will mean Social Security and Medicare cuts.",
+     "url": "https://www.marketwatch.com/story/ken-paxton-is-right-tax-cuts-will-mean-social-security-and-medicare-cuts-2befed72?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-08T09:33:00Z",
-     "image": "https://images.mktw.net/im-83529046"
+     "published": "2026-10-08T18:08:00Z",
+     "image": "https://images.mktw.net/im-91463932"
     },
     {
-     "title": "French bonds are suffering through their worst decade since 1803 — and investors are bracing for more pain",
-     "url": "https://www.marketwatch.com/story/french-bonds-are-suffering-through-its-worst-decade-since-1803-and-investors-are-bracing-for-more-pain-63df8fe7?mod=mw_rss_topstories",
+     "title": "Little relief expected for gas prices ahead of Election Day, according to prediction markets",
+     "url": "https://www.cnbc.com/2026/10/08/little-relief-expected-for-gas-prices-ahead-of-election-day.html",
+     "source": "CNBC",
+     "published": "2026-10-08T17:51:51Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108362345-1789384999707-gettyimages-2294723764-PWeaver-Diesel-260913-04.jpeg?v=1789385033&w=1920&h=1080"
+    },
+    {
+     "title": "Rising interest rates: The good, the bad and the ugly for retirees",
+     "url": "https://www.marketwatch.com/story/the-good-the-bad-and-the-ugly-of-rising-interest-rates-ee465a81?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-08T09:32:00Z",
-     "image": "https://images.mktw.net/im-94438108"
+     "published": "2026-10-08T17:45:00Z",
+     "image": "https://images.mktw.net/im-49042399"
     },
     {
      "title": "After a yearslong slump, China's real estate market may be set for a turnaround",
@@ -87,13 +94,6 @@
      "source": "CNBC",
      "published": "2026-10-08T09:27:31Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108374648-1791426877493-gettyimages-2294885269-cfoto-realesta260915_npyUu.jpeg?v=1791426916&w=1920&h=1080"
-    },
-    {
-     "title": "Huawei doubles down on smartphones as EV sales slow",
-     "url": "https://www.cnbc.com/2026/10/08/huawei-china-smartphone-ev-slow.html",
-     "source": "CNBC",
-     "published": "2026-10-08T08:04:11Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108373724-1791337280533-gettyimages-2298063603-Huawei_Mate_90_Smartphone.jpeg?v=1791337305&w=1920&h=1080"
     }
    ]
   },
@@ -101,6 +101,13 @@
    "id": "policy",
    "label": "Policy & research",
    "items": [
+    {
+     "title": "AI Adoption and Employment Expectations: Evidence from a Survey of Small Business Owners",
+     "url": "https://libertystreeteconomics.newyorkfed.org/2026/10/ai-adoption-and-employment-expectations-evidence-from-a-survey-of-small-business-owners/",
+     "source": "Liberty Street Economics",
+     "published": "2026-10-08T11:00:00Z",
+     "image": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2026/10/LSE_2026_AI-adoption-small-biz_sarkar_460.jpg?quality=80&w=460"
+    },
     {
      "title": "Waller, The Signaling Value of the Summary of Economic Projections",
      "url": "https://www.federalreserve.gov/newsevents/speech/waller20261008a.htm",
@@ -130,13 +137,6 @@
      "image": ""
     },
     {
-     "title": "How Fast Do Tariffs Pass Through into Consumer Prices?",
-     "url": "https://libertystreeteconomics.newyorkfed.org/2026/10/how-fast-do-tariffs-pass-through-into-consumer-prices/",
-     "source": "Liberty Street Economics",
-     "published": "2026-10-06T11:00:00Z",
-     "image": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2026/09/LSE_2026_tariffs-consumer-prices_heise_460a_9e2ba8.jpg?quality=80&w=460"
-    },
-    {
      "title": "Crowding Out Temptation: Experimental Evidence on Savings and Health Behaviors in Kenya",
      "url": "https://www.nber.org/papers/w35833#fromrss",
      "source": "NBER",
@@ -150,46 +150,46 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "Kenyan investors face refunds if Dangote Refinery IPO misses key threshold",
-     "url": "https://nairametrics.com/2026/10/08/kenyan-investors-face-refunds-if-dangote-refinery-ipo-misses-key-threshold/",
+     "title": "African startups raise $260.3 million as top 10 account for 85.5% in September 2026",
+     "url": "https://nairametrics.com/2026/10/08/african-startups-raise-260-3-million-as-top-10-account-for-85-5-in-september-2026/",
      "source": "Nairametrics",
-     "published": "2026-10-08T10:27:56Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/Dangote-new.webp"
+     "published": "2026-10-08T18:52:03Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/08/start-up.webp"
     },
     {
-     "title": "Atiku attacks Tinubu over N796bn agricultural trade reversal",
-     "url": "https://businessday.ng/news/article/atiku-attacks-tinubu-over-n796bn-agricultural-trade-reversal/",
+     "title": "FG turns to tax relief, transport support as petrol prices climb",
+     "url": "https://businessday.ng/business-economy/article/fg-turns-to-tax-relief-transport-support-as-petrol-prices-climb/",
      "source": "BusinessDay",
-     "published": "2026-10-08T10:20:56Z",
-     "image": "https://cdn.businessday.ng/2022/09/Atiku-Abubakar.png"
+     "published": "2026-10-08T18:45:17Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2023/12/Taiwo-Oyedele-1.png"
     },
     {
-     "title": "Naira extends Bullish streak against British Pound at N1,767/£",
-     "url": "https://nairametrics.com/2026/10/08/naira-extends-bullish-streak-against-british-pound-at-n1767/",
+     "title": "ICSAN reaffirms role of sound corporate governance in strengthening investor confidence",
+     "url": "https://businessday.ng/news/article/icsan-reaffirms-role-of-sound-corporate-governance-in-strengthening-investor-confidence/",
+     "source": "BusinessDay",
+     "published": "2026-10-08T18:13:46Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2025/11/Corporate-Governance-for-South-Africa-large.png"
+    },
+    {
+     "title": "J.P. Morgan to launch merchant bank in Nigeria before year-end",
+     "url": "https://nairametrics.com/2026/10/08/j-p-morgan-to-launch-merchant-bank-in-nigeria-before-year-end/",
      "source": "Nairametrics",
-     "published": "2026-10-08T09:43:27Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2024/05/Naira-and-pounds1.webp"
+     "published": "2026-10-08T17:32:03Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2023/08/JP-Morgan.png"
     },
     {
-     "title": "Egypt floats African partnerships in energy sector",
-     "url": "https://african.business/2026/10/energy-resources/egypt-commits-to-african-partnerships-in-energy-sector",
-     "source": "African Business",
-     "published": "2026-10-08T08:43:37Z",
-     "image": "https://african.business/wp-content/uploads/2026/10/000_33PV9PR-scaled.jpg"
+     "title": "Is Assab Port the real prize in the looming Ethiopia-Eritrea war?",
+     "url": "https://www.theafricareport.com/432744/is-assab-port-the-real-prize-in-the-looming-ethiopia-eritrea-war/",
+     "source": "The Africa Report",
+     "published": "2026-10-08T15:30:00Z",
+     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=2560,height=1730,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/10/08/2019-10-11t090210z_350017655_rc1bdaf715f0_rtrmadp_3_nobel-prize-peace-scaled.jpg"
     },
     {
-     "title": "Africa's agri future begins with seed systems that include everyone",
-     "url": "https://african.business/2026/10/resources/africas-agri-future-begins-with-seed-systems-that-include-everyone",
-     "source": "African Business",
-     "published": "2026-10-08T08:11:19Z",
-     "image": "https://african.business/wp-content/uploads/2026/10/000_68XX2WF-scaled.jpg"
-    },
-    {
-     "title": "Sierra Leonean President Bio, Elumelu rally West African private sector to turn regional potential into investment, jobs",
-     "url": "https://www.premiumtimesng.com/business/business-news/915355-sierra-leonean-president-bio-elumelu-rally-west-african-private-sector-to-turn-regional-potential-into-investment-jobs.html",
+     "title": "Moove exits Nigerian Market",
+     "url": "https://www.premiumtimesng.com/business/business-news/915476-just-in-moove-exits-nigerian-market.html",
      "source": "Premium Times",
-     "published": "2026-10-08T05:42:48Z",
-     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/10/PHOTO-_WAIIS-scaled-e1791437991525.jpg?fit=2556%2C1600&ssl=1"
+     "published": "2026-10-08T15:01:34Z",
+     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/10/231821027_338227947944955_3748183297961175531_n.jpg?fit=1000%2C638&ssl=1"
     }
    ]
   }
@@ -232,8 +232,8 @@
    "items": 30,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-07T18:44:36Z",
-   "oldest": "2026-09-16T17:32:22Z"
+   "newest": "2026-10-08T17:31:03Z",
+   "oldest": "2026-09-16T20:22:24Z"
   },
   {
    "source": "MarketWatch",
@@ -242,8 +242,8 @@
    "items": 7,
    "skipped": 3,
    "undated": 0,
-   "newest": "2026-10-08T10:30:00Z",
-   "oldest": "2026-10-07T20:58:00Z"
+   "newest": "2026-10-08T18:51:00Z",
+   "oldest": "2026-10-08T16:11:00Z"
   },
   {
    "source": "CNBC",
@@ -252,18 +252,18 @@
    "items": 29,
    "skipped": 1,
    "undated": 0,
-   "newest": "2026-10-08T09:27:31Z",
-   "oldest": "2026-09-26T13:30:06Z"
+   "newest": "2026-10-08T17:51:51Z",
+   "oldest": "2026-09-26T15:00:01Z"
   },
   {
    "source": "CNBC",
    "feed": "https://www.cnbc.com/id/15839069/device/rss/rss.html",
    "ok": true,
-   "items": 29,
+   "items": 28,
    "skipped": 0,
    "undated": 0,
    "newest": "2026-10-06T11:08:28Z",
-   "oldest": "2026-09-08T19:29:41Z"
+   "oldest": "2026-09-11T20:21:01Z"
   },
   {
    "source": "Federal Reserve",
@@ -312,8 +312,8 @@
    "items": 100,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-07T13:00:00Z",
-   "oldest": "2025-10-08T11:00:00Z"
+   "newest": "2026-10-08T11:00:00Z",
+   "oldest": "2025-10-09T11:00:00Z"
   },
   {
    "source": "Nairametrics",
@@ -322,28 +322,28 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-08T10:27:56Z",
-   "oldest": "2026-10-07T16:36:29Z"
+   "newest": "2026-10-08T18:52:03Z",
+   "oldest": "2026-10-08T08:51:32Z"
   },
   {
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 1,
-   "skipped": 4,
+   "items": 2,
+   "skipped": 3,
    "undated": 0,
-   "newest": "2026-10-08T10:20:56Z",
-   "oldest": "2026-10-08T10:20:56Z"
+   "newest": "2026-10-08T18:45:17Z",
+   "oldest": "2026-10-08T18:13:46Z"
   },
   {
    "source": "Premium Times",
    "feed": "https://www.premiumtimesng.com/business/feed",
    "ok": true,
-   "items": 10,
-   "skipped": 5,
+   "items": 9,
+   "skipped": 6,
    "undated": 0,
-   "newest": "2026-10-08T05:42:48Z",
-   "oldest": "2026-10-03T09:28:22Z"
+   "newest": "2026-10-08T15:01:34Z",
+   "oldest": "2026-10-05T13:53:40Z"
   },
   {
    "source": "African Business",
@@ -352,18 +352,18 @@
    "items": 25,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-08T08:43:37Z",
-   "oldest": "2026-09-29T11:49:29Z"
+   "newest": "2026-10-08T11:42:02Z",
+   "oldest": "2026-09-29T13:49:01Z"
   },
   {
    "source": "The Africa Report",
    "feed": "https://www.theafricareport.com/feed/",
    "ok": true,
-   "items": 2,
-   "skipped": 8,
+   "items": 4,
+   "skipped": 6,
    "undated": 0,
-   "newest": "2026-10-07T12:27:52Z",
-   "oldest": "2026-10-07T09:21:05Z"
+   "newest": "2026-10-08T15:30:00Z",
+   "oldest": "2026-10-07T12:27:52Z"
   }
  ],
  "first_seen": {
