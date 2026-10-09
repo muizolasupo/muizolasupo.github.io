@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T18:54:30Z",
+ "updated": "2026-10-09T01:16:35Z",
  "categories": [
   {
    "id": "economy",
@@ -54,25 +54,39 @@
    "label": "Markets",
    "items": [
     {
-     "title": "The options market is reminding investors there’s a cure for rising bond yields — higher yields",
-     "url": "https://www.marketwatch.com/story/the-options-market-is-reminding-investors-theres-a-cure-for-rising-bond-yields-higher-yields-2dcac640?mod=mw_rss_topstories",
+     "title": "SpaceX’s Starlink Mobile plans are pressuring AT&T and Verizon shares",
+     "url": "https://www.marketwatch.com/story/spacexs-starlink-mobile-plans-are-pressuring-at-t-and-verizon-shares-7cb56764?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-08T18:51:00Z",
-     "image": "https://images.mktw.net/im-71395310"
+     "published": "2026-10-09T00:52:00Z",
+     "image": "https://images.mktw.net/im-62600133"
     },
     {
-     "title": "Bond yields fell, as the Treasury market passed a crucial test of investor confidence",
-     "url": "https://www.marketwatch.com/story/the-treasury-market-is-facing-a-crucial-vote-of-investor-confidence-31fa8d41?mod=mw_rss_topstories",
+     "title": "How to downsize like a pro — and free yourself from being a ‘prisoner of your possessions’",
+     "url": "https://www.marketwatch.com/story/how-to-downsize-like-a-pro-and-free-yourself-from-being-a-prisoner-of-your-possessions-c4b5533e?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-08T18:19:00Z",
-     "image": "https://images.mktw.net/im-47644886"
+     "published": "2026-10-09T00:03:00Z",
+     "image": "https://images.mktw.net/im-77743573"
     },
     {
-     "title": "Ken Paxton is right. Tax cuts will mean Social Security and Medicare cuts.",
-     "url": "https://www.marketwatch.com/story/ken-paxton-is-right-tax-cuts-will-mean-social-security-and-medicare-cuts-2befed72?mod=mw_rss_topstories",
+     "title": "Tokenization could unleash tens of billions of dollars in trapped capital, Nasdaq CEO says",
+     "url": "https://www.cnbc.com/2026/10/09/nasdaq-ceo-tokenization-could-unleash-billions-in-trapped-capital-.html",
+     "source": "CNBC",
+     "published": "2026-10-08T23:57:23Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108378717-1791499513422-gettyimages-2298530288-SINGAPORE_TOKEN2049.jpeg?v=1791499529&w=1920&h=1080"
+    },
+    {
+     "title": "Feel like a pumpkin-spice burrito? Analysts try to wrap their heads around a possible Starbucks-Chipotle tie-up.",
+     "url": "https://www.marketwatch.com/story/feel-like-a-pumpkin-spice-burrito-analysts-try-to-wrap-their-heads-around-a-possible-starbucks-chipotle-tie-up-5b8519fd?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-08T18:08:00Z",
-     "image": "https://images.mktw.net/im-91463932"
+     "published": "2026-10-08T23:14:00Z",
+     "image": "https://images.mktw.net/im-31884893"
+    },
+    {
+     "title": "Micron, Nvidia and AI chip stocks fall as report on OpenAI’s revenue causes ‘undue concern’",
+     "url": "https://www.marketwatch.com/story/micron-nvidia-and-ai-chip-stocks-fall-as-report-on-openais-revenue-causes-undue-concern-2a2bcf53?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-08T22:08:00Z",
+     "image": "https://images.mktw.net/im-19235086"
     },
     {
      "title": "Little relief expected for gas prices ahead of Election Day, according to prediction markets",
@@ -80,20 +94,6 @@
      "source": "CNBC",
      "published": "2026-10-08T17:51:51Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108362345-1789384999707-gettyimages-2294723764-PWeaver-Diesel-260913-04.jpeg?v=1789385033&w=1920&h=1080"
-    },
-    {
-     "title": "Rising interest rates: The good, the bad and the ugly for retirees",
-     "url": "https://www.marketwatch.com/story/the-good-the-bad-and-the-ugly-of-rising-interest-rates-ee465a81?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-08T17:45:00Z",
-     "image": "https://images.mktw.net/im-49042399"
-    },
-    {
-     "title": "After a yearslong slump, China's real estate market may be set for a turnaround",
-     "url": "https://www.cnbc.com/2026/10/08/chinas-real-estate-market-may-be-set-for-a-turnaround-sp-says.html",
-     "source": "CNBC",
-     "published": "2026-10-08T09:27:31Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108374648-1791426877493-gettyimages-2294885269-cfoto-realesta260915_npyUu.jpeg?v=1791426916&w=1920&h=1080"
     }
    ]
   },
@@ -150,32 +150,32 @@
    "label": "Nigeria & Africa",
    "items": [
     {
+     "title": "AfCRA must set African standards for credit ratings — Afreximbank",
+     "url": "https://businessday.ng/news/article/afcra-must-set-african-standards-for-credit-ratings-afreximbank/",
+     "source": "BusinessDay",
+     "published": "2026-10-08T22:45:00Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/03/AfCRA-large.png"
+    },
+    {
+     "title": "Fuel subsidy would cost Nigeria over N20trn yearly — Minister",
+     "url": "https://www.premiumtimesng.com/business/business-news/915535-fuel-subsidy-would-cost-nigeria-over-n20trn-yearly-minister.html",
+     "source": "Premium Times",
+     "published": "2026-10-08T19:46:06Z",
+     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/05/admin-ajax-3-2.jpg?fit=600%2C338&ssl=1"
+    },
+    {
+     "title": "NGX sell-off wipes N1.33 trillion from investors’ wealth in one day",
+     "url": "https://nairametrics.com/2026/10/08/ngx-sell-off-wipes-n1-33-trillion-from-investors-wealth-in-one-day/",
+     "source": "Nairametrics",
+     "published": "2026-10-08T19:40:07Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/stock.webp"
+    },
+    {
      "title": "African startups raise $260.3 million as top 10 account for 85.5% in September 2026",
      "url": "https://nairametrics.com/2026/10/08/african-startups-raise-260-3-million-as-top-10-account-for-85-5-in-september-2026/",
      "source": "Nairametrics",
      "published": "2026-10-08T18:52:03Z",
      "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/08/start-up.webp"
-    },
-    {
-     "title": "FG turns to tax relief, transport support as petrol prices climb",
-     "url": "https://businessday.ng/business-economy/article/fg-turns-to-tax-relief-transport-support-as-petrol-prices-climb/",
-     "source": "BusinessDay",
-     "published": "2026-10-08T18:45:17Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2023/12/Taiwo-Oyedele-1.png"
-    },
-    {
-     "title": "ICSAN reaffirms role of sound corporate governance in strengthening investor confidence",
-     "url": "https://businessday.ng/news/article/icsan-reaffirms-role-of-sound-corporate-governance-in-strengthening-investor-confidence/",
-     "source": "BusinessDay",
-     "published": "2026-10-08T18:13:46Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2025/11/Corporate-Governance-for-South-Africa-large.png"
-    },
-    {
-     "title": "J.P. Morgan to launch merchant bank in Nigeria before year-end",
-     "url": "https://nairametrics.com/2026/10/08/j-p-morgan-to-launch-merchant-bank-in-nigeria-before-year-end/",
-     "source": "Nairametrics",
-     "published": "2026-10-08T17:32:03Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2023/08/JP-Morgan.png"
     },
     {
      "title": "Is Assab Port the real prize in the looming Ethiopia-Eritrea war?",
@@ -242,8 +242,8 @@
    "items": 7,
    "skipped": 3,
    "undated": 0,
-   "newest": "2026-10-08T18:51:00Z",
-   "oldest": "2026-10-08T16:11:00Z"
+   "newest": "2026-10-09T00:52:00Z",
+   "oldest": "2026-10-08T20:55:00Z"
   },
   {
    "source": "CNBC",
@@ -252,8 +252,8 @@
    "items": 29,
    "skipped": 1,
    "undated": 0,
-   "newest": "2026-10-08T17:51:51Z",
-   "oldest": "2026-09-26T15:00:01Z"
+   "newest": "2026-10-08T23:57:23Z",
+   "oldest": "2026-09-27T15:35:34Z"
   },
   {
    "source": "CNBC",
@@ -322,27 +322,27 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-08T18:52:03Z",
-   "oldest": "2026-10-08T08:51:32Z"
+   "newest": "2026-10-08T19:40:07Z",
+   "oldest": "2026-10-08T08:58:54Z"
   },
   {
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 2,
-   "skipped": 3,
+   "items": 1,
+   "skipped": 4,
    "undated": 0,
-   "newest": "2026-10-08T18:45:17Z",
-   "oldest": "2026-10-08T18:13:46Z"
+   "newest": "2026-10-08T22:45:00Z",
+   "oldest": "2026-10-08T22:45:00Z"
   },
   {
    "source": "Premium Times",
    "feed": "https://www.premiumtimesng.com/business/feed",
    "ok": true,
-   "items": 9,
-   "skipped": 6,
+   "items": 10,
+   "skipped": 5,
    "undated": 0,
-   "newest": "2026-10-08T15:01:34Z",
+   "newest": "2026-10-08T19:46:06Z",
    "oldest": "2026-10-05T13:53:40Z"
   },
   {
