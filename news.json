@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T17:23:18Z",
+ "updated": "2026-10-10T21:52:05Z",
  "categories": [
   {
    "id": "economy",
@@ -54,18 +54,32 @@
    "label": "Markets",
    "items": [
     {
-     "title": "Elon Musk is now richer than any American ever — and it’s not even close",
-     "url": "https://www.marketwatch.com/story/elon-musk-is-now-richer-than-any-american-ever-and-its-not-even-close-58f31401?mod=mw_rss_topstories",
+     "title": "Worse than taking away your parents’ car keys? Taking away their cell phone. How to protect your aging parents.",
+     "url": "https://www.marketwatch.com/story/worse-than-taking-away-your-parents-car-keys-taking-away-their-cellphone-how-to-protect-your-aging-parents-f01be6e6?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-10T16:50:00Z",
-     "image": "https://images.mktw.net/im-42787862"
+     "published": "2026-10-10T19:44:00Z",
+     "image": "https://images.mktw.net/im-18753186"
     },
     {
-     "title": "A friend in her 80s fell down her basement stairs. Is this a hidden danger lurking in people’s home?",
-     "url": "https://www.marketwatch.com/story/the-pain-was-excruciating-a-friend-in-her-80s-fell-down-her-basement-stairs-could-it-have-been-avoided-ce105db6?mod=mw_rss_topstories",
+     "title": "These decisions you make in your 20s — not your income — determine whether you’ll spend decades in debt or retire comfortably",
+     "url": "https://www.marketwatch.com/story/these-decisions-you-make-in-your-20s-not-your-income-determine-whether-youll-spend-decades-in-debt-or-retire-comfortably-7bbb28f9?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-10T16:00:00Z",
-     "image": "https://images.mktw.net/im-28037406"
+     "published": "2026-10-10T19:44:00Z",
+     "image": "https://images.mktw.net/im-31613768"
+    },
+    {
+     "title": "How to downsize like a pro — and free yourself from being a ‘prisoner of your possessions’",
+     "url": "https://www.marketwatch.com/story/how-to-downsize-like-a-pro-and-free-yourself-from-being-a-prisoner-of-your-possessions-c4b5533e?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-10T19:44:00Z",
+     "image": "https://images.mktw.net/im-77743573"
+    },
+    {
+     "title": "Rising interest rates: The good, the bad and the ugly for retirees",
+     "url": "https://www.marketwatch.com/story/the-good-the-bad-and-the-ugly-of-rising-interest-rates-ee465a81?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-10T19:44:00Z",
+     "image": "https://images.mktw.net/im-49042399"
     },
     {
      "title": "JPMorgan makes bullish call in fixed income space, suggests it's a once in a generation opportunity",
@@ -73,20 +87,6 @@
      "source": "CNBC",
      "published": "2026-10-10T15:00:01Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108103716-1739901805641-JP3_8684.jpg?v=1740074904&w=1920&h=1080"
-    },
-    {
-     "title": "Flu season is already here. Here’s what to know about this year’s flu shots.",
-     "url": "https://www.marketwatch.com/story/flu-season-is-already-here-heres-what-to-know-about-this-years-flu-shots-58aeb705?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-10T13:19:00Z",
-     "image": "https://images.mktw.net/im-40632780"
-    },
-    {
-     "title": "Winter is coming and energy bills are climbing. ‘Everything just keeps going up.’",
-     "url": "https://www.marketwatch.com/story/winter-is-coming-and-energy-bills-are-climbing-everything-just-keeps-going-up-983cfd2d?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-10T13:00:00Z",
-     "image": "https://images.mktw.net/im-06273744"
     },
     {
      "title": "Junk bonds are 'flashing yellow.' Watch these warning signs",
@@ -150,18 +150,32 @@
    "label": "Nigeria & Africa",
    "items": [
     {
+     "title": "Dangote Refinery IPO targets 10m investors to reshape Nigeria’s capital market",
+     "url": "https://businessday.ng/companies/article/dangote-refinery-ipo-targets-10m-investors-to-reshape-nigerias-capital-market/",
+     "source": "BusinessDay",
+     "published": "2026-10-10T20:44:02Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/03/refinery-large.jpg"
+    },
+    {
+     "title": "Fitch revises Nigeria’s credit outlook to positive as reserves rise to $54.9bn",
+     "url": "https://businessday.ng/news/article/fitch-revises-nigerias-credit-outlook-to-positive-as-reserves-rise-to-54-9bn/",
+     "source": "BusinessDay",
+     "published": "2026-10-10T20:30:26Z",
+     "image": "https://cdn.businessday.ng/2023/08/fitch-ratings-1.jpg"
+    },
+    {
+     "title": "Dangote Refinery IPO: How United Capital is taking Nigeria’s Biggest Investment Opportunity Beyond Its Borders",
+     "url": "https://nairametrics.com/2026/10/10/dangote-refinery-ipo-how-united-capital-is-taking-nigerias-biggest-investment-opportunity-beyond-its-borders/",
+     "source": "Nairametrics",
+     "published": "2026-10-10T17:37:53Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/Dangote-refinery-IPOunited-capital.jpg"
+    },
+    {
      "title": "SEC disowns WayvePay, warns Nigerians against investing through platform",
      "url": "https://nairametrics.com/2026/10/10/sec-disowns-wayvepay-warns-nigerians-against-investing-through-platform/",
      "source": "Nairametrics",
      "published": "2026-10-10T17:10:51Z",
      "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/08/SEC-1.webp"
-    },
-    {
-     "title": "Best performing balanced mutual funds in Nigeria as of September 2026",
-     "url": "https://nairametrics.com/2026/10/10/best-performing-balanced-mutual-funds-in-nigeria-as-of-september-2026/",
-     "source": "Nairametrics",
-     "published": "2026-10-10T16:49:37Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/Media-2026-10-10T174339.894.jpg"
     },
     {
      "title": "Nigerian govt speaks on Fitch’s credit rating",
@@ -176,20 +190,6 @@
      "source": "Premium Times",
      "published": "2026-10-10T16:03:02Z",
      "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2017/07/Securities-and-Exchange-Commission.jpg?fit=1116%2C631&ssl=1"
-    },
-    {
-     "title": "FG rallies states to implement policy on food security",
-     "url": "https://businessday.ng/agriculture/article/fg-rallies-states-to-implement-policy-on-food-security/",
-     "source": "BusinessDay",
-     "published": "2026-10-10T14:59:54Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/IMG-20261007-WA00031-large.jpg"
-    },
-    {
-     "title": "Nigeria’s future depends on ITF turning population into productive human capital—Jada, OGFZA boss",
-     "url": "https://businessday.ng/news/article/nigerias-future-depends-on-itf-turning-population-into-productive-human-capital-jada-ogfza-boss-2/",
-     "source": "BusinessDay",
-     "published": "2026-10-10T14:44:42Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2024/02/Bamanga-Usman-Jada.png"
     }
    ]
   }
@@ -239,11 +239,11 @@
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 6,
-   "skipped": 4,
+   "items": 8,
+   "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-10T16:50:00Z",
-   "oldest": "2026-10-10T11:00:00Z"
+   "newest": "2026-10-10T19:44:00Z",
+   "oldest": "2026-10-10T16:50:00Z"
   },
   {
    "source": "CNBC",
@@ -322,18 +322,18 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-10T17:10:51Z",
+   "newest": "2026-10-10T17:37:53Z",
    "oldest": "2026-10-09T19:31:39Z"
   },
   {
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 2,
-   "skipped": 3,
+   "items": 3,
+   "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-10T14:59:54Z",
-   "oldest": "2026-10-10T14:44:42Z"
+   "newest": "2026-10-10T20:44:02Z",
+   "oldest": "2026-10-10T20:28:11Z"
   },
   {
    "source": "Premium Times",
