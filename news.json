@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T00:59:57Z",
+ "updated": "2026-10-10T09:59:32Z",
  "categories": [
   {
    "id": "economy",
@@ -150,25 +150,25 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "Informality to productivity: the lessons Nigeria can learn from Britain guilds, merchants and the future of work",
-     "url": "https://nairametrics.com/2026/10/09/informality-to-productivity-the-lessons-nigeria-can-learn-from-britain-guilds-merchants-and-the-future-of-work/",
+     "title": "Lagos launches up to N200 billion 10-year bond: Key takeaways for investors",
+     "url": "https://nairametrics.com/2026/10/10/lagos-launches-up-to-n200-billion-10-year-bond-key-takeaways-for-investors/",
      "source": "Nairametrics",
-     "published": "2026-10-09T20:34:54Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/Manufacturers-Association-of-Nigeria-1.png"
+     "published": "2026-10-10T09:41:16Z",
+     "image": "https://media.nairametrics.com/2025/05/Sanwo-Olu21-e1747811806756.jpg"
     },
     {
-     "title": "Standard Bank moves for up to $200m OPay stake ahead of NYSE listing",
-     "url": "https://businessday.ng/technology/article/standard-bank-moves-for-up-to-200m-opay-stake-ahead-of-nyse-listing/",
-     "source": "BusinessDay",
-     "published": "2026-10-09T20:22:24Z",
-     "image": "https://cdn.businessday.ng/2022/10/opay.png"
+     "title": "Tigray insurgency withers as federal forces enter Shire and resume flights to Mekelle",
+     "url": "https://www.theafricareport.com/432910/tigray-insurgency-withers-as-federal-forces-enter-shire-and-resume-flights-to-mekelle/",
+     "source": "The Africa Report",
+     "published": "2026-10-10T09:37:51Z",
+     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=2560,height=1707,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/09/23/afp__20210312__aa_12032021_294033__v1__highres__ethiopiasporadicfightingdisplacingpe-scaled.jpg"
     },
     {
-     "title": "CBN insider credit crackdown forces some bank owners, directors out of banking system",
-     "url": "https://nairametrics.com/2026/10/09/cbn-insider-credit-crackdown-forces-some-bank-owners-directors-out-of-banking-system/",
+     "title": "Nigeria records world’s highest diesel price increase at 82.7% – Report",
+     "url": "https://nairametrics.com/2026/10/10/nigeria-records-worlds-highest-diesel-price-increase-at-82-7-report/",
      "source": "Nairametrics",
-     "published": "2026-10-09T20:13:14Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/cbn-build-1.webp"
+     "published": "2026-10-10T09:26:21Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/08/Diesel-1.webp"
     },
     {
      "title": "Targeted support, not subsidies, can best protect people when inflation surges – IMF",
@@ -178,18 +178,18 @@
      "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2017/04/IMF.jpg?fit=1000%2C541&ssl=1"
     },
     {
-     "title": "FG courts investors, targets accelerated metering, enhanced gas supply",
-     "url": "https://businessday.ng/news/article/fg-courts-investors-targets-accelerated-metering-enhanced-gas-supply/",
-     "source": "BusinessDay",
-     "published": "2026-10-09T19:20:44Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/09/Joseph-Tegbe-1-large.jpg"
-    },
-    {
      "title": "Communications Ministry made ₦345.5 million duplicate payment for Abuja ICT Park project – Audit Report",
      "url": "https://www.premiumtimesng.com/business/business-news/915690-communications-ministry-made-%e2%82%a6345-5-million-duplicate-payment-for-abuja-ict-park-project-audit-report.html",
      "source": "Premium Times",
      "published": "2026-10-09T16:46:16Z",
      "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/10/I-commend-a-distinguished-Leader-Boss-and-Head-of-the-Supreme-Audit-Institution-of-Nigeria-SAI-e1791564319537.jpg?fit=1024%2C576&ssl=1"
+    },
+    {
+     "title": "Will Africa's new credit rating agency earn the trust of investors?",
+     "url": "https://african.business/2026/10/long-reads/will-africas-new-ratings-agency-earn-the-trust-of-investors",
+     "source": "African Business",
+     "published": "2026-10-09T13:48:53Z",
+     "image": "https://african.business/wp-content/uploads/2026/10/000_34EW32M-scaled.jpg"
     }
    ]
   }
@@ -322,18 +322,18 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-09T20:34:54Z",
-   "oldest": "2026-10-09T09:30:15Z"
+   "newest": "2026-10-10T09:41:16Z",
+   "oldest": "2026-10-09T13:14:59Z"
   },
   {
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 2,
-   "skipped": 3,
+   "items": 0,
+   "skipped": 5,
    "undated": 0,
-   "newest": "2026-10-09T20:22:24Z",
-   "oldest": "2026-10-09T19:20:44Z"
+   "newest": null,
+   "oldest": null
   },
   {
    "source": "Premium Times",
@@ -362,8 +362,8 @@
    "items": 4,
    "skipped": 6,
    "undated": 0,
-   "newest": "2026-10-09T10:30:00Z",
-   "oldest": "2026-10-08T13:30:00Z"
+   "newest": "2026-10-10T09:37:51Z",
+   "oldest": "2026-10-08T15:30:00Z"
   }
  ],
  "first_seen": {
