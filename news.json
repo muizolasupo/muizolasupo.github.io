@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-11T05:59:57Z",
+ "updated": "2026-10-11T13:05:45Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
+    {
+     "title": "It's taking longer to find a new job after losing one",
+     "url": "https://www.npr.org/2026/10/11/nx-s1-5995238/jobs-employment-economy-unemployment-benefits",
+     "source": "NPR",
+     "published": "2026-10-11T09:00:00Z",
+     "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff2%2Fa1%2F2bc298f340b38e8dadaa0dabb377%2Fgettyimages-2297110253.jpg"
+    },
     {
      "title": "Trump establishes committee to investigate Federal Reserve's Lisa Cook in latest effort to fire her",
      "url": "https://www.pbs.org/newshour/politics/trump-establishes-committee-to-investigate-federal-reserves-lisa-cook-in-latest-effort-to-fire-her",
@@ -39,13 +46,6 @@
      "source": "The Economist",
      "published": "2026-10-08T09:26:41Z",
      "image": ""
-    },
-    {
-     "title": "Indian celebrations will be more expensive this year",
-     "url": "https://www.economist.com/finance-and-economics/2026/10/08/indian-celebrations-will-be-more-expensive-this-year",
-     "source": "The Economist",
-     "published": "2026-10-08T09:25:56Z",
-     "image": ""
     }
    ]
   },
@@ -53,6 +53,27 @@
    "id": "markets",
    "label": "Markets",
    "items": [
+    {
+     "title": "The bull market is turning 4 years old — but yields could crash the party",
+     "url": "https://www.marketwatch.com/story/the-bull-market-is-turning-4-years-old-but-yields-could-crash-the-party-1305fe6c?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-11T13:00:00Z",
+     "image": "https://images.mktw.net/im-78943724"
+    },
+    {
+     "title": "Bank earnings to shed the first light on how higher yields are affecting the economy",
+     "url": "https://www.marketwatch.com/story/bank-earnings-to-shed-the-first-light-on-how-higher-yields-are-affecting-the-economy-cf3763ef?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-11T12:00:00Z",
+     "image": "https://images.mktw.net/im-36899660"
+    },
+    {
+     "title": "Top Wall Street analysts prefer these 3 dividend stocks for stable income",
+     "url": "https://www.cnbc.com/2026/10/11/top-analysts-prefer-these-3-dividend-stocks-for-stable-income.html",
+     "source": "CNBC",
+     "published": "2026-10-11T11:42:31Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108165284-1751045603138-gettyimages-2209381007-TFSPI_12042025-6409.jpeg?v=1772121763&w=1920&h=1080"
+    },
     {
      "title": "Worse than taking away your parents’ car keys? Taking away their cell phone. How to protect your aging parents.",
      "url": "https://www.marketwatch.com/story/worse-than-taking-away-your-parents-car-keys-taking-away-their-cellphone-how-to-protect-your-aging-parents-f01be6e6?mod=mw_rss_topstories",
@@ -68,32 +89,11 @@
      "image": "https://images.mktw.net/im-31613768"
     },
     {
-     "title": "How to downsize like a pro — and free yourself from being a ‘prisoner of your possessions’",
-     "url": "https://www.marketwatch.com/story/how-to-downsize-like-a-pro-and-free-yourself-from-being-a-prisoner-of-your-possessions-c4b5533e?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-10T19:44:00Z",
-     "image": "https://images.mktw.net/im-77743573"
-    },
-    {
-     "title": "Rising interest rates: The good, the bad and the ugly for retirees",
-     "url": "https://www.marketwatch.com/story/the-good-the-bad-and-the-ugly-of-rising-interest-rates-ee465a81?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-10T19:44:00Z",
-     "image": "https://images.mktw.net/im-49042399"
-    },
-    {
      "title": "JPMorgan makes bullish call in fixed income space, suggests it's a once in a generation opportunity",
      "url": "https://www.cnbc.com/2026/10/10/jpmorgan-sees-once-in-a-generation-opportunity-in-fixed-income-space.html",
      "source": "CNBC",
      "published": "2026-10-10T15:00:01Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108103716-1739901805641-JP3_8684.jpg?v=1740074904&w=1920&h=1080"
-    },
-    {
-     "title": "Junk bonds are 'flashing yellow.' Watch these warning signs",
-     "url": "https://www.cnbc.com/2026/10/09/junk-bonds-are-flashing-yellow-watch-these-warning-signs.html",
-     "source": "CNBC",
-     "published": "2026-10-09T20:51:25Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108382524-1791567907636-gettyimages-909209686-f0203154.jpeg?v=1791567990&w=1920&h=1080"
     }
    ]
   },
@@ -150,32 +150,32 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "Fashion law and business conference marks fifth year with global trade focus",
-     "url": "https://businessday.ng/life/article/fashion-law-and-business-conference-marks-fifth-year-with-global-trade-focus/",
-     "source": "BusinessDay",
-     "published": "2026-10-11T05:46:14Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/IMG_7017-large.png"
-    },
-    {
-     "title": "The missing middle of capital access – Why long-term capital still struggles to reach infrastructure",
-     "url": "https://businessday.ng/life/article/the-missing-middle-of-capital-access-why-long-term-capital-still-struggles-to-reach-infrastructure/",
-     "source": "BusinessDay",
-     "published": "2026-10-11T05:00:34Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/IMG_6984-large.webp"
-    },
-    {
-     "title": "Dangote Refinery IPO: How United Capital is taking Nigeria’s Biggest Investment Opportunity Beyond Its Borders",
-     "url": "https://nairametrics.com/2026/10/10/dangote-refinery-ipo-how-united-capital-is-taking-nigerias-biggest-investment-opportunity-beyond-its-borders/",
+     "title": "Nigeria needs $7.1 billion over 10 years to achieve sugar self-sufficiency — NSDC",
+     "url": "https://nairametrics.com/2026/10/11/nigeria-needs-7-1-billion-over-10-years-to-achieve-sugar-self-sufficiency-nsdc/",
      "source": "Nairametrics",
-     "published": "2026-10-10T17:37:53Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/Dangote-refinery-IPOunited-capital.jpg"
+     "published": "2026-10-11T13:02:57Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/OIP-7-1.webp"
     },
     {
-     "title": "SEC disowns WayvePay, warns Nigerians against investing through platform",
-     "url": "https://nairametrics.com/2026/10/10/sec-disowns-wayvepay-warns-nigerians-against-investing-through-platform/",
+     "title": "Nigeria targets over 2 million tonnes of annual sugar production through 13 projects",
+     "url": "https://nairametrics.com/2026/10/11/nigeria-targets-over-2-million-tonnes-of-annual-sugar-production-through-13-projects/",
      "source": "Nairametrics",
-     "published": "2026-10-10T17:10:51Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/08/SEC-1.webp"
+     "published": "2026-10-11T12:44:51Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/08/nsdc-1.webp"
+    },
+    {
+     "title": "IMF warns rising global debt, energy costs threaten growth",
+     "url": "https://businessday.ng/business-economy/article/imf-warns-rising-global-debt-energy-costs-threaten-growth/",
+     "source": "BusinessDay",
+     "published": "2026-10-11T11:51:56Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/05/Top-10-African-countries-with-the-lowest-debt-to-the-IMF-in-May-2026-large.png"
+    },
+    {
+     "title": "Energy transition: Why fossil fuels aren’t going away — Mesagan",
+     "url": "https://businessday.ng/education/article/energy-transition-why-fossil-fuels-arent-going-away-mesagan/",
+     "source": "BusinessDay",
+     "published": "2026-10-11T11:03:46Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/Screenshot_20261010-224510-large.jpg"
     },
     {
      "title": "Nigerian govt speaks on Fitch’s credit rating",
@@ -202,8 +202,8 @@
    "items": 10,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-09T11:00:00Z",
-   "oldest": "2026-10-01T21:34:50Z"
+   "newest": "2026-10-11T09:00:00Z",
+   "oldest": "2026-10-01T22:27:11Z"
   },
   {
    "source": "PBS NewsHour",
@@ -239,11 +239,11 @@
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 8,
-   "skipped": 2,
+   "items": 7,
+   "skipped": 3,
    "undated": 0,
-   "newest": "2026-10-10T19:44:00Z",
-   "oldest": "2026-10-10T16:50:00Z"
+   "newest": "2026-10-11T13:00:00Z",
+   "oldest": "2026-10-10T19:44:00Z"
   },
   {
    "source": "CNBC",
@@ -262,8 +262,8 @@
    "items": 30,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-09T20:51:25Z",
-   "oldest": "2026-09-11T20:21:01Z"
+   "newest": "2026-10-11T11:42:31Z",
+   "oldest": "2026-09-12T05:00:01Z"
   },
   {
    "source": "Federal Reserve",
@@ -322,18 +322,18 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-10T17:37:53Z",
-   "oldest": "2026-10-09T19:31:39Z"
+   "newest": "2026-10-11T13:02:57Z",
+   "oldest": "2026-10-10T09:26:21Z"
   },
   {
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 4,
-   "skipped": 1,
+   "items": 3,
+   "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-11T05:46:14Z",
-   "oldest": "2026-10-11T04:36:53Z"
+   "newest": "2026-10-11T11:51:56Z",
+   "oldest": "2026-10-11T10:59:22Z"
   },
   {
    "source": "Premium Times",
