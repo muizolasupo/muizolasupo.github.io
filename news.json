@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T21:52:05Z",
+ "updated": "2026-10-11T05:59:57Z",
  "categories": [
   {
    "id": "economy",
@@ -150,18 +150,18 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "Dangote Refinery IPO targets 10m investors to reshape Nigeria’s capital market",
-     "url": "https://businessday.ng/companies/article/dangote-refinery-ipo-targets-10m-investors-to-reshape-nigerias-capital-market/",
+     "title": "Fashion law and business conference marks fifth year with global trade focus",
+     "url": "https://businessday.ng/life/article/fashion-law-and-business-conference-marks-fifth-year-with-global-trade-focus/",
      "source": "BusinessDay",
-     "published": "2026-10-10T20:44:02Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/03/refinery-large.jpg"
+     "published": "2026-10-11T05:46:14Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/IMG_7017-large.png"
     },
     {
-     "title": "Fitch revises Nigeria’s credit outlook to positive as reserves rise to $54.9bn",
-     "url": "https://businessday.ng/news/article/fitch-revises-nigerias-credit-outlook-to-positive-as-reserves-rise-to-54-9bn/",
+     "title": "The missing middle of capital access – Why long-term capital still struggles to reach infrastructure",
+     "url": "https://businessday.ng/life/article/the-missing-middle-of-capital-access-why-long-term-capital-still-struggles-to-reach-infrastructure/",
      "source": "BusinessDay",
-     "published": "2026-10-10T20:30:26Z",
-     "image": "https://cdn.businessday.ng/2023/08/fitch-ratings-1.jpg"
+     "published": "2026-10-11T05:00:34Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/IMG_6984-large.webp"
     },
     {
      "title": "Dangote Refinery IPO: How United Capital is taking Nigeria’s Biggest Investment Opportunity Beyond Its Borders",
@@ -329,11 +329,11 @@
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 3,
-   "skipped": 2,
+   "items": 4,
+   "skipped": 1,
    "undated": 0,
-   "newest": "2026-10-10T20:44:02Z",
-   "oldest": "2026-10-10T20:28:11Z"
+   "newest": "2026-10-11T05:46:14Z",
+   "oldest": "2026-10-11T04:36:53Z"
   },
   {
    "source": "Premium Times",
