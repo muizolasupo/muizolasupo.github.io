@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-11T13:05:45Z",
+ "updated": "2026-10-11T19:36:11Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
+    {
+     "title": "Don’t feel sorry for millennials. They are living it up now",
+     "url": "https://www.economist.com/finance-and-economics/2026/10/11/dont-feel-sorry-for-millennials-they-are-living-it-up-now",
+     "source": "The Economist",
+     "published": "2026-10-11T15:27:00Z",
+     "image": ""
+    },
     {
      "title": "It's taking longer to find a new job after losing one",
      "url": "https://www.npr.org/2026/10/11/nx-s1-5995238/jobs-employment-economy-unemployment-benefits",
@@ -39,13 +46,6 @@
      "source": "NPR",
      "published": "2026-10-09T11:00:00Z",
      "image": ""
-    },
-    {
-     "title": "Governments are mishandling the affordability crisis",
-     "url": "https://www.economist.com/finance-and-economics/2026/10/08/governments-are-mishandling-the-affordability-crisis",
-     "source": "The Economist",
-     "published": "2026-10-08T09:26:41Z",
-     "image": ""
     }
    ]
   },
@@ -53,6 +53,20 @@
    "id": "markets",
    "label": "Markets",
    "items": [
+    {
+     "title": "Millions of Americans will have fewer options during Medicare open enrollment this year",
+     "url": "https://www.marketwatch.com/story/millions-of-americans-will-have-fewer-options-during-medicare-open-enrollment-this-year-6b56698b?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-11T16:35:00Z",
+     "image": "https://images.mktw.net/im-95277204"
+    },
+    {
+     "title": "We’re about to get a huge read on whether earnings can keep propping up the stock market",
+     "url": "https://www.marketwatch.com/story/were-about-to-get-a-huge-read-on-whether-earnings-can-keep-propping-up-the-stock-market-459b565b?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-11T14:00:00Z",
+     "image": "https://images.mktw.net/im-77418112"
+    },
     {
      "title": "The bull market is turning 4 years old — but yields could crash the party",
      "url": "https://www.marketwatch.com/story/the-bull-market-is-turning-4-years-old-but-yields-could-crash-the-party-1305fe6c?mod=mw_rss_topstories",
@@ -73,20 +87,6 @@
      "source": "CNBC",
      "published": "2026-10-11T11:42:31Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108165284-1751045603138-gettyimages-2209381007-TFSPI_12042025-6409.jpeg?v=1772121763&w=1920&h=1080"
-    },
-    {
-     "title": "Worse than taking away your parents’ car keys? Taking away their cell phone. How to protect your aging parents.",
-     "url": "https://www.marketwatch.com/story/worse-than-taking-away-your-parents-car-keys-taking-away-their-cellphone-how-to-protect-your-aging-parents-f01be6e6?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-10T19:44:00Z",
-     "image": "https://images.mktw.net/im-18753186"
-    },
-    {
-     "title": "These decisions you make in your 20s — not your income — determine whether you’ll spend decades in debt or retire comfortably",
-     "url": "https://www.marketwatch.com/story/these-decisions-you-make-in-your-20s-not-your-income-determine-whether-youll-spend-decades-in-debt-or-retire-comfortably-7bbb28f9?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-10T19:44:00Z",
-     "image": "https://images.mktw.net/im-31613768"
     },
     {
      "title": "JPMorgan makes bullish call in fixed income space, suggests it's a once in a generation opportunity",
@@ -150,32 +150,18 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "Nigeria needs $7.1 billion over 10 years to achieve sugar self-sufficiency — NSDC",
-     "url": "https://nairametrics.com/2026/10/11/nigeria-needs-7-1-billion-over-10-years-to-achieve-sugar-self-sufficiency-nsdc/",
-     "source": "Nairametrics",
-     "published": "2026-10-11T13:02:57Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/OIP-7-1.webp"
-    },
-    {
-     "title": "Nigeria targets over 2 million tonnes of annual sugar production through 13 projects",
-     "url": "https://nairametrics.com/2026/10/11/nigeria-targets-over-2-million-tonnes-of-annual-sugar-production-through-13-projects/",
-     "source": "Nairametrics",
-     "published": "2026-10-11T12:44:51Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/08/nsdc-1.webp"
-    },
-    {
-     "title": "IMF warns rising global debt, energy costs threaten growth",
-     "url": "https://businessday.ng/business-economy/article/imf-warns-rising-global-debt-energy-costs-threaten-growth/",
+     "title": "Equities market sees N158.29bn weekly turnover as Q3 earnings season berths",
+     "url": "https://businessday.ng/business-economy/article/equities-market-sees-n158-29bn-weekly-turnover-as-q3-earnings-season-berths/",
      "source": "BusinessDay",
-     "published": "2026-10-11T11:51:56Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/05/Top-10-African-countries-with-the-lowest-debt-to-the-IMF-in-May-2026-large.png"
+     "published": "2026-10-11T19:21:36Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/01/stock-market-cues-large.webp"
     },
     {
-     "title": "Energy transition: Why fossil fuels aren’t going away — Mesagan",
-     "url": "https://businessday.ng/education/article/energy-transition-why-fossil-fuels-arent-going-away-mesagan/",
+     "title": "OPay: Nigerian listing plans echo NGX Group’s call for homegrown giants to list locally",
+     "url": "https://businessday.ng/companies/article/opay-nigerian-listing-plans-echo-ngx-groups-call-for-homegrown-giants-to-list-locally/",
      "source": "BusinessDay",
-     "published": "2026-10-11T11:03:46Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/Screenshot_20261010-224510-large.jpg"
+     "published": "2026-10-11T19:06:00Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/04/List_of_Opay_offices_in_Nigeria-1-large.webp"
     },
     {
      "title": "Nigerian govt speaks on Fitch’s credit rating",
@@ -190,6 +176,20 @@
      "source": "Premium Times",
      "published": "2026-10-10T16:03:02Z",
      "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2017/07/Securities-and-Exchange-Commission.jpg?fit=1116%2C631&ssl=1"
+    },
+    {
+     "title": "Tigray insurgency withers as federal forces enter Shire and resume flights to Mekelle",
+     "url": "https://www.theafricareport.com/432910/tigray-insurgency-withers-as-federal-forces-enter-shire-and-resume-flights-to-mekelle/",
+     "source": "The Africa Report",
+     "published": "2026-10-10T09:37:51Z",
+     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=2560,height=1707,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/09/23/afp__20210312__aa_12032021_294033__v1__highres__ethiopiasporadicfightingdisplacingpe-scaled.jpg"
+    },
+    {
+     "title": "Will Africa's new credit rating agency earn the trust of investors?",
+     "url": "https://african.business/2026/10/long-reads/will-africas-new-ratings-agency-earn-the-trust-of-investors",
+     "source": "African Business",
+     "published": "2026-10-09T13:48:53Z",
+     "image": "https://african.business/wp-content/uploads/2026/10/000_34EW32M-scaled.jpg"
     }
    ]
   }
@@ -222,8 +222,8 @@
    "items": 300,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-08T09:26:41Z",
-   "oldest": "2025-12-04T10:25:14Z"
+   "newest": "2026-10-11T15:27:00Z",
+   "oldest": "2025-12-07T15:34:39Z"
   },
   {
    "source": "CNBC",
@@ -239,10 +239,10 @@
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 7,
-   "skipped": 3,
+   "items": 5,
+   "skipped": 5,
    "undated": 0,
-   "newest": "2026-10-11T13:00:00Z",
+   "newest": "2026-10-11T16:35:00Z",
    "oldest": "2026-10-10T19:44:00Z"
   },
   {
@@ -318,12 +318,8 @@
   {
    "source": "Nairametrics",
    "feed": "https://nairametrics.com/feed/",
-   "ok": true,
-   "items": 20,
-   "skipped": 0,
-   "undated": 0,
-   "newest": "2026-10-11T13:02:57Z",
-   "oldest": "2026-10-10T09:26:21Z"
+   "ok": false,
+   "error": "The read operation timed out"
   },
   {
    "source": "BusinessDay",
@@ -332,8 +328,8 @@
    "items": 3,
    "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-11T11:51:56Z",
-   "oldest": "2026-10-11T10:59:22Z"
+   "newest": "2026-10-11T19:21:36Z",
+   "oldest": "2026-10-11T19:00:18Z"
   },
   {
    "source": "Premium Times",
