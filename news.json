@@ -1,10 +1,31 @@
 {
- "updated": "2026-10-12T00:37:49Z",
+ "updated": "2026-10-12T11:04:45Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
+    {
+     "title": "India’s retail inflation jumps to 5.54% in September, above estimates",
+     "url": "https://www.cnbc.com/2026/10/12/india-inflation-oil-energy-iran-war.html",
+     "source": "CNBC",
+     "published": "2026-10-12T10:49:24Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108396815-1791783913992-gettyimages-2295963775-chakraborty-notitle260921_npCyd.jpeg?v=1791783927&w=1920&h=1080"
+    },
+    {
+     "title": "Nobel prize in economics awarded to Robert E. Hall and Michael Woodford",
+     "url": "https://www.cnbc.com/2026/10/12/nobel-economics-prize-winner-woodford-hall.html",
+     "source": "CNBC",
+     "published": "2026-10-12T10:42:49Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108397595-1791799384748-gettyimages-2299282482-AFP_D2YD6PH.jpeg?v=1791800530&w=1920&h=1080"
+    },
+    {
+     "title": "Two Americans win Nobel Prize in Economics for work on boom-bust cycles",
+     "url": "https://www.npr.org/2026/10/09/nx-s1-5996634/nobel-prize-in-economics",
+     "source": "NPR",
+     "published": "2026-10-12T08:35:16Z",
+     "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7794x5310+0+0/resize/7794x5310!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F26%2F78%2Fddfdc1d243f09e93115d2fbd57d2%2Fgettyimages-2299286819.jpg"
+    },
     {
      "title": "How personal data is being used to control what customers see and pay",
      "url": "https://www.npr.org/2026/10/11/nx-s1-5995376/how-personal-data-is-being-used-to-control-what-customers-see-and-pay",
@@ -20,32 +41,11 @@
      "image": ""
     },
     {
-     "title": "It's taking longer to find a new job after losing one",
-     "url": "https://www.npr.org/2026/10/11/nx-s1-5995238/jobs-employment-economy-unemployment-benefits",
-     "source": "NPR",
-     "published": "2026-10-11T09:00:00Z",
-     "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff2%2Fa1%2F2bc298f340b38e8dadaa0dabb377%2Fgettyimages-2297110253.jpg"
-    },
-    {
      "title": "Trump establishes committee to investigate Federal Reserve's Lisa Cook in latest effort to fire her",
      "url": "https://www.pbs.org/newshour/politics/trump-establishes-committee-to-investigate-federal-reserves-lisa-cook-in-latest-effort-to-fire-her",
      "source": "PBS NewsHour",
      "published": "2026-10-09T20:33:22Z",
      "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-01-21T184108Z_1058783759_RC2T5JAJEDTV_RTRMADP_3_USA-FED-COOK-1024x683.jpg"
-    },
-    {
-     "title": "Americans' debt problems are flashing a warning not seen since the Great Recession",
-     "url": "https://www.cnbc.com/2026/10/09/american-debt-delinquency.html",
-     "source": "CNBC",
-     "published": "2026-10-09T19:18:24Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108334692-1784035346683-gettyimages-2280676197-US-VIRGINIA-ARLINGTON-CPI-MAY-RISE.jpeg?v=1784046329&w=1920&h=1080"
-    },
-    {
-     "title": "Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as advisor",
-     "url": "https://www.cnbc.com/2026/10/09/judy-shelton-scott-bessent-treasury.html",
-     "source": "CNBC",
-     "published": "2026-10-09T13:09:19Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/106000318-1562120832009gettyimages-1146874193.jpeg?v=1791544366&w=1920&h=1080"
     }
    ]
   },
@@ -54,32 +54,32 @@
    "label": "Markets",
    "items": [
     {
-     "title": "Millions of Americans will have fewer options during Medicare open enrollment this year",
-     "url": "https://www.marketwatch.com/story/millions-of-americans-will-have-fewer-options-during-medicare-open-enrollment-this-year-6b56698b?mod=mw_rss_topstories",
+     "title": "Fed officials want to hold off a rate hike this month. Will this week’s inflation data let them?",
+     "url": "https://www.marketwatch.com/story/fed-officials-want-to-hold-off-a-rate-hike-this-month-will-this-weeks-inflation-data-let-them-a82754d1?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-11T16:35:00Z",
-     "image": "https://images.mktw.net/im-95277204"
+     "published": "2026-10-12T11:00:00Z",
+     "image": "https://images.mktw.net/im-71711556"
     },
     {
-     "title": "We’re about to get a huge read on whether earnings can keep propping up the stock market",
-     "url": "https://www.marketwatch.com/story/were-about-to-get-a-huge-read-on-whether-earnings-can-keep-propping-up-the-stock-market-459b565b?mod=mw_rss_topstories",
+     "title": "This five-star money manager shares three stock picks, including one betting on dying American malls",
+     "url": "https://www.marketwatch.com/story/this-five-star-money-manager-shares-three-stock-picks-including-one-betting-on-dying-american-malls-9253a787?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-11T14:00:00Z",
-     "image": "https://images.mktw.net/im-77418112"
+     "published": "2026-10-12T10:52:00Z",
+     "image": "https://images.mktw.net/im-25385257"
     },
     {
-     "title": "The bull market is turning 4 years old — but yields could crash the party",
-     "url": "https://www.marketwatch.com/story/the-bull-market-is-turning-4-years-old-but-yields-could-crash-the-party-1305fe6c?mod=mw_rss_topstories",
+     "title": "The bond market is doing the Fed’s job, and that could be good news for stocks, says Morgan Stanley strategist",
+     "url": "https://www.marketwatch.com/story/the-bond-market-is-doing-the-feds-job-and-that-could-be-good-news-for-stocks-says-morgan-stanley-strategist-ec57b81a?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-11T13:00:00Z",
-     "image": "https://images.mktw.net/im-78943724"
+     "published": "2026-10-12T09:23:00Z",
+     "image": "https://images.mktw.net/im-60407455"
     },
     {
-     "title": "Bank earnings to shed the first light on how higher yields are affecting the economy",
-     "url": "https://www.marketwatch.com/story/bank-earnings-to-shed-the-first-light-on-how-higher-yields-are-affecting-the-economy-cf3763ef?mod=mw_rss_topstories",
+     "title": "Here’s why Goldman Sachs just flipped bullish on stocks for the rest of the year",
+     "url": "https://www.marketwatch.com/story/heres-why-goldman-sachs-just-flipped-bullish-on-stocks-for-the-rest-of-the-year-dfa3b0af?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-11T12:00:00Z",
-     "image": "https://images.mktw.net/im-36899660"
+     "published": "2026-10-12T09:14:00Z",
+     "image": "https://images.mktw.net/im-01171603"
     },
     {
      "title": "Top Wall Street analysts prefer these 3 dividend stocks for stable income",
@@ -137,11 +137,11 @@
      "image": ""
     },
     {
-     "title": "Crowding Out Temptation: Experimental Evidence on Savings and Health Behaviors in Kenya",
-     "url": "https://www.nber.org/papers/w35833#fromrss",
-     "source": "NBER",
-     "published": "2026-10-05T19:03:33Z",
-     "image": "https://www.nber.org/sites/default/files/2022-06/NBER-FB-Share-Tile-1200.jpg"
+     "title": "GDP, (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 2nd Quarter 2026; State PCE, 2025",
+     "url": "https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-2nd",
+     "source": "BEA",
+     "published": "2026-09-30T12:30:00Z",
+     "image": ""
     }
    ]
   },
@@ -150,46 +150,46 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "Sanwo-Olu Targets 3,000MW Electricity Supply for Lagos by March 2027",
-     "url": "https://nairametrics.com/2026/10/11/sanwo-olu-targets-3000mw-electricity-supply-for-lagos-by-march-2027/",
+     "title": "TCL Launches 2026 Mini LED TVs and Smart Home Innovations",
+     "url": "https://nairametrics.com/2026/10/12/tcl-launches-2026-mini-led-tvs-and-smart-home-innovations/",
      "source": "Nairametrics",
-     "published": "2026-10-11T18:39:55Z",
-     "image": "https://media.nairametrics.com/2025/08/Babajide-Sanwo-Olu.jpg"
+     "published": "2026-10-12T10:48:13Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/TCL.jpg"
     },
     {
-     "title": "UK universities withdraw offers to Nigerian students as visa refusals rise",
-     "url": "https://nairametrics.com/2026/10/11/uk-universities-withdraw-offers-to-nigerian-students-as-visa-refusals-rise/",
+     "title": "Nigerian banks should be compelled to lend to productive sectors – Expert",
+     "url": "https://nairametrics.com/2026/10/12/nigerian-banks-should-be-compelled-to-lend-to-productive-sectors-expert/",
      "source": "Nairametrics",
-     "published": "2026-10-11T18:19:39Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2024/02/United-States-1.png"
+     "published": "2026-10-12T10:42:01Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/Media-18.webp"
     },
     {
-     "title": "Nigerian govt speaks on Fitch’s credit rating",
-     "url": "https://www.premiumtimesng.com/business/business-news/915994-nigerian-govt-speaks-on-fitchs-credit-rating.html",
-     "source": "Premium Times",
-     "published": "2026-10-10T16:04:28Z",
-     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/05/admin-ajax-3-2.jpg?fit=600%2C338&ssl=1"
+     "title": "Lasaco Assurance maintains strong A(NG) financial strength rating amid growth push",
+     "url": "https://businessday.ng/insurance/article/lasaco-assurance-maintains-strong-ang-financial-strength-rating-amid-growth-push/",
+     "source": "BusinessDay",
+     "published": "2026-10-12T10:35:43Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/Untitled-design-2026-10-12T113051.523-1-large.png"
     },
     {
-     "title": "SEC warns Nigerians against investing with unregistered WayvePay",
-     "url": "https://www.premiumtimesng.com/business/business-news/915982-sec-warns-nigerians-against-investing-with-unregistered-wayvepay.html",
-     "source": "Premium Times",
-     "published": "2026-10-10T16:03:02Z",
-     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2017/07/Securities-and-Exchange-Commission.jpg?fit=1116%2C631&ssl=1"
-    },
-    {
-     "title": "Tigray insurgency withers as federal forces enter Shire and resume flights to Mekelle",
-     "url": "https://www.theafricareport.com/432910/tigray-insurgency-withers-as-federal-forces-enter-shire-and-resume-flights-to-mekelle/",
+     "title": "US-Africa Week Ahead: IMF moves to Bangkok while US attends energy forums in Cape Town",
+     "url": "https://www.theafricareport.com/432916/us-africa-week-ahead-imf-moves-to-bangkok-while-us-attends-energy-forums-in-cape-town/",
      "source": "The Africa Report",
-     "published": "2026-10-10T09:37:51Z",
-     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=2560,height=1707,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/09/23/afp__20210312__aa_12032021_294033__v1__highres__ethiopiasporadicfightingdisplacingpe-scaled.jpg"
+     "published": "2026-10-12T10:30:00Z",
+     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=2560,height=1707,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/10/12/2026-10-12t063443z_1577568035_rc2i1oajvog6_rtrmadp_3_imf-worldbank-scaled.jpg"
     },
     {
-     "title": "Will Africa's new credit rating agency earn the trust of investors?",
-     "url": "https://african.business/2026/10/long-reads/will-africas-new-ratings-agency-earn-the-trust-of-investors",
-     "source": "African Business",
-     "published": "2026-10-09T13:48:53Z",
-     "image": "https://african.business/wp-content/uploads/2026/10/000_34EW32M-scaled.jpg"
+     "title": "Enchanteur Nigeria Wins Personal Care Brand of the Year at Marketing Edge Awards 2026",
+     "url": "https://businessday.ng/brands-advertising/article/enchanteur-nigeria-wins-personal-care-brand-of-the-year-at-marketing-edge-awards-2026/",
+     "source": "BusinessDay",
+     "published": "2026-10-12T10:24:21Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/1-30-large.jpg"
+    },
+    {
+     "title": "Tinubu hails World Bank’s update on Nigeria, vows to expand targeted cash transfers",
+     "url": "https://www.premiumtimesng.com/business/business-news/916300-tinubu-hails-world-banks-update-on-nigeria-vows-to-expand-targeted-cash-transfers.html",
+     "source": "Premium Times",
+     "published": "2026-10-12T09:14:22Z",
+     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/09/795983524_1635134861682925_4976397448398499118_n-scaled-e1788466644254.jpg?fit=2445%2C1523&ssl=1"
     }
    ]
   }
@@ -202,8 +202,8 @@
    "items": 10,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-11T21:16:37Z",
-   "oldest": "2026-10-02T10:46:57Z"
+   "newest": "2026-10-12T08:35:16Z",
+   "oldest": "2026-10-02T10:47:02Z"
   },
   {
    "source": "PBS NewsHour",
@@ -232,18 +232,18 @@
    "items": 30,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-09T19:18:24Z",
-   "oldest": "2026-09-19T12:50:49Z"
+   "newest": "2026-10-12T10:49:24Z",
+   "oldest": "2026-09-24T04:02:26Z"
   },
   {
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 5,
-   "skipped": 5,
+   "items": 6,
+   "skipped": 4,
    "undated": 0,
-   "newest": "2026-10-11T16:35:00Z",
-   "oldest": "2026-10-10T19:44:00Z"
+   "newest": "2026-10-12T11:00:00Z",
+   "oldest": "2026-10-12T09:02:00Z"
   },
   {
    "source": "CNBC",
@@ -298,12 +298,8 @@
   {
    "source": "NBER",
    "feed": "https://www.nber.org/rss/new.xml",
-   "ok": true,
-   "items": 45,
-   "skipped": 0,
-   "undated": 45,
-   "newest": "2026-10-05T19:03:33Z",
-   "oldest": "2026-10-05T19:00:19Z"
+   "ok": false,
+   "error": "The read operation timed out"
   },
   {
    "source": "Liberty Street Economics",
@@ -322,18 +318,18 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-11T18:39:55Z",
-   "oldest": "2026-10-11T06:31:37Z"
+   "newest": "2026-10-12T10:48:13Z",
+   "oldest": "2026-10-11T14:06:21Z"
   },
   {
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 0,
-   "skipped": 5,
+   "items": 5,
+   "skipped": 0,
    "undated": 0,
-   "newest": null,
-   "oldest": null
+   "newest": "2026-10-12T10:35:43Z",
+   "oldest": "2026-10-12T09:54:50Z"
   },
   {
    "source": "Premium Times",
@@ -342,8 +338,8 @@
    "items": 13,
    "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-10T16:04:28Z",
-   "oldest": "2026-10-08T15:01:34Z"
+   "newest": "2026-10-12T09:14:22Z",
+   "oldest": "2026-10-09T04:24:48Z"
   },
   {
    "source": "African Business",
@@ -352,65 +348,19 @@
    "items": 25,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-09T13:48:53Z",
-   "oldest": "2026-10-01T15:14:01Z"
+   "newest": "2026-10-12T09:05:19Z",
+   "oldest": "2026-10-05T09:47:55Z"
   },
   {
    "source": "The Africa Report",
    "feed": "https://www.theafricareport.com/feed/",
    "ok": true,
-   "items": 3,
-   "skipped": 7,
+   "items": 4,
+   "skipped": 6,
    "undated": 0,
-   "newest": "2026-10-10T09:37:51Z",
+   "newest": "2026-10-12T10:30:00Z",
    "oldest": "2026-10-09T09:32:28Z"
   }
  ],
- "first_seen": {
-  "https://www.nber.org/papers/w35800#fromrss": "2026-10-05T19:00:19Z",
-  "https://www.nber.org/papers/w35801#fromrss": "2026-10-05T19:00:19Z",
-  "https://www.nber.org/papers/w35833#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35834#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35835#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35836#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35837#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35838#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35839#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35840#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35841#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35842#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35843#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35844#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35845#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35846#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35847#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35848#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35849#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35850#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35851#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35852#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35853#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35854#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35855#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35856#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35857#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35858#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35859#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35860#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35861#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35862#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35863#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35864#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35865#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35866#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35867#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35868#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35869#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35870#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35871#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35872#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35873#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35874#fromrss": "2026-10-05T19:03:33Z",
-  "https://www.nber.org/papers/w35875#fromrss": "2026-10-05T19:03:33Z"
- }
+ "first_seen": {}
 }
