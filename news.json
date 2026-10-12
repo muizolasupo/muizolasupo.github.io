@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-11T19:36:11Z",
+ "updated": "2026-10-12T00:37:49Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
+    {
+     "title": "How personal data is being used to control what customers see and pay",
+     "url": "https://www.npr.org/2026/10/11/nx-s1-5995376/how-personal-data-is-being-used-to-control-what-customers-see-and-pay",
+     "source": "NPR",
+     "published": "2026-10-11T21:16:37Z",
+     "image": ""
+    },
     {
      "title": "Don’t feel sorry for millennials. They are living it up now",
      "url": "https://www.economist.com/finance-and-economics/2026/10/11/dont-feel-sorry-for-millennials-they-are-living-it-up-now",
@@ -39,13 +46,6 @@
      "source": "CNBC",
      "published": "2026-10-09T13:09:19Z",
      "image": "https://image.cnbcfm.com/api/v1/image/106000318-1562120832009gettyimages-1146874193.jpeg?v=1791544366&w=1920&h=1080"
-    },
-    {
-     "title": "Why American investors love European defense startups",
-     "url": "https://www.npr.org/sections/planet-money/2026/10/09/nx-s1-5995606/why-american-investors-love-european-defense-startups",
-     "source": "NPR",
-     "published": "2026-10-09T11:00:00Z",
-     "image": ""
     }
    ]
   },
@@ -150,18 +150,18 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "Equities market sees N158.29bn weekly turnover as Q3 earnings season berths",
-     "url": "https://businessday.ng/business-economy/article/equities-market-sees-n158-29bn-weekly-turnover-as-q3-earnings-season-berths/",
-     "source": "BusinessDay",
-     "published": "2026-10-11T19:21:36Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/01/stock-market-cues-large.webp"
+     "title": "Sanwo-Olu Targets 3,000MW Electricity Supply for Lagos by March 2027",
+     "url": "https://nairametrics.com/2026/10/11/sanwo-olu-targets-3000mw-electricity-supply-for-lagos-by-march-2027/",
+     "source": "Nairametrics",
+     "published": "2026-10-11T18:39:55Z",
+     "image": "https://media.nairametrics.com/2025/08/Babajide-Sanwo-Olu.jpg"
     },
     {
-     "title": "OPay: Nigerian listing plans echo NGX Group’s call for homegrown giants to list locally",
-     "url": "https://businessday.ng/companies/article/opay-nigerian-listing-plans-echo-ngx-groups-call-for-homegrown-giants-to-list-locally/",
-     "source": "BusinessDay",
-     "published": "2026-10-11T19:06:00Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/04/List_of_Opay_offices_in_Nigeria-1-large.webp"
+     "title": "UK universities withdraw offers to Nigerian students as visa refusals rise",
+     "url": "https://nairametrics.com/2026/10/11/uk-universities-withdraw-offers-to-nigerian-students-as-visa-refusals-rise/",
+     "source": "Nairametrics",
+     "published": "2026-10-11T18:19:39Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2024/02/United-States-1.png"
     },
     {
      "title": "Nigerian govt speaks on Fitch’s credit rating",
@@ -202,8 +202,8 @@
    "items": 10,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-11T09:00:00Z",
-   "oldest": "2026-10-01T22:27:11Z"
+   "newest": "2026-10-11T21:16:37Z",
+   "oldest": "2026-10-02T10:46:57Z"
   },
   {
    "source": "PBS NewsHour",
@@ -318,18 +318,22 @@
   {
    "source": "Nairametrics",
    "feed": "https://nairametrics.com/feed/",
-   "ok": false,
-   "error": "The read operation timed out"
+   "ok": true,
+   "items": 20,
+   "skipped": 0,
+   "undated": 0,
+   "newest": "2026-10-11T18:39:55Z",
+   "oldest": "2026-10-11T06:31:37Z"
   },
   {
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 3,
-   "skipped": 2,
+   "items": 0,
+   "skipped": 5,
    "undated": 0,
-   "newest": "2026-10-11T19:21:36Z",
-   "oldest": "2026-10-11T19:00:18Z"
+   "newest": null,
+   "oldest": null
   },
   {
    "source": "Premium Times",
