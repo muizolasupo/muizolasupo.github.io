@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T21:20:08Z",
+ "updated": "2026-10-13T02:37:58Z",
  "panels": [
   {
    "id": "us",
@@ -2401,10 +2401,6 @@
        "window": "Past year",
        "trend": [
         [
-         "2025-10-12",
-         1464.2935
-        ],
-        [
          "2025-10-13",
          1463.4104
         ],
@@ -2684,7 +2680,7 @@
        "change_format": "pt",
        "polarity": "up_bad",
        "date": "2026-01-01",
-       "value": 16.0,
+       "value": 15.6,
        "prev_date": "2025-01-01",
        "prev_value": 23.0,
        "window": "Past 10 years",
@@ -2727,13 +2723,13 @@
         ],
         [
          "2026-01-01",
-         16.0
+         15.6
         ]
        ],
        "status": "IMF estimate",
        "source_name": "IMF",
        "source_url": "https://www.imf.org/external/datamapper/PCPIPCH@WEO/NGA",
-       "move_z": -1.18
+       "move_z": -1.25
       },
       {
        "id": "NGA_GDP",
@@ -2745,7 +2741,7 @@
        "change_format": "pt",
        "polarity": "up_good",
        "date": "2026-01-01",
-       "value": 4.1,
+       "value": 4.2,
        "prev_date": "2025-01-01",
        "prev_value": 4.0,
        "window": "Past 10 years",
@@ -2788,13 +2784,13 @@
         ],
         [
          "2026-01-01",
-         4.1
+         4.2
         ]
        ],
        "status": "IMF estimate",
        "source_name": "IMF",
        "source_url": "https://www.imf.org/external/datamapper/NGDP_RPCH@WEO/NGA",
-       "move_z": 0.02
+       "move_z": 0.04
       },
       {
        "id": "DCOILBRENTEU",
@@ -3034,12 +3030,12 @@
        "date": "2026-01-01",
        "value": 3.1,
        "prev_date": "2025-01-01",
-       "prev_value": 3.4,
+       "prev_value": 3.5,
        "window": "Past 10 years",
        "trend": [
         [
          "2017-01-01",
-         3.8
+         3.9
         ],
         [
          "2018-01-01",
@@ -3067,11 +3063,11 @@
         ],
         [
          "2024-01-01",
-         3.4
+         3.5
         ],
         [
          "2025-01-01",
-         3.4
+         3.5
         ],
         [
          "2026-01-01",
@@ -3081,7 +3077,7 @@
        "status": "IMF estimate",
        "source_name": "IMF",
        "source_url": "https://www.imf.org/external/datamapper/NGDP_RPCH@WEO/WEOWORLD",
-       "move_z": -0.07
+       "move_z": -0.09
       },
       {
        "id": "PFOODINDEXM",

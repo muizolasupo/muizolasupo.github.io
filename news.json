@@ -1,10 +1,24 @@
 {
- "updated": "2026-10-12T21:19:20Z",
+ "updated": "2026-10-13T02:37:22Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
+    {
+     "title": "Global economy to slow less than expected in 2026 as AI boom offsets war hit: IMF",
+     "url": "https://www.cnbc.com/2026/10/12/imf-world-bank-annual-meetings-october-bangkok-asia-.html",
+     "source": "CNBC",
+     "published": "2026-10-13T02:09:34Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108395582-1791762585583-gettyimages-2298953041-laowilas-notitle261010_npGHL.jpeg?v=1791762613&w=1920&h=1080"
+    },
+    {
+     "title": "Two Americans win Nobel for economics",
+     "url": "https://www.npr.org/2026/10/12/nx-s1-5998739/two-americans-win-nobel-for-economics",
+     "source": "NPR",
+     "published": "2026-10-12T21:43:46Z",
+     "image": ""
+    },
     {
      "title": "A Nobel prize for how to keep economies on an even keel",
      "url": "https://www.economist.com/finance-and-economics/2026/10/12/a-nobel-prize-for-how-to-keep-economies-on-an-even-keel",
@@ -27,25 +41,11 @@
      "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-10-12T100804Z_1513174047_RC2L1OAUNKNL_RTRMADP_3_NOBEL-PRIZE-ECONOMICS-1024x683.jpg"
     },
     {
-     "title": "India’s retail inflation jumps to 5.54% in September, above estimates",
-     "url": "https://www.cnbc.com/2026/10/12/india-inflation-oil-energy-iran-war.html",
-     "source": "CNBC",
-     "published": "2026-10-12T10:49:24Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108396815-1791783913992-gettyimages-2295963775-chakraborty-notitle260921_npCyd.jpeg?v=1791783927&w=1920&h=1080"
-    },
-    {
      "title": "2 Americans win Nobel Prize in economics for work on boom-bust cycles",
      "url": "https://www.npr.org/2026/10/09/nx-s1-5996634/nobel-prize-in-economics",
      "source": "NPR",
      "published": "2026-10-12T08:35:16Z",
      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7794x5310+0+0/resize/7794x5310!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F26%2F78%2Fddfdc1d243f09e93115d2fbd57d2%2Fgettyimages-2299286819.jpg"
-    },
-    {
-     "title": "How personal data is being used to control what customers see and pay",
-     "url": "https://www.npr.org/2026/10/11/nx-s1-5995376/how-personal-data-is-being-used-to-control-what-customers-see-and-pay",
-     "source": "NPR",
-     "published": "2026-10-11T21:16:37Z",
-     "image": ""
     }
    ]
   },
@@ -54,25 +54,32 @@
    "label": "Markets",
    "items": [
     {
-     "title": "Why Ciena, Lumentum and other optical stocks were among the market’s biggest losers on Monday",
-     "url": "https://www.marketwatch.com/story/why-ciena-lumentum-and-other-optical-stocks-were-among-the-markets-biggest-losers-on-monday-b3e53f6a?mod=mw_rss_topstories",
+     "title": "The global economy is starting to look K-shaped. Here are the winners and losers, and where the U.S. fits.",
+     "url": "https://www.marketwatch.com/story/the-global-economy-is-starting-to-look-k-shaped-here-are-the-winners-and-losers-and-where-the-u-s-fits-4ad93ea7?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-12T20:46:00Z",
-     "image": "https://images.mktw.net/im-759206"
+     "published": "2026-10-13T02:00:00Z",
+     "image": "https://images.mktw.net/im-94884793"
     },
     {
-     "title": "Microsoft hits a big milestone that solidifies its revival",
-     "url": "https://www.marketwatch.com/story/microsoft-is-nearing-a-big-milestone-that-solidifies-its-revival-580d1ba8?mod=mw_rss_topstories",
+     "title": "The SpaceX threat could loom over AT&T’s stock for a prolonged stretch, analyst cautions",
+     "url": "https://www.marketwatch.com/story/the-spacex-threat-could-loom-over-at-ts-stock-for-a-prolonged-stretch-analyst-cautions-71436853?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-12T20:40:00Z",
-     "image": "https://images.mktw.net/im-99465391"
+     "published": "2026-10-13T00:18:00Z",
+     "image": "https://images.mktw.net/im-83058773"
     },
     {
-     "title": "Meta is back on the AI leaderboard with its new family of Wonder models",
-     "url": "https://www.marketwatch.com/story/meta-is-back-on-the-ai-leaderboard-with-its-new-family-of-wonder-models-a704b6cc?mod=mw_rss_topstories",
+     "title": "Investors worry the bull market is getting old. But history shows it can continue to age gracefully.",
+     "url": "https://www.marketwatch.com/story/investors-worry-the-bull-market-is-getting-old-but-history-shows-it-can-continue-to-age-gracefully-0402e69c?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-12T19:43:00Z",
-     "image": "https://images.mktw.net/im-77118154"
+     "published": "2026-10-12T22:27:00Z",
+     "image": "https://images.mktw.net/im-79279672"
+    },
+    {
+     "title": "Brazilian stocks are breaking out as investors look for opportunities beyond tech",
+     "url": "https://www.marketwatch.com/story/brazilian-stocks-are-breaking-out-as-investors-look-for-opportunities-beyond-tech-7fbed032?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-12T22:00:00Z",
+     "image": "https://images.mktw.net/im-28916720"
     },
     {
      "title": "A massive trade just happened in surging shares of Snap",
@@ -80,13 +87,6 @@
      "source": "CNBC",
      "published": "2026-10-12T18:43:44Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108322746-1781639526820-108322746-1781636449036-Spiegel1.jpg?v=1785789937&w=1920&h=1080"
-    },
-    {
-     "title": "Trump’s ‘energy ceasefire’ collides with real-world problems of dwindling fuel supplies",
-     "url": "https://www.marketwatch.com/story/trumps-energy-ceasefire-collides-with-real-world-problems-of-dwindling-fuel-supplies-8ba3993b?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-12T18:36:00Z",
-     "image": "https://images.mktw.net/im-31357486"
     },
     {
      "title": "The bull market turned 4 years old on Monday. Investors say reaching a fifth birthday could be challenging",
@@ -150,6 +150,20 @@
    "label": "Nigeria & Africa",
    "items": [
     {
+     "title": "Nigeria loses agric wealth to neighbours on export ban",
+     "url": "https://businessday.ng/agriculture/article/nigeria-loses-agric-wealth-to-neighbours-on-export-ban/",
+     "source": "BusinessDay",
+     "published": "2026-10-13T02:15:13Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2023/11/Untitled-design-2023-11-27T152349.258-1.png"
+    },
+    {
+     "title": "Spiro plans deeper penetration into Nigeria’s e-mobility market, introduces new MD",
+     "url": "https://businessday.ng/transport/article/spiro-plans-deeper-penetration-into-nigerias-e-mobility-market-introduces-new-md/",
+     "source": "BusinessDay",
+     "published": "2026-10-12T21:08:06Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/Spiro-New-MD-large.jpg"
+    },
+    {
      "title": "FMDA projects N2.499 trillion money-market inflows as system liquidity falls 23.7%",
      "url": "https://nairametrics.com/2026/10/12/fmda-projects-n2-499-trillion-money-market-inflows-as-system-liquidity-falls-23-7/",
      "source": "Nairametrics",
@@ -176,20 +190,6 @@
      "source": "The Africa Report",
      "published": "2026-10-12T16:00:00Z",
      "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=2560,height=1707,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/10/12/noufissa-kessar.jpg"
-    },
-    {
-     "title": "Dangote extends refinery IPO to drive more African participation",
-     "url": "https://african.business/2026/10/quick-reads/dangote-extends-refinery-ipo-to-drive-african-participation",
-     "source": "African Business",
-     "published": "2026-10-12T15:51:04Z",
-     "image": "https://african.business/wp-content/uploads/2026/10/000_A6VB64T-scaled.jpg"
-    },
-    {
-     "title": "How Afreximbank is challenging Standard Bank in big-ticket project finance",
-     "url": "https://www.theafricareport.com/433117/how-afreximbank-is-challenging-standard-bank-in-big-ticket-project-finance/",
-     "source": "The Africa Report",
-     "published": "2026-10-12T15:31:58Z",
-     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=916,height=607,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/10/12/screenshot-2026-10-12-164051.png"
     }
    ]
   }
@@ -202,8 +202,8 @@
    "items": 10,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-12T08:35:16Z",
-   "oldest": "2026-10-02T10:47:02Z"
+   "newest": "2026-10-12T21:43:46Z",
+   "oldest": "2026-10-02T11:00:00Z"
   },
   {
    "source": "PBS NewsHour",
@@ -232,7 +232,7 @@
    "items": 30,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-12T14:09:02Z",
+   "newest": "2026-10-13T02:09:34Z",
    "oldest": "2026-09-24T04:02:26Z"
   },
   {
@@ -242,15 +242,15 @@
    "items": 7,
    "skipped": 3,
    "undated": 0,
-   "newest": "2026-10-12T20:46:00Z",
-   "oldest": "2026-10-12T15:47:00Z"
+   "newest": "2026-10-13T02:00:00Z",
+   "oldest": "2026-10-12T20:40:00Z"
   },
   {
    "source": "CNBC",
    "feed": "https://www.cnbc.com/id/10000664/device/rss/rss.html",
    "ok": true,
-   "items": 29,
-   "skipped": 1,
+   "items": 28,
+   "skipped": 2,
    "undated": 0,
    "newest": "2026-10-12T18:18:39Z",
    "oldest": "2026-09-29T12:00:33Z"
@@ -329,11 +329,11 @@
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 0,
-   "skipped": 5,
+   "items": 2,
+   "skipped": 3,
    "undated": 0,
-   "newest": null,
-   "oldest": null
+   "newest": "2026-10-13T02:15:13Z",
+   "oldest": "2026-10-12T21:08:06Z"
   },
   {
    "source": "Premium Times",
