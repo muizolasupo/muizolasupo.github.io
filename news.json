@@ -1,30 +1,37 @@
 {
- "updated": "2026-10-13T10:47:20Z",
+ "updated": "2026-10-13T19:22:13Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
     {
-     "title": "What ice cream has to do with this year's Nobel Prize in economics",
-     "url": "https://www.npr.org/sections/planet-money/2026/10/13/g-s1-147816/what-ice-cream-has-to-do-with-this-years-nobel-prize-in-economics",
-     "source": "NPR",
-     "published": "2026-10-13T10:30:00Z",
-     "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1200x1392+0+0/resize/1200x1392!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F5f%2F6a%2F1de31fab4ddebedc21bcd455385a%2Fscreenshot-2026-10-12-at-12-34-41-pm.png"
+     "title": "The latest inflation data is expected to show price increases are accelerating",
+     "url": "https://www.cnbc.com/2026/10/13/september-consumer-price-index-inflation.html",
+     "source": "CNBC",
+     "published": "2026-10-13T18:05:57Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108361508-1789075754631-gettyimages-2294573110-l1082554_copy_02f4p8at.jpeg?v=1789075971&w=1920&h=1080"
+    },
+    {
+     "title": "How to lose money betting against Europe",
+     "url": "https://www.economist.com/finance-and-economics/2026/10/13/how-to-lose-money-betting-against-europe",
+     "source": "The Economist",
+     "published": "2026-10-13T17:01:13Z",
+     "image": ""
     },
     {
      "title": "In charts: How one of the world's biggest economies got trapped by debt",
      "url": "https://www.cnbc.com/2026/10/13/france-2027-budget-debt.html",
      "source": "CNBC",
-     "published": "2026-10-13T09:49:15Z",
+     "published": "2026-10-13T15:52:24Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108398461-1791814923062-gettyimages-2298287863-AA_06102026_2981670.jpeg?v=1791814942&w=1920&h=1080"
     },
     {
-     "title": "World Bank jobs council urges 'crisis-era' employment support measures as IMF warns of AI ‘tsunami’",
-     "url": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html",
-     "source": "CNBC",
-     "published": "2026-10-13T05:24:17Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108396814-1791783394221-gettyimages-2298413601-AFP_D2G33T4.jpeg?v=1791783415&w=1920&h=1080"
+     "title": "What ice cream has to do with this year's Nobel Prize in economics",
+     "url": "https://www.npr.org/sections/planet-money/2026/10/13/g-s1-147816/what-ice-cream-has-to-do-with-this-years-nobel-prize-in-economics",
+     "source": "NPR",
+     "published": "2026-10-13T10:30:00Z",
+     "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1200x1392+0+0/resize/1200x1392!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F5f%2F6a%2F1de31fab4ddebedc21bcd455385a%2Fscreenshot-2026-10-12-at-12-34-41-pm.png"
     },
     {
      "title": "Two Americans win Nobel for economics",
@@ -39,13 +46,6 @@
      "source": "The Economist",
      "published": "2026-10-12T16:29:06Z",
      "image": ""
-    },
-    {
-     "title": "WATCH: 2 American economists win Nobel for studying how to deal with economic shocks",
-     "url": "https://www.pbs.org/newshour/economy/watch-2-american-economists-win-nobel-for-studying-how-to-deal-with-economic-shocks",
-     "source": "PBS NewsHour",
-     "published": "2026-10-12T13:26:30Z",
-     "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-10-12T100804Z_1513174047_RC2L1OAUNKNL_RTRMADP_3_NOBEL-PRIZE-ECONOMICS-1024x683.jpg"
     }
    ]
   },
@@ -54,32 +54,39 @@
    "label": "Markets",
    "items": [
     {
-     "title": "UnitedHealth keeps medical costs under control — and raises its outlook again",
-     "url": "https://www.marketwatch.com/story/unitedhealth-keeps-medical-costs-under-control-and-raises-its-outlook-again-71abc99c?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-13T10:03:00Z",
-     "image": "https://images.mktw.net/im-87355184"
+     "title": "JPMorgan Chase blocks outside AI agents like Muse, Instinct from directly accessing accounts",
+     "url": "https://www.cnbc.com/2026/10/13/jpmorgan-ai-agents-account-access.html",
+     "source": "CNBC",
+     "published": "2026-10-13T18:46:27Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108403281-1791898216071-Untitled-4.jpg?v=1791898343&w=1920&h=1080"
     },
     {
-     "title": "What to expect from Europe’s most valuable company before it kicks off tech earnings",
-     "url": "https://www.marketwatch.com/story/what-to-expect-from-europes-most-valuable-company-before-it-kicks-off-tech-earnings-a6272cc0?mod=mw_rss_topstories",
+     "title": "Fake shopping sprees and ‘happiness insurance’: The latest fintech apps reveal our financial anxieties",
+     "url": "https://www.marketwatch.com/story/fake-shopping-sprees-and-happiness-insurance-the-latest-fintech-apps-reveal-our-financial-anxieties-77770a46?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-13T09:33:00Z",
-     "image": "https://images.mktw.net/im-24836984"
+     "published": "2026-10-13T18:44:00Z",
+     "image": "https://images.mktw.net/im-60506026"
     },
     {
-     "title": "‘Breaking Bad’ star Aaron Paul sells L.A. home for $7.5 million; he now lives in Paris",
-     "url": "https://www.marketwatch.com/story/breaking-bad-star-aaron-paul-sells-l-a-home-for-7-5-million-he-now-lives-in-paris-fb5990f5?mod=mw_rss_topstories",
+     "title": "Gen Z renters are the only group more likely to feel successful by investing than buying a house",
+     "url": "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-13T09:03:00Z",
-     "image": "https://images.mktw.net/im-99041323"
+     "published": "2026-10-13T18:11:00Z",
+     "image": "https://images.mktw.net/im-31295352"
     },
     {
-     "title": "The Korean stock market’s in freefall, and these are the reasons why",
-     "url": "https://www.marketwatch.com/story/the-korean-stock-markets-in-freefall-and-these-are-the-reasons-why-9615ac8d?mod=mw_rss_topstories",
+     "title": "New SEC rules would fleece everyday investors to enrich Wall Street",
+     "url": "https://www.marketwatch.com/story/new-sec-rules-would-fleece-everyday-investors-to-enrich-wall-street-0a00fe03?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-13T09:03:00Z",
-     "image": "https://images.mktw.net/im-39582693"
+     "published": "2026-10-13T17:54:00Z",
+     "image": "https://images.mktw.net/im-94711045"
+    },
+    {
+     "title": "How to read your body’s warning signs years before you get sick",
+     "url": "https://www.marketwatch.com/story/how-to-read-your-bodys-warning-signs-years-before-you-get-sick-3fb8c82d?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-13T17:22:00Z",
+     "image": "https://images.mktw.net/im-80410179"
     },
     {
      "title": "Visa gets Beijing's green light for bank card business after 40 years of working with China",
@@ -87,13 +94,6 @@
      "source": "CNBC",
      "published": "2026-10-13T06:20:55Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108261511-17702320902026-02-04t185955z_774280777_rc26fjanpgyq_rtrmadp_0_visa-results.jpeg?v=1770232136&w=1920&h=1080"
-    },
-    {
-     "title": "Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack",
-     "url": "https://www.cnbc.com/2026/10/12/beth-hammack-fed-inflation-policy.html",
-     "source": "CNBC",
-     "published": "2026-10-13T02:58:11Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108220143-1761932982247-gettyimages-2243837894-DALLAS_FED_SPEAK.jpeg?v=1761933060&w=1920&h=1080"
     }
    ]
   },
@@ -101,6 +101,13 @@
    "id": "policy",
    "label": "Policy & research",
    "items": [
+    {
+     "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
+     "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
+     "source": "Federal Reserve",
+     "published": "2026-10-13T18:00:00Z",
+     "image": "https://www.federalreserve.gov/images/social-media/social-default-image-opengraph.jpg"
+    },
     {
      "title": "Survival versus Scale: The Effects of Critical Access Hospital Designation",
      "url": "https://www.nber.org/papers/w35876#fromrss",
@@ -135,13 +142,6 @@
      "source": "Federal Reserve",
      "published": "2026-10-08T08:30:00Z",
      "image": "https://www.federalreserve.gov/images/social-media/social-default-image-opengraph.jpg"
-    },
-    {
-     "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
-     "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm",
-     "source": "Federal Reserve",
-     "published": "2026-10-07T18:00:00Z",
-     "image": "https://www.federalreserve.gov/images/social-media/social-default-image-opengraph.jpg"
     }
    ]
   },
@@ -150,46 +150,46 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "Ogaga Ifowodo Wins The Nigeria Prize for Literature with “Why Does God Need a Gun?”, Beyond Tarkwa Bay by Peter Oghenetega Oke and Mara Mania by Feranmi Abiola Share…",
-     "url": "https://businessday.ng/brands-advertising/article/ogaga-ifowodo-wins-the-nigeria-prize-for-literature-with-why-does-god-need-a-gun-beyond-tarkwa-bay-by-peter-oghenetega-oke-and-mara-mania-by-feranmi-abiola-share-creative-arts-hon/",
+     "title": "Dangote Refinery posts $22.5bn revenue, records $4.7bn profit as cash reserves hit $6.7bn",
+     "url": "https://businessday.ng/companies/article/dangote-refinery-posts-22-5bn-revenue-records-4-7bn-profit-as-cash-reserves-hit-6-7bn/",
      "source": "BusinessDay",
-     "published": "2026-10-13T10:25:31Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-13-at-9.18.34-AM-large.jpeg"
+     "published": "2026-10-13T19:01:55Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2023/12/Dangote-refinery.png"
     },
     {
-     "title": "Nigeria’s competitiveness starts at the port gate",
-     "url": "https://businessday.ng/brands-advertising/article/nigerias-competitiveness-starts-at-the-port-gate/",
+     "title": "FG to integrate import duty exemption certificate to National Single Window platform",
+     "url": "https://businessday.ng/business-economy/article/fg-to-integrate-import-duty-exemption-certificate-to-national-single-window-platform/",
      "source": "BusinessDay",
-     "published": "2026-10-13T10:07:37Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-13-at-9.47.44-AM-large.jpeg"
+     "published": "2026-10-13T18:53:29Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/695998_1791903603-960x540-1-large.webp"
     },
     {
-     "title": "Nigeria: Why Dangote is keeping an oversubscribed IPO open",
-     "url": "https://www.theafricareport.com/433163/nigeria-why-dangote-is-keeping-an-oversubscribed-ipo-open/",
-     "source": "The Africa Report",
-     "published": "2026-10-13T10:00:00Z",
-     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=2560,height=1710,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/09/16/2026-09-14t090425z_723666016_rc2xina2psy6_rtrmadp_3_nigeria-dangote-ipo-scaled.jpg"
-    },
-    {
-     "title": "Zimbabwe’s portfolio problem: Can sanctioned tycoon Tagwirei still woo investors?",
-     "url": "https://www.theafricareport.com/433099/zimbabwes-portfolio-problem-can-sanctioned-tycoon-tagwirei-still-woo-investors/",
-     "source": "The Africa Report",
-     "published": "2026-10-13T09:30:00Z",
-     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=1382,height=765,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/10/13/kudakwashe-tagwirei-with-mnangagwa-e1791874167672.jpeg"
-    },
-    {
-     "title": "Why Nigerian stocks are stuck below the 250k mark",
-     "url": "https://nairametrics.com/2026/10/13/why-nigerian-stocks-are-stuck-below-the-250k-mark/",
+     "title": "NGX sheds N144.54 billion as bearish pressure persists",
+     "url": "https://nairametrics.com/2026/10/13/ngx-sheds-n144-54-billion-as-bearish-pressure-persists/",
      "source": "Nairametrics",
-     "published": "2026-10-13T09:13:37Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/stock.webp"
+     "published": "2026-10-13T18:33:47Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/stock-drop-image.webp"
     },
     {
-     "title": "Ribadu unveils new security framework to combat crude oil theft",
-     "url": "https://nairametrics.com/2026/10/13/ribadu-unveils-new-security-framework-to-combat-crude-oil-theft/",
+     "title": "US denies 35,767 work permits to Green Card applicants as rejection rate rises to 44%",
+     "url": "https://nairametrics.com/2026/10/13/us-denies-35767-work-permits-to-green-card-applicants-as-rejection-rate-rises-to-44/",
      "source": "Nairametrics",
-     "published": "2026-10-13T09:08:31Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/Media-1-1.jpg"
+     "published": "2026-10-13T18:25:42Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/08/American_Flag_Waving_on_a_Flag_Pole-300x200-2.webp"
+    },
+    {
+     "title": "Nigeria meets OPEC quota for fifth straight month as oil output hits 1.84m barrels",
+     "url": "https://www.premiumtimesng.com/business/business-news/916868-nigeria-meets-opec-quota-for-fifth-straight-month-as-oil-output-hits-1-84m-barrels.html",
+     "source": "Premium Times",
+     "published": "2026-10-13T18:15:56Z",
+     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2022/06/thumbs_b_c_815329508b9f387eda70839ac6a30868-696x392-1.jpg?fit=696%2C392&ssl=1"
+    },
+    {
+     "title": "Ecobank partners with China’s CIPS to deepen yuan trade settlements across 34 African markets",
+     "url": "https://www.theafricareport.com/433438/ecobank-partners-with-chinas-cips-to-deepen-yuan-trade-settlements-across-34-african-markets/",
+     "source": "The Africa Report",
+     "published": "2026-10-13T16:00:00Z",
+     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=2560,height=1711,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2024/12/16/afp__20150710__par8224132__v1__highres__icoasteconomybanking-scaled.jpg"
     }
    ]
   }
@@ -222,8 +222,8 @@
    "items": 300,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-12T16:29:06Z",
-   "oldest": "2025-12-10T19:18:39Z"
+   "newest": "2026-10-13T17:01:13Z",
+   "oldest": "2025-12-11T11:07:13Z"
   },
   {
    "source": "CNBC",
@@ -232,18 +232,18 @@
    "items": 30,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-13T09:49:15Z",
+   "newest": "2026-10-13T18:05:57Z",
    "oldest": "2026-09-24T08:13:01Z"
   },
   {
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 8,
-   "skipped": 2,
+   "items": 6,
+   "skipped": 4,
    "undated": 0,
-   "newest": "2026-10-13T10:03:00Z",
-   "oldest": "2026-10-13T02:00:00Z"
+   "newest": "2026-10-13T18:44:00Z",
+   "oldest": "2026-10-13T16:52:00Z"
   },
   {
    "source": "CNBC",
@@ -252,8 +252,8 @@
    "items": 28,
    "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-13T06:20:55Z",
-   "oldest": "2026-09-29T20:33:08Z"
+   "newest": "2026-10-13T18:46:27Z",
+   "oldest": "2026-09-29T20:50:10Z"
   },
   {
    "source": "CNBC",
@@ -272,8 +272,8 @@
    "items": 15,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-07T18:00:00Z",
-   "oldest": "2026-04-14T18:00:00Z"
+   "newest": "2026-10-13T18:00:00Z",
+   "oldest": "2026-04-29T18:00:00Z"
   },
   {
    "source": "Federal Reserve",
@@ -322,28 +322,28 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-13T09:13:37Z",
-   "oldest": "2026-10-12T15:45:20Z"
+   "newest": "2026-10-13T18:33:47Z",
+   "oldest": "2026-10-13T10:51:47Z"
   },
   {
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 4,
-   "skipped": 1,
+   "items": 3,
+   "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-13T10:25:31Z",
-   "oldest": "2026-10-13T09:57:35Z"
+   "newest": "2026-10-13T19:01:55Z",
+   "oldest": "2026-10-13T18:48:37Z"
   },
   {
    "source": "Premium Times",
    "feed": "https://www.premiumtimesng.com/business/feed",
    "ok": true,
-   "items": 14,
-   "skipped": 1,
+   "items": 11,
+   "skipped": 4,
    "undated": 0,
-   "newest": "2026-10-13T08:33:18Z",
-   "oldest": "2026-10-09T16:46:16Z"
+   "newest": "2026-10-13T18:15:56Z",
+   "oldest": "2026-10-10T16:04:28Z"
   },
   {
    "source": "African Business",
@@ -352,18 +352,18 @@
    "items": 25,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-13T09:00:31Z",
-   "oldest": "2026-10-06T08:48:19Z"
+   "newest": "2026-10-13T11:42:34Z",
+   "oldest": "2026-10-07T06:26:08Z"
   },
   {
    "source": "The Africa Report",
    "feed": "https://www.theafricareport.com/feed/",
    "ok": true,
-   "items": 7,
-   "skipped": 3,
+   "items": 4,
+   "skipped": 6,
    "undated": 0,
-   "newest": "2026-10-13T10:00:00Z",
-   "oldest": "2026-10-12T13:30:00Z"
+   "newest": "2026-10-13T16:00:00Z",
+   "oldest": "2026-10-13T06:33:54Z"
   }
  ],
  "first_seen": {
