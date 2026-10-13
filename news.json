@@ -1,16 +1,30 @@
 {
- "updated": "2026-10-13T02:37:22Z",
+ "updated": "2026-10-13T10:47:20Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
     {
-     "title": "Global economy to slow less than expected in 2026 as AI boom offsets war hit: IMF",
-     "url": "https://www.cnbc.com/2026/10/12/imf-world-bank-annual-meetings-october-bangkok-asia-.html",
+     "title": "What ice cream has to do with this year's Nobel Prize in economics",
+     "url": "https://www.npr.org/sections/planet-money/2026/10/13/g-s1-147816/what-ice-cream-has-to-do-with-this-years-nobel-prize-in-economics",
+     "source": "NPR",
+     "published": "2026-10-13T10:30:00Z",
+     "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1200x1392+0+0/resize/1200x1392!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F5f%2F6a%2F1de31fab4ddebedc21bcd455385a%2Fscreenshot-2026-10-12-at-12-34-41-pm.png"
+    },
+    {
+     "title": "In charts: How one of the world's biggest economies got trapped by debt",
+     "url": "https://www.cnbc.com/2026/10/13/france-2027-budget-debt.html",
      "source": "CNBC",
-     "published": "2026-10-13T02:09:34Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108395582-1791762585583-gettyimages-2298953041-laowilas-notitle261010_npGHL.jpeg?v=1791762613&w=1920&h=1080"
+     "published": "2026-10-13T09:49:15Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108398461-1791814923062-gettyimages-2298287863-AA_06102026_2981670.jpeg?v=1791814942&w=1920&h=1080"
+    },
+    {
+     "title": "World Bank jobs council urges 'crisis-era' employment support measures as IMF warns of AI ‘tsunami’",
+     "url": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html",
+     "source": "CNBC",
+     "published": "2026-10-13T05:24:17Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108396814-1791783394221-gettyimages-2298413601-AFP_D2G33T4.jpeg?v=1791783415&w=1920&h=1080"
     },
     {
      "title": "Two Americans win Nobel for economics",
@@ -27,25 +41,11 @@
      "image": ""
     },
     {
-     "title": "Nobel prize in economics awarded to Robert E. Hall and Michael Woodford",
-     "url": "https://www.cnbc.com/2026/10/12/nobel-economics-prize-winner-woodford-hall.html",
-     "source": "CNBC",
-     "published": "2026-10-12T14:09:02Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108397595-1791799384748-gettyimages-2299282482-AFP_D2YD6PH.jpeg?v=1791800530&w=1920&h=1080"
-    },
-    {
      "title": "WATCH: 2 American economists win Nobel for studying how to deal with economic shocks",
      "url": "https://www.pbs.org/newshour/economy/watch-2-american-economists-win-nobel-for-studying-how-to-deal-with-economic-shocks",
      "source": "PBS NewsHour",
      "published": "2026-10-12T13:26:30Z",
      "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-10-12T100804Z_1513174047_RC2L1OAUNKNL_RTRMADP_3_NOBEL-PRIZE-ECONOMICS-1024x683.jpg"
-    },
-    {
-     "title": "2 Americans win Nobel Prize in economics for work on boom-bust cycles",
-     "url": "https://www.npr.org/2026/10/09/nx-s1-5996634/nobel-prize-in-economics",
-     "source": "NPR",
-     "published": "2026-10-12T08:35:16Z",
-     "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7794x5310+0+0/resize/7794x5310!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F26%2F78%2Fddfdc1d243f09e93115d2fbd57d2%2Fgettyimages-2299286819.jpg"
     }
    ]
   },
@@ -54,46 +54,46 @@
    "label": "Markets",
    "items": [
     {
-     "title": "The global economy is starting to look K-shaped. Here are the winners and losers, and where the U.S. fits.",
-     "url": "https://www.marketwatch.com/story/the-global-economy-is-starting-to-look-k-shaped-here-are-the-winners-and-losers-and-where-the-u-s-fits-4ad93ea7?mod=mw_rss_topstories",
+     "title": "UnitedHealth keeps medical costs under control — and raises its outlook again",
+     "url": "https://www.marketwatch.com/story/unitedhealth-keeps-medical-costs-under-control-and-raises-its-outlook-again-71abc99c?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-13T02:00:00Z",
-     "image": "https://images.mktw.net/im-94884793"
+     "published": "2026-10-13T10:03:00Z",
+     "image": "https://images.mktw.net/im-87355184"
     },
     {
-     "title": "The SpaceX threat could loom over AT&T’s stock for a prolonged stretch, analyst cautions",
-     "url": "https://www.marketwatch.com/story/the-spacex-threat-could-loom-over-at-ts-stock-for-a-prolonged-stretch-analyst-cautions-71436853?mod=mw_rss_topstories",
+     "title": "What to expect from Europe’s most valuable company before it kicks off tech earnings",
+     "url": "https://www.marketwatch.com/story/what-to-expect-from-europes-most-valuable-company-before-it-kicks-off-tech-earnings-a6272cc0?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-13T00:18:00Z",
-     "image": "https://images.mktw.net/im-83058773"
+     "published": "2026-10-13T09:33:00Z",
+     "image": "https://images.mktw.net/im-24836984"
     },
     {
-     "title": "Investors worry the bull market is getting old. But history shows it can continue to age gracefully.",
-     "url": "https://www.marketwatch.com/story/investors-worry-the-bull-market-is-getting-old-but-history-shows-it-can-continue-to-age-gracefully-0402e69c?mod=mw_rss_topstories",
+     "title": "‘Breaking Bad’ star Aaron Paul sells L.A. home for $7.5 million; he now lives in Paris",
+     "url": "https://www.marketwatch.com/story/breaking-bad-star-aaron-paul-sells-l-a-home-for-7-5-million-he-now-lives-in-paris-fb5990f5?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-12T22:27:00Z",
-     "image": "https://images.mktw.net/im-79279672"
+     "published": "2026-10-13T09:03:00Z",
+     "image": "https://images.mktw.net/im-99041323"
     },
     {
-     "title": "Brazilian stocks are breaking out as investors look for opportunities beyond tech",
-     "url": "https://www.marketwatch.com/story/brazilian-stocks-are-breaking-out-as-investors-look-for-opportunities-beyond-tech-7fbed032?mod=mw_rss_topstories",
+     "title": "The Korean stock market’s in freefall, and these are the reasons why",
+     "url": "https://www.marketwatch.com/story/the-korean-stock-markets-in-freefall-and-these-are-the-reasons-why-9615ac8d?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-12T22:00:00Z",
-     "image": "https://images.mktw.net/im-28916720"
+     "published": "2026-10-13T09:03:00Z",
+     "image": "https://images.mktw.net/im-39582693"
     },
     {
-     "title": "A massive trade just happened in surging shares of Snap",
-     "url": "https://www.cnbc.com/2026/10/12/a-massive-trade-just-happens-in-surging-shares-of-snap.html",
+     "title": "Visa gets Beijing's green light for bank card business after 40 years of working with China",
+     "url": "https://www.cnbc.com/2026/10/13/visa-china-green-light-bank-card-business-.html",
      "source": "CNBC",
-     "published": "2026-10-12T18:43:44Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108322746-1781639526820-108322746-1781636449036-Spiegel1.jpg?v=1785789937&w=1920&h=1080"
+     "published": "2026-10-13T06:20:55Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108261511-17702320902026-02-04t185955z_774280777_rc26fjanpgyq_rtrmadp_0_visa-results.jpeg?v=1770232136&w=1920&h=1080"
     },
     {
-     "title": "The bull market turned 4 years old on Monday. Investors say reaching a fifth birthday could be challenging",
-     "url": "https://www.cnbc.com/2026/10/12/the-bull-market-just-turned-four-after-climbing-a-wall-of-worry.html",
+     "title": "Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack",
+     "url": "https://www.cnbc.com/2026/10/12/beth-hammack-fed-inflation-policy.html",
      "source": "CNBC",
-     "published": "2026-10-12T18:18:39Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108340023-17849188482026-07-24t145944z_940041411_rc2dkma3djbf_rtrmadp_0_usa-stocks.jpeg?v=1788450583&w=1920&h=1080"
+     "published": "2026-10-13T02:58:11Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108220143-1761932982247-gettyimages-2243837894-DALLAS_FED_SPEAK.jpeg?v=1761933060&w=1920&h=1080"
     }
    ]
   },
@@ -150,46 +150,46 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "Nigeria loses agric wealth to neighbours on export ban",
-     "url": "https://businessday.ng/agriculture/article/nigeria-loses-agric-wealth-to-neighbours-on-export-ban/",
+     "title": "Ogaga Ifowodo Wins The Nigeria Prize for Literature with “Why Does God Need a Gun?”, Beyond Tarkwa Bay by Peter Oghenetega Oke and Mara Mania by Feranmi Abiola Share…",
+     "url": "https://businessday.ng/brands-advertising/article/ogaga-ifowodo-wins-the-nigeria-prize-for-literature-with-why-does-god-need-a-gun-beyond-tarkwa-bay-by-peter-oghenetega-oke-and-mara-mania-by-feranmi-abiola-share-creative-arts-hon/",
      "source": "BusinessDay",
-     "published": "2026-10-13T02:15:13Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2023/11/Untitled-design-2023-11-27T152349.258-1.png"
+     "published": "2026-10-13T10:25:31Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-13-at-9.18.34-AM-large.jpeg"
     },
     {
-     "title": "Spiro plans deeper penetration into Nigeria’s e-mobility market, introduces new MD",
-     "url": "https://businessday.ng/transport/article/spiro-plans-deeper-penetration-into-nigerias-e-mobility-market-introduces-new-md/",
+     "title": "Nigeria’s competitiveness starts at the port gate",
+     "url": "https://businessday.ng/brands-advertising/article/nigerias-competitiveness-starts-at-the-port-gate/",
      "source": "BusinessDay",
-     "published": "2026-10-12T21:08:06Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/Spiro-New-MD-large.jpg"
+     "published": "2026-10-13T10:07:37Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-13-at-9.47.44-AM-large.jpeg"
     },
     {
-     "title": "FMDA projects N2.499 trillion money-market inflows as system liquidity falls 23.7%",
-     "url": "https://nairametrics.com/2026/10/12/fmda-projects-n2-499-trillion-money-market-inflows-as-system-liquidity-falls-23-7/",
-     "source": "Nairametrics",
-     "published": "2026-10-12T19:06:52Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/fmda-e1778081003932-1.webp"
-    },
-    {
-     "title": "Nigerian stocks shed N407 billion, banking sell-off drags market lower",
-     "url": "https://nairametrics.com/2026/10/12/nigerian-stocks-shed-n407-billion-banking-sell-off-drags-market-lower/",
-     "source": "Nairametrics",
-     "published": "2026-10-12T18:43:50Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/stock-drop-image.webp"
-    },
-    {
-     "title": "AI, energy supply shock, mounting debts headline IMF/World Bank meetings in Bangkok",
-     "url": "https://www.premiumtimesng.com/business/business-news/916515-ai-energy-supply-shock-mounting-debts-headline-imf-world-bank-meetings-in-bangkok.html",
-     "source": "Premium Times",
-     "published": "2026-10-12T18:28:24Z",
-     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/10/1000500914-e1791829640359.jpg?fit=1024%2C640&ssl=1"
-    },
-    {
-     "title": "The women shaping Morocco’s economy",
-     "url": "https://www.theafricareport.com/433000/the-women-shaping-moroccos-economy/",
+     "title": "Nigeria: Why Dangote is keeping an oversubscribed IPO open",
+     "url": "https://www.theafricareport.com/433163/nigeria-why-dangote-is-keeping-an-oversubscribed-ipo-open/",
      "source": "The Africa Report",
-     "published": "2026-10-12T16:00:00Z",
-     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=2560,height=1707,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/10/12/noufissa-kessar.jpg"
+     "published": "2026-10-13T10:00:00Z",
+     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=2560,height=1710,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/09/16/2026-09-14t090425z_723666016_rc2xina2psy6_rtrmadp_3_nigeria-dangote-ipo-scaled.jpg"
+    },
+    {
+     "title": "Zimbabwe’s portfolio problem: Can sanctioned tycoon Tagwirei still woo investors?",
+     "url": "https://www.theafricareport.com/433099/zimbabwes-portfolio-problem-can-sanctioned-tycoon-tagwirei-still-woo-investors/",
+     "source": "The Africa Report",
+     "published": "2026-10-13T09:30:00Z",
+     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=1382,height=765,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/10/13/kudakwashe-tagwirei-with-mnangagwa-e1791874167672.jpeg"
+    },
+    {
+     "title": "Why Nigerian stocks are stuck below the 250k mark",
+     "url": "https://nairametrics.com/2026/10/13/why-nigerian-stocks-are-stuck-below-the-250k-mark/",
+     "source": "Nairametrics",
+     "published": "2026-10-13T09:13:37Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/stock.webp"
+    },
+    {
+     "title": "Ribadu unveils new security framework to combat crude oil theft",
+     "url": "https://nairametrics.com/2026/10/13/ribadu-unveils-new-security-framework-to-combat-crude-oil-theft/",
+     "source": "Nairametrics",
+     "published": "2026-10-13T09:08:31Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/Media-1-1.jpg"
     }
    ]
   }
@@ -202,8 +202,8 @@
    "items": 10,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-12T21:43:46Z",
-   "oldest": "2026-10-02T11:00:00Z"
+   "newest": "2026-10-13T10:30:00Z",
+   "oldest": "2026-10-02T13:54:18Z"
   },
   {
    "source": "PBS NewsHour",
@@ -232,18 +232,18 @@
    "items": 30,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-13T02:09:34Z",
-   "oldest": "2026-09-24T04:02:26Z"
+   "newest": "2026-10-13T09:49:15Z",
+   "oldest": "2026-09-24T08:13:01Z"
   },
   {
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 7,
-   "skipped": 3,
+   "items": 8,
+   "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-13T02:00:00Z",
-   "oldest": "2026-10-12T20:40:00Z"
+   "newest": "2026-10-13T10:03:00Z",
+   "oldest": "2026-10-13T02:00:00Z"
   },
   {
    "source": "CNBC",
@@ -252,8 +252,8 @@
    "items": 28,
    "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-12T18:18:39Z",
-   "oldest": "2026-09-29T12:00:33Z"
+   "newest": "2026-10-13T06:20:55Z",
+   "oldest": "2026-09-29T20:33:08Z"
   },
   {
    "source": "CNBC",
@@ -322,28 +322,28 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-12T19:06:52Z",
-   "oldest": "2026-10-12T10:42:01Z"
+   "newest": "2026-10-13T09:13:37Z",
+   "oldest": "2026-10-12T15:45:20Z"
   },
   {
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 2,
-   "skipped": 3,
+   "items": 4,
+   "skipped": 1,
    "undated": 0,
-   "newest": "2026-10-13T02:15:13Z",
-   "oldest": "2026-10-12T21:08:06Z"
+   "newest": "2026-10-13T10:25:31Z",
+   "oldest": "2026-10-13T09:57:35Z"
   },
   {
    "source": "Premium Times",
    "feed": "https://www.premiumtimesng.com/business/feed",
    "ok": true,
-   "items": 13,
-   "skipped": 2,
+   "items": 14,
+   "skipped": 1,
    "undated": 0,
-   "newest": "2026-10-12T18:28:24Z",
-   "oldest": "2026-10-09T13:35:43Z"
+   "newest": "2026-10-13T08:33:18Z",
+   "oldest": "2026-10-09T16:46:16Z"
   },
   {
    "source": "African Business",
@@ -352,18 +352,18 @@
    "items": 25,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-12T15:51:04Z",
-   "oldest": "2026-10-06T08:05:04Z"
+   "newest": "2026-10-13T09:00:31Z",
+   "oldest": "2026-10-06T08:48:19Z"
   },
   {
    "source": "The Africa Report",
    "feed": "https://www.theafricareport.com/feed/",
    "ok": true,
-   "items": 5,
-   "skipped": 5,
+   "items": 7,
+   "skipped": 3,
    "undated": 0,
-   "newest": "2026-10-12T16:00:00Z",
-   "oldest": "2026-10-10T09:37:51Z"
+   "newest": "2026-10-13T10:00:00Z",
+   "oldest": "2026-10-12T13:30:00Z"
   }
  ],
  "first_seen": {
