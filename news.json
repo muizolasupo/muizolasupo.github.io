@@ -1,16 +1,44 @@
 {
- "updated": "2026-10-14T12:06:27Z",
+ "updated": "2026-10-14T17:21:07Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
     {
-     "title": "'Godzilla El Niño' is wreaking havoc with Philippine central bank's inflation forecasts",
-     "url": "https://www.cnbc.com/2026/10/14/godzilla-el-nino-asia-inflation-philippines.html",
+     "title": "How high inflation became a 'fact of life' in the U.S.",
+     "url": "https://www.cnbc.com/2026/10/14/high-inflation-fed-expectations.html",
      "source": "CNBC",
-     "published": "2026-10-14T04:24:28Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108406685-1791947289905-gettyimages-2211302300-IMF_WORLD_BANK.jpeg?v=1791947305&w=1920&h=1080"
+     "published": "2026-10-14T17:20:23Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108295010-1776807990973-gettyimages-2272451874-jr_15888_qsl4bswz.jpeg?v=1776808066&w=1920&h=1080"
+    },
+    {
+     "title": "U.S. hits Bank of America with $1.2 billion fine, saying it violated money laundering and sanctions laws",
+     "url": "https://www.pbs.org/newshour/economy/u-s-hits-bank-of-america-with-1-2-billion-fine-saying-it-violated-money-laundering-and-sanctions-laws",
+     "source": "PBS NewsHour",
+     "published": "2026-10-14T15:07:54Z",
+     "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-10-13T214803Z_413566424_RC2612ASWGFK_RTRMADP_3_USA-TREASURY-BANKOFAMERICA-1024x683.jpg"
+    },
+    {
+     "title": "Consumer prices rose 3.7% annually in September as gas prices skyrocket",
+     "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html",
+     "source": "CNBC",
+     "published": "2026-10-14T13:53:28Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108403966-1791908160296-gettyimages-2295306196-_dsc3958.jpeg?v=1791908375&w=1920&h=1080"
+    },
+    {
+     "title": "Inflation worsened last month to 3.7% as midterm elections near",
+     "url": "https://www.pbs.org/newshour/economy/inflation-worsened-last-month-to-3-7-as-midterm-elections-near",
+     "source": "PBS NewsHour",
+     "published": "2026-10-14T13:37:33Z",
+     "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-09-14T221149Z_106270912_RC2PRHAVC2WQ_RTRMADP_3_USA-AVIATION-SAFETY-1-1024x642.jpg"
+    },
+    {
+     "title": "Inflation sizzled in September — and Social Security benefits will get a boost",
+     "url": "https://www.npr.org/2026/10/14/nx-s1-6000593/inflation-consumer-prices-cpi-social-security-benefits",
+     "source": "NPR",
+     "published": "2026-10-14T13:33:44Z",
+     "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5000x3333+0+0/resize/5000x3333!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F56%2F61%2Fc0ae826a434f85125c7d6ab98c31%2Fgettyimages-2298003777.jpg"
     },
     {
      "title": "Older Americans are struggling with food affordability",
@@ -18,34 +46,6 @@
      "source": "NPR",
      "published": "2026-10-13T20:03:30Z",
      "image": ""
-    },
-    {
-     "title": "Republicans face midterm backlash from factory workers over Trump's tariffs",
-     "url": "https://www.pbs.org/newshour/economy/republicans-face-midterm-backlash-from-factory-workers-over-trumps-tariffs",
-     "source": "PBS NewsHour",
-     "published": "2026-10-13T19:43:38Z",
-     "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/AP26282000372501-1024x704.jpg"
-    },
-    {
-     "title": "The latest inflation data is expected to show price increases are accelerating",
-     "url": "https://www.cnbc.com/2026/10/13/september-consumer-price-index-inflation.html",
-     "source": "CNBC",
-     "published": "2026-10-13T18:05:57Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108361508-1789075754631-gettyimages-2294573110-l1082554_copy_02f4p8at.jpeg?v=1789075971&w=1920&h=1080"
-    },
-    {
-     "title": "How to lose money betting against Europe",
-     "url": "https://www.economist.com/finance-and-economics/2026/10/13/how-to-lose-money-betting-against-europe",
-     "source": "The Economist",
-     "published": "2026-10-13T17:01:13Z",
-     "image": ""
-    },
-    {
-     "title": "What ice cream has to do with this year's Nobel Prize in economics",
-     "url": "https://www.npr.org/sections/planet-money/2026/10/13/g-s1-147816/what-ice-cream-has-to-do-with-this-years-nobel-prize-in-economics",
-     "source": "NPR",
-     "published": "2026-10-13T10:30:00Z",
-     "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1200x1392+0+0/resize/1200x1392!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F5f%2F6a%2F1de31fab4ddebedc21bcd455385a%2Fscreenshot-2026-10-12-at-12-34-41-pm.png"
     }
    ]
   },
@@ -54,46 +54,46 @@
    "label": "Markets",
    "items": [
     {
-     "title": "Bank of America shares drop more than 4% after third quarter revenue miss and regulatory penalty",
-     "url": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
+     "title": "Traders pile into 'bubble puts' on CoreWeave as neocloud stocks plunge",
+     "url": "https://www.cnbc.com/2026/10/14/coreweave-put-options-ai-trade.html",
      "source": "CNBC",
-     "published": "2026-10-14T12:05:50Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108250555-1767974377302-gettyimages-2201916861-_d6a3281_18br2qz5.jpeg?v=1767974405&w=1920&h=1080"
+     "published": "2026-10-14T17:10:59Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108408958-1791988867766-gettyimages-2300173637-mms15469_vis990vc.jpeg?v=1791989017&w=1920&h=1080"
     },
     {
-     "title": "Charles Schwab and DoorDash ranked among bargain stocks that could lead the market higher",
-     "url": "https://www.marketwatch.com/story/from-charles-schwab-to-doordash-why-these-bargain-stocks-could-lead-the-market-higher-4d99fb97?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-14T12:03:00Z",
-     "image": "https://images.mktw.net/im-60761666"
-    },
-    {
-     "title": "How to read your body’s warning signs years before you get sick",
-     "url": "https://www.marketwatch.com/story/how-to-read-your-bodys-warning-signs-years-before-you-get-sick-3fb8c82d?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-14T12:00:00Z",
-     "image": "https://images.mktw.net/im-80410179"
-    },
-    {
-     "title": "Morgan Stanley tops estimates as equities trading revenue exceeds expectations by $909 million",
+     "title": "Morgan Stanley tops estimates as equities trading revenue beats expectations by $909 million",
      "url": "https://www.cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html",
      "source": "CNBC",
-     "published": "2026-10-14T11:58:05Z",
+     "published": "2026-10-14T17:08:23Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108091506-1737654883210-1U8A2251.JPG?v=1737655004&w=1920&h=1080"
     },
     {
-     "title": "What analysts are watching with key semiconductor maker TSMC set to report results",
-     "url": "https://www.marketwatch.com/story/what-analysts-are-watching-with-key-semiconductor-maker-tsmc-set-to-report-results-c161e86b?mod=mw_rss_topstories",
+     "title": "3 things that are driving inflation higher",
+     "url": "https://www.marketwatch.com/story/3-things-that-are-driving-inflation-higher-26bda9a9?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-14T11:36:00Z",
-     "image": "https://images.mktw.net/im-92439304"
+     "published": "2026-10-14T16:50:00Z",
+     "image": "https://images.mktw.net/im-21572237"
     },
     {
-     "title": "Bank of America adds a profit miss to the misery of a $1.2 billion government fine",
-     "url": "https://www.marketwatch.com/story/bank-of-america-adds-a-profit-miss-to-the-misery-of-a-1-2-billion-government-fine-d4420bfa?mod=mw_rss_topstories",
+     "title": "Bank of America shares drop 8% after third-quarter revenue miss and regulatory penalty",
+     "url": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
+     "source": "CNBC",
+     "published": "2026-10-14T16:49:11Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108250555-1767974377302-gettyimages-2201916861-_d6a3281_18br2qz5.jpeg?v=1767974405&w=1920&h=1080"
+    },
+    {
+     "title": "Rising bond yields and higher inflation leave the Fed trapped in a rate-hike dilemma",
+     "url": "https://www.marketwatch.com/story/rising-bond-yields-and-higher-inflation-leave-the-fed-trapped-in-a-rate-hike-dilemma-d34ba326?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-14T11:28:00Z",
-     "image": "https://images.mktw.net/im-86270203"
+     "published": "2026-10-14T16:27:00Z",
+     "image": "https://images.mktw.net/im-95433037"
+    },
+    {
+     "title": "Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?",
+     "url": "https://www.marketwatch.com/story/social-securitys-cola-will-be-3-6-in-2027-as-inflation-persists-f7c9dff2?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-14T16:20:00Z",
+     "image": "https://images.mktw.net/im-07536727"
     }
    ]
   },
@@ -150,46 +150,46 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "Africa’s financial markets hit decade-high scores, but liquidity remains a hurdle",
-     "url": "https://businessday.ng/africa/article/africas-financial-markets-hit-decade-high-scores-but-liquidity-remains-a-hurdle/",
-     "source": "BusinessDay",
-     "published": "2026-10-14T11:23:11Z",
-     "image": "https://cdn.businessday.ng/2013/09/Financial-Markets-.jpg"
+     "title": "Bank of Uganda raises benchmark interest rate to 12% amid currency, inflation pressures",
+     "url": "https://nairametrics.com/2026/10/14/bank-of-uganda-raises-benchmark-interest-rate-to-12-amid-currency-inflation-pressures/",
+     "source": "Nairametrics",
+     "published": "2026-10-14T17:16:59Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/Bank-of-Ug.jpg"
     },
     {
-     "title": "IMF warns Nigeria against return to costly petrol subsidies",
-     "url": "https://businessday.ng/business-economy/article/imf-warns-nigeria-against-return-to-costly-petrol-subsidies/",
-     "source": "BusinessDay",
-     "published": "2026-10-14T11:20:58Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/07/The-worlds-biggest-economies-by-2031-IMF-forecast-large.png"
+     "title": "FG approves N40.7 billion for healthcare delivery in Q3 2026",
+     "url": "https://nairametrics.com/2026/10/14/fg-approves-n40-7-billion-for-healthcare-delivery-in-q3-2026/",
+     "source": "Nairametrics",
+     "published": "2026-10-14T17:11:08Z",
+     "image": "https://media.nairametrics.com/2026/06/Samuel-Daniel-150x150.jpg"
     },
     {
-     "title": "EBID signs $25 million revolving credit facility with Topaz Multi-Industries SA to boost manufacturing in Guinea",
-     "url": "https://african.business/2026/10/quick-reads/ebid-signs-25-million-revolving-credit-facility-with-topaz-multi-industries-sa-to-boost-manufacturing-in-guinea",
-     "source": "African Business",
-     "published": "2026-10-14T11:04:23Z",
-     "image": "https://african.business/wp-content/uploads/2026/10/DSC_2013.jpg"
-    },
-    {
-     "title": "Zenith Bank’s Abidjan gambit: Nigerian giant looks beyond its borders",
-     "url": "https://www.theafricareport.com/433435/zenith-banks-abidjan-gambit-nigerian-giant-looks-beyond-its-borders/",
-     "source": "The Africa Report",
-     "published": "2026-10-14T11:00:00Z",
-     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=2424,height=1606,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/10/14/zenith-bank-cote-divoire.png"
-    },
-    {
-     "title": "Nigerian government introduces ‘five big fiscal reforms’ to woo investors, engender growth",
-     "url": "https://www.premiumtimesng.com/business/business-news/916997-nigerian-government-introduces-five-big-fiscal-reforms-to-woo-investors-engender-growth.html",
+     "title": "WayvePay says no investor subscribed to Dangote Refinery IPO through its platform",
+     "url": "https://www.premiumtimesng.com/business/business-news/917063-wayvepay-says-no-investor-subscribed-to-dangote-refinery-ipo-through-its-platform.html",
      "source": "Premium Times",
-     "published": "2026-10-14T10:23:18Z",
-     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/10/Untitled-design-1-1.gif?fit=1612%2C1209&ssl=1"
+     "published": "2026-10-14T17:01:22Z",
+     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2025/07/DANGOTE-REFINERY.jpeg?fit=1280%2C720&ssl=1"
     },
     {
-     "title": "AFIS 2026: Africa’s bankers confront the gap between profits and investment",
-     "url": "https://www.theafricareport.com/433427/afis-2026-africas-bankers-confront-the-gap-between-profits-and-investment/",
-     "source": "The Africa Report",
-     "published": "2026-10-14T09:04:59Z",
-     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=1215,height=810,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/10/14/afis2025.jpg"
+     "title": "Fuel price relief not return to subsidy regime – CPPE",
+     "url": "https://www.premiumtimesng.com/business/business-news/917056-fuel-price-relief-not-return-to-subsidy-regime-cppe.html",
+     "source": "Premium Times",
+     "published": "2026-10-14T16:39:18Z",
+     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/09/2a2117c8-8038-413f-bbb8-b22911973a32.png?fit=1538%2C1023&ssl=1"
+    },
+    {
+     "title": "Experts say Africa’s growth hinges on youth enterprise",
+     "url": "https://businessday.ng/news/article/experts-say-africas-growth-hinges-on-youth-enterprise/",
+     "source": "BusinessDay",
+     "published": "2026-10-14T16:18:13Z",
+     "image": "https://cdn.businessday.ng/2021/08/Nigerian-youth.jpg"
+    },
+    {
+     "title": "Nigeria’s $350m solid minerals exports face value addition challenge",
+     "url": "https://businessday.ng/news/article/nigerias-350m-solid-minerals-exports-face-value-addition-challenge/",
+     "source": "BusinessDay",
+     "published": "2026-10-14T16:14:25Z",
+     "image": "https://cdn.businessday.ng/2019/10/Solid-minerals-1.jpg"
     }
    ]
   }
@@ -202,17 +202,17 @@
    "items": 10,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-13T20:03:30Z",
-   "oldest": "2026-10-03T11:47:09Z"
+   "newest": "2026-10-14T13:33:44Z",
+   "oldest": "2026-10-06T11:00:00Z"
   },
   {
    "source": "PBS NewsHour",
    "feed": "https://www.pbs.org/newshour/feeds/rss/economy",
    "ok": true,
-   "items": 7,
-   "skipped": 13,
+   "items": 9,
+   "skipped": 11,
    "undated": 0,
-   "newest": "2026-10-13T19:43:38Z",
+   "newest": "2026-10-14T15:07:54Z",
    "oldest": "2026-10-02T13:48:29Z"
   },
   {
@@ -232,18 +232,18 @@
    "items": 30,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-14T04:24:28Z",
-   "oldest": "2026-09-25T10:25:01Z"
+   "newest": "2026-10-14T17:20:23Z",
+   "oldest": "2026-09-28T04:04:16Z"
   },
   {
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 8,
-   "skipped": 2,
+   "items": 9,
+   "skipped": 1,
    "undated": 0,
-   "newest": "2026-10-14T12:03:00Z",
-   "oldest": "2026-10-14T10:00:00Z"
+   "newest": "2026-10-14T16:50:00Z",
+   "oldest": "2026-10-14T14:08:00Z"
   },
   {
    "source": "CNBC",
@@ -252,17 +252,17 @@
    "items": 28,
    "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-14T12:05:50Z",
+   "newest": "2026-10-14T17:08:23Z",
    "oldest": "2026-10-02T06:03:23Z"
   },
   {
    "source": "CNBC",
    "feed": "https://www.cnbc.com/id/15839069/device/rss/rss.html",
    "ok": true,
-   "items": 29,
+   "items": 30,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-13T20:52:22Z",
+   "newest": "2026-10-14T17:10:59Z",
    "oldest": "2026-09-16T12:14:21Z"
   },
   {
@@ -318,8 +318,12 @@
   {
    "source": "Nairametrics",
    "feed": "https://nairametrics.com/feed/",
-   "ok": false,
-   "error": "The read operation timed out"
+   "ok": true,
+   "items": 20,
+   "skipped": 0,
+   "undated": 0,
+   "newest": "2026-10-14T17:16:59Z",
+   "oldest": "2026-10-14T09:17:50Z"
   },
   {
    "source": "BusinessDay",
@@ -328,8 +332,8 @@
    "items": 3,
    "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-14T11:23:11Z",
-   "oldest": "2026-10-14T11:17:26Z"
+   "newest": "2026-10-14T16:18:13Z",
+   "oldest": "2026-10-14T16:11:10Z"
   },
   {
    "source": "Premium Times",
@@ -338,8 +342,8 @@
    "items": 11,
    "skipped": 4,
    "undated": 0,
-   "newest": "2026-10-14T10:23:18Z",
-   "oldest": "2026-10-12T18:28:24Z"
+   "newest": "2026-10-14T17:01:22Z",
+   "oldest": "2026-10-13T06:39:18Z"
   },
   {
    "source": "African Business",
@@ -348,17 +352,17 @@
    "items": 25,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-14T11:04:23Z",
-   "oldest": "2026-10-07T12:00:00Z"
+   "newest": "2026-10-14T14:23:32Z",
+   "oldest": "2026-10-07T13:13:09Z"
   },
   {
    "source": "The Africa Report",
    "feed": "https://www.theafricareport.com/feed/",
    "ok": true,
-   "items": 4,
-   "skipped": 6,
+   "items": 5,
+   "skipped": 5,
    "undated": 0,
-   "newest": "2026-10-14T11:00:00Z",
+   "newest": "2026-10-14T14:20:33Z",
    "oldest": "2026-10-13T16:00:00Z"
   }
  ],
