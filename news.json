@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-14T00:23:13Z",
+ "updated": "2026-10-14T05:08:17Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
+    {
+     "title": "'Godzilla El Niño' is wreaking havoc with Philippine central bank's inflation forecasts",
+     "url": "https://www.cnbc.com/2026/10/14/godzilla-el-nino-asia-inflation-philippines.html",
+     "source": "CNBC",
+     "published": "2026-10-14T04:24:28Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108406685-1791947289905-gettyimages-2211302300-IMF_WORLD_BANK.jpeg?v=1791947305&w=1920&h=1080"
+    },
     {
      "title": "Older Americans are struggling with food affordability",
      "url": "https://www.npr.org/2026/10/13/nx-s1-5963595/older-americans-are-struggling-with-food-affordability",
@@ -34,13 +41,6 @@
      "image": ""
     },
     {
-     "title": "In charts: How one of the world's biggest economies got trapped by debt",
-     "url": "https://www.cnbc.com/2026/10/13/france-2027-budget-debt.html",
-     "source": "CNBC",
-     "published": "2026-10-13T15:52:24Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108398461-1791814923062-gettyimages-2298287863-AA_06102026_2981670.jpeg?v=1791814942&w=1920&h=1080"
-    },
-    {
      "title": "What ice cream has to do with this year's Nobel Prize in economics",
      "url": "https://www.npr.org/sections/planet-money/2026/10/13/g-s1-147816/what-ice-cream-has-to-do-with-this-years-nobel-prize-in-economics",
      "source": "NPR",
@@ -53,6 +53,13 @@
    "id": "markets",
    "label": "Markets",
    "items": [
+    {
+     "title": "China's exports and imports surge past expectations in September",
+     "url": "https://www.cnbc.com/2026/10/14/chinas-exports-likely-grew-by-double-digits-in-september.html",
+     "source": "CNBC",
+     "published": "2026-10-14T03:41:36Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108405958-1791937428704-gettyimages-2299263032-AFP_D2XV29Y.jpeg?v=1791937445&w=1920&h=1080"
+    },
     {
      "title": "Goldman says investors are looking for 'profitable' Chinese business growth overseas",
      "url": "https://www.cnbc.com/2026/10/14/goldman-says-investors-seek-profitable-chinese-business-growth-abroad.html",
@@ -87,13 +94,6 @@
      "source": "MarketWatch",
      "published": "2026-10-13T20:42:00Z",
      "image": "https://images.mktw.net/im-83058773"
-    },
-    {
-     "title": "Six Flags’ stock slumps near 17-year low after fatal incident",
-     "url": "https://www.marketwatch.com/story/six-flags-stock-slumps-near-52-week-lows-after-fatal-accident-3f938112?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-13T20:41:00Z",
-     "image": "https://images.mktw.net/im-23798405"
     }
    ]
   },
@@ -150,6 +150,34 @@
    "label": "Nigeria & Africa",
    "items": [
     {
+     "title": "Wale Tinubu has the oil. Now Oando needs the cash",
+     "url": "https://www.theafricareport.com/432664/wale-tinubu-has-the-oil-now-oando-needs-the-cash/",
+     "source": "The Africa Report",
+     "published": "2026-10-14T05:00:00Z",
+     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=2048,height=1366,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/10/13/wale-tinubu.jpeg"
+    },
+    {
+     "title": "WORLD IN BRIEF: Pope Leo XIV diagnosed with lung cancer, ex-gang leader jailed for Tupac murder, Malawi fuel shortages disrupt transport and other stories",
+     "url": "https://businessday.ng/world/article/world-in-brief-pope-leo-xiv-diagnosed-with-lung-cancer-ex-gang-leader-jailed-for-tupac-murder-malawi-fuel-shortages-disrupt-transport-and-other-stories/",
+     "source": "BusinessDay",
+     "published": "2026-10-14T04:02:19Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/05/Pope-Leo-XIV-large.png"
+    },
+    {
+     "title": "Shell to sell Nigeria’s domestic gas business to Vaaris Energy",
+     "url": "https://www.premiumtimesng.com/business/business-news/916950-shell-to-sell-nigerias-domestic-gas-business-to-vaaris-energy.html",
+     "source": "Premium Times",
+     "published": "2026-10-14T03:59:06Z",
+     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/07/ohvOSVpu.jpg?fit=900%2C508&ssl=1"
+    },
+    {
+     "title": "Nigeria trails African peers in IMF’s 2026 growth forecast",
+     "url": "https://businessday.ng/business-economy/article/nigeria-trails-african-peers-as-imf-places-2026-growth-in-the-middle-of-the-pack/",
+     "source": "BusinessDay",
+     "published": "2026-10-14T03:00:40Z",
+     "image": "https://cdn.businessday.ng/2020/03/inflation-1.png"
+    },
+    {
      "title": "Dangote Petroleum Refinery logs $4.7 billion profit in nine months on higher refining throughput",
      "url": "https://www.premiumtimesng.com/business/business-news/916903-dangote-petroleum-refinery-logs-4-7-billion-profit-in-nine-months-on-higher-refining-throughput.html",
      "source": "Premium Times",
@@ -162,34 +190,6 @@
      "source": "Nairametrics",
      "published": "2026-10-13T18:33:47Z",
      "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/stock-drop-image.webp"
-    },
-    {
-     "title": "US denies 35,767 work permits to Green Card applicants as rejection rate rises to 44%",
-     "url": "https://nairametrics.com/2026/10/13/us-denies-35767-work-permits-to-green-card-applicants-as-rejection-rate-rises-to-44/",
-     "source": "Nairametrics",
-     "published": "2026-10-13T18:25:42Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/08/American_Flag_Waving_on_a_Flag_Pole-300x200-2.webp"
-    },
-    {
-     "title": "Nigeria meets OPEC quota for fifth straight month as oil output hits 1.84m barrels",
-     "url": "https://www.premiumtimesng.com/business/business-news/916868-nigeria-meets-opec-quota-for-fifth-straight-month-as-oil-output-hits-1-84m-barrels.html",
-     "source": "Premium Times",
-     "published": "2026-10-13T18:15:56Z",
-     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2022/06/thumbs_b_c_815329508b9f387eda70839ac6a30868-696x392-1.jpg?fit=696%2C392&ssl=1"
-    },
-    {
-     "title": "Ecobank partners with China’s CIPS to deepen yuan trade settlements across 34 African markets",
-     "url": "https://www.theafricareport.com/433438/ecobank-partners-with-chinas-cips-to-deepen-yuan-trade-settlements-across-34-african-markets/",
-     "source": "The Africa Report",
-     "published": "2026-10-13T16:00:00Z",
-     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=2560,height=1711,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2024/12/16/afp__20150710__par8224132__v1__highres__icoasteconomybanking-scaled.jpg"
-    },
-    {
-     "title": "IMF: Time to rebuild 'resilient' world economy",
-     "url": "https://african.business/2026/10/trade-investment/imf-time-to-rebuild-resilient-world-economy",
-     "source": "African Business",
-     "published": "2026-10-13T11:42:34Z",
-     "image": "https://african.business/wp-content/uploads/2026/10/000_D3369R6-scaled.jpg"
     }
    ]
   }
@@ -232,8 +232,8 @@
    "items": 30,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-13T18:05:57Z",
-   "oldest": "2026-09-24T08:13:01Z"
+   "newest": "2026-10-14T04:24:28Z",
+   "oldest": "2026-09-25T10:25:01Z"
   },
   {
    "source": "MarketWatch",
@@ -252,8 +252,8 @@
    "items": 28,
    "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-13T23:05:12Z",
-   "oldest": "2026-09-30T08:45:42Z"
+   "newest": "2026-10-14T03:41:36Z",
+   "oldest": "2026-09-30T23:44:28Z"
   },
   {
    "source": "CNBC",
@@ -329,11 +329,11 @@
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 0,
-   "skipped": 5,
+   "items": 3,
+   "skipped": 2,
    "undated": 0,
-   "newest": null,
-   "oldest": null
+   "newest": "2026-10-14T04:02:19Z",
+   "oldest": "2026-10-14T02:30:04Z"
   },
   {
    "source": "Premium Times",
@@ -342,8 +342,8 @@
    "items": 11,
    "skipped": 4,
    "undated": 0,
-   "newest": "2026-10-13T19:31:26Z",
-   "oldest": "2026-10-12T07:33:43Z"
+   "newest": "2026-10-14T03:59:06Z",
+   "oldest": "2026-10-12T09:14:22Z"
   },
   {
    "source": "African Business",
@@ -362,8 +362,8 @@
    "items": 4,
    "skipped": 6,
    "undated": 0,
-   "newest": "2026-10-13T16:00:00Z",
-   "oldest": "2026-10-13T06:33:54Z"
+   "newest": "2026-10-14T05:00:00Z",
+   "oldest": "2026-10-13T09:30:00Z"
   }
  ],
  "first_seen": {
