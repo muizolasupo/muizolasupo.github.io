@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T05:08:17Z",
+ "updated": "2026-10-14T12:06:27Z",
  "categories": [
   {
    "id": "economy",
@@ -54,46 +54,46 @@
    "label": "Markets",
    "items": [
     {
-     "title": "China's exports and imports surge past expectations in September",
-     "url": "https://www.cnbc.com/2026/10/14/chinas-exports-likely-grew-by-double-digits-in-september.html",
+     "title": "Bank of America shares drop more than 4% after third quarter revenue miss and regulatory penalty",
+     "url": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
      "source": "CNBC",
-     "published": "2026-10-14T03:41:36Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108405958-1791937428704-gettyimages-2299263032-AFP_D2XV29Y.jpeg?v=1791937445&w=1920&h=1080"
+     "published": "2026-10-14T12:05:50Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108250555-1767974377302-gettyimages-2201916861-_d6a3281_18br2qz5.jpeg?v=1767974405&w=1920&h=1080"
     },
     {
-     "title": "Goldman says investors are looking for 'profitable' Chinese business growth overseas",
-     "url": "https://www.cnbc.com/2026/10/14/goldman-says-investors-seek-profitable-chinese-business-growth-abroad.html",
-     "source": "CNBC",
-     "published": "2026-10-13T23:05:12Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108401223-1791858322674-gettyimages-1247324330-porzycki-dailylif230209_npB7v.jpeg?v=1791859003&w=1920&h=1080"
-    },
-    {
-     "title": "Chip stocks suffer worst stretch in 16 months as AI fatigue grips the market",
-     "url": "https://www.marketwatch.com/story/ai-fatigue-is-gripping-the-market-and-driving-chip-stocks-toward-their-worst-stretch-in-16-months-6dc78ece?mod=mw_rss_topstories",
+     "title": "Charles Schwab and DoorDash ranked among bargain stocks that could lead the market higher",
+     "url": "https://www.marketwatch.com/story/from-charles-schwab-to-doordash-why-these-bargain-stocks-could-lead-the-market-higher-4d99fb97?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-13T21:02:00Z",
-     "image": "https://images.mktw.net/im-19968872"
+     "published": "2026-10-14T12:03:00Z",
+     "image": "https://images.mktw.net/im-60761666"
     },
     {
-     "title": "Don't let inflation bite — how to hedge with TIPS, commodities and infrastructure funds",
-     "url": "https://www.cnbc.com/2026/10/13/inflation-hedge-tips-commodities-infrastructure.html",
-     "source": "CNBC",
-     "published": "2026-10-13T20:52:22Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108403724-1791904677074-gettyimages-2177849636-finance_1_gv001_0001.jpeg?v=1791904746&w=1920&h=1080"
-    },
-    {
-     "title": "JPMorgan Chase blocks outside AI agents like Muse, Instinct from directly accessing accounts",
-     "url": "https://www.cnbc.com/2026/10/13/jpmorgan-ai-agents-account-access.html",
-     "source": "CNBC",
-     "published": "2026-10-13T20:48:37Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108403281-1791898216071-Untitled-4.jpg?v=1791898343&w=1920&h=1080"
-    },
-    {
-     "title": "The SpaceX threat could loom over AT&T’s stock for a prolonged stretch, analyst cautions",
-     "url": "https://www.marketwatch.com/story/the-spacex-threat-could-loom-over-at-ts-stock-for-a-prolonged-stretch-analyst-cautions-71436853?mod=mw_rss_topstories",
+     "title": "How to read your body’s warning signs years before you get sick",
+     "url": "https://www.marketwatch.com/story/how-to-read-your-bodys-warning-signs-years-before-you-get-sick-3fb8c82d?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-13T20:42:00Z",
-     "image": "https://images.mktw.net/im-83058773"
+     "published": "2026-10-14T12:00:00Z",
+     "image": "https://images.mktw.net/im-80410179"
+    },
+    {
+     "title": "Morgan Stanley tops estimates as equities trading revenue exceeds expectations by $909 million",
+     "url": "https://www.cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html",
+     "source": "CNBC",
+     "published": "2026-10-14T11:58:05Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108091506-1737654883210-1U8A2251.JPG?v=1737655004&w=1920&h=1080"
+    },
+    {
+     "title": "What analysts are watching with key semiconductor maker TSMC set to report results",
+     "url": "https://www.marketwatch.com/story/what-analysts-are-watching-with-key-semiconductor-maker-tsmc-set-to-report-results-c161e86b?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-14T11:36:00Z",
+     "image": "https://images.mktw.net/im-92439304"
+    },
+    {
+     "title": "Bank of America adds a profit miss to the misery of a $1.2 billion government fine",
+     "url": "https://www.marketwatch.com/story/bank-of-america-adds-a-profit-miss-to-the-misery-of-a-1-2-billion-government-fine-d4420bfa?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-14T11:28:00Z",
+     "image": "https://images.mktw.net/im-86270203"
     }
    ]
   },
@@ -101,6 +101,13 @@
    "id": "policy",
    "label": "Policy & research",
    "items": [
+    {
+     "title": "Has the AI Boom Impacted the U.S. Current Account?",
+     "url": "https://libertystreeteconomics.newyorkfed.org/2026/10/has-the-ai-boom-impacted-the-u-s-current-account/",
+     "source": "Liberty Street Economics",
+     "published": "2026-10-14T11:00:00Z",
+     "image": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2026/10/LSE_2026_ai-current-accounts_digiovanni_460.jpg?quality=80&w=460"
+    },
     {
      "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
@@ -130,13 +137,6 @@
      "image": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2026/10/LSE_2026_overal-inflation_athreya_460.jpg?quality=80&w=460"
     },
     {
-     "title": "AI Adoption and Employment Expectations: Evidence from a Survey of Small Business Owners",
-     "url": "https://libertystreeteconomics.newyorkfed.org/2026/10/ai-adoption-and-employment-expectations-evidence-from-a-survey-of-small-business-owners/",
-     "source": "Liberty Street Economics",
-     "published": "2026-10-08T11:00:00Z",
-     "image": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2026/10/LSE_2026_AI-adoption-small-biz_sarkar_460.jpg?quality=80&w=460"
-    },
-    {
      "title": "Waller, The Signaling Value of the Summary of Economic Projections",
      "url": "https://www.federalreserve.gov/newsevents/speech/waller20261008a.htm",
      "source": "Federal Reserve",
@@ -150,46 +150,46 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "Wale Tinubu has the oil. Now Oando needs the cash",
-     "url": "https://www.theafricareport.com/432664/wale-tinubu-has-the-oil-now-oando-needs-the-cash/",
+     "title": "Africa’s financial markets hit decade-high scores, but liquidity remains a hurdle",
+     "url": "https://businessday.ng/africa/article/africas-financial-markets-hit-decade-high-scores-but-liquidity-remains-a-hurdle/",
+     "source": "BusinessDay",
+     "published": "2026-10-14T11:23:11Z",
+     "image": "https://cdn.businessday.ng/2013/09/Financial-Markets-.jpg"
+    },
+    {
+     "title": "IMF warns Nigeria against return to costly petrol subsidies",
+     "url": "https://businessday.ng/business-economy/article/imf-warns-nigeria-against-return-to-costly-petrol-subsidies/",
+     "source": "BusinessDay",
+     "published": "2026-10-14T11:20:58Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/07/The-worlds-biggest-economies-by-2031-IMF-forecast-large.png"
+    },
+    {
+     "title": "EBID signs $25 million revolving credit facility with Topaz Multi-Industries SA to boost manufacturing in Guinea",
+     "url": "https://african.business/2026/10/quick-reads/ebid-signs-25-million-revolving-credit-facility-with-topaz-multi-industries-sa-to-boost-manufacturing-in-guinea",
+     "source": "African Business",
+     "published": "2026-10-14T11:04:23Z",
+     "image": "https://african.business/wp-content/uploads/2026/10/DSC_2013.jpg"
+    },
+    {
+     "title": "Zenith Bank’s Abidjan gambit: Nigerian giant looks beyond its borders",
+     "url": "https://www.theafricareport.com/433435/zenith-banks-abidjan-gambit-nigerian-giant-looks-beyond-its-borders/",
      "source": "The Africa Report",
-     "published": "2026-10-14T05:00:00Z",
-     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=2048,height=1366,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/10/13/wale-tinubu.jpeg"
+     "published": "2026-10-14T11:00:00Z",
+     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=2424,height=1606,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/10/14/zenith-bank-cote-divoire.png"
     },
     {
-     "title": "WORLD IN BRIEF: Pope Leo XIV diagnosed with lung cancer, ex-gang leader jailed for Tupac murder, Malawi fuel shortages disrupt transport and other stories",
-     "url": "https://businessday.ng/world/article/world-in-brief-pope-leo-xiv-diagnosed-with-lung-cancer-ex-gang-leader-jailed-for-tupac-murder-malawi-fuel-shortages-disrupt-transport-and-other-stories/",
-     "source": "BusinessDay",
-     "published": "2026-10-14T04:02:19Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/05/Pope-Leo-XIV-large.png"
-    },
-    {
-     "title": "Shell to sell Nigeria’s domestic gas business to Vaaris Energy",
-     "url": "https://www.premiumtimesng.com/business/business-news/916950-shell-to-sell-nigerias-domestic-gas-business-to-vaaris-energy.html",
+     "title": "Nigerian government introduces ‘five big fiscal reforms’ to woo investors, engender growth",
+     "url": "https://www.premiumtimesng.com/business/business-news/916997-nigerian-government-introduces-five-big-fiscal-reforms-to-woo-investors-engender-growth.html",
      "source": "Premium Times",
-     "published": "2026-10-14T03:59:06Z",
-     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/07/ohvOSVpu.jpg?fit=900%2C508&ssl=1"
+     "published": "2026-10-14T10:23:18Z",
+     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/10/Untitled-design-1-1.gif?fit=1612%2C1209&ssl=1"
     },
     {
-     "title": "Nigeria trails African peers in IMF’s 2026 growth forecast",
-     "url": "https://businessday.ng/business-economy/article/nigeria-trails-african-peers-as-imf-places-2026-growth-in-the-middle-of-the-pack/",
-     "source": "BusinessDay",
-     "published": "2026-10-14T03:00:40Z",
-     "image": "https://cdn.businessday.ng/2020/03/inflation-1.png"
-    },
-    {
-     "title": "Dangote Petroleum Refinery logs $4.7 billion profit in nine months on higher refining throughput",
-     "url": "https://www.premiumtimesng.com/business/business-news/916903-dangote-petroleum-refinery-logs-4-7-billion-profit-in-nine-months-on-higher-refining-throughput.html",
-     "source": "Premium Times",
-     "published": "2026-10-13T19:31:26Z",
-     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2025/07/DANGOTE-REFINERY.jpeg?fit=1280%2C720&ssl=1"
-    },
-    {
-     "title": "NGX sheds N144.54 billion as bearish pressure persists",
-     "url": "https://nairametrics.com/2026/10/13/ngx-sheds-n144-54-billion-as-bearish-pressure-persists/",
-     "source": "Nairametrics",
-     "published": "2026-10-13T18:33:47Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/stock-drop-image.webp"
+     "title": "AFIS 2026: Africa’s bankers confront the gap between profits and investment",
+     "url": "https://www.theafricareport.com/433427/afis-2026-africas-bankers-confront-the-gap-between-profits-and-investment/",
+     "source": "The Africa Report",
+     "published": "2026-10-14T09:04:59Z",
+     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=1215,height=810,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/10/14/afis2025.jpg"
     }
    ]
   }
@@ -239,11 +239,11 @@
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 7,
-   "skipped": 3,
+   "items": 8,
+   "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-13T21:02:00Z",
-   "oldest": "2026-10-13T20:25:00Z"
+   "newest": "2026-10-14T12:03:00Z",
+   "oldest": "2026-10-14T10:00:00Z"
   },
   {
    "source": "CNBC",
@@ -252,18 +252,18 @@
    "items": 28,
    "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-14T03:41:36Z",
-   "oldest": "2026-09-30T23:44:28Z"
+   "newest": "2026-10-14T12:05:50Z",
+   "oldest": "2026-10-02T06:03:23Z"
   },
   {
    "source": "CNBC",
    "feed": "https://www.cnbc.com/id/15839069/device/rss/rss.html",
    "ok": true,
-   "items": 30,
+   "items": 29,
    "skipped": 0,
    "undated": 0,
    "newest": "2026-10-13T20:52:22Z",
-   "oldest": "2026-09-15T12:33:08Z"
+   "oldest": "2026-09-16T12:14:21Z"
   },
   {
    "source": "Federal Reserve",
@@ -312,18 +312,14 @@
    "items": 100,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-09T11:00:00Z",
-   "oldest": "2025-10-14T11:00:00Z"
+   "newest": "2026-10-14T11:00:00Z",
+   "oldest": "2025-10-15T11:00:00Z"
   },
   {
    "source": "Nairametrics",
    "feed": "https://nairametrics.com/feed/",
-   "ok": true,
-   "items": 20,
-   "skipped": 0,
-   "undated": 0,
-   "newest": "2026-10-13T18:33:47Z",
-   "oldest": "2026-10-13T10:51:47Z"
+   "ok": false,
+   "error": "The read operation timed out"
   },
   {
    "source": "BusinessDay",
@@ -332,8 +328,8 @@
    "items": 3,
    "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-14T04:02:19Z",
-   "oldest": "2026-10-14T02:30:04Z"
+   "newest": "2026-10-14T11:23:11Z",
+   "oldest": "2026-10-14T11:17:26Z"
   },
   {
    "source": "Premium Times",
@@ -342,8 +338,8 @@
    "items": 11,
    "skipped": 4,
    "undated": 0,
-   "newest": "2026-10-14T03:59:06Z",
-   "oldest": "2026-10-12T09:14:22Z"
+   "newest": "2026-10-14T10:23:18Z",
+   "oldest": "2026-10-12T18:28:24Z"
   },
   {
    "source": "African Business",
@@ -352,8 +348,8 @@
    "items": 25,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-13T11:42:34Z",
-   "oldest": "2026-10-07T06:26:08Z"
+   "newest": "2026-10-14T11:04:23Z",
+   "oldest": "2026-10-07T12:00:00Z"
   },
   {
    "source": "The Africa Report",
@@ -362,8 +358,8 @@
    "items": 4,
    "skipped": 6,
    "undated": 0,
-   "newest": "2026-10-14T05:00:00Z",
-   "oldest": "2026-10-13T09:30:00Z"
+   "newest": "2026-10-14T11:00:00Z",
+   "oldest": "2026-10-13T16:00:00Z"
   }
  ],
  "first_seen": {
