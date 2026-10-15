@@ -1,23 +1,23 @@
 {
- "updated": "2026-10-15T11:43:07Z",
+ "updated": "2026-10-15T17:10:47Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
     {
-     "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
-     "url": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
+     "title": "Wholesale prices jumped 6.3% annually in September, biggest gain since 2022",
+     "url": "https://www.cnbc.com/2026/10/15/september-producer-price-index-retail-sales-data.html",
      "source": "CNBC",
-     "published": "2026-10-15T10:54:20Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108364024-17895883942026-09-16t194825z_342271609_rc2iknaojij8_rtrmadp_0_usa-fed.jpeg?v=1789588428&w=1920&h=1080"
+     "published": "2026-10-15T16:15:44Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/107089766-1792067872595-107089766-1657925387054-gettyimages-1241044672-05312022_PHH_COSTCO_01.jpg?v=1792067884&w=1920&h=1080"
     },
     {
-     "title": "In charts: How one of the world's biggest economies got trapped by debt",
-     "url": "https://www.cnbc.com/2026/10/13/france-2027-budget-debt.html",
+     "title": "Economists: Hot PPI shows Fed's work is not done",
+     "url": "https://www.cnbc.com/2026/10/15/pce-ppi-september-fed-reserve-rate-hike.html",
      "source": "CNBC",
-     "published": "2026-10-15T09:54:54Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108398461-1791814923062-gettyimages-2298287863-AA_06102026_2981670.jpeg?v=1791814942&w=1920&h=1080"
+     "published": "2026-10-15T15:37:59Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108230160-17637550592025-11-21t195201z_1937334742_rc241iadto5c_rtrmadp_0_holidayshopping-retail-walmart.jpeg?v=1763755340&w=1920&h=1080"
     },
     {
      "title": "How Ukraine’s biggest bank is run in a war zone",
@@ -54,18 +54,39 @@
    "label": "Markets",
    "items": [
     {
-     "title": "CoreWeave’s AI bonds tumble, raising red flags for the wider market",
-     "url": "https://www.marketwatch.com/story/coreweave-sparks-worry-about-broader-credit-market-stress-as-its-bonds-tumble-887458e4?mod=mw_rss_topstories",
+     "title": "Did this year’s COLA beat inflation? Here’s how spending by American seniors stacks up so far in 2026.",
+     "url": "https://www.marketwatch.com/story/did-this-years-cola-beat-inflation-heres-how-spending-by-american-seniors-stacks-up-so-far-in-2026-917c400c?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-15T11:17:00Z",
-     "image": "https://images.mktw.net/im-31372691"
+     "published": "2026-10-15T17:07:00Z",
+     "image": "https://images.mktw.net/im-10478767"
     },
     {
-     "title": "This 30-year market veteran is alarmed by a near-record S&P 500. Here’s where he’s investing instead.",
-     "url": "https://www.marketwatch.com/story/this-30-year-market-veteran-is-alarmed-by-a-near-record-s-p-500-heres-where-hes-investing-instead-c6611143?mod=mw_rss_topstories",
+     "title": "The COLA wars are coming for Social Security",
+     "url": "https://www.marketwatch.com/story/the-cola-wars-are-coming-for-social-security-10c177f1?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-15T11:17:00Z",
-     "image": "https://images.mktw.net/im-13574872"
+     "published": "2026-10-15T17:07:00Z",
+     "image": "https://images.mktw.net/im-58308834"
+    },
+    {
+     "title": "Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?",
+     "url": "https://www.marketwatch.com/story/social-securitys-cola-will-be-3-6-in-2027-as-inflation-persists-f7c9dff2?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-15T17:06:00Z",
+     "image": "https://images.mktw.net/im-07536727"
+    },
+    {
+     "title": "The truth about being a landlord in retirement",
+     "url": "https://www.marketwatch.com/story/the-truth-about-being-a-landlord-in-retirement-5d1daf4c?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-15T17:05:00Z",
+     "image": "https://images.mktw.net/im-09151135"
+    },
+    {
+     "title": "CoreWeave credit default swaps hit distress levels as investors sour on AI debt",
+     "url": "https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html",
+     "source": "CNBC",
+     "published": "2026-10-15T16:52:16Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108414312-1792071462734-gettyimages-2245498612-raa-coreweav251110_npSDI.jpeg?v=1792071500&w=1920&h=1080"
     },
     {
      "title": "China indicates rare earths will keep flowing to EU, regardless of U.S. trade deal expiration",
@@ -73,27 +94,6 @@
      "source": "CNBC",
      "published": "2026-10-15T09:02:31Z",
      "image": "https://image.cnbcfm.com/api/v1/image/107187447-16752759422023-02-01t181608z_1646662569_rc2c2z9kd7an_rtrmadp_0_global-europe.jpeg?v=1733763850&w=1920&h=1080"
-    },
-    {
-     "title": "‘New Girl’ star Jake Johnson lists lush and private Pasadena estate for $3.3 million",
-     "url": "https://www.marketwatch.com/story/new-girl-star-jake-johnson-lists-lush-and-private-pasadena-estate-for-3-3-million-b6788838?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-15T09:01:00Z",
-     "image": "https://images.mktw.net/im-98171958"
-    },
-    {
-     "title": "Why the AI trade is not set up for a rebound like July’s, according to JPMorgan",
-     "url": "https://www.marketwatch.com/story/why-the-ai-trade-is-not-set-up-for-a-rebound-like-julys-according-to-jpmorgan-5ae511db?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-15T08:53:00Z",
-     "image": "https://images.mktw.net/im-60315242"
-    },
-    {
-     "title": "Traders pile into 'bubble puts' on CoreWeave as neocloud stocks plunge",
-     "url": "https://www.cnbc.com/2026/10/14/coreweave-put-options-ai-trade.html",
-     "source": "CNBC",
-     "published": "2026-10-14T21:19:09Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108408958-1791988867766-gettyimages-2300173637-mms15469_vis990vc.jpeg?v=1791989017&w=1920&h=1080"
     }
    ]
   },
@@ -150,32 +150,39 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "BREAKING: Court discharges Aliyu Abubakar,Malabu Oil from EFCC money laundering suits",
-     "url": "https://nairametrics.com/2026/10/15/court-discharges-aliyu-abubakarmalabu-oil-from-efcc-money-laundering-suits/",
+     "title": "BREAKING: Fitch Ratings revises outlooks of nine Nigerian banks, two bank holding companies",
+     "url": "https://nairametrics.com/2026/10/15/fitch-ratings-revises-outlooks-of-nine-nigerian-banks-two-bank-holding-companies/",
      "source": "Nairametrics",
-     "published": "2026-10-15T11:37:00Z",
+     "published": "2026-10-15T17:03:49Z",
      "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/BREAKING.webp"
     },
     {
-     "title": "Government debt is swallowing the money Nigerian businesses need to grow",
-     "url": "https://nairametrics.com/2026/10/15/government-debt-is-swallowing-the-money-nigerian-businesses-need-to-grow/",
+     "title": "Nigerians spend $1.44 billion on foreign education in H1 2026",
+     "url": "https://nairametrics.com/2026/10/15/nigerians-spend-1-44-billion-on-foreign-education-in-h1-2026/",
      "source": "Nairametrics",
-     "published": "2026-10-15T11:29:32Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/08/new-Tinubu1.webp"
+     "published": "2026-10-15T16:27:51Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/dollar-liquid-2.webp"
     },
     {
-     "title": "Gabon raises $580m in Eurobond as investor demand nears $1bn",
-     "url": "https://businessday.ng/africa/article/gabon-raises-580m-in-eurobond-as-investor-demand-nears-1bn/",
+     "title": "AI adoption is outpacing governance in Nigeria’s telecom sector, NCC survey shows",
+     "url": "https://businessday.ng/technology/article/ai-adoption-is-outpacing-governance-in-nigerias-telecom-sector-ncc-survey-shows/",
      "source": "BusinessDay",
-     "published": "2026-10-15T11:11:26Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/02/gettyimages-1475445484-large.webp"
+     "published": "2026-10-15T16:03:12Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/09/The-digital-revolution-brewing-in-Nigerias-telecoms-space-large.png"
     },
     {
-     "title": "Abiodun moves to upgrade Cooperative College, disburses N1bn loan to small businesses",
-     "url": "https://businessday.ng/news/article/abiodun-moves-to-upgrade-cooperative-college-disburses-n1bn-loan-to-small-businesses/",
-     "source": "BusinessDay",
-     "published": "2026-10-15T11:06:08Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/1-37-large.jpg"
+     "title": "Nigeria’s inflation eases to 14.63% in September",
+     "url": "https://www.premiumtimesng.com/business/business-news/917357-nigerias-inflation-eases-to-14-63-in-september.html",
+     "source": "Premium Times",
+     "published": "2026-10-15T15:14:50Z",
+     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2024/12/National_Bureau_of_Statistics.jpg?fit=1024%2C643&ssl=1"
+    },
+    {
+     "title": "Nigeria’s fiscal crisis forced us to be creative, look beyond oil revenues – Cardoso",
+     "url": "https://www.premiumtimesng.com/business/business-news/917329-nigerias-fiscal-crisis-forced-us-to-be-creative-look-beyond-oil-revenues-cardoso.html",
+     "source": "Premium Times",
+     "published": "2026-10-15T14:02:00Z",
+     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/07/HNaxaJbWIAEcQ9u.jpg?fit=2048%2C1366&ssl=1"
     },
     {
      "title": "South Africa says it could still host F1 before Rwanda",
@@ -183,13 +190,6 @@
      "source": "African Business",
      "published": "2026-10-15T09:02:24Z",
      "image": "https://african.business/wp-content/uploads/2026/10/000_84VR6JZ-scaled.jpg"
-    },
-    {
-     "title": "Cardoso explains reasons behind MPC interest rate cut, hails synergy with fiscal authorities",
-     "url": "https://www.premiumtimesng.com/news/headlines/917232-just-in-cardoso-explains-reasons-behind-mpc-interest-rate-cut-hails-synergy-with-fiscal-authorities.html",
-     "source": "Premium Times",
-     "published": "2026-10-15T06:45:33Z",
-     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/10/Screenshot-2026-10-15-074746.png?fit=843%2C549&ssl=1"
     }
    ]
   }
@@ -232,8 +232,8 @@
    "items": 30,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-15T10:54:20Z",
-   "oldest": "2026-09-29T16:52:00Z"
+   "newest": "2026-10-15T16:15:44Z",
+   "oldest": "2026-09-30T15:14:57Z"
   },
   {
    "source": "MarketWatch",
@@ -242,8 +242,8 @@
    "items": 8,
    "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-15T11:17:00Z",
-   "oldest": "2026-10-14T23:36:00Z"
+   "newest": "2026-10-15T17:07:00Z",
+   "oldest": "2026-10-15T16:20:00Z"
   },
   {
    "source": "CNBC",
@@ -262,8 +262,8 @@
    "items": 28,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-14T21:19:09Z",
-   "oldest": "2026-09-16T19:38:41Z"
+   "newest": "2026-10-15T16:52:16Z",
+   "oldest": "2026-09-18T11:20:56Z"
   },
   {
    "source": "Federal Reserve",
@@ -322,27 +322,27 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-15T11:37:00Z",
-   "oldest": "2026-10-14T18:02:36Z"
+   "newest": "2026-10-15T17:03:49Z",
+   "oldest": "2026-10-15T07:17:50Z"
   },
   {
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 2,
-   "skipped": 3,
+   "items": 1,
+   "skipped": 4,
    "undated": 0,
-   "newest": "2026-10-15T11:11:26Z",
-   "oldest": "2026-10-15T11:06:08Z"
+   "newest": "2026-10-15T16:03:12Z",
+   "oldest": "2026-10-15T16:03:12Z"
   },
   {
    "source": "Premium Times",
    "feed": "https://www.premiumtimesng.com/business/feed",
    "ok": true,
-   "items": 10,
-   "skipped": 5,
+   "items": 12,
+   "skipped": 3,
    "undated": 0,
-   "newest": "2026-10-15T06:45:33Z",
+   "newest": "2026-10-15T15:14:50Z",
    "oldest": "2026-10-13T12:53:13Z"
   },
   {
