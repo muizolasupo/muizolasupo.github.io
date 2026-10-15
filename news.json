@@ -1,10 +1,24 @@
 {
- "updated": "2026-10-15T17:10:47Z",
+ "updated": "2026-10-15T21:31:37Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
+    {
+     "title": "How much longer will consumers be willing to muscle through higher prices?",
+     "url": "https://www.pbs.org/newshour/economy/how-much-longer-will-consumers-be-willing-to-muscle-through-higher-prices",
+     "source": "PBS NewsHour",
+     "published": "2026-10-15T20:21:04Z",
+     "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-08-26T202350Z_1473121951_RC2H6NAKIS4L_RTRMADP_3_USA-ECONOMY-1024x677.jpg"
+    },
+    {
+     "title": "Wholesale inflation hits levels not seen since 2022",
+     "url": "https://www.pbs.org/newshour/economy/wholesale-inflation-hits-levels-not-seen-since-2022",
+     "source": "PBS NewsHour",
+     "published": "2026-10-15T20:02:14Z",
+     "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-10-13T115929Z_1975799229_RC2C3IAOZ993_RTRMADP_3_ALBERTSONS-OUTLOOK-1024x683.jpg"
+    },
     {
      "title": "Wholesale prices jumped 6.3% annually in September, biggest gain since 2022",
      "url": "https://www.cnbc.com/2026/10/15/september-producer-price-index-retail-sales-data.html",
@@ -32,20 +46,6 @@
      "source": "The Economist",
      "published": "2026-10-15T09:32:42Z",
      "image": ""
-    },
-    {
-     "title": "Despite bad inflation report, Trump says economy is doing fine",
-     "url": "https://www.npr.org/2026/10/15/nx-s1-6001707/despite-bad-inflation-report-trump-says-economy-is-doing-fine",
-     "source": "NPR",
-     "published": "2026-10-15T08:46:33Z",
-     "image": ""
-    },
-    {
-     "title": "Economist breaks down new inflation report and what's driving prices higher",
-     "url": "https://www.pbs.org/newshour/show/economist-breaks-down-new-inflation-report-and-whats-driving-prices-higher",
-     "source": "PBS NewsHour",
-     "published": "2026-10-14T22:55:14Z",
-     "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/price-1024x684.jpg"
     }
    ]
   },
@@ -54,46 +54,46 @@
    "label": "Markets",
    "items": [
     {
-     "title": "Did this year’s COLA beat inflation? Here’s how spending by American seniors stacks up so far in 2026.",
-     "url": "https://www.marketwatch.com/story/did-this-years-cola-beat-inflation-heres-how-spending-by-american-seniors-stacks-up-so-far-in-2026-917c400c?mod=mw_rss_topstories",
+     "title": "Nvidia and other chip stocks face renewed pressure as AI fears swell",
+     "url": "https://www.marketwatch.com/story/micron-nvidia-and-other-chip-stocks-face-renewed-pressure-as-ai-fears-swell-4e0dc989?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-15T17:07:00Z",
-     "image": "https://images.mktw.net/im-10478767"
+     "published": "2026-10-15T21:23:00Z",
+     "image": "https://images.mktw.net/im-58760450"
     },
     {
-     "title": "The COLA wars are coming for Social Security",
-     "url": "https://www.marketwatch.com/story/the-cola-wars-are-coming-for-social-security-10c177f1?mod=mw_rss_topstories",
+     "title": "Don’t ditch tech stocks just yet. Make these moves to take advantage of the latest AI reset.",
+     "url": "https://www.marketwatch.com/story/dont-ditch-tech-stocks-just-yet-make-these-moves-to-take-advantage-of-the-latest-ai-reset-cb70c7b2?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-15T17:07:00Z",
-     "image": "https://images.mktw.net/im-58308834"
+     "published": "2026-10-15T21:21:00Z",
+     "image": "https://images.mktw.net/im-37341091"
     },
     {
-     "title": "Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?",
-     "url": "https://www.marketwatch.com/story/social-securitys-cola-will-be-3-6-in-2027-as-inflation-persists-f7c9dff2?mod=mw_rss_topstories",
+     "title": "CoreWeave’s polarizing stock rebounds as Wall Street squares off about AI spending",
+     "url": "https://www.marketwatch.com/story/coreweave-investors-are-feeling-spooked-as-the-companys-stock-and-bonds-see-fresh-pressure-ba39a931?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-15T17:06:00Z",
-     "image": "https://images.mktw.net/im-07536727"
+     "published": "2026-10-15T21:03:00Z",
+     "image": "https://images.mktw.net/im-70952254"
     },
     {
-     "title": "The truth about being a landlord in retirement",
-     "url": "https://www.marketwatch.com/story/the-truth-about-being-a-landlord-in-retirement-5d1daf4c?mod=mw_rss_topstories",
+     "title": "Investors are dumping AI stocks as ‘tech wreck’ worsens. Here’s where they’re turning now.",
+     "url": "https://www.marketwatch.com/story/traders-pile-into-bonds-and-defensive-stocks-as-the-tech-wreck-picks-up-steam-48c04374?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-15T17:05:00Z",
-     "image": "https://images.mktw.net/im-09151135"
+     "published": "2026-10-15T20:40:00Z",
+     "image": "https://images.mktw.net/im-50558528"
     },
     {
      "title": "CoreWeave credit default swaps hit distress levels as investors sour on AI debt",
      "url": "https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html",
      "source": "CNBC",
-     "published": "2026-10-15T16:52:16Z",
+     "published": "2026-10-15T20:18:02Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108414312-1792071462734-gettyimages-2245498612-raa-coreweav251110_npSDI.jpeg?v=1792071500&w=1920&h=1080"
     },
     {
-     "title": "China indicates rare earths will keep flowing to EU, regardless of U.S. trade deal expiration",
-     "url": "https://www.cnbc.com/2026/10/15/china-rare-earth-exports-europe.html",
+     "title": "Harvard’s endowment jumps 27% in fiscal 2026, lifted by SpaceX as top holding",
+     "url": "https://www.cnbc.com/2026/10/15/harvards-endowment-jumps-27percent-with-spacex-as-top-holding.html",
      "source": "CNBC",
-     "published": "2026-10-15T09:02:31Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/107187447-16752759422023-02-01t181608z_1646662569_rc2c2z9kd7an_rtrmadp_0_global-europe.jpeg?v=1733763850&w=1920&h=1080"
+     "published": "2026-10-15T19:53:49Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108228681-17635880692025-11-19t213101z_1449560909_rc2vzhasrx93_rtrmadp_0_usa-trump-epstein-summers.jpeg?v=1787325550&w=1920&h=1080"
     }
    ]
   },
@@ -150,25 +150,39 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "BREAKING: Fitch Ratings revises outlooks of nine Nigerian banks, two bank holding companies",
-     "url": "https://nairametrics.com/2026/10/15/fitch-ratings-revises-outlooks-of-nine-nigerian-banks-two-bank-holding-companies/",
+     "title": "Nigeria’s FX demand hits 15-year high of $18.34 billion in Q2 2026",
+     "url": "https://nairametrics.com/2026/10/15/nigerias-fx-demand-hits-15-year-high-of-18-34-billion-in-q2-2026/",
      "source": "Nairametrics",
-     "published": "2026-10-15T17:03:49Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/BREAKING.webp"
+     "published": "2026-10-15T20:04:58Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/fmda-e1778081003932-1.webp"
     },
     {
-     "title": "Nigerians spend $1.44 billion on foreign education in H1 2026",
-     "url": "https://nairametrics.com/2026/10/15/nigerians-spend-1-44-billion-on-foreign-education-in-h1-2026/",
-     "source": "Nairametrics",
-     "published": "2026-10-15T16:27:51Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/dollar-liquid-2.webp"
-    },
-    {
-     "title": "AI adoption is outpacing governance in Nigeria’s telecom sector, NCC survey shows",
-     "url": "https://businessday.ng/technology/article/ai-adoption-is-outpacing-governance-in-nigerias-telecom-sector-ncc-survey-shows/",
+     "title": "Fitch revises outlook on Nigerian banks to positive after sovereign action",
+     "url": "https://businessday.ng/news/article/fitch-revises-outlook-on-nigerian-banks-to-positive-after-sovereign-action/",
      "source": "BusinessDay",
-     "published": "2026-10-15T16:03:12Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/09/The-digital-revolution-brewing-in-Nigerias-telecoms-space-large.png"
+     "published": "2026-10-15T19:57:09Z",
+     "image": "https://cdn.businessday.ng/2023/08/fitch-ratings-1.jpg"
+    },
+    {
+     "title": "No plans to increase electricity tariffs – Tegbe Power Minister",
+     "url": "https://businessday.ng/news/article/no-plans-to-increase-electricity-tariffs-tegbe-power-minister/",
+     "source": "BusinessDay",
+     "published": "2026-10-15T19:39:02Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/09/Joseph-Tegbe-1-large.jpg"
+    },
+    {
+     "title": "NGX extends rally for second day as Aradel, Oando lift market",
+     "url": "https://nairametrics.com/2026/10/15/ngx-extends-rally-for-second-day-as-aradel-oando-lift-market/",
+     "source": "Nairametrics",
+     "published": "2026-10-15T19:07:58Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/09/stock-1-scaled-1.webp"
+    },
+    {
+     "title": "How we avoid ‘groupthink’, maintain independence at MPC meetings – Cardoso",
+     "url": "https://www.premiumtimesng.com/business/business-news/917424-how-we-avoid-groupthink-maintain-independence-at-mpc-meetings-cardoso.html",
+     "source": "Premium Times",
+     "published": "2026-10-15T19:00:58Z",
+     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/07/HNaxaJbWIAEcQ9u.jpg?fit=2048%2C1366&ssl=1"
     },
     {
      "title": "Nigeria’s inflation eases to 14.63% in September",
@@ -176,20 +190,6 @@
      "source": "Premium Times",
      "published": "2026-10-15T15:14:50Z",
      "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2024/12/National_Bureau_of_Statistics.jpg?fit=1024%2C643&ssl=1"
-    },
-    {
-     "title": "Nigeria’s fiscal crisis forced us to be creative, look beyond oil revenues – Cardoso",
-     "url": "https://www.premiumtimesng.com/business/business-news/917329-nigerias-fiscal-crisis-forced-us-to-be-creative-look-beyond-oil-revenues-cardoso.html",
-     "source": "Premium Times",
-     "published": "2026-10-15T14:02:00Z",
-     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/07/HNaxaJbWIAEcQ9u.jpg?fit=2048%2C1366&ssl=1"
-    },
-    {
-     "title": "South Africa says it could still host F1 before Rwanda",
-     "url": "https://african.business/2026/10/trade-investment/south-africa-says-it-could-still-host-f1-before-rwanda",
-     "source": "African Business",
-     "published": "2026-10-15T09:02:24Z",
-     "image": "https://african.business/wp-content/uploads/2026/10/000_84VR6JZ-scaled.jpg"
     }
    ]
   }
@@ -212,8 +212,8 @@
    "items": 9,
    "skipped": 11,
    "undated": 0,
-   "newest": "2026-10-14T22:55:14Z",
-   "oldest": "2026-10-02T22:55:34Z"
+   "newest": "2026-10-15T20:21:04Z",
+   "oldest": "2026-10-09T20:33:22Z"
   },
   {
    "source": "The Economist",
@@ -239,30 +239,30 @@
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 8,
-   "skipped": 2,
+   "items": 7,
+   "skipped": 3,
    "undated": 0,
-   "newest": "2026-10-15T17:07:00Z",
-   "oldest": "2026-10-15T16:20:00Z"
+   "newest": "2026-10-15T21:23:00Z",
+   "oldest": "2026-10-15T17:52:00Z"
   },
   {
    "source": "CNBC",
    "feed": "https://www.cnbc.com/id/10000664/device/rss/rss.html",
    "ok": true,
-   "items": 28,
-   "skipped": 2,
+   "items": 29,
+   "skipped": 1,
    "undated": 0,
-   "newest": "2026-10-15T09:02:31Z",
+   "newest": "2026-10-15T19:53:49Z",
    "oldest": "2026-10-02T13:29:27Z"
   },
   {
    "source": "CNBC",
    "feed": "https://www.cnbc.com/id/15839069/device/rss/rss.html",
    "ok": true,
-   "items": 28,
+   "items": 29,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-15T16:52:16Z",
+   "newest": "2026-10-15T20:18:02Z",
    "oldest": "2026-09-18T11:20:56Z"
   },
   {
@@ -322,27 +322,27 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-15T17:03:49Z",
-   "oldest": "2026-10-15T07:17:50Z"
+   "newest": "2026-10-15T20:04:58Z",
+   "oldest": "2026-10-15T08:00:17Z"
   },
   {
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 1,
-   "skipped": 4,
+   "items": 4,
+   "skipped": 1,
    "undated": 0,
-   "newest": "2026-10-15T16:03:12Z",
-   "oldest": "2026-10-15T16:03:12Z"
+   "newest": "2026-10-15T19:57:09Z",
+   "oldest": "2026-10-15T18:46:55Z"
   },
   {
    "source": "Premium Times",
    "feed": "https://www.premiumtimesng.com/business/feed",
    "ok": true,
-   "items": 12,
-   "skipped": 3,
+   "items": 13,
+   "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-15T15:14:50Z",
+   "newest": "2026-10-15T19:00:58Z",
    "oldest": "2026-10-13T12:53:13Z"
   },
   {
