@@ -1,51 +1,51 @@
 {
- "updated": "2026-10-15T04:52:11Z",
+ "updated": "2026-10-15T11:43:07Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
     {
+     "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
+     "url": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
+     "source": "CNBC",
+     "published": "2026-10-15T10:54:20Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108364024-17895883942026-09-16t194825z_342271609_rc2iknaojij8_rtrmadp_0_usa-fed.jpeg?v=1789588428&w=1920&h=1080"
+    },
+    {
+     "title": "In charts: How one of the world's biggest economies got trapped by debt",
+     "url": "https://www.cnbc.com/2026/10/13/france-2027-budget-debt.html",
+     "source": "CNBC",
+     "published": "2026-10-15T09:54:54Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108398461-1791814923062-gettyimages-2298287863-AA_06102026_2981670.jpeg?v=1791814942&w=1920&h=1080"
+    },
+    {
+     "title": "How Ukraine’s biggest bank is run in a war zone",
+     "url": "https://www.economist.com/finance-and-economics/2026/10/15/how-ukraines-biggest-bank-is-run-in-a-war-zone",
+     "source": "The Economist",
+     "published": "2026-10-15T09:34:30Z",
+     "image": ""
+    },
+    {
+     "title": "A shortage of sulphur could hurt mines and farms everywhere",
+     "url": "https://www.economist.com/finance-and-economics/2026/10/15/a-shortage-of-sulphur-could-hurt-mines-and-farms-everywhere",
+     "source": "The Economist",
+     "published": "2026-10-15T09:32:42Z",
+     "image": ""
+    },
+    {
+     "title": "Despite bad inflation report, Trump says economy is doing fine",
+     "url": "https://www.npr.org/2026/10/15/nx-s1-6001707/despite-bad-inflation-report-trump-says-economy-is-doing-fine",
+     "source": "NPR",
+     "published": "2026-10-15T08:46:33Z",
+     "image": ""
+    },
+    {
      "title": "Economist breaks down new inflation report and what's driving prices higher",
      "url": "https://www.pbs.org/newshour/show/economist-breaks-down-new-inflation-report-and-whats-driving-prices-higher",
      "source": "PBS NewsHour",
      "published": "2026-10-14T22:55:14Z",
      "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/price-1024x684.jpg"
-    },
-    {
-     "title": "The Chicago Fed President answers questions on inflation numbers",
-     "url": "https://www.npr.org/2026/10/14/nx-s1-6000584/the-chicago-fed-president-answers-questions-on-inflation-numbers",
-     "source": "NPR",
-     "published": "2026-10-14T20:27:56Z",
-     "image": ""
-    },
-    {
-     "title": "IMF chief urges wealthy nations to rein in debt to ease global economic pressure",
-     "url": "https://www.pbs.org/newshour/world/imf-chief-urges-wealthy-nations-to-rein-in-debt-to-ease-global-economic-pressure",
-     "source": "PBS NewsHour",
-     "published": "2026-10-14T18:59:04Z",
-     "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-10-14T031243Z_284165650_RC2R2OAWL1XY_RTRMADP_3_IMF-WORLDBANK-1024x680.jpg"
-    },
-    {
-     "title": "Another warning sign for China’s economy: falling consumer credit",
-     "url": "https://www.economist.com/finance-and-economics/2026/10/14/another-warning-sign-for-chinas-economy-falling-consumer-credit",
-     "source": "The Economist",
-     "published": "2026-10-14T17:52:55Z",
-     "image": ""
-    },
-    {
-     "title": "How high inflation became a 'fact of life' in the U.S.",
-     "url": "https://www.cnbc.com/2026/10/14/high-inflation-fed-expectations.html",
-     "source": "CNBC",
-     "published": "2026-10-14T17:20:23Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108295010-1776807990973-gettyimages-2272451874-jr_15888_qsl4bswz.jpeg?v=1776808066&w=1920&h=1080"
-    },
-    {
-     "title": "Consumer prices rose 3.7% annually in September as gas prices skyrocket",
-     "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html",
-     "source": "CNBC",
-     "published": "2026-10-14T13:53:28Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108403966-1791908160296-gettyimages-2295306196-_dsc3958.jpeg?v=1791908375&w=1920&h=1080"
     }
    ]
   },
@@ -54,32 +54,39 @@
    "label": "Markets",
    "items": [
     {
-     "title": "Anthropic’s slowing growth could be the AI trade’s latest red flag",
-     "url": "https://www.marketwatch.com/story/anthropics-slowing-growth-could-be-the-ai-trades-latest-red-flag-292d0169?mod=mw_rss_topstories",
+     "title": "CoreWeave’s AI bonds tumble, raising red flags for the wider market",
+     "url": "https://www.marketwatch.com/story/coreweave-sparks-worry-about-broader-credit-market-stress-as-its-bonds-tumble-887458e4?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-15T01:07:00Z",
-     "image": "https://images.mktw.net/im-29102227"
+     "published": "2026-10-15T11:17:00Z",
+     "image": "https://images.mktw.net/im-31372691"
     },
     {
-     "title": "Rocket Lab’s stock slides as the company pushes back Neutron’s first launch",
-     "url": "https://www.marketwatch.com/story/rocket-labs-stock-slides-as-the-company-pushes-back-neutrons-first-launch-afd2932a?mod=mw_rss_topstories",
+     "title": "This 30-year market veteran is alarmed by a near-record S&P 500. Here’s where he’s investing instead.",
+     "url": "https://www.marketwatch.com/story/this-30-year-market-veteran-is-alarmed-by-a-near-record-s-p-500-heres-where-hes-investing-instead-c6611143?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-15T00:02:00Z",
-     "image": "https://images.mktw.net/im-29972515"
+     "published": "2026-10-15T11:17:00Z",
+     "image": "https://images.mktw.net/im-13574872"
     },
     {
-     "title": "The AI trade is splintering as inflation fears rattle hyped-up tech stocks",
-     "url": "https://www.marketwatch.com/story/the-ai-trade-is-splintering-as-inflation-fears-rattle-hyped-up-tech-stocks-dbf49369?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-14T23:36:00Z",
-     "image": "https://images.mktw.net/im-29969311"
+     "title": "China indicates rare earths will keep flowing to EU, regardless of U.S. trade deal expiration",
+     "url": "https://www.cnbc.com/2026/10/15/china-rare-earth-exports-europe.html",
+     "source": "CNBC",
+     "published": "2026-10-15T09:02:31Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/107187447-16752759422023-02-01t181608z_1646662569_rc2c2z9kd7an_rtrmadp_0_global-europe.jpeg?v=1733763850&w=1920&h=1080"
     },
     {
-     "title": "You’re probably too invested in equities. Why a 60-40 portfolio is still the smart way to go.",
-     "url": "https://www.marketwatch.com/story/youre-probably-too-invested-in-equities-why-a-60-40-portfolio-is-still-the-smart-way-to-go-853daade?mod=mw_rss_topstories",
+     "title": "‘New Girl’ star Jake Johnson lists lush and private Pasadena estate for $3.3 million",
+     "url": "https://www.marketwatch.com/story/new-girl-star-jake-johnson-lists-lush-and-private-pasadena-estate-for-3-3-million-b6788838?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-14T22:25:00Z",
-     "image": "https://images.mktw.net/im-89521076"
+     "published": "2026-10-15T09:01:00Z",
+     "image": "https://images.mktw.net/im-98171958"
+    },
+    {
+     "title": "Why the AI trade is not set up for a rebound like July’s, according to JPMorgan",
+     "url": "https://www.marketwatch.com/story/why-the-ai-trade-is-not-set-up-for-a-rebound-like-julys-according-to-jpmorgan-5ae511db?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-15T08:53:00Z",
+     "image": "https://images.mktw.net/im-60315242"
     },
     {
      "title": "Traders pile into 'bubble puts' on CoreWeave as neocloud stocks plunge",
@@ -87,13 +94,6 @@
      "source": "CNBC",
      "published": "2026-10-14T21:19:09Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108408958-1791988867766-gettyimages-2300173637-mms15469_vis990vc.jpeg?v=1791989017&w=1920&h=1080"
-    },
-    {
-     "title": "Morgan Stanley tops estimates as equities trading revenue beats expectations by $909 million",
-     "url": "https://www.cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html",
-     "source": "CNBC",
-     "published": "2026-10-14T20:22:09Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108091506-1737654883210-1U8A2251.JPG?v=1737655004&w=1920&h=1080"
     }
    ]
   },
@@ -101,6 +101,13 @@
    "id": "policy",
    "label": "Policy & research",
    "items": [
+    {
+     "title": "Revenue per Worker Is Up. Are Firms Getting a Larger Share?",
+     "url": "https://libertystreeteconomics.newyorkfed.org/2026/10/revenue-per-worker-is-up-are-firms-getting-a-larger-share/",
+     "source": "Liberty Street Economics",
+     "published": "2026-10-15T11:00:00Z",
+     "image": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2026/10/LSE_2026_productivity_pearce_460.jpg?quality=80&w=460"
+    },
     {
      "title": "Bowman, Supervisory Modernization After Silicon Valley Bank",
      "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm",
@@ -135,13 +142,6 @@
      "source": "NBER",
      "published": "2026-10-12T21:19:20Z",
      "image": "https://www.nber.org/sites/default/files/2022-06/NBER-FB-Share-Tile-1200.jpg"
-    },
-    {
-     "title": "Prices, Prices, Prices: Overall Inflation and the Costs You Care About",
-     "url": "https://libertystreeteconomics.newyorkfed.org/2026/10/prices-prices-prices-overall-inflation-and-the-costs-you-care-about/",
-     "source": "Liberty Street Economics",
-     "published": "2026-10-09T11:00:00Z",
-     "image": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2026/10/LSE_2026_overal-inflation_athreya_460.jpg?quality=80&w=460"
     }
    ]
   },
@@ -150,46 +150,46 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "WORLD IN BRIEF: US inflation rises, Ukrainian drones hit Russia’s largest data centre, Liberia offers 29 offshore oil blocks and other stories",
-     "url": "https://businessday.ng/world/article/world-in-brief-us-inflation-rises-ukrainian-drones-hit-russias-largest-data-centre-liberia-offers-29-offshore-oil-blocks-and-other-stories/",
-     "source": "BusinessDay",
-     "published": "2026-10-15T04:40:03Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2025/01/Elon-Musk-1.png"
-    },
-    {
-     "title": "Nigeria’s $350m solid minerals exports face value addition hurdle",
-     "url": "https://businessday.ng/news/article/nigerias-350m-solid-minerals-exports-face-value-addition-challenge/",
-     "source": "BusinessDay",
-     "published": "2026-10-15T03:00:25Z",
-     "image": "https://cdn.businessday.ng/2019/10/Solid-minerals-1.jpg"
-    },
-    {
-     "title": "US cuts deadline for refugees to challenge status termination to 10 days",
-     "url": "https://nairametrics.com/2026/10/14/us-cuts-deadline-for-refugees-to-challenge-status-termination-to-10-days/",
+     "title": "BREAKING: Court discharges Aliyu Abubakar,Malabu Oil from EFCC money laundering suits",
+     "url": "https://nairametrics.com/2026/10/15/court-discharges-aliyu-abubakarmalabu-oil-from-efcc-money-laundering-suits/",
      "source": "Nairametrics",
-     "published": "2026-10-14T19:47:33Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/08/American_Flag_Waving_on_a_Flag_Pole-300x200-2.webp"
+     "published": "2026-10-15T11:37:00Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/BREAKING.webp"
     },
     {
-     "title": "NNPC advances IPO plans, addresses governance, financial reporting gaps",
-     "url": "https://nairametrics.com/2026/10/14/nnpc-advances-ipo-plans-addresses-governance-financial-reporting-gaps/",
+     "title": "Government debt is swallowing the money Nigerian businesses need to grow",
+     "url": "https://nairametrics.com/2026/10/15/government-debt-is-swallowing-the-money-nigerian-businesses-need-to-grow/",
      "source": "Nairametrics",
-     "published": "2026-10-14T19:04:46Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/09/Bashir-Ojulari-scaled-1.webp"
+     "published": "2026-10-15T11:29:32Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/08/new-Tinubu1.webp"
     },
     {
-     "title": "In Thailand, Dangote Group hails Tinubu’s economic reforms, urges foreign investors to come to Nigeria",
-     "url": "https://www.premiumtimesng.com/business/business-news/917070-in-thailand-dangote-group-hails-tinubus-economic-reforms-urges-foreign-investors-to-come-to-nigeria.html",
-     "source": "Premium Times",
-     "published": "2026-10-14T17:22:49Z",
-     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/10/images-33.jpg?fit=655%2C468&ssl=1"
+     "title": "Gabon raises $580m in Eurobond as investor demand nears $1bn",
+     "url": "https://businessday.ng/africa/article/gabon-raises-580m-in-eurobond-as-investor-demand-nears-1bn/",
+     "source": "BusinessDay",
+     "published": "2026-10-15T11:11:26Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/02/gettyimages-1475445484-large.webp"
     },
     {
-     "title": "WayvePay says no investor subscribed to Dangote Refinery IPO through its platform",
-     "url": "https://www.premiumtimesng.com/business/business-news/917063-wayvepay-says-no-investor-subscribed-to-dangote-refinery-ipo-through-its-platform.html",
+     "title": "Abiodun moves to upgrade Cooperative College, disburses N1bn loan to small businesses",
+     "url": "https://businessday.ng/news/article/abiodun-moves-to-upgrade-cooperative-college-disburses-n1bn-loan-to-small-businesses/",
+     "source": "BusinessDay",
+     "published": "2026-10-15T11:06:08Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/1-37-large.jpg"
+    },
+    {
+     "title": "South Africa says it could still host F1 before Rwanda",
+     "url": "https://african.business/2026/10/trade-investment/south-africa-says-it-could-still-host-f1-before-rwanda",
+     "source": "African Business",
+     "published": "2026-10-15T09:02:24Z",
+     "image": "https://african.business/wp-content/uploads/2026/10/000_84VR6JZ-scaled.jpg"
+    },
+    {
+     "title": "Cardoso explains reasons behind MPC interest rate cut, hails synergy with fiscal authorities",
+     "url": "https://www.premiumtimesng.com/news/headlines/917232-just-in-cardoso-explains-reasons-behind-mpc-interest-rate-cut-hails-synergy-with-fiscal-authorities.html",
      "source": "Premium Times",
-     "published": "2026-10-14T17:01:22Z",
-     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2025/07/DANGOTE-REFINERY.jpeg?fit=1280%2C720&ssl=1"
+     "published": "2026-10-15T06:45:33Z",
+     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/10/Screenshot-2026-10-15-074746.png?fit=843%2C549&ssl=1"
     }
    ]
   }
@@ -202,8 +202,8 @@
    "items": 10,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-14T20:27:56Z",
-   "oldest": "2026-10-07T10:30:00Z"
+   "newest": "2026-10-15T08:46:33Z",
+   "oldest": "2026-10-09T11:00:00Z"
   },
   {
    "source": "PBS NewsHour",
@@ -222,8 +222,8 @@
    "items": 300,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-14T17:52:55Z",
-   "oldest": "2025-12-11T11:10:02Z"
+   "newest": "2026-10-15T09:34:30Z",
+   "oldest": "2025-12-11T11:14:59Z"
   },
   {
    "source": "CNBC",
@@ -232,8 +232,8 @@
    "items": 30,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-14T17:20:23Z",
-   "oldest": "2026-09-28T04:04:16Z"
+   "newest": "2026-10-15T10:54:20Z",
+   "oldest": "2026-09-29T16:52:00Z"
   },
   {
    "source": "MarketWatch",
@@ -242,8 +242,8 @@
    "items": 8,
    "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-15T01:07:00Z",
-   "oldest": "2026-10-14T21:54:00Z"
+   "newest": "2026-10-15T11:17:00Z",
+   "oldest": "2026-10-14T23:36:00Z"
   },
   {
    "source": "CNBC",
@@ -252,18 +252,18 @@
    "items": 28,
    "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-14T20:22:09Z",
+   "newest": "2026-10-15T09:02:31Z",
    "oldest": "2026-10-02T13:29:27Z"
   },
   {
    "source": "CNBC",
    "feed": "https://www.cnbc.com/id/15839069/device/rss/rss.html",
    "ok": true,
-   "items": 29,
+   "items": 28,
    "skipped": 0,
    "undated": 0,
    "newest": "2026-10-14T21:19:09Z",
-   "oldest": "2026-09-16T19:29:18Z"
+   "oldest": "2026-09-16T19:38:41Z"
   },
   {
    "source": "Federal Reserve",
@@ -312,8 +312,8 @@
    "items": 100,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-14T11:00:00Z",
-   "oldest": "2025-10-15T11:00:00Z"
+   "newest": "2026-10-15T11:00:00Z",
+   "oldest": "2025-10-16T11:00:00Z"
   },
   {
    "source": "Nairametrics",
@@ -322,18 +322,18 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-14T19:47:33Z",
-   "oldest": "2026-10-14T11:01:00Z"
+   "newest": "2026-10-15T11:37:00Z",
+   "oldest": "2026-10-14T18:02:36Z"
   },
   {
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 3,
-   "skipped": 2,
+   "items": 2,
+   "skipped": 3,
    "undated": 0,
-   "newest": "2026-10-15T04:40:03Z",
-   "oldest": "2026-10-15T02:50:55Z"
+   "newest": "2026-10-15T11:11:26Z",
+   "oldest": "2026-10-15T11:06:08Z"
   },
   {
    "source": "Premium Times",
@@ -342,8 +342,8 @@
    "items": 10,
    "skipped": 5,
    "undated": 0,
-   "newest": "2026-10-14T17:22:49Z",
-   "oldest": "2026-10-13T11:13:03Z"
+   "newest": "2026-10-15T06:45:33Z",
+   "oldest": "2026-10-13T12:53:13Z"
   },
   {
    "source": "African Business",
@@ -352,18 +352,18 @@
    "items": 25,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-14T14:23:32Z",
-   "oldest": "2026-10-07T13:13:09Z"
+   "newest": "2026-10-15T09:02:24Z",
+   "oldest": "2026-10-07T15:12:12Z"
   },
   {
    "source": "The Africa Report",
    "feed": "https://www.theafricareport.com/feed/",
    "ok": true,
-   "items": 5,
-   "skipped": 5,
+   "items": 3,
+   "skipped": 7,
    "undated": 0,
    "newest": "2026-10-14T14:20:33Z",
-   "oldest": "2026-10-13T16:00:00Z"
+   "oldest": "2026-10-14T09:04:59Z"
   }
  ],
  "first_seen": {
