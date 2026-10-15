@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T21:49:28Z",
+ "updated": "2026-10-15T04:53:13Z",
  "panels": [
   {
    "id": "us",
@@ -779,10 +779,6 @@
        "window": "Past year",
        "trend": [
         [
-         "2025-10-14",
-         0.55
-        ],
-        [
          "2025-10-21",
          0.53
         ],
@@ -1323,10 +1319,6 @@
        "window": "Past year",
        "trend": [
         [
-         "2025-10-14",
-         2.3
-        ],
-        [
          "2025-10-21",
          2.28
         ],
@@ -1530,7 +1522,7 @@
        "status": null,
        "source_name": "FRED",
        "source_url": "https://fred.stlouisfed.org/series/T10YIE",
-       "move_z": 1.28
+       "move_z": 1.27
       },
       {
        "id": "DCOILWTICO",

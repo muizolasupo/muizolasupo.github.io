@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-14T21:48:36Z",
+ "updated": "2026-10-15T04:52:11Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
+    {
+     "title": "Economist breaks down new inflation report and what's driving prices higher",
+     "url": "https://www.pbs.org/newshour/show/economist-breaks-down-new-inflation-report-and-whats-driving-prices-higher",
+     "source": "PBS NewsHour",
+     "published": "2026-10-14T22:55:14Z",
+     "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/price-1024x684.jpg"
+    },
     {
      "title": "The Chicago Fed President answers questions on inflation numbers",
      "url": "https://www.npr.org/2026/10/14/nx-s1-6000584/the-chicago-fed-president-answers-questions-on-inflation-numbers",
@@ -34,13 +41,6 @@
      "image": "https://image.cnbcfm.com/api/v1/image/108295010-1776807990973-gettyimages-2272451874-jr_15888_qsl4bswz.jpeg?v=1776808066&w=1920&h=1080"
     },
     {
-     "title": "U.S. hits Bank of America with $1.2 billion fine, saying it violated money laundering and sanctions laws",
-     "url": "https://www.pbs.org/newshour/economy/u-s-hits-bank-of-america-with-1-2-billion-fine-saying-it-violated-money-laundering-and-sanctions-laws",
-     "source": "PBS NewsHour",
-     "published": "2026-10-14T15:07:54Z",
-     "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-10-13T214803Z_413566424_RC2612ASWGFK_RTRMADP_3_USA-TREASURY-BANKOFAMERICA-1024x683.jpg"
-    },
-    {
      "title": "Consumer prices rose 3.7% annually in September as gas prices skyrocket",
      "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html",
      "source": "CNBC",
@@ -54,11 +54,32 @@
    "label": "Markets",
    "items": [
     {
-     "title": "Bank of America adds a profit miss to the misery of a $1.2 billion government fine",
-     "url": "https://www.marketwatch.com/story/bank-of-america-adds-a-profit-miss-to-the-misery-of-a-1-2-billion-government-fine-d4420bfa?mod=mw_rss_topstories",
+     "title": "Anthropic’s slowing growth could be the AI trade’s latest red flag",
+     "url": "https://www.marketwatch.com/story/anthropics-slowing-growth-could-be-the-ai-trades-latest-red-flag-292d0169?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-14T21:40:00Z",
-     "image": "https://images.mktw.net/im-86270203"
+     "published": "2026-10-15T01:07:00Z",
+     "image": "https://images.mktw.net/im-29102227"
+    },
+    {
+     "title": "Rocket Lab’s stock slides as the company pushes back Neutron’s first launch",
+     "url": "https://www.marketwatch.com/story/rocket-labs-stock-slides-as-the-company-pushes-back-neutrons-first-launch-afd2932a?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-15T00:02:00Z",
+     "image": "https://images.mktw.net/im-29972515"
+    },
+    {
+     "title": "The AI trade is splintering as inflation fears rattle hyped-up tech stocks",
+     "url": "https://www.marketwatch.com/story/the-ai-trade-is-splintering-as-inflation-fears-rattle-hyped-up-tech-stocks-dbf49369?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-14T23:36:00Z",
+     "image": "https://images.mktw.net/im-29969311"
+    },
+    {
+     "title": "You’re probably too invested in equities. Why a 60-40 portfolio is still the smart way to go.",
+     "url": "https://www.marketwatch.com/story/youre-probably-too-invested-in-equities-why-a-60-40-portfolio-is-still-the-smart-way-to-go-853daade?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-14T22:25:00Z",
+     "image": "https://images.mktw.net/im-89521076"
     },
     {
      "title": "Traders pile into 'bubble puts' on CoreWeave as neocloud stocks plunge",
@@ -66,27 +87,6 @@
      "source": "CNBC",
      "published": "2026-10-14T21:19:09Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108408958-1791988867766-gettyimages-2300173637-mms15469_vis990vc.jpeg?v=1791989017&w=1920&h=1080"
-    },
-    {
-     "title": "The COLA wars are coming for Social Security",
-     "url": "https://www.marketwatch.com/story/the-cola-wars-are-coming-for-social-security-10c177f1?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-14T21:19:00Z",
-     "image": "https://images.mktw.net/im-58308834"
-    },
-    {
-     "title": "CoreWeave’s AI bonds tumble, raising red flags for the wider market",
-     "url": "https://www.marketwatch.com/story/coreweave-sparks-worry-about-broader-credit-market-stress-as-its-bonds-tumble-887458e4?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-14T21:18:00Z",
-     "image": "https://images.mktw.net/im-31372691"
-    },
-    {
-     "title": "BlackRock now manages assets equal to half the size of the U.S. economy after 15% growth",
-     "url": "https://www.marketwatch.com/story/blackrock-now-has-assets-equal-to-half-the-size-of-the-u-s-economy-after-15-growth-c382b289?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-14T20:57:00Z",
-     "image": "https://images.mktw.net/im-53524004"
     },
     {
      "title": "Morgan Stanley tops estimates as equities trading revenue beats expectations by $909 million",
@@ -101,6 +101,13 @@
    "id": "policy",
    "label": "Policy & research",
    "items": [
+    {
+     "title": "Bowman, Supervisory Modernization After Silicon Valley Bank",
+     "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm",
+     "source": "Federal Reserve",
+     "published": "2026-10-15T02:55:00Z",
+     "image": "https://www.federalreserve.gov/images/social-media/social-default-image-opengraph.jpg"
+    },
     {
      "title": "Has the AI Boom Impacted the U.S. Current Account?",
      "url": "https://libertystreeteconomics.newyorkfed.org/2026/10/has-the-ai-boom-impacted-the-u-s-current-account/",
@@ -135,13 +142,6 @@
      "source": "Liberty Street Economics",
      "published": "2026-10-09T11:00:00Z",
      "image": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2026/10/LSE_2026_overal-inflation_athreya_460.jpg?quality=80&w=460"
-    },
-    {
-     "title": "Waller, The Signaling Value of the Summary of Economic Projections",
-     "url": "https://www.federalreserve.gov/newsevents/speech/waller20261008a.htm",
-     "source": "Federal Reserve",
-     "published": "2026-10-08T08:30:00Z",
-     "image": "https://www.federalreserve.gov/images/social-media/social-default-image-opengraph.jpg"
     }
    ]
   },
@@ -149,6 +149,20 @@
    "id": "africa",
    "label": "Nigeria & Africa",
    "items": [
+    {
+     "title": "WORLD IN BRIEF: US inflation rises, Ukrainian drones hit Russia’s largest data centre, Liberia offers 29 offshore oil blocks and other stories",
+     "url": "https://businessday.ng/world/article/world-in-brief-us-inflation-rises-ukrainian-drones-hit-russias-largest-data-centre-liberia-offers-29-offshore-oil-blocks-and-other-stories/",
+     "source": "BusinessDay",
+     "published": "2026-10-15T04:40:03Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2025/01/Elon-Musk-1.png"
+    },
+    {
+     "title": "Nigeria’s $350m solid minerals exports face value addition hurdle",
+     "url": "https://businessday.ng/news/article/nigerias-350m-solid-minerals-exports-face-value-addition-challenge/",
+     "source": "BusinessDay",
+     "published": "2026-10-15T03:00:25Z",
+     "image": "https://cdn.businessday.ng/2019/10/Solid-minerals-1.jpg"
+    },
     {
      "title": "US cuts deadline for refugees to challenge status termination to 10 days",
      "url": "https://nairametrics.com/2026/10/14/us-cuts-deadline-for-refugees-to-challenge-status-termination-to-10-days/",
@@ -176,20 +190,6 @@
      "source": "Premium Times",
      "published": "2026-10-14T17:01:22Z",
      "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2025/07/DANGOTE-REFINERY.jpeg?fit=1280%2C720&ssl=1"
-    },
-    {
-     "title": "IMF's Georgieva urges fiscal consolidation and subsidy avoidance",
-     "url": "https://african.business/2026/10/finance-services/imfs-georgieva-countries-urges-fiscal-consolidation-and-subsidy-avoidance",
-     "source": "African Business",
-     "published": "2026-10-14T14:23:32Z",
-     "image": "https://african.business/wp-content/uploads/2026/10/000_D37X23V-scaled.jpg"
-    },
-    {
-     "title": "Safaricom deal: How a court reversal could squeeze Kenya’s budget, forex",
-     "url": "https://www.theafricareport.com/433570/safaricom-deal-how-a-court-reversal-could-squeeze-kenyas-budget-forex/",
-     "source": "The Africa Report",
-     "published": "2026-10-14T14:20:33Z",
-     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=2560,height=1468,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2025/12/18/2016-05-11t120000z_364571969_s1betdkeiiaa_rtrmadp_3_kenya-safaricom-scaled.jpg"
     }
    ]
   }
@@ -212,8 +212,8 @@
    "items": 9,
    "skipped": 11,
    "undated": 0,
-   "newest": "2026-10-14T18:59:04Z",
-   "oldest": "2026-10-02T16:16:28Z"
+   "newest": "2026-10-14T22:55:14Z",
+   "oldest": "2026-10-02T22:55:34Z"
   },
   {
    "source": "The Economist",
@@ -239,11 +239,11 @@
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 7,
-   "skipped": 3,
+   "items": 8,
+   "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-14T21:40:00Z",
-   "oldest": "2026-10-14T19:04:00Z"
+   "newest": "2026-10-15T01:07:00Z",
+   "oldest": "2026-10-14T21:54:00Z"
   },
   {
    "source": "CNBC",
@@ -282,8 +282,8 @@
    "items": 15,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-08T08:30:00Z",
-   "oldest": "2026-09-03T12:30:00Z"
+   "newest": "2026-10-15T02:55:00Z",
+   "oldest": "2026-09-18T13:30:00Z"
   },
   {
    "source": "BEA",
@@ -329,11 +329,11 @@
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 0,
-   "skipped": 5,
+   "items": 3,
+   "skipped": 2,
    "undated": 0,
-   "newest": null,
-   "oldest": null
+   "newest": "2026-10-15T04:40:03Z",
+   "oldest": "2026-10-15T02:50:55Z"
   },
   {
    "source": "Premium Times",
