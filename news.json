@@ -1,30 +1,30 @@
 {
- "updated": "2026-10-16T21:22:08Z",
+ "updated": "2026-10-16T23:43:10Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
     {
-     "title": "Norway faces public dilemma over divesting from companies involved with war in Gaza",
-     "url": "https://www.npr.org/2026/10/16/nx-s1-6000238/norway-faces-public-dilemma-over-divesting-from-companies-involved-with-war-in-gaza",
-     "source": "NPR",
-     "published": "2026-10-16T20:56:02Z",
-     "image": ""
+     "title": "U.S. budget deficit swells to almost $2 trillion for fiscal 2026, up 12% in a single year",
+     "url": "https://www.cnbc.com/2026/10/16/us-budget-deficit-2026.html",
+     "source": "CNBC",
+     "published": "2026-10-16T22:34:29Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108351875-1787178100146-gettyimages-2290607138-AFP_C62Z247.jpeg?v=1787178332&w=1920&h=1080"
     },
     {
      "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
      "url": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
      "source": "CNBC",
-     "published": "2026-10-16T18:04:20Z",
+     "published": "2026-10-16T22:33:05Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108364024-17895883942026-09-16t194825z_342271609_rc2iknaojij8_rtrmadp_0_usa-fed.jpeg?v=1789588428&w=1920&h=1080"
     },
     {
-     "title": "U.S. budget deficit swells to almost $2 trillion for fiscal 2026, up 12% in a single year",
-     "url": "https://www.cnbc.com/2026/10/16/us-budget-deficit-2026.html",
-     "source": "CNBC",
-     "published": "2026-10-16T18:00:15Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108351875-1787178100146-gettyimages-2290607138-AFP_C62Z247.jpeg?v=1787178332&w=1920&h=1080"
+     "title": "Norway faces public dilemma over divesting from companies involved with war in Gaza",
+     "url": "https://www.npr.org/2026/10/16/nx-s1-6000238/norway-faces-public-dilemma-over-divesting-from-companies-involved-with-war-in-gaza",
+     "source": "NPR",
+     "published": "2026-10-16T20:56:02Z",
+     "image": ""
     },
     {
      "title": "It’s not just Commerzbank: Italians are eating up German business",
@@ -54,32 +54,32 @@
    "label": "Markets",
    "items": [
     {
-     "title": "Don’t buy this dip: Several signs suggest there’s more pain ahead for tech stocks",
-     "url": "https://www.marketwatch.com/story/dont-buy-this-dip-several-signs-suggest-theres-more-pain-ahead-for-tech-stocks-83f971d7?mod=mw_rss_topstories",
+     "title": "Nowhere to hide: Tech selloff hits software and chip stocks alike",
+     "url": "https://www.marketwatch.com/story/nowhere-to-hide-tech-selloff-hits-software-and-chip-stocks-alike-6d96773c?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-16T20:58:00Z",
-     "image": "https://images.mktw.net/im-38050807"
+     "published": "2026-10-16T21:59:00Z",
+     "image": "https://images.mktw.net/im-02898598"
     },
     {
-     "title": "EchoStar’s stock looks like a stealthy way to ride the SpaceX wave, J.P. Morgan says",
-     "url": "https://www.marketwatch.com/story/echostars-stock-looks-like-a-stealthy-way-to-ride-the-spacex-wave-j-p-morgan-says-c4effa5d?mod=mw_rss_topstories",
+     "title": "This Senate race where data centers are a crucial issue has more spending than any other midterm clash",
+     "url": "https://www.marketwatch.com/story/this-senate-race-where-data-centers-are-a-crucial-issue-has-more-spending-than-any-other-midterm-clash-5152b43d?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-16T20:05:00Z",
-     "image": "https://images.mktw.net/im-23880254"
+     "published": "2026-10-16T21:43:00Z",
+     "image": "https://images.mktw.net/im-26159114"
     },
     {
-     "title": "Are we spending our retirement money in the right order? Our plan is: Social Security, annuities, cash — then IRA.",
-     "url": "https://www.marketwatch.com/story/are-we-spending-our-retirement-money-in-the-right-order-our-plan-is-social-security-annuities-cash-then-ira-02cec336?mod=mw_rss_topstories",
+     "title": "Could an Anthropic IPO put your 401(k) at risk? The AI safety debate hits a new dimension.",
+     "url": "https://www.marketwatch.com/story/could-an-anthropic-ipo-put-your-401-k-at-risk-the-ai-safety-debate-hits-a-new-dimension-db3f09f7?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-16T19:46:00Z",
-     "image": "https://images.mktw.net/im-76147960"
+     "published": "2026-10-16T21:35:00Z",
+     "image": "https://images.mktw.net/im-73170524"
     },
     {
-     "title": "Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?",
-     "url": "https://www.marketwatch.com/story/social-securitys-cola-will-be-3-6-in-2027-as-inflation-persists-f7c9dff2?mod=mw_rss_topstories",
+     "title": "The bond market shrugged off two inflation shocks. Why stock investors should pay attention.",
+     "url": "https://www.marketwatch.com/story/the-bond-market-shrugged-off-two-inflation-shocks-why-stock-investors-should-pay-attention-5da4f771?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-16T19:45:00Z",
-     "image": "https://images.mktw.net/im-07536727"
+     "published": "2026-10-16T21:30:00Z",
+     "image": "https://images.mktw.net/im-54657824"
     },
     {
      "title": "The Austin Powers steamroller: How to trade CoreWeave's slow moving crisis",
@@ -150,6 +150,13 @@
    "label": "Nigeria & Africa",
    "items": [
     {
+     "title": "Brent hits $110 as global oil fears threaten Nigeria’s petrol price relief",
+     "url": "https://nairametrics.com/2026/10/16/brent-hits-110-as-global-oil-fears-threaten-nigerias-petrol-price-relief/",
+     "source": "Nairametrics",
+     "published": "2026-10-16T21:38:45Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/crude-oil.webp"
+    },
+    {
      "title": "NLNG dividend delay hurting states – Makinde",
      "url": "https://businessday.ng/news/article/nlng-dividend-delay-hurting-states-makinde/",
      "source": "BusinessDay",
@@ -183,13 +190,6 @@
      "source": "Nairametrics",
      "published": "2026-10-16T18:59:11Z",
      "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/stock-drop-image.webp"
-    },
-    {
-     "title": "Banks’ CBN deposits rise above N6 trillion after N2.4 trillion OMO repayment",
-     "url": "https://nairametrics.com/2026/10/16/banks-cbn-deposits-rise-above-n6-trillion-after-n2-4-trillion-omo-repayment/",
-     "source": "Nairametrics",
-     "published": "2026-10-16T18:37:40Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/cbn-build-1.webp"
     }
    ]
   }
@@ -232,18 +232,18 @@
    "items": 30,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-16T18:04:20Z",
+   "newest": "2026-10-16T22:34:29Z",
    "oldest": "2026-10-02T13:45:58Z"
   },
   {
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 8,
-   "skipped": 2,
+   "items": 9,
+   "skipped": 1,
    "undated": 0,
-   "newest": "2026-10-16T20:58:00Z",
-   "oldest": "2026-10-16T18:52:00Z"
+   "newest": "2026-10-16T21:59:00Z",
+   "oldest": "2026-10-16T19:45:00Z"
   },
   {
    "source": "CNBC",
@@ -322,8 +322,8 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-16T18:59:11Z",
-   "oldest": "2026-10-16T08:04:28Z"
+   "newest": "2026-10-16T21:38:45Z",
+   "oldest": "2026-10-16T08:14:58Z"
   },
   {
    "source": "BusinessDay",
