@@ -1,50 +1,50 @@
 {
- "updated": "2026-10-16T16:46:55Z",
+ "updated": "2026-10-16T21:22:08Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
     {
-     "title": "Analysis: Everyone expects the Fed to hold rates in October. Kevin Warsh could surprise us all",
-     "url": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html",
+     "title": "Norway faces public dilemma over divesting from companies involved with war in Gaza",
+     "url": "https://www.npr.org/2026/10/16/nx-s1-6000238/norway-faces-public-dilemma-over-divesting-from-companies-involved-with-war-in-gaza",
+     "source": "NPR",
+     "published": "2026-10-16T20:56:02Z",
+     "image": ""
+    },
+    {
+     "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
+     "url": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
      "source": "CNBC",
-     "published": "2026-10-16T16:27:31Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108363914-1789584457539-108363914-17895839902026-09-16t183652z_1716047873_rc2iknar714p_rtrmadp_0_usa-fed.jpeg?v=1789584478&w=1920&h=1080"
+     "published": "2026-10-16T18:04:20Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108364024-17895883942026-09-16t194825z_342271609_rc2iknaojij8_rtrmadp_0_usa-fed.jpeg?v=1789588428&w=1920&h=1080"
+    },
+    {
+     "title": "U.S. budget deficit swells to almost $2 trillion for fiscal 2026, up 12% in a single year",
+     "url": "https://www.cnbc.com/2026/10/16/us-budget-deficit-2026.html",
+     "source": "CNBC",
+     "published": "2026-10-16T18:00:15Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108351875-1787178100146-gettyimages-2290607138-AFP_C62Z247.jpeg?v=1787178332&w=1920&h=1080"
+    },
+    {
+     "title": "It’s not just Commerzbank: Italians are eating up German business",
+     "url": "https://www.economist.com/finance-and-economics/2026/10/16/its-not-just-commerzbank-italians-are-eating-up-german-business",
+     "source": "The Economist",
+     "published": "2026-10-16T17:58:53Z",
+     "image": ""
+    },
+    {
+     "title": "Fed chair Warsh says price stability is key but shies away from signals about rates",
+     "url": "https://www.pbs.org/newshour/economy/fed-chair-warsh-says-price-stability-is-key-but-shies-away-from-signals-about-rates",
+     "source": "PBS NewsHour",
+     "published": "2026-10-16T17:21:26Z",
+     "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-10-16T132848Z_1431539833_RC234OA75N1Y_RTRMADP_3_IMF-WORLDBANK-AI-1024x683.jpg"
     },
     {
      "title": "What this bankruptcy says about AI startups",
      "url": "https://www.npr.org/sections/planet-money/2026/10/16/nx-s1-6001828/what-this-bankruptcy-says-about-ai-startups",
      "source": "NPR",
      "published": "2026-10-16T11:00:00Z",
-     "image": ""
-    },
-    {
-     "title": "Retail sales saw 0.8% bump in September, but big chunk of spending went to paying for gas",
-     "url": "https://www.pbs.org/newshour/economy/retail-sales-saw-0-8-bump-in-september-but-big-chunk-of-spending-went-to-paying-for-gas",
-     "source": "PBS NewsHour",
-     "published": "2026-10-15T21:49:18Z",
-     "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-03-05T194859Z_1782212771_RC2IYJAVDQD9_RTRMADP_3_IRAN-CRISIS-ENERGY-1024x684.jpg"
-    },
-    {
-     "title": "How much longer will consumers be willing to muscle through higher prices?",
-     "url": "https://www.pbs.org/newshour/economy/how-much-longer-will-consumers-be-willing-to-muscle-through-higher-prices",
-     "source": "PBS NewsHour",
-     "published": "2026-10-15T20:21:04Z",
-     "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-08-26T202350Z_1473121951_RC2H6NAKIS4L_RTRMADP_3_USA-ECONOMY-1024x677.jpg"
-    },
-    {
-     "title": "Wholesale prices jumped 6.3% annually in September, biggest gain since 2022",
-     "url": "https://www.cnbc.com/2026/10/15/september-producer-price-index-retail-sales-data.html",
-     "source": "CNBC",
-     "published": "2026-10-15T16:15:44Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/107089766-1792067872595-107089766-1657925387054-gettyimages-1241044672-05312022_PHH_COSTCO_01.jpg?v=1792067884&w=1920&h=1080"
-    },
-    {
-     "title": "How Ukraine’s biggest bank is run in a war zone",
-     "url": "https://www.economist.com/finance-and-economics/2026/10/15/how-ukraines-biggest-bank-is-run-in-a-war-zone",
-     "source": "The Economist",
-     "published": "2026-10-15T09:34:30Z",
      "image": ""
     }
    ]
@@ -54,46 +54,46 @@
    "label": "Markets",
    "items": [
     {
-     "title": "U.S. presses China on Mastercard, Citigroup market access in bilateral Bangkok talks, official says",
-     "url": "https://www.cnbc.com/2026/10/16/us-china-mastercard-citigroup-market-access.html",
-     "source": "CNBC",
-     "published": "2026-10-16T16:46:18Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108418808-1792143417316-gettyimages-2299307716-CITI_EARNS.jpeg?v=1792165332&w=1920&h=1080"
+     "title": "Don’t buy this dip: Several signs suggest there’s more pain ahead for tech stocks",
+     "url": "https://www.marketwatch.com/story/dont-buy-this-dip-several-signs-suggest-theres-more-pain-ahead-for-tech-stocks-83f971d7?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-16T20:58:00Z",
+     "image": "https://images.mktw.net/im-38050807"
+    },
+    {
+     "title": "EchoStar’s stock looks like a stealthy way to ride the SpaceX wave, J.P. Morgan says",
+     "url": "https://www.marketwatch.com/story/echostars-stock-looks-like-a-stealthy-way-to-ride-the-spacex-wave-j-p-morgan-says-c4effa5d?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-16T20:05:00Z",
+     "image": "https://images.mktw.net/im-23880254"
     },
     {
      "title": "Are we spending our retirement money in the right order? Our plan is: Social Security, annuities, cash — then IRA.",
      "url": "https://www.marketwatch.com/story/are-we-spending-our-retirement-money-in-the-right-order-our-plan-is-social-security-annuities-cash-then-ira-02cec336?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-16T16:39:00Z",
+     "published": "2026-10-16T19:46:00Z",
      "image": "https://images.mktw.net/im-76147960"
     },
     {
-     "title": "Elon Musk may have just taken a major step toward consolidating his empire",
-     "url": "https://www.marketwatch.com/story/elon-musk-may-have-just-taken-a-major-step-toward-consolidating-his-empire-7d82dea6?mod=mw_rss_topstories",
+     "title": "Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?",
+     "url": "https://www.marketwatch.com/story/social-securitys-cola-will-be-3-6-in-2027-as-inflation-persists-f7c9dff2?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-16T16:39:00Z",
-     "image": "https://images.mktw.net/im-24921595"
+     "published": "2026-10-16T19:45:00Z",
+     "image": "https://images.mktw.net/im-07536727"
     },
     {
-     "title": "Many of 2026’s hottest stocks have seen dramatic comedowns this week",
-     "url": "https://www.marketwatch.com/story/many-of-2026s-hottest-stocks-have-seen-dramatic-comedowns-this-week-e5ae5d06?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-16T16:09:00Z",
-     "image": "https://images.mktw.net/im-81755167"
-    },
-    {
-     "title": "Prediction market odds on Tesla-SpaceX merger are above 50% for early 2027",
-     "url": "https://www.cnbc.com/2026/10/16/tesla-spacex-merger-odds-rise-on-kalshi.html",
+     "title": "The Austin Powers steamroller: How to trade CoreWeave's slow moving crisis",
+     "url": "https://www.cnbc.com/2026/10/16/playing-the-coreweave-disconnect.html",
      "source": "CNBC",
-     "published": "2026-10-16T15:10:32Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108368089-1790695523016-108368089-1790346944343-gettyimages-2296349180-TRUMP_XI.jpg?v=1792098929&w=1920&h=1080"
+     "published": "2026-10-16T18:24:35Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108172055-1752584137600-gettyimages-2213626396-COREWEAVE_DEBT_DEAL.jpeg?v=1792155266&w=1920&h=1080"
     },
     {
-     "title": "Retiring abroad? Don’t cut these financial ties to the U.S.",
-     "url": "https://www.marketwatch.com/story/retiring-abroad-dont-cut-these-financial-ties-to-the-u-s-5e7e4fc2?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-16T15:00:00Z",
-     "image": "https://images.mktw.net/im-25509545"
+     "title": "U.S. presses China on Mastercard, Citigroup market access in bilateral Bangkok talks, official says",
+     "url": "https://www.cnbc.com/2026/10/16/us-china-mastercard-citigroup-market-access.html",
+     "source": "CNBC",
+     "published": "2026-10-16T16:46:18Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108418808-1792143417316-gettyimages-2299307716-CITI_EARNS.jpeg?v=1792165332&w=1920&h=1080"
     }
    ]
   },
@@ -150,46 +150,46 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "West African investors identify $10bn in projects ahead of regional investment summit",
-     "url": "https://businessday.ng/africa/article/west-african-investors-identify-10bn-in-projects-ahead-of-regional-investment-summit/",
+     "title": "NLNG dividend delay hurting states – Makinde",
+     "url": "https://businessday.ng/news/article/nlng-dividend-delay-hurting-states-makinde/",
      "source": "BusinessDay",
-     "published": "2026-10-16T14:59:09Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/Untitled-design-3-1-2-large.png"
+     "published": "2026-10-16T20:36:16Z",
+     "image": "https://cdn.businessday.ng/2023/06/Seyi-Makinde-1.png"
     },
     {
-     "title": "Fintech firm Onafriq to close Nigeria agent banking business",
-     "url": "https://www.premiumtimesng.com/business/business-news/917629-fintech-firm-onafriq-to-close-nigeria-agent-banking-business.html",
+     "title": "World Bank’s $5.79 billion financing will boost ongoing business expansion efforts – Tinubu",
+     "url": "https://www.premiumtimesng.com/business/business-news/917682-world-banks-5-79-billion-financing-will-boost-ongoing-business-expansion-efforts-tinubu.html",
      "source": "Premium Times",
-     "published": "2026-10-16T14:56:11Z",
-     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/10/395649461_349189470946757_3761082744989094767_n-e1792162296843.jpg?fit=2048%2C1280&ssl=1"
+     "published": "2026-10-16T20:01:18Z",
+     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/05/HIbArE9X0AEAIUq-e1778917333313.jpg?fit=1278%2C800&ssl=1"
     },
     {
-     "title": "Court upholds appointment of receiver/manager in UBA’s debt recovery suit against Stallion Group.",
-     "url": "https://www.premiumtimesng.com/business/business-news/917625-court-upholds-appointment-of-receiver-manager-in-ubas-debt-recovery-suit-against-stallion-group.html",
+     "title": "South Africa targets free ATM transactions as reserve bank moves to unify 30,000 machines",
+     "url": "https://businessday.ng/technology/article/south-africa-targets-free-atm-transactions-as-reserve-bank-moves-to-unify-30000-machines/",
+     "source": "BusinessDay",
+     "published": "2026-10-16T19:33:08Z",
+     "image": "https://cdn.businessday.ng/2019/04/ATM-machine-1.jpg"
+    },
+    {
+     "title": "N156 Billion Debt Recovery Suit: Stallion Group appeals ruling upholding UBA’s appointment of receiver/manager",
+     "url": "https://www.premiumtimesng.com/business/business-news/917665-n156-billion-debt-recovery-suit-stallion-group-appeals-ruling-upholding-ubas-appointment-of-receiver-manager.html",
      "source": "Premium Times",
-     "published": "2026-10-16T14:26:36Z",
+     "published": "2026-10-16T19:04:53Z",
      "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/10/298698113_490504726411402_8418855201961417050_n-e1792160639931.png?fit=751%2C469&ssl=1"
     },
     {
-     "title": "Ethiopia, Guinea, Benin: IMF report on African countries posting strongest economic growth",
-     "url": "https://www.theafricareport.com/433761/ethiopia-guinea-benin-imf-report-on-african-countries-posting-strongest-economic-growth/",
-     "source": "The Africa Report",
-     "published": "2026-10-16T14:00:00Z",
-     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=1215,height=810,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/10/16/jad20261015-eco-afrique-resiste-guinee-simandou.jpg"
+     "title": "Nigerian stocks close week in red as NGX dips by N108.7 billion",
+     "url": "https://nairametrics.com/2026/10/16/nigerian-stocks-close-week-in-red-as-ngx-dips-by-n108-7-billion/",
+     "source": "Nairametrics",
+     "published": "2026-10-16T18:59:11Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/stock-drop-image.webp"
     },
     {
-     "title": "Africa's investment talent challenge: Why salaries matter for the future of venture capital",
-     "url": "https://african.business/2026/10/innov-africa-deals/africas-investment-talent-challenge-why-salaries-matter-for-the-future-of-venture-capital",
-     "source": "African Business",
-     "published": "2026-10-16T11:25:04Z",
-     "image": "https://african.business/wp-content/uploads/2026/10/AdobeStock_1870091404.jpeg"
-    },
-    {
-     "title": "IMF Africa director: Resilient Africa is not immune to headwinds",
-     "url": "https://african.business/2026/10/trade-investment/imf-africa-director-resilient-africa-is-not-immune-to-headwinds",
-     "source": "African Business",
-     "published": "2026-10-16T09:57:17Z",
-     "image": "https://african.business/wp-content/uploads/2026/10/Briefing.jpg"
+     "title": "Banks’ CBN deposits rise above N6 trillion after N2.4 trillion OMO repayment",
+     "url": "https://nairametrics.com/2026/10/16/banks-cbn-deposits-rise-above-n6-trillion-after-n2-4-trillion-omo-repayment/",
+     "source": "Nairametrics",
+     "published": "2026-10-16T18:37:40Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/cbn-build-1.webp"
     }
    ]
   }
@@ -202,17 +202,17 @@
    "items": 10,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-16T11:00:00Z",
-   "oldest": "2026-10-11T09:00:00Z"
+   "newest": "2026-10-16T20:56:02Z",
+   "oldest": "2026-10-11T21:16:37Z"
   },
   {
    "source": "PBS NewsHour",
    "feed": "https://www.pbs.org/newshour/feeds/rss/economy",
    "ok": true,
-   "items": 10,
-   "skipped": 10,
+   "items": 11,
+   "skipped": 9,
    "undated": 0,
-   "newest": "2026-10-15T21:49:18Z",
+   "newest": "2026-10-16T17:21:26Z",
    "oldest": "2026-10-09T20:33:22Z"
   },
   {
@@ -222,8 +222,8 @@
    "items": 300,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-15T09:34:30Z",
-   "oldest": "2025-12-11T11:14:59Z"
+   "newest": "2026-10-16T17:58:53Z",
+   "oldest": "2025-12-15T19:44:49Z"
   },
   {
    "source": "CNBC",
@@ -232,18 +232,18 @@
    "items": 30,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-16T16:27:31Z",
-   "oldest": "2026-10-01T18:55:02Z"
+   "newest": "2026-10-16T18:04:20Z",
+   "oldest": "2026-10-02T13:45:58Z"
   },
   {
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 7,
-   "skipped": 3,
+   "items": 8,
+   "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-16T16:39:00Z",
-   "oldest": "2026-10-16T14:14:00Z"
+   "newest": "2026-10-16T20:58:00Z",
+   "oldest": "2026-10-16T18:52:00Z"
   },
   {
    "source": "CNBC",
@@ -262,7 +262,7 @@
    "items": 30,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-16T15:10:32Z",
+   "newest": "2026-10-16T18:24:35Z",
    "oldest": "2026-09-18T11:20:56Z"
   },
   {
@@ -318,28 +318,32 @@
   {
    "source": "Nairametrics",
    "feed": "https://nairametrics.com/feed/",
-   "ok": false,
-   "error": "The read operation timed out"
+   "ok": true,
+   "items": 20,
+   "skipped": 0,
+   "undated": 0,
+   "newest": "2026-10-16T18:59:11Z",
+   "oldest": "2026-10-16T08:04:28Z"
   },
   {
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 1,
-   "skipped": 4,
+   "items": 2,
+   "skipped": 3,
    "undated": 0,
-   "newest": "2026-10-16T14:59:09Z",
-   "oldest": "2026-10-16T14:59:09Z"
+   "newest": "2026-10-16T20:36:16Z",
+   "oldest": "2026-10-16T19:33:08Z"
   },
   {
    "source": "Premium Times",
    "feed": "https://www.premiumtimesng.com/business/feed",
    "ok": true,
-   "items": 10,
-   "skipped": 5,
+   "items": 11,
+   "skipped": 4,
    "undated": 0,
-   "newest": "2026-10-16T14:56:11Z",
-   "oldest": "2026-10-14T17:22:49Z"
+   "newest": "2026-10-16T20:01:18Z",
+   "oldest": "2026-10-15T06:45:33Z"
   },
   {
    "source": "African Business",
@@ -348,8 +352,8 @@
    "items": 25,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-16T11:25:04Z",
-   "oldest": "2026-10-08T08:11:19Z"
+   "newest": "2026-10-16T15:50:28Z",
+   "oldest": "2026-10-08T08:43:37Z"
   },
   {
    "source": "The Africa Report",
