@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T20:44:23Z",
+ "updated": "2026-10-17T23:12:48Z",
  "categories": [
   {
    "id": "economy",
@@ -102,6 +102,20 @@
    "label": "Policy & research",
    "items": [
     {
+     "title": "Survival versus Scale: The Effects of Critical Access Hospital Designation",
+     "url": "https://www.nber.org/papers/w35876#fromrss",
+     "source": "NBER",
+     "published": "2026-10-17T23:12:48Z",
+     "image": "https://www.nber.org/sites/default/files/2022-06/NBER-FB-Share-Tile-1200.jpg"
+    },
+    {
+     "title": "Indirect Variational Inference: Applications to Earnings Dynamics",
+     "url": "https://www.nber.org/papers/w35877#fromrss",
+     "source": "NBER",
+     "published": "2026-10-17T23:12:48Z",
+     "image": "https://www.nber.org/sites/default/files/2022-06/NBER-FB-Share-Tile-1200.jpg"
+    },
+    {
      "title": "Revenue per Worker Is Up. Are Firms Getting a Larger Share?",
      "url": "https://libertystreeteconomics.newyorkfed.org/2026/10/revenue-per-worker-is-up-are-firms-getting-a-larger-share/",
      "source": "Liberty Street Economics",
@@ -128,20 +142,6 @@
      "source": "Federal Reserve",
      "published": "2026-10-13T18:00:00Z",
      "image": "https://www.federalreserve.gov/images/social-media/social-default-image-opengraph.jpg"
-    },
-    {
-     "title": "U.S. International Trade in Goods and Services, August 2026",
-     "url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-august-2026",
-     "source": "BEA",
-     "published": "2026-10-06T12:30:00Z",
-     "image": ""
-    },
-    {
-     "title": "GDP, (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 2nd Quarter 2026; State PCE, 2025",
-     "url": "https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-2nd",
-     "source": "BEA",
-     "published": "2026-09-30T12:30:00Z",
-     "image": ""
     }
    ]
   },
@@ -149,6 +149,13 @@
    "id": "africa",
    "label": "Nigeria & Africa",
    "items": [
+    {
+     "title": "UNDC seeks PINL contract extension on reported oil production gains",
+     "url": "https://businessday.ng/energy/oilandgas/article/undc-seeks-pinl-contract-extension-on-reported-oil-production-gains/",
+     "source": "BusinessDay",
+     "published": "2026-10-17T21:35:42Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/IMG-20261017-WA0013-large.jpg"
+    },
     {
      "title": "CBN moves to ease Nigeria-China payments as Cardoso takes talks to Beijing",
      "url": "https://nairametrics.com/2026/10/17/cbn-moves-to-ease-nigeria-china-payments-as-cardoso-takes-talks-to-beijing/",
@@ -183,13 +190,6 @@
      "source": "Premium Times",
      "published": "2026-10-17T11:11:43Z",
      "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/10/WhatsApp-Image-2026-10-17-at-11.48.09-e1792234206481.jpeg?fit=1179%2C720&ssl=1"
-    },
-    {
-     "title": "Artificial intelligence is coming to African schools",
-     "url": "https://african.business/2026/10/technology-information/artificial-intelligence-is-coming-to-african-schools",
-     "source": "African Business",
-     "published": "2026-10-16T15:50:28Z",
-     "image": "https://african.business/wp-content/uploads/2026/10/000_94FN4JE-scaled.jpg"
     }
    ]
   }
@@ -298,8 +298,12 @@
   {
    "source": "NBER",
    "feed": "https://www.nber.org/rss/new.xml",
-   "ok": false,
-   "error": "HTTP Error 504: Gateway Time-out"
+   "ok": true,
+   "items": 22,
+   "skipped": 0,
+   "undated": 22,
+   "newest": "2026-10-17T23:12:48Z",
+   "oldest": "2026-10-17T23:12:48Z"
   },
   {
    "source": "Liberty Street Economics",
@@ -325,10 +329,10 @@
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 1,
-   "skipped": 4,
+   "items": 2,
+   "skipped": 3,
    "undated": 0,
-   "newest": "2026-10-17T17:27:20Z",
+   "newest": "2026-10-17T21:35:42Z",
    "oldest": "2026-10-17T17:27:20Z"
   },
   {
@@ -362,5 +366,28 @@
    "oldest": "2026-10-16T08:14:55Z"
   }
  ],
- "first_seen": {}
+ "first_seen": {
+  "https://www.nber.org/papers/w35876#fromrss": "2026-10-17T23:12:48Z",
+  "https://www.nber.org/papers/w35877#fromrss": "2026-10-17T23:12:48Z",
+  "https://www.nber.org/papers/w35878#fromrss": "2026-10-17T23:12:48Z",
+  "https://www.nber.org/papers/w35879#fromrss": "2026-10-17T23:12:48Z",
+  "https://www.nber.org/papers/w35880#fromrss": "2026-10-17T23:12:48Z",
+  "https://www.nber.org/papers/w35881#fromrss": "2026-10-17T23:12:48Z",
+  "https://www.nber.org/papers/w35882#fromrss": "2026-10-17T23:12:48Z",
+  "https://www.nber.org/papers/w35883#fromrss": "2026-10-17T23:12:48Z",
+  "https://www.nber.org/papers/w35884#fromrss": "2026-10-17T23:12:48Z",
+  "https://www.nber.org/papers/w35885#fromrss": "2026-10-17T23:12:48Z",
+  "https://www.nber.org/papers/w35886#fromrss": "2026-10-17T23:12:48Z",
+  "https://www.nber.org/papers/w35887#fromrss": "2026-10-17T23:12:48Z",
+  "https://www.nber.org/papers/w35888#fromrss": "2026-10-17T23:12:48Z",
+  "https://www.nber.org/papers/w35889#fromrss": "2026-10-17T23:12:48Z",
+  "https://www.nber.org/papers/w35890#fromrss": "2026-10-17T23:12:48Z",
+  "https://www.nber.org/papers/w35891#fromrss": "2026-10-17T23:12:48Z",
+  "https://www.nber.org/papers/w35892#fromrss": "2026-10-17T23:12:48Z",
+  "https://www.nber.org/papers/w35893#fromrss": "2026-10-17T23:12:48Z",
+  "https://www.nber.org/papers/w35894#fromrss": "2026-10-17T23:12:48Z",
+  "https://www.nber.org/papers/w35895#fromrss": "2026-10-17T23:12:48Z",
+  "https://www.nber.org/papers/w35896#fromrss": "2026-10-17T23:12:48Z",
+  "https://www.nber.org/papers/w35897#fromrss": "2026-10-17T23:12:48Z"
+ }
 }
