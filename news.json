@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T15:43:22Z",
+ "updated": "2026-10-17T20:44:23Z",
  "categories": [
   {
    "id": "economy",
@@ -54,6 +54,27 @@
    "label": "Markets",
    "items": [
     {
+     "title": "Fake shopping sprees and ‘happiness insurance’: The latest fintech apps reveal our financial anxieties",
+     "url": "https://www.marketwatch.com/story/fake-shopping-sprees-and-happiness-insurance-the-latest-fintech-apps-reveal-our-financial-anxieties-77770a46?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-17T18:52:00Z",
+     "image": "https://images.mktw.net/im-60506026"
+    },
+    {
+     "title": "Investing, not homeownership, is the No. 1 milestone that makes Gen Z renters feel successful",
+     "url": "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-17T18:40:00Z",
+     "image": "https://images.mktw.net/im-31295352"
+    },
+    {
+     "title": "Is Apple’s foldable iPhone Duo worth $2,000? See how it stacks up against other foldable phones.",
+     "url": "https://www.marketwatch.com/story/is-apples-foldable-iphone-duo-worth-2-000-see-how-it-stacks-up-against-other-foldable-phones-c9066b13?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-17T18:40:00Z",
+     "image": "https://images.mktw.net/im-16785668"
+    },
+    {
      "title": "Software’s new consolidator gets big vote of confidence from Berkshire",
      "url": "https://www.cnbc.com/2026/10/17/bending-spoons-wants-to-revive-software-castoffs-berkshire-investing.html",
      "source": "CNBC",
@@ -73,27 +94,6 @@
      "source": "MarketWatch",
      "published": "2026-10-17T13:00:00Z",
      "image": "https://images.mktw.net/im-54886096"
-    },
-    {
-     "title": "Influencers and biohackers swear by fasting. Here’s what the science says.",
-     "url": "https://www.marketwatch.com/story/influencers-and-biohackers-swear-by-fasting-heres-what-the-science-says-3318191f?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-17T12:31:00Z",
-     "image": "https://images.mktw.net/im-67445388"
-    },
-    {
-     "title": "Silver’s recent 50% drop from a record high hints that an economic slowdown looms",
-     "url": "https://www.marketwatch.com/story/silvers-recent-50-drop-from-a-record-high-hints-that-an-economic-slowdown-looms-e9fdfaf1?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-17T12:30:00Z",
-     "image": "https://images.mktw.net/im-90939892"
-    },
-    {
-     "title": "Microsoft, Shopify and 3 more AI stocks that are favorite Wall Street earnings plays",
-     "url": "https://www.marketwatch.com/story/microsoft-shopify-and-3-more-ai-stocks-that-are-favorite-wall-street-earnings-plays-0bb61e81?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-17T12:01:00Z",
-     "image": "https://images.mktw.net/im-98559224"
     }
    ]
   },
@@ -130,18 +130,18 @@
      "image": "https://www.federalreserve.gov/images/social-media/social-default-image-opengraph.jpg"
     },
     {
-     "title": "Survival versus Scale: The Effects of Critical Access Hospital Designation",
-     "url": "https://www.nber.org/papers/w35876#fromrss",
-     "source": "NBER",
-     "published": "2026-10-12T21:19:20Z",
-     "image": "https://www.nber.org/sites/default/files/2022-06/NBER-FB-Share-Tile-1200.jpg"
+     "title": "U.S. International Trade in Goods and Services, August 2026",
+     "url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-august-2026",
+     "source": "BEA",
+     "published": "2026-10-06T12:30:00Z",
+     "image": ""
     },
     {
-     "title": "Indirect Variational Inference: Applications to Earnings Dynamics",
-     "url": "https://www.nber.org/papers/w35877#fromrss",
-     "source": "NBER",
-     "published": "2026-10-12T21:19:20Z",
-     "image": "https://www.nber.org/sites/default/files/2022-06/NBER-FB-Share-Tile-1200.jpg"
+     "title": "GDP, (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 2nd Quarter 2026; State PCE, 2025",
+     "url": "https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-2nd",
+     "source": "BEA",
+     "published": "2026-09-30T12:30:00Z",
+     "image": ""
     }
    ]
   },
@@ -150,32 +150,32 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "NMDPRA licence: Lagos Commodities and Futures Exchange targets transparent petroleum pricing",
-     "url": "https://nairametrics.com/2026/10/17/nmdpra-licence-lagos-commodities-and-futures-exchange-targets-transparent-petroleum-pricing/",
+     "title": "CBN moves to ease Nigeria-China payments as Cardoso takes talks to Beijing",
+     "url": "https://nairametrics.com/2026/10/17/cbn-moves-to-ease-nigeria-china-payments-as-cardoso-takes-talks-to-beijing/",
      "source": "Nairametrics",
-     "published": "2026-10-17T15:27:31Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2023/08/petrol-pump.png"
+     "published": "2026-10-17T18:39:17Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/Cardoso.jpg"
     },
     {
-     "title": "Angola’s fuel subsidies spending projected to hit $4 billion in 2026, official says",
-     "url": "https://businessday.ng/africa/article/angolas-fuel-subsidies-spending-projected-to-hit-4-billion-in-2026-official-says/",
-     "source": "BusinessDay",
-     "published": "2026-10-17T14:43:02Z",
-     "image": "https://cdn.businessday.ng/2022/01/fuel-subsidy.png"
-    },
-    {
-     "title": "NIMENA seeks national innovation hub as maritime, energy score hits 43.75%",
-     "url": "https://businessday.ng/maritime/article/nimena-seeks-national-innovation-hub-as-maritime-energy-score-hits-43-75/",
-     "source": "BusinessDay",
-     "published": "2026-10-17T14:33:19Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/NIMENA-large.jpg"
-    },
-    {
-     "title": "Nollywood: Meet 7 producers making box office history in 2026",
-     "url": "https://nairametrics.com/2026/10/17/nollywood-meet-7-producers-making-box-office-history-in-2026/",
+     "title": "EU to provide €20 million in defence support to Nigerian Armed Forces",
+     "url": "https://nairametrics.com/2026/10/17/eu-to-provide-e20-million-in-defence-support-to-nigerian-armed-forces/",
      "source": "Nairametrics",
-     "published": "2026-10-17T12:16:42Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/Media.jpg"
+     "published": "2026-10-17T18:22:19Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/EU-scaled.jpg"
+    },
+    {
+     "title": "Obi-Kwankwaso movement salutes music warriors fueling new Nigeria",
+     "url": "https://businessday.ng/politics/article/obi-kwankwaso-movement-salutes-music-warriors-fueling-new-nigeria/",
+     "source": "BusinessDay",
+     "published": "2026-10-17T17:27:20Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/06/1-1-large.jpg"
+    },
+    {
+     "title": "Subsidy Return: International investors, markets have written off Nigerian opposition politicians as unserious, says Oyedele",
+     "url": "https://www.premiumtimesng.com/business/business-news/917791-subsidy-return-international-investors-markets-have-written-off-nigerian-opposition-politicians-as-unserious-says-oyedele.html",
+     "source": "Premium Times",
+     "published": "2026-10-17T13:56:17Z",
+     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/10/761940b4-0e4d-4125-906a-0357cf056b99.jpg?fit=1280%2C960&ssl=1"
     },
     {
      "title": "INTERVIEW: How Johnvents is turning Nigeria’s cocoa challenges into a global agribusiness",
@@ -185,11 +185,11 @@
      "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/10/WhatsApp-Image-2026-10-17-at-11.48.09-e1792234206481.jpeg?fit=1179%2C720&ssl=1"
     },
     {
-     "title": "No return to fuel subsidy, multiple exchange rates, Oyedele insists",
-     "url": "https://www.premiumtimesng.com/business/business-news/917728-breaking-no-return-to-fuel-subsidy-multiple-exchange-rates-oyedele-insists.html",
-     "source": "Premium Times",
-     "published": "2026-10-17T08:56:08Z",
-     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/10/1000506785-scaled.jpg?fit=2560%2C1920&ssl=1"
+     "title": "Artificial intelligence is coming to African schools",
+     "url": "https://african.business/2026/10/technology-information/artificial-intelligence-is-coming-to-african-schools",
+     "source": "African Business",
+     "published": "2026-10-16T15:50:28Z",
+     "image": "https://african.business/wp-content/uploads/2026/10/000_94FN4JE-scaled.jpg"
     }
    ]
   }
@@ -242,8 +242,8 @@
    "items": 7,
    "skipped": 3,
    "undated": 0,
-   "newest": "2026-10-17T13:00:00Z",
-   "oldest": "2026-10-16T21:59:00Z"
+   "newest": "2026-10-17T18:52:00Z",
+   "oldest": "2026-10-17T12:01:00Z"
   },
   {
    "source": "CNBC",
@@ -298,12 +298,8 @@
   {
    "source": "NBER",
    "feed": "https://www.nber.org/rss/new.xml",
-   "ok": true,
-   "items": 22,
-   "skipped": 0,
-   "undated": 22,
-   "newest": "2026-10-12T21:19:20Z",
-   "oldest": "2026-10-12T21:19:20Z"
+   "ok": false,
+   "error": "HTTP Error 504: Gateway Time-out"
   },
   {
    "source": "Liberty Street Economics",
@@ -322,18 +318,18 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-17T15:27:31Z",
-   "oldest": "2026-10-16T15:43:33Z"
+   "newest": "2026-10-17T18:39:17Z",
+   "oldest": "2026-10-16T21:38:45Z"
   },
   {
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 2,
-   "skipped": 3,
+   "items": 1,
+   "skipped": 4,
    "undated": 0,
-   "newest": "2026-10-17T14:43:02Z",
-   "oldest": "2026-10-17T14:33:19Z"
+   "newest": "2026-10-17T17:27:20Z",
+   "oldest": "2026-10-17T17:27:20Z"
   },
   {
    "source": "Premium Times",
@@ -342,8 +338,8 @@
    "items": 11,
    "skipped": 4,
    "undated": 0,
-   "newest": "2026-10-17T11:11:43Z",
-   "oldest": "2026-10-15T15:14:50Z"
+   "newest": "2026-10-17T13:56:17Z",
+   "oldest": "2026-10-15T19:00:58Z"
   },
   {
    "source": "African Business",
@@ -366,28 +362,5 @@
    "oldest": "2026-10-16T08:14:55Z"
   }
  ],
- "first_seen": {
-  "https://www.nber.org/papers/w35876#fromrss": "2026-10-12T21:19:20Z",
-  "https://www.nber.org/papers/w35877#fromrss": "2026-10-12T21:19:20Z",
-  "https://www.nber.org/papers/w35878#fromrss": "2026-10-12T21:19:20Z",
-  "https://www.nber.org/papers/w35879#fromrss": "2026-10-12T21:19:20Z",
-  "https://www.nber.org/papers/w35880#fromrss": "2026-10-12T21:19:20Z",
-  "https://www.nber.org/papers/w35881#fromrss": "2026-10-12T21:19:20Z",
-  "https://www.nber.org/papers/w35882#fromrss": "2026-10-12T21:19:20Z",
-  "https://www.nber.org/papers/w35883#fromrss": "2026-10-12T21:19:20Z",
-  "https://www.nber.org/papers/w35884#fromrss": "2026-10-12T21:19:20Z",
-  "https://www.nber.org/papers/w35885#fromrss": "2026-10-12T21:19:20Z",
-  "https://www.nber.org/papers/w35886#fromrss": "2026-10-12T21:19:20Z",
-  "https://www.nber.org/papers/w35887#fromrss": "2026-10-12T21:19:20Z",
-  "https://www.nber.org/papers/w35888#fromrss": "2026-10-12T21:19:20Z",
-  "https://www.nber.org/papers/w35889#fromrss": "2026-10-12T21:19:20Z",
-  "https://www.nber.org/papers/w35890#fromrss": "2026-10-12T21:19:20Z",
-  "https://www.nber.org/papers/w35891#fromrss": "2026-10-12T21:19:20Z",
-  "https://www.nber.org/papers/w35892#fromrss": "2026-10-12T21:19:20Z",
-  "https://www.nber.org/papers/w35893#fromrss": "2026-10-12T21:19:20Z",
-  "https://www.nber.org/papers/w35894#fromrss": "2026-10-12T21:19:20Z",
-  "https://www.nber.org/papers/w35895#fromrss": "2026-10-12T21:19:20Z",
-  "https://www.nber.org/papers/w35896#fromrss": "2026-10-12T21:19:20Z",
-  "https://www.nber.org/papers/w35897#fromrss": "2026-10-12T21:19:20Z"
- }
+ "first_seen": {}
 }
