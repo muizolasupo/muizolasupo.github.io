@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T23:43:10Z",
+ "updated": "2026-10-17T10:57:00Z",
  "categories": [
   {
    "id": "economy",
@@ -150,18 +150,25 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "Brent hits $110 as global oil fears threaten Nigeria’s petrol price relief",
-     "url": "https://nairametrics.com/2026/10/16/brent-hits-110-as-global-oil-fears-threaten-nigerias-petrol-price-relief/",
+     "title": "Renaissance Capital raises Dangote Refinery valuation to N700.41 per share",
+     "url": "https://nairametrics.com/2026/10/17/renaissance-capital-raises-dangote-refinery-valuation-to-n700-41-per-share/",
      "source": "Nairametrics",
-     "published": "2026-10-16T21:38:45Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/crude-oil.webp"
+     "published": "2026-10-17T09:39:13Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/Dangote-new.webp"
     },
     {
-     "title": "NLNG dividend delay hurting states – Makinde",
-     "url": "https://businessday.ng/news/article/nlng-dividend-delay-hurting-states-makinde/",
-     "source": "BusinessDay",
-     "published": "2026-10-16T20:36:16Z",
-     "image": "https://cdn.businessday.ng/2023/06/Seyi-Makinde-1.png"
+     "title": "From Uber to Moove: Why Nigeria’s ride hailing business is becoming harder to sustain",
+     "url": "https://nairametrics.com/2026/10/17/from-uber-to-moove-why-nigerias-ride-hailing-business-is-becoming-harder-to-sustain/",
+     "source": "Nairametrics",
+     "published": "2026-10-17T09:27:39Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/Uber-Exit.jpg"
+    },
+    {
+     "title": "No return to fuel subsidy, multiple exchange rates, Oyedele insists",
+     "url": "https://www.premiumtimesng.com/business/business-news/917728-breaking-no-return-to-fuel-subsidy-multiple-exchange-rates-oyedele-insists.html",
+     "source": "Premium Times",
+     "published": "2026-10-17T08:56:08Z",
+     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/10/1000506785-scaled.jpg?fit=2560%2C1920&ssl=1"
     },
     {
      "title": "World Bank’s $5.79 billion financing will boost ongoing business expansion efforts – Tinubu",
@@ -171,25 +178,18 @@
      "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/05/HIbArE9X0AEAIUq-e1778917333313.jpg?fit=1278%2C800&ssl=1"
     },
     {
-     "title": "South Africa targets free ATM transactions as reserve bank moves to unify 30,000 machines",
-     "url": "https://businessday.ng/technology/article/south-africa-targets-free-atm-transactions-as-reserve-bank-moves-to-unify-30000-machines/",
-     "source": "BusinessDay",
-     "published": "2026-10-16T19:33:08Z",
-     "image": "https://cdn.businessday.ng/2019/04/ATM-machine-1.jpg"
+     "title": "Artificial intelligence is coming to African schools",
+     "url": "https://african.business/2026/10/technology-information/artificial-intelligence-is-coming-to-african-schools",
+     "source": "African Business",
+     "published": "2026-10-16T15:50:28Z",
+     "image": "https://african.business/wp-content/uploads/2026/10/000_94FN4JE-scaled.jpg"
     },
     {
-     "title": "N156 Billion Debt Recovery Suit: Stallion Group appeals ruling upholding UBA’s appointment of receiver/manager",
-     "url": "https://www.premiumtimesng.com/business/business-news/917665-n156-billion-debt-recovery-suit-stallion-group-appeals-ruling-upholding-ubas-appointment-of-receiver-manager.html",
-     "source": "Premium Times",
-     "published": "2026-10-16T19:04:53Z",
-     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/10/298698113_490504726411402_8418855201961417050_n-e1792160639931.png?fit=751%2C469&ssl=1"
-    },
-    {
-     "title": "Nigerian stocks close week in red as NGX dips by N108.7 billion",
-     "url": "https://nairametrics.com/2026/10/16/nigerian-stocks-close-week-in-red-as-ngx-dips-by-n108-7-billion/",
-     "source": "Nairametrics",
-     "published": "2026-10-16T18:59:11Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/stock-drop-image.webp"
+     "title": "Ethiopia, Guinea, Benin: IMF report on African countries posting strongest economic growth",
+     "url": "https://www.theafricareport.com/433761/ethiopia-guinea-benin-imf-report-on-african-countries-posting-strongest-economic-growth/",
+     "source": "The Africa Report",
+     "published": "2026-10-16T14:00:00Z",
+     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=1215,height=810,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/10/16/jad20261015-eco-afrique-resiste-guinee-simandou.jpg"
     }
    ]
   }
@@ -322,18 +322,18 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-16T21:38:45Z",
-   "oldest": "2026-10-16T08:14:58Z"
+   "newest": "2026-10-17T09:39:13Z",
+   "oldest": "2026-10-16T14:05:00Z"
   },
   {
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 2,
-   "skipped": 3,
+   "items": 0,
+   "skipped": 5,
    "undated": 0,
-   "newest": "2026-10-16T20:36:16Z",
-   "oldest": "2026-10-16T19:33:08Z"
+   "newest": null,
+   "oldest": null
   },
   {
    "source": "Premium Times",
@@ -342,8 +342,8 @@
    "items": 11,
    "skipped": 4,
    "undated": 0,
-   "newest": "2026-10-16T20:01:18Z",
-   "oldest": "2026-10-15T06:45:33Z"
+   "newest": "2026-10-17T08:56:08Z",
+   "oldest": "2026-10-15T14:02:00Z"
   },
   {
    "source": "African Business",
