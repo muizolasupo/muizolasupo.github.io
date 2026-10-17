@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T10:57:00Z",
+ "updated": "2026-10-17T15:43:22Z",
  "categories": [
   {
    "id": "economy",
@@ -54,46 +54,46 @@
    "label": "Markets",
    "items": [
     {
-     "title": "Nowhere to hide: Tech selloff hits software and chip stocks alike",
-     "url": "https://www.marketwatch.com/story/nowhere-to-hide-tech-selloff-hits-software-and-chip-stocks-alike-6d96773c?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-16T21:59:00Z",
-     "image": "https://images.mktw.net/im-02898598"
-    },
-    {
-     "title": "This Senate race where data centers are a crucial issue has more spending than any other midterm clash",
-     "url": "https://www.marketwatch.com/story/this-senate-race-where-data-centers-are-a-crucial-issue-has-more-spending-than-any-other-midterm-clash-5152b43d?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-16T21:43:00Z",
-     "image": "https://images.mktw.net/im-26159114"
-    },
-    {
-     "title": "Could an Anthropic IPO put your 401(k) at risk? The AI safety debate hits a new dimension.",
-     "url": "https://www.marketwatch.com/story/could-an-anthropic-ipo-put-your-401-k-at-risk-the-ai-safety-debate-hits-a-new-dimension-db3f09f7?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-16T21:35:00Z",
-     "image": "https://images.mktw.net/im-73170524"
-    },
-    {
-     "title": "The bond market shrugged off two inflation shocks. Why stock investors should pay attention.",
-     "url": "https://www.marketwatch.com/story/the-bond-market-shrugged-off-two-inflation-shocks-why-stock-investors-should-pay-attention-5da4f771?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-16T21:30:00Z",
-     "image": "https://images.mktw.net/im-54657824"
-    },
-    {
-     "title": "The Austin Powers steamroller: How to trade CoreWeave's slow moving crisis",
-     "url": "https://www.cnbc.com/2026/10/16/playing-the-coreweave-disconnect.html",
+     "title": "Software’s new consolidator gets big vote of confidence from Berkshire",
+     "url": "https://www.cnbc.com/2026/10/17/bending-spoons-wants-to-revive-software-castoffs-berkshire-investing.html",
      "source": "CNBC",
-     "published": "2026-10-16T18:24:35Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108172055-1752584137600-gettyimages-2213626396-COREWEAVE_DEBT_DEAL.jpeg?v=1792155266&w=1920&h=1080"
+     "published": "2026-10-17T15:11:30Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108329344-1782916454983-gettyimages-2283599947-BENDING_SPOONS_IPO.jpeg?v=1782916474&w=1920&h=1080"
     },
     {
-     "title": "U.S. presses China on Mastercard, Citigroup market access in bilateral Bangkok talks, official says",
-     "url": "https://www.cnbc.com/2026/10/16/us-china-mastercard-citigroup-market-access.html",
+     "title": "'Dead money’ for a decade: Why this hedge fund approach may deliver an advantage over bonds",
+     "url": "https://www.cnbc.com/2026/10/17/dead-money-for-a-decade-hedge-fund-approach-that-may-trump-bonds.html",
      "source": "CNBC",
-     "published": "2026-10-16T16:46:18Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108418808-1792143417316-gettyimages-2299307716-CITI_EARNS.jpeg?v=1792165332&w=1920&h=1080"
+     "published": "2026-10-17T15:00:01Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108199776-1758101378069-gettyimages-2227303022-US_STOCKS_TARIFFS.jpeg?v=1759236869&w=1920&h=1080"
+    },
+    {
+     "title": "Meet the home buyers totally unfazed by 7% mortgage rates",
+     "url": "https://www.marketwatch.com/story/meet-the-home-buyers-totally-unfazed-by-7-mortgage-rates-7a9b1cc7?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-17T13:00:00Z",
+     "image": "https://images.mktw.net/im-54886096"
+    },
+    {
+     "title": "Influencers and biohackers swear by fasting. Here’s what the science says.",
+     "url": "https://www.marketwatch.com/story/influencers-and-biohackers-swear-by-fasting-heres-what-the-science-says-3318191f?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-17T12:31:00Z",
+     "image": "https://images.mktw.net/im-67445388"
+    },
+    {
+     "title": "Silver’s recent 50% drop from a record high hints that an economic slowdown looms",
+     "url": "https://www.marketwatch.com/story/silvers-recent-50-drop-from-a-record-high-hints-that-an-economic-slowdown-looms-e9fdfaf1?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-17T12:30:00Z",
+     "image": "https://images.mktw.net/im-90939892"
+    },
+    {
+     "title": "Microsoft, Shopify and 3 more AI stocks that are favorite Wall Street earnings plays",
+     "url": "https://www.marketwatch.com/story/microsoft-shopify-and-3-more-ai-stocks-that-are-favorite-wall-street-earnings-plays-0bb61e81?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-17T12:01:00Z",
+     "image": "https://images.mktw.net/im-98559224"
     }
    ]
   },
@@ -150,18 +150,39 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "Renaissance Capital raises Dangote Refinery valuation to N700.41 per share",
-     "url": "https://nairametrics.com/2026/10/17/renaissance-capital-raises-dangote-refinery-valuation-to-n700-41-per-share/",
+     "title": "NMDPRA licence: Lagos Commodities and Futures Exchange targets transparent petroleum pricing",
+     "url": "https://nairametrics.com/2026/10/17/nmdpra-licence-lagos-commodities-and-futures-exchange-targets-transparent-petroleum-pricing/",
      "source": "Nairametrics",
-     "published": "2026-10-17T09:39:13Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/Dangote-new.webp"
+     "published": "2026-10-17T15:27:31Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2023/08/petrol-pump.png"
     },
     {
-     "title": "From Uber to Moove: Why Nigeria’s ride hailing business is becoming harder to sustain",
-     "url": "https://nairametrics.com/2026/10/17/from-uber-to-moove-why-nigerias-ride-hailing-business-is-becoming-harder-to-sustain/",
+     "title": "Angola’s fuel subsidies spending projected to hit $4 billion in 2026, official says",
+     "url": "https://businessday.ng/africa/article/angolas-fuel-subsidies-spending-projected-to-hit-4-billion-in-2026-official-says/",
+     "source": "BusinessDay",
+     "published": "2026-10-17T14:43:02Z",
+     "image": "https://cdn.businessday.ng/2022/01/fuel-subsidy.png"
+    },
+    {
+     "title": "NIMENA seeks national innovation hub as maritime, energy score hits 43.75%",
+     "url": "https://businessday.ng/maritime/article/nimena-seeks-national-innovation-hub-as-maritime-energy-score-hits-43-75/",
+     "source": "BusinessDay",
+     "published": "2026-10-17T14:33:19Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/NIMENA-large.jpg"
+    },
+    {
+     "title": "Nollywood: Meet 7 producers making box office history in 2026",
+     "url": "https://nairametrics.com/2026/10/17/nollywood-meet-7-producers-making-box-office-history-in-2026/",
      "source": "Nairametrics",
-     "published": "2026-10-17T09:27:39Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/Uber-Exit.jpg"
+     "published": "2026-10-17T12:16:42Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/Media.jpg"
+    },
+    {
+     "title": "INTERVIEW: How Johnvents is turning Nigeria’s cocoa challenges into a global agribusiness",
+     "url": "https://www.premiumtimesng.com/business/business-news/917750-interview-how-johnvents-is-turning-nigerias-cocoa-challenges-into-a-global-agribusiness.html",
+     "source": "Premium Times",
+     "published": "2026-10-17T11:11:43Z",
+     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/10/WhatsApp-Image-2026-10-17-at-11.48.09-e1792234206481.jpeg?fit=1179%2C720&ssl=1"
     },
     {
      "title": "No return to fuel subsidy, multiple exchange rates, Oyedele insists",
@@ -169,27 +190,6 @@
      "source": "Premium Times",
      "published": "2026-10-17T08:56:08Z",
      "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/10/1000506785-scaled.jpg?fit=2560%2C1920&ssl=1"
-    },
-    {
-     "title": "World Bank’s $5.79 billion financing will boost ongoing business expansion efforts – Tinubu",
-     "url": "https://www.premiumtimesng.com/business/business-news/917682-world-banks-5-79-billion-financing-will-boost-ongoing-business-expansion-efforts-tinubu.html",
-     "source": "Premium Times",
-     "published": "2026-10-16T20:01:18Z",
-     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/05/HIbArE9X0AEAIUq-e1778917333313.jpg?fit=1278%2C800&ssl=1"
-    },
-    {
-     "title": "Artificial intelligence is coming to African schools",
-     "url": "https://african.business/2026/10/technology-information/artificial-intelligence-is-coming-to-african-schools",
-     "source": "African Business",
-     "published": "2026-10-16T15:50:28Z",
-     "image": "https://african.business/wp-content/uploads/2026/10/000_94FN4JE-scaled.jpg"
-    },
-    {
-     "title": "Ethiopia, Guinea, Benin: IMF report on African countries posting strongest economic growth",
-     "url": "https://www.theafricareport.com/433761/ethiopia-guinea-benin-imf-report-on-african-countries-posting-strongest-economic-growth/",
-     "source": "The Africa Report",
-     "published": "2026-10-16T14:00:00Z",
-     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=1215,height=810,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/10/16/jad20261015-eco-afrique-resiste-guinee-simandou.jpg"
     }
    ]
   }
@@ -239,11 +239,11 @@
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 9,
-   "skipped": 1,
+   "items": 7,
+   "skipped": 3,
    "undated": 0,
-   "newest": "2026-10-16T21:59:00Z",
-   "oldest": "2026-10-16T19:45:00Z"
+   "newest": "2026-10-17T13:00:00Z",
+   "oldest": "2026-10-16T21:59:00Z"
   },
   {
    "source": "CNBC",
@@ -252,8 +252,8 @@
    "items": 29,
    "skipped": 1,
    "undated": 0,
-   "newest": "2026-10-16T16:46:18Z",
-   "oldest": "2026-10-04T12:57:45Z"
+   "newest": "2026-10-17T15:11:30Z",
+   "oldest": "2026-10-05T21:24:25Z"
   },
   {
    "source": "CNBC",
@@ -322,18 +322,18 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-17T09:39:13Z",
-   "oldest": "2026-10-16T14:05:00Z"
+   "newest": "2026-10-17T15:27:31Z",
+   "oldest": "2026-10-16T15:43:33Z"
   },
   {
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 0,
-   "skipped": 5,
+   "items": 2,
+   "skipped": 3,
    "undated": 0,
-   "newest": null,
-   "oldest": null
+   "newest": "2026-10-17T14:43:02Z",
+   "oldest": "2026-10-17T14:33:19Z"
   },
   {
    "source": "Premium Times",
@@ -342,8 +342,8 @@
    "items": 11,
    "skipped": 4,
    "undated": 0,
-   "newest": "2026-10-17T08:56:08Z",
-   "oldest": "2026-10-15T14:02:00Z"
+   "newest": "2026-10-17T11:11:43Z",
+   "oldest": "2026-10-15T15:14:50Z"
   },
   {
    "source": "African Business",
