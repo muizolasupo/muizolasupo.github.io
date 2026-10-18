@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T15:44:48Z",
+ "updated": "2026-10-18T04:46:55Z",
  "panels": [
   {
    "id": "us",
@@ -540,7 +540,7 @@
        "status": null,
        "source_name": "FRED",
        "source_url": "https://fred.stlouisfed.org/series/DGS2",
-       "move_z": -1.3
+       "move_z": -1.29
       },
       {
        "id": "DGS10",
@@ -761,7 +761,7 @@
        "status": null,
        "source_name": "FRED",
        "source_url": "https://fred.stlouisfed.org/series/DGS10",
-       "move_z": -2.59
+       "move_z": -2.58
       },
       {
        "id": "T10Y2Y",
@@ -982,7 +982,7 @@
        "status": "Positively sloped",
        "source_name": "FRED",
        "source_url": "https://fred.stlouisfed.org/series/T10Y2Y",
-       "move_z": 0.88
+       "move_z": 0.87
       }
      ]
     },
@@ -1522,7 +1522,7 @@
        "status": null,
        "source_name": "FRED",
        "source_url": "https://fred.stlouisfed.org/series/T10YIE",
-       "move_z": 1.9
+       "move_z": 1.89
       },
       {
        "id": "DCOILWTICO",
@@ -2832,10 +2832,6 @@
        "window": "Past year",
        "trend": [
         [
-         "2025-10-17",
-         61.23
-        ],
-        [
          "2025-10-24",
          65.8
         ],
@@ -3276,10 +3272,6 @@
        "window": "Past year",
        "trend": [
         [
-         "2025-10-17",
-         1.1674
-        ],
-        [
          "2025-10-24",
          1.1626
         ],
@@ -3496,10 +3488,6 @@
        "prev_value": 6.7021,
        "window": "Past year",
        "trend": [
-        [
-         "2025-10-17",
-         7.1264
-        ],
         [
          "2025-10-24",
          7.1211
