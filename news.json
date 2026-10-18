@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T23:12:48Z",
+ "updated": "2026-10-18T11:22:43Z",
  "categories": [
   {
    "id": "economy",
@@ -150,32 +150,18 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "UNDC seeks PINL contract extension on reported oil production gains",
-     "url": "https://businessday.ng/energy/oilandgas/article/undc-seeks-pinl-contract-extension-on-reported-oil-production-gains/",
-     "source": "BusinessDay",
-     "published": "2026-10-17T21:35:42Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/IMG-20261017-WA0013-large.jpg"
-    },
-    {
-     "title": "CBN moves to ease Nigeria-China payments as Cardoso takes talks to Beijing",
-     "url": "https://nairametrics.com/2026/10/17/cbn-moves-to-ease-nigeria-china-payments-as-cardoso-takes-talks-to-beijing/",
+     "title": "Nigeria’s inflation mirage: Food prices fall, but core pressures mount",
+     "url": "https://nairametrics.com/2026/10/18/nigerias-inflation-mirage-food-prices-fall-but-core-pressures-mount/",
      "source": "Nairametrics",
-     "published": "2026-10-17T18:39:17Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/Cardoso.jpg"
+     "published": "2026-10-18T09:47:00Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/Food-inflation-2-1.webp"
     },
     {
-     "title": "EU to provide €20 million in defence support to Nigerian Armed Forces",
-     "url": "https://nairametrics.com/2026/10/17/eu-to-provide-e20-million-in-defence-support-to-nigerian-armed-forces/",
+     "title": "Veritas Kapital Assurance swings to N3.16 billion pre-tax profit in 2025, as profit after tax rises 86%",
+     "url": "https://nairametrics.com/2026/10/18/veritas-kapital-assurance-swings-to-n3-16-billion-pre-tax-profit-in-2025-as-profit-after-tax-rises-86/",
      "source": "Nairametrics",
-     "published": "2026-10-17T18:22:19Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/EU-scaled.jpg"
-    },
-    {
-     "title": "Obi-Kwankwaso movement salutes music warriors fueling new Nigeria",
-     "url": "https://businessday.ng/politics/article/obi-kwankwaso-movement-salutes-music-warriors-fueling-new-nigeria/",
-     "source": "BusinessDay",
-     "published": "2026-10-17T17:27:20Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/06/1-1-large.jpg"
+     "published": "2026-10-18T08:29:05Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/Media-21.webp"
     },
     {
      "title": "Subsidy Return: International investors, markets have written off Nigerian opposition politicians as unserious, says Oyedele",
@@ -190,6 +176,20 @@
      "source": "Premium Times",
      "published": "2026-10-17T11:11:43Z",
      "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/10/WhatsApp-Image-2026-10-17-at-11.48.09-e1792234206481.jpeg?fit=1179%2C720&ssl=1"
+    },
+    {
+     "title": "Artificial intelligence is coming to African schools",
+     "url": "https://african.business/2026/10/technology-information/artificial-intelligence-is-coming-to-african-schools",
+     "source": "African Business",
+     "published": "2026-10-16T15:50:28Z",
+     "image": "https://african.business/wp-content/uploads/2026/10/000_94FN4JE-scaled.jpg"
+    },
+    {
+     "title": "Ethiopia, Guinea, Benin: IMF report on African countries posting strongest economic growth",
+     "url": "https://www.theafricareport.com/433761/ethiopia-guinea-benin-imf-report-on-african-countries-posting-strongest-economic-growth/",
+     "source": "The Africa Report",
+     "published": "2026-10-16T14:00:00Z",
+     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=1215,height=810,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/10/16/jad20261015-eco-afrique-resiste-guinee-simandou.jpg"
     }
    ]
   }
@@ -319,21 +319,21 @@
    "source": "Nairametrics",
    "feed": "https://nairametrics.com/feed/",
    "ok": true,
-   "items": 20,
-   "skipped": 0,
+   "items": 19,
+   "skipped": 1,
    "undated": 0,
-   "newest": "2026-10-17T18:39:17Z",
-   "oldest": "2026-10-16T21:38:45Z"
+   "newest": "2026-10-18T09:47:00Z",
+   "oldest": "2026-10-17T09:27:39Z"
   },
   {
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 2,
-   "skipped": 3,
+   "items": 0,
+   "skipped": 5,
    "undated": 0,
-   "newest": "2026-10-17T21:35:42Z",
-   "oldest": "2026-10-17T17:27:20Z"
+   "newest": null,
+   "oldest": null
   },
   {
    "source": "Premium Times",
