@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T11:22:43Z",
+ "updated": "2026-10-18T15:58:46Z",
  "categories": [
   {
    "id": "economy",
@@ -54,6 +54,34 @@
    "label": "Markets",
    "items": [
     {
+     "title": "These surprising stocks could be some of the biggest drivers of S&P 500 earnings growth",
+     "url": "https://www.marketwatch.com/story/these-surprising-stocks-could-be-some-of-the-biggest-drivers-of-s-p-500-earnings-growth-ea073a07?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-18T14:00:00Z",
+     "image": "https://images.mktw.net/im-41689629"
+    },
+    {
+     "title": "Stocks are heading for a high-stakes showdown, as strong earnings collide with rising borrowing costs",
+     "url": "https://www.marketwatch.com/story/stocks-are-heading-for-a-high-stakes-showdown-as-strong-earnings-collide-with-rising-borrowing-costs-6f8ea5b8?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-18T13:00:00Z",
+     "image": "https://images.mktw.net/im-83252222"
+    },
+    {
+     "title": "Top Wall Street analysts are bullish on the growth potential of these 3 stocks",
+     "url": "https://www.cnbc.com/2026/10/18/top-analysts-are-bullish-on-the-growth-potential-of-these-3-stocks.html",
+     "source": "CNBC",
+     "published": "2026-10-18T12:34:51Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/107389628-17108719542022-11-09t164207z_798327205_rc2eix9j5b73_rtrmadp_0_meta-layoffs.jpeg?v=1737658509&w=1920&h=1080"
+    },
+    {
+     "title": "There is a silent market rotation inside the S&P 500 that’s warning of more weakness ahead",
+     "url": "https://www.marketwatch.com/story/there-is-a-silent-market-rotation-inside-the-s-p-500-thats-warning-of-more-weakness-ahead-549e7650?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-18T12:00:00Z",
+     "image": "https://images.mktw.net/im-17675434"
+    },
+    {
      "title": "Fake shopping sprees and ‘happiness insurance’: The latest fintech apps reveal our financial anxieties",
      "url": "https://www.marketwatch.com/story/fake-shopping-sprees-and-happiness-insurance-the-latest-fintech-apps-reveal-our-financial-anxieties-77770a46?mod=mw_rss_topstories",
      "source": "MarketWatch",
@@ -61,39 +89,11 @@
      "image": "https://images.mktw.net/im-60506026"
     },
     {
-     "title": "Investing, not homeownership, is the No. 1 milestone that makes Gen Z renters feel successful",
-     "url": "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-17T18:40:00Z",
-     "image": "https://images.mktw.net/im-31295352"
-    },
-    {
-     "title": "Is Apple’s foldable iPhone Duo worth $2,000? See how it stacks up against other foldable phones.",
-     "url": "https://www.marketwatch.com/story/is-apples-foldable-iphone-duo-worth-2-000-see-how-it-stacks-up-against-other-foldable-phones-c9066b13?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-17T18:40:00Z",
-     "image": "https://images.mktw.net/im-16785668"
-    },
-    {
      "title": "Software’s new consolidator gets big vote of confidence from Berkshire",
      "url": "https://www.cnbc.com/2026/10/17/bending-spoons-wants-to-revive-software-castoffs-berkshire-investing.html",
      "source": "CNBC",
      "published": "2026-10-17T15:11:30Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108329344-1782916454983-gettyimages-2283599947-BENDING_SPOONS_IPO.jpeg?v=1782916474&w=1920&h=1080"
-    },
-    {
-     "title": "'Dead money’ for a decade: Why this hedge fund approach may deliver an advantage over bonds",
-     "url": "https://www.cnbc.com/2026/10/17/dead-money-for-a-decade-hedge-fund-approach-that-may-trump-bonds.html",
-     "source": "CNBC",
-     "published": "2026-10-17T15:00:01Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108199776-1758101378069-gettyimages-2227303022-US_STOCKS_TARIFFS.jpeg?v=1759236869&w=1920&h=1080"
-    },
-    {
-     "title": "Meet the home buyers totally unfazed by 7% mortgage rates",
-     "url": "https://www.marketwatch.com/story/meet-the-home-buyers-totally-unfazed-by-7-mortgage-rates-7a9b1cc7?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-17T13:00:00Z",
-     "image": "https://images.mktw.net/im-54886096"
     }
    ]
   },
@@ -150,18 +150,32 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "Nigeria’s inflation mirage: Food prices fall, but core pressures mount",
-     "url": "https://nairametrics.com/2026/10/18/nigerias-inflation-mirage-food-prices-fall-but-core-pressures-mount/",
-     "source": "Nairametrics",
-     "published": "2026-10-18T09:47:00Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/Food-inflation-2-1.webp"
+     "title": "Zenith General Insurance moves to ease back-to-school costs for Lagos families",
+     "url": "https://businessday.ng/life/article/zenith-general-insurance-moves-to-ease-back-to-school-costs-for-lagos-families/",
+     "source": "BusinessDay",
+     "published": "2026-10-18T15:07:43Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/IMG_7103-large.jpeg"
     },
     {
-     "title": "Veritas Kapital Assurance swings to N3.16 billion pre-tax profit in 2025, as profit after tax rises 86%",
-     "url": "https://nairametrics.com/2026/10/18/veritas-kapital-assurance-swings-to-n3-16-billion-pre-tax-profit-in-2025-as-profit-after-tax-rises-86/",
+     "title": "Insurers’ customer service key to deepening market penetration, building trust – emPIE",
+     "url": "https://businessday.ng/life/article/insurers-customer-service-key-to-deepening-market-penetration-building-trust-empie/",
+     "source": "BusinessDay",
+     "published": "2026-10-18T15:00:23Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/IMG_7102-large.jpeg"
+    },
+    {
+     "title": "NDLEA intercepts N7.1 billion drugs in Lagos, arrests 85-year-old woman in Edo",
+     "url": "https://nairametrics.com/2026/10/18/ndlea-intercepts-n7-1-billion-drugs-in-lagos-arrests-85-year-old-woman-in-edo/",
      "source": "Nairametrics",
-     "published": "2026-10-18T08:29:05Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/Media-21.webp"
+     "published": "2026-10-18T14:12:26Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/08/drugs.webp"
+    },
+    {
+     "title": "Meet 7 owners of largest private hospitals in Lagos",
+     "url": "https://nairametrics.com/2026/10/18/meet-7-owners-of-largest-private-hospitals-in-lagos/",
+     "source": "Nairametrics",
+     "published": "2026-10-18T13:45:15Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/owners-of-largest-private-hospitals-in-Lagos-Feature-image.webp"
     },
     {
      "title": "Subsidy Return: International investors, markets have written off Nigerian opposition politicians as unserious, says Oyedele",
@@ -176,20 +190,6 @@
      "source": "Premium Times",
      "published": "2026-10-17T11:11:43Z",
      "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/10/WhatsApp-Image-2026-10-17-at-11.48.09-e1792234206481.jpeg?fit=1179%2C720&ssl=1"
-    },
-    {
-     "title": "Artificial intelligence is coming to African schools",
-     "url": "https://african.business/2026/10/technology-information/artificial-intelligence-is-coming-to-african-schools",
-     "source": "African Business",
-     "published": "2026-10-16T15:50:28Z",
-     "image": "https://african.business/wp-content/uploads/2026/10/000_94FN4JE-scaled.jpg"
-    },
-    {
-     "title": "Ethiopia, Guinea, Benin: IMF report on African countries posting strongest economic growth",
-     "url": "https://www.theafricareport.com/433761/ethiopia-guinea-benin-imf-report-on-african-countries-posting-strongest-economic-growth/",
-     "source": "The Africa Report",
-     "published": "2026-10-16T14:00:00Z",
-     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=1215,height=810,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/10/16/jad20261015-eco-afrique-resiste-guinee-simandou.jpg"
     }
    ]
   }
@@ -239,11 +239,11 @@
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 7,
-   "skipped": 3,
+   "items": 6,
+   "skipped": 4,
    "undated": 0,
-   "newest": "2026-10-17T18:52:00Z",
-   "oldest": "2026-10-17T12:01:00Z"
+   "newest": "2026-10-18T14:00:00Z",
+   "oldest": "2026-10-17T18:40:00Z"
   },
   {
    "source": "CNBC",
@@ -262,8 +262,8 @@
    "items": 30,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-16T18:24:35Z",
-   "oldest": "2026-09-18T11:20:56Z"
+   "newest": "2026-10-18T12:34:51Z",
+   "oldest": "2026-09-18T18:28:31Z"
   },
   {
    "source": "Federal Reserve",
@@ -322,18 +322,18 @@
    "items": 19,
    "skipped": 1,
    "undated": 0,
-   "newest": "2026-10-18T09:47:00Z",
-   "oldest": "2026-10-17T09:27:39Z"
+   "newest": "2026-10-18T14:12:26Z",
+   "oldest": "2026-10-17T11:26:02Z"
   },
   {
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 0,
-   "skipped": 5,
+   "items": 2,
+   "skipped": 3,
    "undated": 0,
-   "newest": null,
-   "oldest": null
+   "newest": "2026-10-18T15:07:43Z",
+   "oldest": "2026-10-18T15:00:23Z"
   },
   {
    "source": "Premium Times",
