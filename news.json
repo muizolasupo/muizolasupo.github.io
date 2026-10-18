@@ -1,23 +1,23 @@
 {
- "updated": "2026-10-18T20:53:57Z",
+ "updated": "2026-10-18T23:22:08Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
     {
+     "title": "India’s Finance Minister blames easy exits and excess liquidity for equity market's underperformance",
+     "url": "https://www.cnbc.com/2026/10/18/india-ai-nifty50-sensex-investors.html",
+     "source": "CNBC",
+     "published": "2026-10-18T23:00:01Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108419553-1792155192930-gettyimages-2299704856-THAILAND_IMF_WORLD_BANK.jpeg?v=1792155212&w=1920&h=1080"
+    },
+    {
      "title": "U.S. budget deficit swells to almost $2 trillion for fiscal 2026, up 12% in a single year",
      "url": "https://www.cnbc.com/2026/10/16/us-budget-deficit-2026.html",
      "source": "CNBC",
      "published": "2026-10-16T22:34:29Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108351875-1787178100146-gettyimages-2290607138-AFP_C62Z247.jpeg?v=1787178332&w=1920&h=1080"
-    },
-    {
-     "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
-     "url": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
-     "source": "CNBC",
-     "published": "2026-10-16T22:33:05Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108364024-17895883942026-09-16t194825z_342271609_rc2iknaojij8_rtrmadp_0_usa-fed.jpeg?v=1789588428&w=1920&h=1080"
     },
     {
      "title": "Norway faces public dilemma over divesting from companies involved with war in Gaza",
@@ -150,25 +150,18 @@
    "label": "Nigeria & Africa",
    "items": [
     {
+     "title": "Presidency dismisses Makinde over N250bn NLNG dividend claims",
+     "url": "https://businessday.ng/news/article/presidency-dismisses-makinde-over-n250bn-nlng-dividend-claims-2/",
+     "source": "BusinessDay",
+     "published": "2026-10-18T20:27:14Z",
+     "image": "https://cdn.businessday.ng/2022/09/Seyi-Makinde-2-1.png"
+    },
+    {
      "title": "Presidency dismisses Makinde’s claim of N250 billion NLNG dividends per state",
      "url": "https://nairametrics.com/2026/10/18/presidency-dismisses-makindes-claim-of-n250-billion-nlng-dividends-per-state/",
      "source": "Nairametrics",
      "published": "2026-10-18T20:15:42Z",
      "image": "https://cdn.nairametrics.com/wp-content/uploads/2023/09/Tinubu-new.jpg"
-    },
-    {
-     "title": "Presidency dismisses Makinde over N250bn NLNG dividend claims",
-     "url": "https://businessday.ng/politics/article/presidency-dismisses-makinde-over-n250bn-nlng-dividend-claims/",
-     "source": "BusinessDay",
-     "published": "2026-10-18T19:37:17Z",
-     "image": "https://cdn.businessday.ng/2023/03/Seyi-Makinde.jpg"
-    },
-    {
-     "title": "Energy security a partway to digital inclusion – Okwuosa",
-     "url": "https://businessday.ng/life/article/energy-security-a-partway-to-digital-inclusion-okwuosa/",
-     "source": "BusinessDay",
-     "published": "2026-10-18T19:35:17Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/IMG_7118-large.jpeg"
     },
     {
      "title": "Kenya confirms four new Ebola cases, bringing total to seven",
@@ -190,6 +183,13 @@
      "source": "Premium Times",
      "published": "2026-10-18T16:02:45Z",
      "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2025/04/575.jpg?fit=639%2C370&ssl=1"
+    },
+    {
+     "title": "Artificial intelligence is coming to African schools",
+     "url": "https://african.business/2026/10/technology-information/artificial-intelligence-is-coming-to-african-schools",
+     "source": "African Business",
+     "published": "2026-10-16T15:50:28Z",
+     "image": "https://african.business/wp-content/uploads/2026/10/000_94FN4JE-scaled.jpg"
     }
    ]
   }
@@ -232,8 +232,8 @@
    "items": 30,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-16T22:34:29Z",
-   "oldest": "2026-10-02T13:45:58Z"
+   "newest": "2026-10-18T23:00:01Z",
+   "oldest": "2026-10-02T17:38:59Z"
   },
   {
    "source": "MarketWatch",
@@ -329,11 +329,11 @@
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 2,
-   "skipped": 3,
+   "items": 1,
+   "skipped": 4,
    "undated": 0,
-   "newest": "2026-10-18T19:37:17Z",
-   "oldest": "2026-10-18T19:35:17Z"
+   "newest": "2026-10-18T20:27:14Z",
+   "oldest": "2026-10-18T20:27:14Z"
   },
   {
    "source": "Premium Times",
