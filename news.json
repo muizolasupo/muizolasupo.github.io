@@ -1,15 +1,15 @@
 {
- "updated": "2026-10-18T23:22:08Z",
+ "updated": "2026-10-19T04:54:05Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
     {
-     "title": "India’s Finance Minister blames easy exits and excess liquidity for equity market's underperformance",
+     "title": "India’s Finance Minister says easy exits and excess liquidity fuel equity market's underperformance",
      "url": "https://www.cnbc.com/2026/10/18/india-ai-nifty50-sensex-investors.html",
      "source": "CNBC",
-     "published": "2026-10-18T23:00:01Z",
+     "published": "2026-10-19T04:46:26Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108419553-1792155192930-gettyimages-2299704856-THAILAND_IMF_WORLD_BANK.jpeg?v=1792155212&w=1920&h=1080"
     },
     {
@@ -102,17 +102,17 @@
    "label": "Policy & research",
    "items": [
     {
-     "title": "Survival versus Scale: The Effects of Critical Access Hospital Designation",
-     "url": "https://www.nber.org/papers/w35876#fromrss",
+     "title": "Export Controls and the Economics of National Security",
+     "url": "https://www.nber.org/papers/w35898#fromrss",
      "source": "NBER",
-     "published": "2026-10-17T23:12:48Z",
+     "published": "2026-10-19T04:54:05Z",
      "image": "https://www.nber.org/sites/default/files/2022-06/NBER-FB-Share-Tile-1200.jpg"
     },
     {
-     "title": "Indirect Variational Inference: Applications to Earnings Dynamics",
-     "url": "https://www.nber.org/papers/w35877#fromrss",
+     "title": "The Net Present Value of the California Billionaire Tax Act",
+     "url": "https://www.nber.org/papers/w35899#fromrss",
      "source": "NBER",
-     "published": "2026-10-17T23:12:48Z",
+     "published": "2026-10-19T04:54:05Z",
      "image": "https://www.nber.org/sites/default/files/2022-06/NBER-FB-Share-Tile-1200.jpg"
     },
     {
@@ -150,11 +150,18 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "Presidency dismisses Makinde over N250bn NLNG dividend claims",
-     "url": "https://businessday.ng/news/article/presidency-dismisses-makinde-over-n250bn-nlng-dividend-claims-2/",
+     "title": "FG launches 16MW solar mini-grid project to boost electricity access in Gombe",
+     "url": "https://businessday.ng/energy/power/article/fg-launches-16mw-solar-mini-grid-project-to-boost-electricity-access-in-gombe/",
      "source": "BusinessDay",
-     "published": "2026-10-18T20:27:14Z",
-     "image": "https://cdn.businessday.ng/2022/09/Seyi-Makinde-2-1.png"
+     "published": "2026-10-19T04:06:28Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/IMG-20261018-WA0009-1-large.jpg"
+    },
+    {
+     "title": "Nigeria disputes World Bank debt figures as quarterly budget reports go missing",
+     "url": "https://businessday.ng/business-economy/article/nigeria-disputes-world-bank-debt-figures-as-quarterly-budget-reports-go-missing/",
+     "source": "BusinessDay",
+     "published": "2026-10-19T03:00:32Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2025/03/Debt-spending-and-revenue-Nigerians-react-to-₦54.99-tn-budget-for-2025.png"
     },
     {
      "title": "Presidency dismisses Makinde’s claim of N250 billion NLNG dividends per state",
@@ -183,13 +190,6 @@
      "source": "Premium Times",
      "published": "2026-10-18T16:02:45Z",
      "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2025/04/575.jpg?fit=639%2C370&ssl=1"
-    },
-    {
-     "title": "Artificial intelligence is coming to African schools",
-     "url": "https://african.business/2026/10/technology-information/artificial-intelligence-is-coming-to-african-schools",
-     "source": "African Business",
-     "published": "2026-10-16T15:50:28Z",
-     "image": "https://african.business/wp-content/uploads/2026/10/000_94FN4JE-scaled.jpg"
     }
    ]
   }
@@ -232,7 +232,7 @@
    "items": 30,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-18T23:00:01Z",
+   "newest": "2026-10-19T04:46:26Z",
    "oldest": "2026-10-02T17:38:59Z"
   },
   {
@@ -299,11 +299,11 @@
    "source": "NBER",
    "feed": "https://www.nber.org/rss/new.xml",
    "ok": true,
-   "items": 22,
+   "items": 29,
    "skipped": 0,
-   "undated": 22,
-   "newest": "2026-10-17T23:12:48Z",
-   "oldest": "2026-10-17T23:12:48Z"
+   "undated": 29,
+   "newest": "2026-10-19T04:54:05Z",
+   "oldest": "2026-10-19T04:54:05Z"
   },
   {
    "source": "Liberty Street Economics",
@@ -329,11 +329,11 @@
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 1,
-   "skipped": 4,
+   "items": 3,
+   "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-18T20:27:14Z",
-   "oldest": "2026-10-18T20:27:14Z"
+   "newest": "2026-10-19T04:06:28Z",
+   "oldest": "2026-10-19T02:45:41Z"
   },
   {
    "source": "Premium Times",
@@ -367,27 +367,34 @@
   }
  ],
  "first_seen": {
-  "https://www.nber.org/papers/w35876#fromrss": "2026-10-17T23:12:48Z",
-  "https://www.nber.org/papers/w35877#fromrss": "2026-10-17T23:12:48Z",
-  "https://www.nber.org/papers/w35878#fromrss": "2026-10-17T23:12:48Z",
-  "https://www.nber.org/papers/w35879#fromrss": "2026-10-17T23:12:48Z",
-  "https://www.nber.org/papers/w35880#fromrss": "2026-10-17T23:12:48Z",
-  "https://www.nber.org/papers/w35881#fromrss": "2026-10-17T23:12:48Z",
-  "https://www.nber.org/papers/w35882#fromrss": "2026-10-17T23:12:48Z",
-  "https://www.nber.org/papers/w35883#fromrss": "2026-10-17T23:12:48Z",
-  "https://www.nber.org/papers/w35884#fromrss": "2026-10-17T23:12:48Z",
-  "https://www.nber.org/papers/w35885#fromrss": "2026-10-17T23:12:48Z",
-  "https://www.nber.org/papers/w35886#fromrss": "2026-10-17T23:12:48Z",
-  "https://www.nber.org/papers/w35887#fromrss": "2026-10-17T23:12:48Z",
-  "https://www.nber.org/papers/w35888#fromrss": "2026-10-17T23:12:48Z",
-  "https://www.nber.org/papers/w35889#fromrss": "2026-10-17T23:12:48Z",
-  "https://www.nber.org/papers/w35890#fromrss": "2026-10-17T23:12:48Z",
-  "https://www.nber.org/papers/w35891#fromrss": "2026-10-17T23:12:48Z",
-  "https://www.nber.org/papers/w35892#fromrss": "2026-10-17T23:12:48Z",
-  "https://www.nber.org/papers/w35893#fromrss": "2026-10-17T23:12:48Z",
-  "https://www.nber.org/papers/w35894#fromrss": "2026-10-17T23:12:48Z",
-  "https://www.nber.org/papers/w35895#fromrss": "2026-10-17T23:12:48Z",
-  "https://www.nber.org/papers/w35896#fromrss": "2026-10-17T23:12:48Z",
-  "https://www.nber.org/papers/w35897#fromrss": "2026-10-17T23:12:48Z"
+  "https://www.nber.org/papers/w35898#fromrss": "2026-10-19T04:54:05Z",
+  "https://www.nber.org/papers/w35899#fromrss": "2026-10-19T04:54:05Z",
+  "https://www.nber.org/papers/w35900#fromrss": "2026-10-19T04:54:05Z",
+  "https://www.nber.org/papers/w35901#fromrss": "2026-10-19T04:54:05Z",
+  "https://www.nber.org/papers/w35902#fromrss": "2026-10-19T04:54:05Z",
+  "https://www.nber.org/papers/w35903#fromrss": "2026-10-19T04:54:05Z",
+  "https://www.nber.org/papers/w35904#fromrss": "2026-10-19T04:54:05Z",
+  "https://www.nber.org/papers/w35905#fromrss": "2026-10-19T04:54:05Z",
+  "https://www.nber.org/papers/w35906#fromrss": "2026-10-19T04:54:05Z",
+  "https://www.nber.org/papers/w35907#fromrss": "2026-10-19T04:54:05Z",
+  "https://www.nber.org/papers/w35908#fromrss": "2026-10-19T04:54:05Z",
+  "https://www.nber.org/papers/w35909#fromrss": "2026-10-19T04:54:05Z",
+  "https://www.nber.org/papers/w35910#fromrss": "2026-10-19T04:54:05Z",
+  "https://www.nber.org/papers/w35911#fromrss": "2026-10-19T04:54:05Z",
+  "https://www.nber.org/papers/w35912#fromrss": "2026-10-19T04:54:05Z",
+  "https://www.nber.org/papers/w35913#fromrss": "2026-10-19T04:54:05Z",
+  "https://www.nber.org/papers/w35914#fromrss": "2026-10-19T04:54:05Z",
+  "https://www.nber.org/papers/w35915#fromrss": "2026-10-19T04:54:05Z",
+  "https://www.nber.org/papers/w35916#fromrss": "2026-10-19T04:54:05Z",
+  "https://www.nber.org/papers/w35917#fromrss": "2026-10-19T04:54:05Z",
+  "https://www.nber.org/papers/w35918#fromrss": "2026-10-19T04:54:05Z",
+  "https://www.nber.org/papers/w35919#fromrss": "2026-10-19T04:54:05Z",
+  "https://www.nber.org/papers/w35920#fromrss": "2026-10-19T04:54:05Z",
+  "https://www.nber.org/papers/w35921#fromrss": "2026-10-19T04:54:05Z",
+  "https://www.nber.org/papers/w35922#fromrss": "2026-10-19T04:54:05Z",
+  "https://www.nber.org/papers/w35923#fromrss": "2026-10-19T04:54:05Z",
+  "https://www.nber.org/papers/w35924#fromrss": "2026-10-19T04:54:05Z",
+  "https://www.nber.org/papers/w35925#fromrss": "2026-10-19T04:54:05Z",
+  "https://www.nber.org/papers/w35926#fromrss": "2026-10-19T04:54:05Z"
  }
 }
