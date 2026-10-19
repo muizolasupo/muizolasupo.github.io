@@ -1,23 +1,23 @@
 {
- "updated": "2026-10-19T04:54:05Z",
+ "updated": "2026-10-19T13:37:10Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
     {
-     "title": "India’s Finance Minister says easy exits and excess liquidity fuel equity market's underperformance",
-     "url": "https://www.cnbc.com/2026/10/18/india-ai-nifty50-sensex-investors.html",
+     "title": "Women may be at greater risk of AI job losses. Telephone switch operators and PCs show why.",
+     "url": "https://www.cnbc.com/2026/10/19/ai-job-losses-women-automation-risk.html",
      "source": "CNBC",
-     "published": "2026-10-19T04:46:26Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108419553-1792155192930-gettyimages-2299704856-THAILAND_IMF_WORLD_BANK.jpeg?v=1792155212&w=1920&h=1080"
+     "published": "2026-10-19T11:20:02Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108420291-1792166305523-gettyimages-849336184-152160final.jpeg?v=1792166615&w=1920&h=1080"
     },
     {
-     "title": "U.S. budget deficit swells to almost $2 trillion for fiscal 2026, up 12% in a single year",
-     "url": "https://www.cnbc.com/2026/10/16/us-budget-deficit-2026.html",
+     "title": "India’s finance minister says market liquidity makes it easier for investors to exit",
+     "url": "https://www.cnbc.com/2026/10/18/india-ai-nifty50-sensex-investors.html",
      "source": "CNBC",
-     "published": "2026-10-16T22:34:29Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108351875-1787178100146-gettyimages-2290607138-AFP_C62Z247.jpeg?v=1787178332&w=1920&h=1080"
+     "published": "2026-10-19T08:23:33Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108419553-1792155192930-gettyimages-2299704856-THAILAND_IMF_WORLD_BANK.jpeg?v=1792155212&w=1920&h=1080"
     },
     {
      "title": "Norway faces public dilemma over divesting from companies involved with war in Gaza",
@@ -54,18 +54,39 @@
    "label": "Markets",
    "items": [
     {
-     "title": "These surprising stocks could be some of the biggest drivers of S&P 500 earnings growth",
-     "url": "https://www.marketwatch.com/story/these-surprising-stocks-could-be-some-of-the-biggest-drivers-of-s-p-500-earnings-growth-ea073a07?mod=mw_rss_topstories",
+     "title": "Meet the home buyers totally unfazed by 7% mortgage rates",
+     "url": "https://www.marketwatch.com/story/meet-the-home-buyers-totally-unfazed-by-7-mortgage-rates-7a9b1cc7?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-18T14:00:00Z",
-     "image": "https://images.mktw.net/im-41689629"
+     "published": "2026-10-19T13:33:00Z",
+     "image": "https://images.mktw.net/im-54886096"
     },
     {
-     "title": "Stocks are heading for a high-stakes showdown, as strong earnings collide with rising borrowing costs",
-     "url": "https://www.marketwatch.com/story/stocks-are-heading-for-a-high-stakes-showdown-as-strong-earnings-collide-with-rising-borrowing-costs-6f8ea5b8?mod=mw_rss_topstories",
+     "title": "Micron and other chip stocks spring back to life after bruising selloff",
+     "url": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-spring-back-to-life-after-bruising-selloff-16486541?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-18T13:00:00Z",
-     "image": "https://images.mktw.net/im-83252222"
+     "published": "2026-10-19T13:22:00Z",
+     "image": "https://images.mktw.net/im-73895818"
+    },
+    {
+     "title": "France and the U.S. share the same debt trap. Why the U.S. has an escape valve.",
+     "url": "https://www.marketwatch.com/story/france-and-the-u-s-share-the-same-debt-trap-only-one-has-a-global-lifeline-3ae61b42?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-19T13:19:00Z",
+     "image": "https://images.mktw.net/im-07353261"
+    },
+    {
+     "title": "Robot factories and hypersonic missiles: JPMorgan Chase's first $5 billion of defense investments",
+     "url": "https://www.cnbc.com/2026/10/19/jpmorgan-security-defense-investments.html",
+     "source": "CNBC",
+     "published": "2026-10-19T12:34:01Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/106310265-1577120438176gettyimages-488164285.jpeg?v=1792414277&w=1920&h=1080"
+    },
+    {
+     "title": "Colleges raced to build massive computer-science departments. Now the boom is turning to bust.",
+     "url": "https://www.marketwatch.com/story/colleges-raced-to-build-massive-computer-science-departments-now-the-boom-is-turning-to-bust-692cfe37?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-19T12:30:00Z",
+     "image": "https://images.mktw.net/im-39955150"
     },
     {
      "title": "Top Wall Street analysts are bullish on the growth potential of these 3 stocks",
@@ -73,27 +94,6 @@
      "source": "CNBC",
      "published": "2026-10-18T12:34:51Z",
      "image": "https://image.cnbcfm.com/api/v1/image/107389628-17108719542022-11-09t164207z_798327205_rc2eix9j5b73_rtrmadp_0_meta-layoffs.jpeg?v=1737658509&w=1920&h=1080"
-    },
-    {
-     "title": "There is a silent market rotation inside the S&P 500 that’s warning of more weakness ahead",
-     "url": "https://www.marketwatch.com/story/there-is-a-silent-market-rotation-inside-the-s-p-500-thats-warning-of-more-weakness-ahead-549e7650?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-18T12:00:00Z",
-     "image": "https://images.mktw.net/im-17675434"
-    },
-    {
-     "title": "Fake shopping sprees and ‘happiness insurance’: The latest fintech apps reveal our financial anxieties",
-     "url": "https://www.marketwatch.com/story/fake-shopping-sprees-and-happiness-insurance-the-latest-fintech-apps-reveal-our-financial-anxieties-77770a46?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-17T18:52:00Z",
-     "image": "https://images.mktw.net/im-60506026"
-    },
-    {
-     "title": "Software’s new consolidator gets big vote of confidence from Berkshire",
-     "url": "https://www.cnbc.com/2026/10/17/bending-spoons-wants-to-revive-software-castoffs-berkshire-investing.html",
-     "source": "CNBC",
-     "published": "2026-10-17T15:11:30Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108329344-1782916454983-gettyimages-2283599947-BENDING_SPOONS_IPO.jpeg?v=1782916474&w=1920&h=1080"
     }
    ]
   },
@@ -150,32 +150,39 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "FG launches 16MW solar mini-grid project to boost electricity access in Gombe",
-     "url": "https://businessday.ng/energy/power/article/fg-launches-16mw-solar-mini-grid-project-to-boost-electricity-access-in-gombe/",
+     "title": "Why electricity supply has reduced in recent weeks- Ikeja Electric",
+     "url": "https://businessday.ng/energy/power/article/why-electricity-supply-has-reduced-in-recent-weeks-ikeja-electric/",
      "source": "BusinessDay",
-     "published": "2026-10-19T04:06:28Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/IMG-20261018-WA0009-1-large.jpg"
+     "published": "2026-10-19T13:14:00Z",
+     "image": "https://cdn.businessday.ng/2021/09/Ikeja-electric-1.png"
     },
     {
-     "title": "Nigeria disputes World Bank debt figures as quarterly budget reports go missing",
-     "url": "https://businessday.ng/business-economy/article/nigeria-disputes-world-bank-debt-figures-as-quarterly-budget-reports-go-missing/",
+     "title": "Transcorp Hotels’ Q3 profit rises 5% despite revenue decline",
+     "url": "https://businessday.ng/companies/article/transcorp-hotels-q3-profit-rises-5-despite-revenue-decline/",
      "source": "BusinessDay",
-     "published": "2026-10-19T03:00:32Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2025/03/Debt-spending-and-revenue-Nigerians-react-to-₦54.99-tn-budget-for-2025.png"
+     "published": "2026-10-19T13:10:10Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/07/Uzoamaka-Oshogwe-large.png"
     },
     {
-     "title": "Presidency dismisses Makinde’s claim of N250 billion NLNG dividends per state",
-     "url": "https://nairametrics.com/2026/10/18/presidency-dismisses-makindes-claim-of-n250-billion-nlng-dividends-per-state/",
-     "source": "Nairametrics",
-     "published": "2026-10-18T20:15:42Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2023/09/Tinubu-new.jpg"
+     "title": "South Africa: Can Godfrey Moagi build a credible oil company from PetroSA’s ashes?",
+     "url": "https://www.theafricareport.com/433780/south-africa-can-godfrey-moagi-build-a-credible-noc-from-petrosas-ashes/",
+     "source": "The Africa Report",
+     "published": "2026-10-19T13:00:00Z",
+     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=683,height=406,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/10/16/godfrey-moagi-photo-e1792410079912.webp"
     },
     {
-     "title": "Kenya confirms four new Ebola cases, bringing total to seven",
-     "url": "https://nairametrics.com/2026/10/18/kenya-confirms-four-new-ebola-cases-bringing-total-to-seven/",
-     "source": "Nairametrics",
-     "published": "2026-10-18T19:25:55Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/08/Ebola-1.webp"
+     "title": "South Sudan: Salva Kiir dissolves government after seizing control of state revenue",
+     "url": "https://www.theafricareport.com/433835/south-sudan-salva-kiir-dissolves-government-after-seizing-control-of-state-revenue/",
+     "source": "The Africa Report",
+     "published": "2026-10-19T08:13:06Z",
+     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=982,height=687,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/10/16/adut_salva_kiir-e1792163673989.jpg"
+    },
+    {
+     "title": "Dangote Foundation to gift refinery shares to 778,000 women in 15 states",
+     "url": "https://www.premiumtimesng.com/business/business-news/918167-dangote-foundation-to-gift-refinery-shares-to-778000-women-in-15-states.html",
+     "source": "Premium Times",
+     "published": "2026-10-19T07:37:50Z",
+     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2023/05/Dangote-Foundation-e1682964143991.jpeg?fit=739%2C369&ssl=1"
     },
     {
      "title": "Afrinvest repays undocumented $1 million from Elumelu with interest",
@@ -183,13 +190,6 @@
      "source": "Premium Times",
      "published": "2026-10-18T19:07:30Z",
      "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/10/Afrinvests-senior-leadership-team-on-a-courtesy-visit-to-Mr-Elumelu.jpg?fit=2000%2C1334&ssl=1"
-    },
-    {
-     "title": "Finance Ministry faults claim that FG’s interest payments hit 124% of revenue",
-     "url": "https://www.premiumtimesng.com/business/business-news/918052-finance-ministry-faults-claim-that-fgs-interest-payments-hit-124-of-revenue.html",
-     "source": "Premium Times",
-     "published": "2026-10-18T16:02:45Z",
-     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2025/04/575.jpg?fit=639%2C370&ssl=1"
     }
    ]
   }
@@ -232,18 +232,18 @@
    "items": 30,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-19T04:46:26Z",
-   "oldest": "2026-10-02T17:38:59Z"
+   "newest": "2026-10-19T11:20:02Z",
+   "oldest": "2026-10-05T05:00:01Z"
   },
   {
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 4,
-   "skipped": 6,
+   "items": 7,
+   "skipped": 3,
    "undated": 0,
-   "newest": "2026-10-18T14:00:00Z",
-   "oldest": "2026-10-17T18:52:00Z"
+   "newest": "2026-10-19T13:33:00Z",
+   "oldest": "2026-10-19T10:23:00Z"
   },
   {
    "source": "CNBC",
@@ -252,8 +252,8 @@
    "items": 29,
    "skipped": 1,
    "undated": 0,
-   "newest": "2026-10-17T15:11:30Z",
-   "oldest": "2026-10-05T21:24:25Z"
+   "newest": "2026-10-19T12:34:01Z",
+   "oldest": "2026-10-06T08:47:30Z"
   },
   {
    "source": "CNBC",
@@ -318,22 +318,18 @@
   {
    "source": "Nairametrics",
    "feed": "https://nairametrics.com/feed/",
-   "ok": true,
-   "items": 19,
-   "skipped": 1,
-   "undated": 0,
-   "newest": "2026-10-18T20:15:42Z",
-   "oldest": "2026-10-17T16:18:40Z"
+   "ok": false,
+   "error": "The read operation timed out"
   },
   {
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 3,
-   "skipped": 2,
+   "items": 2,
+   "skipped": 3,
    "undated": 0,
-   "newest": "2026-10-19T04:06:28Z",
-   "oldest": "2026-10-19T02:45:41Z"
+   "newest": "2026-10-19T13:14:00Z",
+   "oldest": "2026-10-19T13:10:10Z"
   },
   {
    "source": "Premium Times",
@@ -342,8 +338,8 @@
    "items": 11,
    "skipped": 4,
    "undated": 0,
-   "newest": "2026-10-18T19:07:30Z",
-   "oldest": "2026-10-16T11:17:44Z"
+   "newest": "2026-10-19T07:37:50Z",
+   "oldest": "2026-10-16T13:17:11Z"
   },
   {
    "source": "African Business",
@@ -359,11 +355,11 @@
    "source": "The Africa Report",
    "feed": "https://www.theafricareport.com/feed/",
    "ok": true,
-   "items": 2,
-   "skipped": 8,
+   "items": 3,
+   "skipped": 7,
    "undated": 0,
-   "newest": "2026-10-16T14:00:00Z",
-   "oldest": "2026-10-16T08:14:55Z"
+   "newest": "2026-10-19T13:00:00Z",
+   "oldest": "2026-10-16T14:00:00Z"
   }
  ],
  "first_seen": {
