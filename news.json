@@ -1,10 +1,24 @@
 {
- "updated": "2026-10-20T08:42:00Z",
+ "updated": "2026-10-20T14:22:46Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
+    {
+     "title": "What if an AI bubble bursts — and that accelerates AI job losses?",
+     "url": "https://www.npr.org/sections/planet-money/2026/10/20/g-s1-148305/what-if-an-ai-bubble-bursts-and-that-accelerates-ai-job-losses",
+     "source": "NPR",
+     "published": "2026-10-20T10:30:00Z",
+     "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6007x3559+0+0/resize/6007x3559!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F30%2F73%2F30ccbe9b4d3c903bb381870a6cf5%2Fgettyimages-1466243146.jpg"
+    },
+    {
+     "title": "Why are some food prices up and others down? Here are the stories of 5 items",
+     "url": "https://www.npr.org/2026/10/20/nx-s1-5989636/grocery-prices-eggs-coffee-inflation",
+     "source": "NPR",
+     "published": "2026-10-20T09:00:00Z",
+     "image": ""
+    },
     {
      "title": "Women may be at greater risk of AI job losses. Telephone switch operators and PCs show why",
      "url": "https://www.cnbc.com/2026/10/19/ai-job-losses-women-automation-risk.html",
@@ -32,20 +46,6 @@
      "source": "CNBC",
      "published": "2026-10-19T08:23:33Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108419553-1792155192930-gettyimages-2299704856-THAILAND_IMF_WORLD_BANK.jpeg?v=1792155212&w=1920&h=1080"
-    },
-    {
-     "title": "Norway faces public dilemma over divesting from companies involved with war in Gaza",
-     "url": "https://www.npr.org/2026/10/16/nx-s1-6000238/norway-faces-public-dilemma-over-divesting-from-companies-involved-with-war-in-gaza",
-     "source": "NPR",
-     "published": "2026-10-16T20:56:02Z",
-     "image": ""
-    },
-    {
-     "title": "It’s not just Commerzbank: Italians are eating up German business",
-     "url": "https://www.economist.com/finance-and-economics/2026/10/16/its-not-just-commerzbank-italians-are-eating-up-german-business",
-     "source": "The Economist",
-     "published": "2026-10-16T17:58:53Z",
-     "image": ""
     }
    ]
   },
@@ -54,11 +54,39 @@
    "label": "Markets",
    "items": [
     {
-     "title": "It’s a rough housing market, and Goldman Sachs expects it to get worse",
-     "url": "https://www.marketwatch.com/story/its-a-rough-housing-market-and-goldman-sachs-expects-it-to-get-worse-be2c5aac?mod=mw_rss_topstories",
+     "title": "When should you dump your target-date funds?",
+     "url": "https://www.marketwatch.com/story/when-should-you-dump-your-target-date-funds-18082148?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-20T08:13:00Z",
-     "image": "https://images.mktw.net/im-61872761"
+     "published": "2026-10-20T14:16:00Z",
+     "image": "https://images.mktw.net/im-07537762"
+    },
+    {
+     "title": "Pending home sales sink to 25-year low as buyers flee high mortgage rates",
+     "url": "https://www.marketwatch.com/story/pending-home-sales-sink-to-25-year-low-as-buyers-flee-high-mortgage-rates-d02c6b30?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-20T14:06:00Z",
+     "image": "https://images.mktw.net/im-68979535"
+    },
+    {
+     "title": "Money-saving habits to cope with higher prices — from our readers",
+     "url": "https://www.marketwatch.com/story/money-saving-hacks-to-cope-with-higher-prices-from-our-readers-a092767e?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-20T13:52:00Z",
+     "image": "https://images.mktw.net/im-66111298"
+    },
+    {
+     "title": "Salesforce gets a chilly investor response to a $6 billion deal at a 58% premium",
+     "url": "https://www.marketwatch.com/story/salesforce-gets-a-chilly-investor-response-to-a-6-billion-deal-at-a-58-premium-57bd260b?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-20T13:48:00Z",
+     "image": "https://images.mktw.net/im-02898598"
+    },
+    {
+     "title": "HSBC CEO warns the AI boom won’t make every data center a good bet",
+     "url": "https://www.cnbc.com/2026/10/20/data-center-financing-ai-debt-hsbc.html",
+     "source": "CNBC",
+     "published": "2026-10-20T10:39:17Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108359132-1788544833922-gettyimages-2286508421-hodasss.jpeg?v=1788544862&w=1920&h=1080"
     },
     {
      "title": "The world’s finance chiefs see new risks — and less China angst",
@@ -66,34 +94,6 @@
      "source": "CNBC",
      "published": "2026-10-20T05:27:53Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108430921-1792381620758-gettyimages-2299896463-AA_16102026_2996185.jpeg?v=1792381800&w=1920&h=1080"
-    },
-    {
-     "title": "Blood clots are ‘incredibly common,’ even for pro athletes like Jalen Hurts. Here’s what to know.",
-     "url": "https://www.marketwatch.com/story/blood-clots-are-incredibly-common-even-for-pro-athletes-like-jalen-hurts-heres-what-to-know-e20071ef?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-19T21:58:00Z",
-     "image": "https://images.mktw.net/im-17770791"
-    },
-    {
-     "title": "When should you dump your target-date funds?",
-     "url": "https://www.marketwatch.com/story/when-should-you-dump-your-target-date-funds-18082148?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-19T21:37:00Z",
-     "image": "https://images.mktw.net/im-07537762"
-    },
-    {
-     "title": "Credit markets have entered uncharted territory as the riskiest junk bonds send a warning to investors",
-     "url": "https://www.marketwatch.com/story/credit-markets-have-entered-uncharted-territory-as-the-riskiest-junk-bonds-send-a-warning-to-investors-816a05d5?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-19T21:36:00Z",
-     "image": "https://images.mktw.net/im-94180621"
-    },
-    {
-     "title": "Anthropic is AI trade's last big hope for a major IPO this year",
-     "url": "https://www.cnbc.com/2026/10/19/anthropic-ipo-ai-trade.html",
-     "source": "CNBC",
-     "published": "2026-10-19T16:42:14Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108362609-1789409134792-gettyimages-2290481472-logos.jpeg?v=1789409171&w=1920&h=1080"
     }
    ]
   },
@@ -150,46 +150,46 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "Nigeria reclaims Africa’s startup funding lead as investment hits $635m",
-     "url": "https://businessday.ng/technology/article/nigeria-reclaims-africas-startup-funding-lead-as-investment-hits-635m/",
-     "source": "BusinessDay",
-     "published": "2026-10-20T08:34:57Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/Nigeria-Reclaims-Africas-Startup-Funding-Lead-1-large.png"
-    },
-    {
-     "title": "JPMorgan moves closer to Nigeria banking launch after Central Bank deposit",
-     "url": "https://businessday.ng/business-economy/article/jpmorgan-moves-closer-to-nigeria-banking-launch-after-central-bank-deposit/",
-     "source": "BusinessDay",
-     "published": "2026-10-20T08:30:38Z",
-     "image": "https://cdn.businessday.ng/2017/12/JPMorgan-pays-2.8-mln-fine-over-improper-safeguards-for-customers.jpg"
-    },
-    {
-     "title": "World Bank sets conditions as Nigeria signs $500 million development loan agreement",
-     "url": "https://nairametrics.com/2026/10/20/world-bank-sets-conditions-as-nigeria-signs-500-million-development-loan-agreement/",
+     "title": "EXCLUSIVE: Court dismisses Intels’ bid to restrain EFCC probe over alleged $74 million NPA debt",
+     "url": "https://nairametrics.com/2026/10/20/exclusivecourt-dismisses-intels-bid-to-restrain-efcc-probe-over-alleged-74-million-npa-debt/",
      "source": "Nairametrics",
-     "published": "2026-10-20T07:33:36Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/world-bank.webp"
+     "published": "2026-10-20T13:48:08Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/08/Court-Order.jpg"
     },
     {
-     "title": "Ghana plans to ban exports of unprocessed minerals by 2030",
-     "url": "https://nairametrics.com/2026/10/20/ghana-plans-to-ban-exports-of-unprocessed-minerals-by-2030/",
+     "title": "Africa risks missing AI investment boom without reliable power, infrastructure – KPMG",
+     "url": "https://businessday.ng/africa/article/africa-risks-missing-ai-investment-boom-without-reliable-power-infrastructure-kpmg/",
+     "source": "BusinessDay",
+     "published": "2026-10-20T13:37:13Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/Frank-Blackmore_Lead-economist-at-KPMG-scaled-large.jpg"
+    },
+    {
+     "title": "Petrol price war makes Nigerian motorists abandon brand loyalty, marketers say",
+     "url": "https://nairametrics.com/2026/10/20/petrol-price-war-makes-nigerian-motorists-abandon-brand-loyalty-marketers-say/",
      "source": "Nairametrics",
-     "published": "2026-10-20T07:17:26Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/john_mahama-scaled-1.webp"
+     "published": "2026-10-20T13:28:57Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/09/petrol-subsidy.webp"
     },
     {
-     "title": "Energy transition, Africa’s pathway to economic sovereignty",
-     "url": "https://www.theafricareport.com/433913/energy-transition-africas-pathway-to-economic-sovereignty/",
-     "source": "The Africa Report",
-     "published": "2026-10-20T06:00:00Z",
-     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=720,height=540,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/03/04/ethiopia-fuel.jpg"
-    },
-    {
-     "title": "Renaissance Capital Raises Dangote Refinery Valuation by 33.4% to ₦700 per Share",
-     "url": "https://www.premiumtimesng.com/business/business-news/918297-renaissance-capital-raises-dangote-refinery-valuation-by-33-4-to-%e2%82%a6700-per-share.html",
+     "title": "JP Morgan to secure Nigerian banking licence after N50 billion deposit with CBN – Report",
+     "url": "https://www.premiumtimesng.com/business/business-news/918497-jp-morgan-to-secure-nigerian-banking-licence-after-n50-billion-deposit-with-cbn-report.html",
      "source": "Premium Times",
-     "published": "2026-10-19T16:39:02Z",
-     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/10/Renaissance-Capital-Report.jpeg?fit=713%2C480&ssl=1"
+     "published": "2026-10-20T11:17:44Z",
+     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2019/07/JPMorgan.jpeg?fit=1320%2C824&ssl=1"
+    },
+    {
+     "title": "Critical minerals underpin Washington's Nigeria overtures",
+     "url": "https://african.business/2026/10/resources/critical-minerals-underpin-washingtons-nigeria-overtures",
+     "source": "African Business",
+     "published": "2026-10-20T10:47:27Z",
+     "image": "https://african.business/wp-content/uploads/2026/10/000_15I5BF-scaled.jpg"
+    },
+    {
+     "title": "Kenya holds back immediate fuel relief as price hikes spark protest threats",
+     "url": "https://www.theafricareport.com/433955/kenya-holds-back-immediate-fuel-relief-as-price-hikes-spark-protest-threats/",
+     "source": "The Africa Report",
+     "published": "2026-10-20T10:00:00Z",
+     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=2560,height=1707,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2024/07/15/afp__20230919__33vm9tl__v1__highres__kenyaeconomyfuel-scaled.jpg"
     }
    ]
   }
@@ -202,8 +202,8 @@
    "items": 10,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-16T20:56:02Z",
-   "oldest": "2026-10-11T21:16:37Z"
+   "newest": "2026-10-20T10:30:00Z",
+   "oldest": "2026-10-12T21:43:46Z"
   },
   {
    "source": "PBS NewsHour",
@@ -239,11 +239,11 @@
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 8,
-   "skipped": 2,
+   "items": 7,
+   "skipped": 3,
    "undated": 0,
-   "newest": "2026-10-20T08:13:00Z",
-   "oldest": "2026-10-19T21:00:00Z"
+   "newest": "2026-10-20T14:16:00Z",
+   "oldest": "2026-10-20T12:56:00Z"
   },
   {
    "source": "CNBC",
@@ -252,8 +252,8 @@
    "items": 29,
    "skipped": 1,
    "undated": 0,
-   "newest": "2026-10-20T05:27:53Z",
-   "oldest": "2026-10-06T22:23:01Z"
+   "newest": "2026-10-20T10:39:17Z",
+   "oldest": "2026-10-07T06:16:39Z"
   },
   {
    "source": "CNBC",
@@ -322,18 +322,18 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-20T07:33:36Z",
-   "oldest": "2026-10-19T13:26:12Z"
+   "newest": "2026-10-20T13:48:08Z",
+   "oldest": "2026-10-20T06:50:14Z"
   },
   {
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 3,
-   "skipped": 2,
+   "items": 1,
+   "skipped": 4,
    "undated": 0,
-   "newest": "2026-10-20T08:34:57Z",
-   "oldest": "2026-10-20T06:59:54Z"
+   "newest": "2026-10-20T13:37:13Z",
+   "oldest": "2026-10-20T13:37:13Z"
   },
   {
    "source": "Premium Times",
@@ -342,8 +342,8 @@
    "items": 10,
    "skipped": 5,
    "undated": 0,
-   "newest": "2026-10-19T16:39:02Z",
-   "oldest": "2026-10-16T14:56:11Z"
+   "newest": "2026-10-20T11:17:44Z",
+   "oldest": "2026-10-16T19:04:53Z"
   },
   {
    "source": "African Business",
@@ -352,8 +352,8 @@
    "items": 25,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-19T11:55:18Z",
-   "oldest": "2026-10-08T10:40:46Z"
+   "newest": "2026-10-20T10:47:27Z",
+   "oldest": "2026-10-08T11:42:02Z"
   },
   {
    "source": "The Africa Report",
@@ -362,8 +362,8 @@
    "items": 3,
    "skipped": 7,
    "undated": 0,
-   "newest": "2026-10-20T06:00:00Z",
-   "oldest": "2026-10-19T08:13:06Z"
+   "newest": "2026-10-20T10:00:00Z",
+   "oldest": "2026-10-19T13:00:00Z"
   }
  ],
  "first_seen": {
