@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T20:38:05Z",
+ "updated": "2026-10-20T00:26:48Z",
  "categories": [
   {
    "id": "economy",
@@ -54,32 +54,32 @@
    "label": "Markets",
    "items": [
     {
-     "title": "Retiring abroad? Don’t cut these financial ties to the U.S.",
-     "url": "https://www.marketwatch.com/story/retiring-abroad-dont-cut-these-financial-ties-to-the-u-s-5e7e4fc2?mod=mw_rss_topstories",
+     "title": "Blood clots are ‘incredibly common,’ even for pro athletes like Jalen Hurts. Here’s what to know.",
+     "url": "https://www.marketwatch.com/story/blood-clots-are-incredibly-common-even-for-pro-athletes-like-jalen-hurts-heres-what-to-know-e20071ef?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-19T20:33:00Z",
-     "image": "https://images.mktw.net/im-25509545"
+     "published": "2026-10-19T21:58:00Z",
+     "image": "https://images.mktw.net/im-17770791"
     },
     {
-     "title": "Colleges raced to build massive computer-science departments. Now the boom is turning to bust.",
-     "url": "https://www.marketwatch.com/story/colleges-raced-to-build-massive-computer-science-departments-now-the-boom-is-turning-to-bust-692cfe37?mod=mw_rss_topstories",
+     "title": "When should you dump your target-date funds?",
+     "url": "https://www.marketwatch.com/story/when-should-you-dump-your-target-date-funds-18082148?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-19T19:56:00Z",
-     "image": "https://images.mktw.net/im-39955150"
+     "published": "2026-10-19T21:37:00Z",
+     "image": "https://images.mktw.net/im-07537762"
     },
     {
-     "title": "SpaceX earnings will be all about AI — for better or for worse",
-     "url": "https://www.marketwatch.com/story/spacex-earnings-will-be-all-about-ai-for-better-or-for-worse-89bbc772?mod=mw_rss_topstories",
+     "title": "Credit markets have entered uncharted territory as the riskiest junk bonds send a warning to investors",
+     "url": "https://www.marketwatch.com/story/credit-markets-have-entered-uncharted-territory-as-the-riskiest-junk-bonds-send-a-warning-to-investors-816a05d5?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-19T19:47:00Z",
-     "image": "https://images.mktw.net/im-77817370"
+     "published": "2026-10-19T21:36:00Z",
+     "image": "https://images.mktw.net/im-94180621"
     },
     {
-     "title": "Why the Treasury’s financing plans are sparking anxiety on Wall Street",
-     "url": "https://www.marketwatch.com/story/why-the-treasurys-financing-plans-are-sparking-anxiety-on-wall-street-b49b5e17?mod=mw_rss_topstories",
+     "title": "Micron and other chip stocks spring back to life after bruising selloff",
+     "url": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-spring-back-to-life-after-bruising-selloff-16486541?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-19T19:45:00Z",
-     "image": "https://images.mktw.net/im-32002783"
+     "published": "2026-10-19T21:06:00Z",
+     "image": "https://images.mktw.net/im-69244333"
     },
     {
      "title": "Anthropic is AI trade's last big hope for a major IPO this year",
@@ -150,6 +150,13 @@
    "label": "Nigeria & Africa",
    "items": [
     {
+     "title": "Tinubu rules out petrol subsidy return, pledges reform continuity",
+     "url": "https://businessday.ng/politics/article/tinubu-rules-out-petrol-subsidy-return-pledges-reform-continuity/",
+     "source": "BusinessDay",
+     "published": "2026-10-19T22:11:30Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/08/President-Bola-Tinubu-large.jpg"
+    },
+    {
      "title": "Taiwo Oyedele pushes for NNPCL, NLNG listing to boost transparency, wealth creation",
      "url": "https://nairametrics.com/2026/10/19/taiwo-oyedele-pushes-for-nnpcl-nlng-listing-to-boost-transparency-wealth-creation/",
      "source": "Nairametrics",
@@ -169,13 +176,6 @@
      "source": "Premium Times",
      "published": "2026-10-19T16:39:02Z",
      "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/10/Renaissance-Capital-Report.jpeg?fit=713%2C480&ssl=1"
-    },
-    {
-     "title": "Deutsche Bank bets on Naira, adds Nigeria to frontier FX monitor",
-     "url": "https://businessday.ng/business-economy/article/deutsche-bank-bets-on-naira-adds-nigeria-to-frontier-fx-monitor/",
-     "source": "BusinessDay",
-     "published": "2026-10-19T16:33:34Z",
-     "image": "https://cdn.businessday.ng/2019/07/Untitled-design-2019-07-31T155442.737.png"
     },
     {
      "title": "South Africa: Can Godfrey Moagi build a credible oil company from PetroSA’s ashes?",
@@ -239,11 +239,11 @@
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 9,
-   "skipped": 1,
+   "items": 8,
+   "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-19T20:33:00Z",
-   "oldest": "2026-10-19T16:59:00Z"
+   "newest": "2026-10-19T21:58:00Z",
+   "oldest": "2026-10-19T20:33:00Z"
   },
   {
    "source": "CNBC",
@@ -332,8 +332,8 @@
    "items": 1,
    "skipped": 4,
    "undated": 0,
-   "newest": "2026-10-19T16:33:34Z",
-   "oldest": "2026-10-19T16:33:34Z"
+   "newest": "2026-10-19T22:11:30Z",
+   "oldest": "2026-10-19T22:11:30Z"
   },
   {
    "source": "Premium Times",
