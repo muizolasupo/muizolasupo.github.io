@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T00:26:48Z",
+ "updated": "2026-10-20T08:42:00Z",
  "categories": [
   {
    "id": "economy",
@@ -54,6 +54,20 @@
    "label": "Markets",
    "items": [
     {
+     "title": "It’s a rough housing market, and Goldman Sachs expects it to get worse",
+     "url": "https://www.marketwatch.com/story/its-a-rough-housing-market-and-goldman-sachs-expects-it-to-get-worse-be2c5aac?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-20T08:13:00Z",
+     "image": "https://images.mktw.net/im-61872761"
+    },
+    {
+     "title": "The world’s finance chiefs see new risks — and less China angst",
+     "url": "https://www.cnbc.com/2026/10/20/imf-debt-yields-russia-china-takeaway-.html",
+     "source": "CNBC",
+     "published": "2026-10-20T05:27:53Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108430921-1792381620758-gettyimages-2299896463-AA_16102026_2996185.jpeg?v=1792381800&w=1920&h=1080"
+    },
+    {
      "title": "Blood clots are ‘incredibly common,’ even for pro athletes like Jalen Hurts. Here’s what to know.",
      "url": "https://www.marketwatch.com/story/blood-clots-are-incredibly-common-even-for-pro-athletes-like-jalen-hurts-heres-what-to-know-e20071ef?mod=mw_rss_topstories",
      "source": "MarketWatch",
@@ -75,25 +89,11 @@
      "image": "https://images.mktw.net/im-94180621"
     },
     {
-     "title": "Micron and other chip stocks spring back to life after bruising selloff",
-     "url": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-spring-back-to-life-after-bruising-selloff-16486541?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-19T21:06:00Z",
-     "image": "https://images.mktw.net/im-69244333"
-    },
-    {
      "title": "Anthropic is AI trade's last big hope for a major IPO this year",
      "url": "https://www.cnbc.com/2026/10/19/anthropic-ipo-ai-trade.html",
      "source": "CNBC",
      "published": "2026-10-19T16:42:14Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108362609-1789409134792-gettyimages-2290481472-logos.jpeg?v=1789409171&w=1920&h=1080"
-    },
-    {
-     "title": "Robot factories and hypersonic missiles: JPMorgan Chase's first $5 billion of defense investments",
-     "url": "https://www.cnbc.com/2026/10/19/jpmorgan-security-defense-investments.html",
-     "source": "CNBC",
-     "published": "2026-10-19T12:34:01Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/106310265-1577120438176gettyimages-488164285.jpeg?v=1792414277&w=1920&h=1080"
     }
    ]
   },
@@ -150,25 +150,39 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "Tinubu rules out petrol subsidy return, pledges reform continuity",
-     "url": "https://businessday.ng/politics/article/tinubu-rules-out-petrol-subsidy-return-pledges-reform-continuity/",
+     "title": "Nigeria reclaims Africa’s startup funding lead as investment hits $635m",
+     "url": "https://businessday.ng/technology/article/nigeria-reclaims-africas-startup-funding-lead-as-investment-hits-635m/",
      "source": "BusinessDay",
-     "published": "2026-10-19T22:11:30Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/08/President-Bola-Tinubu-large.jpg"
+     "published": "2026-10-20T08:34:57Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/Nigeria-Reclaims-Africas-Startup-Funding-Lead-1-large.png"
     },
     {
-     "title": "Taiwo Oyedele pushes for NNPCL, NLNG listing to boost transparency, wealth creation",
-     "url": "https://nairametrics.com/2026/10/19/taiwo-oyedele-pushes-for-nnpcl-nlng-listing-to-boost-transparency-wealth-creation/",
-     "source": "Nairametrics",
-     "published": "2026-10-19T18:58:09Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/Media-22.webp"
+     "title": "JPMorgan moves closer to Nigeria banking launch after Central Bank deposit",
+     "url": "https://businessday.ng/business-economy/article/jpmorgan-moves-closer-to-nigeria-banking-launch-after-central-bank-deposit/",
+     "source": "BusinessDay",
+     "published": "2026-10-20T08:30:38Z",
+     "image": "https://cdn.businessday.ng/2017/12/JPMorgan-pays-2.8-mln-fine-over-improper-safeguards-for-customers.jpg"
     },
     {
-     "title": "NGX loses N1.47 trillion in single day as Dangote Cement, banking stocks slide",
-     "url": "https://nairametrics.com/2026/10/19/ngx-loses-n1-47-trillion-in-single-day-as-dangote-cement-banking-stocks-slide/",
+     "title": "World Bank sets conditions as Nigeria signs $500 million development loan agreement",
+     "url": "https://nairametrics.com/2026/10/20/world-bank-sets-conditions-as-nigeria-signs-500-million-development-loan-agreement/",
      "source": "Nairametrics",
-     "published": "2026-10-19T18:39:22Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/stock-drop-image.webp"
+     "published": "2026-10-20T07:33:36Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/world-bank.webp"
+    },
+    {
+     "title": "Ghana plans to ban exports of unprocessed minerals by 2030",
+     "url": "https://nairametrics.com/2026/10/20/ghana-plans-to-ban-exports-of-unprocessed-minerals-by-2030/",
+     "source": "Nairametrics",
+     "published": "2026-10-20T07:17:26Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/john_mahama-scaled-1.webp"
+    },
+    {
+     "title": "Energy transition, Africa’s pathway to economic sovereignty",
+     "url": "https://www.theafricareport.com/433913/energy-transition-africas-pathway-to-economic-sovereignty/",
+     "source": "The Africa Report",
+     "published": "2026-10-20T06:00:00Z",
+     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=720,height=540,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/03/04/ethiopia-fuel.jpg"
     },
     {
      "title": "Renaissance Capital Raises Dangote Refinery Valuation by 33.4% to ₦700 per Share",
@@ -176,20 +190,6 @@
      "source": "Premium Times",
      "published": "2026-10-19T16:39:02Z",
      "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/10/Renaissance-Capital-Report.jpeg?fit=713%2C480&ssl=1"
-    },
-    {
-     "title": "South Africa: Can Godfrey Moagi build a credible oil company from PetroSA’s ashes?",
-     "url": "https://www.theafricareport.com/433780/south-africa-can-godfrey-moagi-build-a-credible-noc-from-petrosas-ashes/",
-     "source": "The Africa Report",
-     "published": "2026-10-19T13:00:00Z",
-     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=683,height=406,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/10/16/godfrey-moagi-photo-e1792410079912.webp"
-    },
-    {
-     "title": "Nigerian government lures foreign investors with $78bn 'deal room'",
-     "url": "https://african.business/2026/10/long-reads/nigerian-government-lures-foreign-investors-with-78bn-deal-room",
-     "source": "African Business",
-     "published": "2026-10-19T11:55:18Z",
-     "image": "https://african.business/wp-content/uploads/2026/10/000_69VG7WX-scaled.jpg"
     }
    ]
   }
@@ -242,8 +242,8 @@
    "items": 8,
    "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-19T21:58:00Z",
-   "oldest": "2026-10-19T20:33:00Z"
+   "newest": "2026-10-20T08:13:00Z",
+   "oldest": "2026-10-19T21:00:00Z"
   },
   {
    "source": "CNBC",
@@ -252,8 +252,8 @@
    "items": 29,
    "skipped": 1,
    "undated": 0,
-   "newest": "2026-10-19T16:42:14Z",
-   "oldest": "2026-10-06T18:46:16Z"
+   "newest": "2026-10-20T05:27:53Z",
+   "oldest": "2026-10-06T22:23:01Z"
   },
   {
    "source": "CNBC",
@@ -322,18 +322,18 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-19T18:58:09Z",
-   "oldest": "2026-10-19T11:06:55Z"
+   "newest": "2026-10-20T07:33:36Z",
+   "oldest": "2026-10-19T13:26:12Z"
   },
   {
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 1,
-   "skipped": 4,
+   "items": 3,
+   "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-19T22:11:30Z",
-   "oldest": "2026-10-19T22:11:30Z"
+   "newest": "2026-10-20T08:34:57Z",
+   "oldest": "2026-10-20T06:59:54Z"
   },
   {
    "source": "Premium Times",
@@ -362,8 +362,8 @@
    "items": 3,
    "skipped": 7,
    "undated": 0,
-   "newest": "2026-10-19T13:00:00Z",
-   "oldest": "2026-10-16T14:00:00Z"
+   "newest": "2026-10-20T06:00:00Z",
+   "oldest": "2026-10-19T08:13:06Z"
   }
  ],
  "first_seen": {
