@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T19:23:15Z",
+ "updated": "2026-10-20T23:58:22Z",
  "categories": [
   {
    "id": "economy",
@@ -9,7 +9,7 @@
      "title": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
      "url": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html",
      "source": "CNBC",
-     "published": "2026-10-20T19:13:46Z",
+     "published": "2026-10-20T19:28:43Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108327067-1792519521637-108327067-1782417101819-gettyimages-2283316440-_24a0872_jiglfdso.jpeg?v=1792519640&w=1920&h=1080"
     },
     {
@@ -54,32 +54,39 @@
    "label": "Markets",
    "items": [
     {
-     "title": "Here’s what matters most to Tesla investors heading into earnings",
-     "url": "https://www.marketwatch.com/story/heres-what-matters-most-to-tesla-investors-heading-into-earnings-6b9e5d27?mod=mw_rss_topstories",
+     "title": "Why SpaceX’s stock is surging — and lifting the broader AI universe along with it",
+     "url": "https://www.marketwatch.com/story/why-spacexs-stock-is-surging-and-lifting-the-broader-ai-universe-along-with-it-0cd62f39?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-20T18:15:00Z",
-     "image": "https://images.mktw.net/im-47681442"
+     "published": "2026-10-20T23:10:00Z",
+     "image": "https://images.mktw.net/im-99240166"
     },
     {
-     "title": "Investors’ search for safety has made toothpaste stocks more expensive than tech",
-     "url": "https://www.marketwatch.com/story/investors-search-for-safety-has-made-toothpaste-stocks-more-expensive-than-tech-57a75e56?mod=mw_rss_topstories",
+     "title": "Super Micro’s stock soars after surprise update — with Dell and HPE shares joining the rally",
+     "url": "https://www.marketwatch.com/story/super-micros-stock-soars-after-surprise-update-with-dell-and-hpe-shares-joining-the-rally-1837a69f?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-20T17:38:00Z",
-     "image": "https://images.mktw.net/im-59145136"
+     "published": "2026-10-20T22:37:00Z",
+     "image": "https://images.mktw.net/im-31427887"
     },
     {
-     "title": "It’s not just California’s billionaire tax. Wealth is on the ballot in the midterm elections.",
-     "url": "https://www.marketwatch.com/story/its-not-just-californias-billionaire-tax-wealth-is-on-the-ballot-in-the-midterm-elections-a50fc12c?mod=mw_rss_topstories",
+     "title": "Tesla’s stock rises as Elon Musk drops new clues about a possible SpaceX merger",
+     "url": "https://www.marketwatch.com/story/teslas-stock-rises-as-elon-musk-drops-new-clues-about-a-possible-spacex-merger-8cc44fc2?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-20T16:55:00Z",
-     "image": "https://images.mktw.net/im-84666384"
+     "published": "2026-10-20T22:33:00Z",
+     "image": "https://images.mktw.net/im-71362137"
     },
     {
-     "title": "Looking for AI stocks that are still cheap? Consider these two under-the-radar picks.",
-     "url": "https://www.marketwatch.com/story/looking-for-ai-stocks-that-are-still-cheap-consider-these-two-under-the-radar-picks-b4ca2b28?mod=mw_rss_topstories",
+     "title": "Netflix vows to revive viewership trends, but investors hit ‘sell’ on the stock",
+     "url": "https://www.marketwatch.com/story/netflix-vows-to-revive-viewership-trends-but-investors-hit-sell-on-the-stock-3e24420a?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-20T15:58:00Z",
-     "image": "https://images.mktw.net/im-91198545"
+     "published": "2026-10-20T22:30:00Z",
+     "image": "https://images.mktw.net/im-73464745"
+    },
+    {
+     "title": "This Janus Henderson fund manager owns CoreWeave debt — here's why he's sticking with it",
+     "url": "https://www.cnbc.com/2026/10/20/coreweave-debt-janus-henderson-lloyd.html",
+     "source": "CNBC",
+     "published": "2026-10-20T22:06:33Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108437276-1792501523768-gettyimages-2300448024-TFSPI_16102026-7399.jpeg?v=1792501568&w=1920&h=1080"
     },
     {
      "title": "HSBC CEO warns the AI boom won’t make every data center a good bet",
@@ -87,13 +94,6 @@
      "source": "CNBC",
      "published": "2026-10-20T10:39:17Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108359132-1788544833922-gettyimages-2286508421-hodasss.jpeg?v=1788544862&w=1920&h=1080"
-    },
-    {
-     "title": "The world’s finance chiefs see new risks — and less China angst",
-     "url": "https://www.cnbc.com/2026/10/20/imf-debt-yields-russia-china-takeaway-.html",
-     "source": "CNBC",
-     "published": "2026-10-20T05:27:53Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108430921-1792381620758-gettyimages-2299896463-AA_16102026_2996185.jpeg?v=1792381800&w=1920&h=1080"
     }
    ]
   },
@@ -150,18 +150,25 @@
    "label": "Nigeria & Africa",
    "items": [
     {
+     "title": "NCC records 6,500 network interventions as operators expand telecom capacity",
+     "url": "https://businessday.ng/technology/article/ncc-records-6500-network-interventions-as-operators-expand-telecom-capacity/",
+     "source": "BusinessDay",
+     "published": "2026-10-20T20:58:50Z",
+     "image": "https://cdn.businessday.ng/2021/12/Nigerias-telecoms-market.png"
+    },
+    {
+     "title": "Nigeria confirms imported Ebola case in FCT, begins contact tracing",
+     "url": "https://nairametrics.com/2026/10/20/nigeria-confirms-imported-ebola-case-in-fct-begins-contact-tracing/",
+     "source": "Nairametrics",
+     "published": "2026-10-20T19:23:49Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/08/Ebola-1.webp"
+    },
+    {
      "title": "Oil prices slip from five-month high as Iran, Pakistan discuss peace efforts",
      "url": "https://nairametrics.com/2026/10/20/oil-prices-slip-from-five-month-high-as-iran-pakistan-discuss-peace-efforts/",
      "source": "Nairametrics",
      "published": "2026-10-20T18:20:53Z",
      "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/crude-oil.webp"
-    },
-    {
-     "title": "NGX claws back N410 billion after Monday’s N1.47 trillion wipeout",
-     "url": "https://nairametrics.com/2026/10/20/ngx-claws-back-n410-billion-after-mondays-n1-47-trillion-wipeout/",
-     "source": "Nairametrics",
-     "published": "2026-10-20T17:57:06Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/09/stock-1-scaled-1.webp"
     },
     {
      "title": "EIB Global, FCMB join forces to support private sector, sustainable agriculture with €85 million funding",
@@ -183,13 +190,6 @@
      "source": "The Africa Report",
      "published": "2026-10-20T15:00:00Z",
      "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=640,height=475,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/10/20/alvine-tiwoda-e1792510312250.jpg"
-    },
-    {
-     "title": "JP Morgan to secure Nigerian banking licence after N50 billion deposit with CBN – Report",
-     "url": "https://www.premiumtimesng.com/business/business-news/918497-jp-morgan-to-secure-nigerian-banking-licence-after-n50-billion-deposit-with-cbn-report.html",
-     "source": "Premium Times",
-     "published": "2026-10-20T11:17:44Z",
-     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2019/07/JPMorgan.jpeg?fit=1320%2C824&ssl=1"
     }
    ]
   }
@@ -232,7 +232,7 @@
    "items": 30,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-20T19:13:46Z",
+   "newest": "2026-10-20T19:28:43Z",
    "oldest": "2026-10-06T15:52:22Z"
   },
   {
@@ -242,8 +242,8 @@
    "items": 7,
    "skipped": 3,
    "undated": 0,
-   "newest": "2026-10-20T18:15:00Z",
-   "oldest": "2026-10-20T15:27:00Z"
+   "newest": "2026-10-20T23:10:00Z",
+   "oldest": "2026-10-20T20:45:00Z"
   },
   {
    "source": "CNBC",
@@ -259,11 +259,11 @@
    "source": "CNBC",
    "feed": "https://www.cnbc.com/id/15839069/device/rss/rss.html",
    "ok": true,
-   "items": 30,
+   "items": 29,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-18T12:34:51Z",
-   "oldest": "2026-09-18T18:28:31Z"
+   "newest": "2026-10-20T22:06:33Z",
+   "oldest": "2026-09-20T11:59:45Z"
   },
   {
    "source": "Federal Reserve",
@@ -322,18 +322,18 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-20T18:20:53Z",
-   "oldest": "2026-10-20T11:29:04Z"
+   "newest": "2026-10-20T19:23:49Z",
+   "oldest": "2026-10-20T11:32:58Z"
   },
   {
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 0,
-   "skipped": 5,
+   "items": 1,
+   "skipped": 4,
    "undated": 0,
-   "newest": null,
-   "oldest": null
+   "newest": "2026-10-20T20:58:50Z",
+   "oldest": "2026-10-20T20:58:50Z"
   },
   {
    "source": "Premium Times",
