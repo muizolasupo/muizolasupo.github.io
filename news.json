@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T12:02:36Z",
+ "updated": "2026-10-21T17:22:23Z",
  "categories": [
   {
    "id": "economy",
@@ -54,32 +54,39 @@
    "label": "Markets",
    "items": [
     {
-     "title": "Musk says he’s exploring a SpaceX-Tesla megamerger. What would a combined company be worth?",
-     "url": "https://www.marketwatch.com/story/musk-says-hes-exploring-a-spacex-tesla-megamerger-what-would-a-combined-company-be-worth-f35566aa?mod=mw_rss_topstories",
+     "title": "Medicare is a bargain. What America can’t afford is private health insurance.",
+     "url": "https://www.marketwatch.com/story/medicare-is-a-bargain-what-america-cant-afford-is-private-health-insurance-8a834023?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-21T11:39:00Z",
-     "image": "https://images.mktw.net/im-88149230"
+     "published": "2026-10-21T16:34:00Z",
+     "image": "https://images.mktw.net/im-93908222"
     },
     {
-     "title": "Why SpaceX’s stock is surging — and lifting the broader AI universe along with it",
-     "url": "https://www.marketwatch.com/story/why-spacexs-stock-is-surging-and-lifting-the-broader-ai-universe-along-with-it-0cd62f39?mod=mw_rss_topstories",
+     "title": "Polymarket traders see a 10% chance the AI bubble bursts before New Year’s Day",
+     "url": "https://www.marketwatch.com/story/polymarket-traders-see-a-10-chance-the-ai-bubble-bursts-before-new-years-day-ad33258b?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-21T11:22:00Z",
-     "image": "https://images.mktw.net/im-99240166"
+     "published": "2026-10-21T15:59:00Z",
+     "image": "https://images.mktw.net/im-57386204"
     },
     {
-     "title": "Opposition to data centers will drive up inflation, says BlackRock’s Larry Fink",
-     "url": "https://www.marketwatch.com/story/opposition-to-data-centers-will-drive-up-inflation-says-blackrocks-larry-fink-831c25b9?mod=mw_rss_topstories",
+     "title": "Elon Musk promised a SpaceX share to every kid in America — don’t hold your breath",
+     "url": "https://www.marketwatch.com/story/elon-musk-promised-a-spacex-share-to-every-kid-in-america-dont-hold-your-breath-d6572cdf?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-21T10:59:00Z",
-     "image": "https://images.mktw.net/im-66460569"
+     "published": "2026-10-21T15:50:00Z",
+     "image": "https://images.mktw.net/im-21652349"
     },
     {
-     "title": "AT&T shrugs off SpaceX fears with its own large haul of new internet subscribers",
-     "url": "https://www.marketwatch.com/story/at-t-shrugs-off-spacex-fears-with-its-own-large-haul-of-new-internet-subscribers-644f66a8?mod=mw_rss_topstories",
+     "title": "Goldman Sachs, JPMorgan and Morgan Stanley are dominating the AI stock boom. Here's their edge",
+     "url": "https://www.cnbc.com/2026/10/21/goldman-sachs-jpmorgan-morgan-stanley-ai-trading.html",
+     "source": "CNBC",
+     "published": "2026-10-21T15:30:50Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108436952-1792496159982-Untitled-7.jpg?v=1792496300&w=1920&h=1080"
+    },
+    {
+     "title": "AI stocks are probably in a bubble — but might be worth holding on to, says Citadel’s Ken Griffin",
+     "url": "https://www.marketwatch.com/story/ai-stocks-are-probably-in-a-bubble-but-might-be-worth-holding-onto-says-citadels-ken-griffin-87f535ce?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-21T10:58:00Z",
-     "image": "https://images.mktw.net/im-843608"
+     "published": "2026-10-21T15:27:00Z",
+     "image": "https://images.mktw.net/im-80048828"
     },
     {
      "title": "This Janus Henderson fund manager owns CoreWeave debt — here's why he's sticking with it",
@@ -87,13 +94,6 @@
      "source": "CNBC",
      "published": "2026-10-21T00:12:44Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108437276-1792501523768-gettyimages-2300448024-TFSPI_16102026-7399.jpeg?v=1792501568&w=1920&h=1080"
-    },
-    {
-     "title": "HSBC CEO warns the AI boom won’t make every data center a good bet",
-     "url": "https://www.cnbc.com/2026/10/20/data-center-financing-ai-debt-hsbc.html",
-     "source": "CNBC",
-     "published": "2026-10-20T10:39:17Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108359132-1788544833922-gettyimages-2286508421-hodasss.jpeg?v=1788544862&w=1920&h=1080"
     }
    ]
   },
@@ -150,18 +150,39 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "Nigeria’s oil gains from the Iran war come with a domestic cost",
-     "url": "https://businessday.ng/business-economy/article/nigerias-oil-gains-from-the-iran-war-come-with-a-domestic-cost/",
-     "source": "BusinessDay",
-     "published": "2026-10-21T11:43:58Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/Untitled-design-2026-10-21T124238.610-large.png"
+     "title": "NBTI unveils $600 million investment pipeline through global partnerships",
+     "url": "https://nairametrics.com/2026/10/21/nbti-unveils-600-million-investment-pipeline-through-global-partnerships/",
+     "source": "Nairametrics",
+     "published": "2026-10-21T17:15:43Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/kazeem-raji-1200.jpg"
     },
     {
-     "title": "Naira settles at N1,778/£ as British Pound advances against US dollar",
-     "url": "https://nairametrics.com/2026/10/21/naira-settles-at-n1778-as-british-pound-advances-against-us-dollar/",
+     "title": "Elon Musk regains trillionaire status as wealth jumps $88 billion",
+     "url": "https://nairametrics.com/2026/10/21/elon-musk-regains-trillionaire-status-as-wealth-jumps-88-billion/",
      "source": "Nairametrics",
-     "published": "2026-10-21T11:20:47Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/Naira-dollar-pounds-1.webp"
+     "published": "2026-10-21T16:40:02Z",
+     "image": "https://media.nairametrics.com/2025/05/musk.jpg"
+    },
+    {
+     "title": "Wike banks on APC-PDP alliance to deliver FCT for Tinubu in 2027",
+     "url": "https://businessday.ng/politics/article/wike-banks-on-apc-pdp-alliance-to-deliver-fct-for-tinubu-in-2027/",
+     "source": "BusinessDay",
+     "published": "2026-10-21T16:14:27Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2024/06/Nyesom-Wike.png"
+    },
+    {
+     "title": "The Nigerian Ports Economic Regulatory Agency Act 2026 – From Shippers’ Council to NPERA 2026: Reshaping the economic regulation of Nigerian ports",
+     "url": "https://businessday.ng/news/legal-business/article/the-nigerian-ports-economic-regulatory-agency-act-2026-from-shippers-council-to-npera-2026-reshaping-the-economic-regulation-of-nigerian-ports/",
+     "source": "BusinessDay",
+     "published": "2026-10-21T15:38:05Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/npera-large.jpg"
+    },
+    {
+     "title": "Nigeria’s cocoa exports to US surge to $142m in 2025",
+     "url": "https://www.premiumtimesng.com/business/business-news/918874-nigerias-cocoa-exports-to-us-surge-to-142m-in-2025.html",
+     "source": "Premium Times",
+     "published": "2026-10-21T14:41:09Z",
+     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2025/01/IMG_20190921_185810_824-1.jpg?fit=965%2C681&ssl=1"
     },
     {
      "title": "Ghana to end unprocessed mineral exports by 2030",
@@ -169,27 +190,6 @@
      "source": "African Business",
      "published": "2026-10-21T10:37:13Z",
      "image": "https://african.business/wp-content/uploads/2026/10/000_1AS9C5-scaled.jpg"
-    },
-    {
-     "title": "Uganda denies being source of Nigeria’s imported Ebola case, says investigation ongoing",
-     "url": "https://nairametrics.com/2026/10/21/uganda-denies-being-source-of-nigerias-imported-ebola-case-says-investigation-ongoing/",
-     "source": "Nairametrics",
-     "published": "2026-10-21T10:08:39Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/08/Ebola-1.webp"
-    },
-    {
-     "title": "From reacting to anticipating: Takeaways for Africa from Abu Dhabi's Future Health Summit",
-     "url": "https://african.business/2026/10/partner-content/from-reacting-to-anticipating-takeaways-for-africa-from-abu-dhabis-future-health-summit",
-     "source": "African Business",
-     "published": "2026-10-21T09:12:26Z",
-     "image": "https://african.business/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-20-at-12.55.46.jpeg"
-    },
-    {
-     "title": "FAAN begins earning MMA2 revenue as 20-year dispute with Bi-Courtney ends",
-     "url": "https://www.premiumtimesng.com/business/business-news/918757-faan-begins-earning-mma2-revenue-as-20-year-dispute-with-bi-courtney-ends.html",
-     "source": "Premium Times",
-     "published": "2026-10-21T07:21:09Z",
-     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/06/699907411_3001012880104792_589827653028784081_n.jpg?fit=2048%2C1366&ssl=1"
     }
    ]
   }
@@ -239,11 +239,11 @@
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 6,
-   "skipped": 4,
+   "items": 8,
+   "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-21T11:39:00Z",
-   "oldest": "2026-10-21T09:04:00Z"
+   "newest": "2026-10-21T16:34:00Z",
+   "oldest": "2026-10-21T14:33:00Z"
   },
   {
    "source": "CNBC",
@@ -252,18 +252,18 @@
    "items": 29,
    "skipped": 1,
    "undated": 0,
-   "newest": "2026-10-20T10:39:17Z",
-   "oldest": "2026-10-07T06:16:39Z"
+   "newest": "2026-10-21T15:30:50Z",
+   "oldest": "2026-10-07T18:42:36Z"
   },
   {
    "source": "CNBC",
    "feed": "https://www.cnbc.com/id/15839069/device/rss/rss.html",
    "ok": true,
-   "items": 29,
+   "items": 26,
    "skipped": 0,
    "undated": 0,
    "newest": "2026-10-21T00:12:44Z",
-   "oldest": "2026-09-20T11:59:45Z"
+   "oldest": "2026-09-21T20:13:33Z"
   },
   {
    "source": "Federal Reserve",
@@ -322,28 +322,28 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-21T11:20:47Z",
-   "oldest": "2026-10-21T05:58:36Z"
+   "newest": "2026-10-21T17:15:43Z",
+   "oldest": "2026-10-21T07:25:53Z"
   },
   {
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 1,
-   "skipped": 4,
+   "items": 3,
+   "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-21T11:43:58Z",
-   "oldest": "2026-10-21T11:43:58Z"
+   "newest": "2026-10-21T16:14:27Z",
+   "oldest": "2026-10-21T15:36:46Z"
   },
   {
    "source": "Premium Times",
    "feed": "https://www.premiumtimesng.com/business/feed",
    "ok": true,
-   "items": 10,
-   "skipped": 5,
+   "items": 9,
+   "skipped": 6,
    "undated": 0,
-   "newest": "2026-10-21T07:21:09Z",
-   "oldest": "2026-10-17T11:11:43Z"
+   "newest": "2026-10-21T14:41:09Z",
+   "oldest": "2026-10-18T16:02:45Z"
   },
   {
    "source": "African Business",
@@ -359,11 +359,11 @@
    "source": "The Africa Report",
    "feed": "https://www.theafricareport.com/feed/",
    "ok": true,
-   "items": 3,
-   "skipped": 7,
+   "items": 2,
+   "skipped": 8,
    "undated": 0,
    "newest": "2026-10-20T16:00:00Z",
-   "oldest": "2026-10-20T10:00:00Z"
+   "oldest": "2026-10-20T15:00:00Z"
   }
  ],
  "first_seen": {
