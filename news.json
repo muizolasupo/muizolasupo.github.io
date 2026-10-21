@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-20T23:58:22Z",
+ "updated": "2026-10-21T05:00:33Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
+    {
+     "title": "Car buyers are demanding lower prices and better tech. Automakers must deliver both",
+     "url": "https://www.cnbc.com/2026/10/20/car-buyers-china-tech-price-europe.html",
+     "source": "CNBC",
+     "published": "2026-10-21T01:01:01Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108435362-1792464829404-gettyimages-2291414326-vcg111661264779.jpeg?v=1792464843&w=1920&h=1080"
+    },
     {
      "title": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
      "url": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html",
@@ -34,13 +41,6 @@
      "image": ""
     },
     {
-     "title": "Women may be at greater risk of AI job losses. Telephone switch operators and PCs show why",
-     "url": "https://www.cnbc.com/2026/10/19/ai-job-losses-women-automation-risk.html",
-     "source": "CNBC",
-     "published": "2026-10-19T18:36:21Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108420291-1792166305523-gettyimages-849336184-152160final.jpeg?v=1792166615&w=1920&h=1080"
-    },
-    {
      "title": "Who will buy $120bn-worth of fresh Japanese government bonds?",
      "url": "https://www.economist.com/finance-and-economics/2026/10/19/who-will-buy-120bn-worth-of-fresh-japanese-government-bonds",
      "source": "The Economist",
@@ -54,39 +54,39 @@
    "label": "Markets",
    "items": [
     {
-     "title": "Why SpaceX’s stock is surging — and lifting the broader AI universe along with it",
-     "url": "https://www.marketwatch.com/story/why-spacexs-stock-is-surging-and-lifting-the-broader-ai-universe-along-with-it-0cd62f39?mod=mw_rss_topstories",
+     "title": "Bull markets tend to peak with a whimper, not a bang — but a 15% correction for the S&P 500 may be next",
+     "url": "https://www.marketwatch.com/story/bull-markets-tend-to-peak-with-a-whimper-not-a-bang-but-a-15-correction-for-the-s-p-500-may-be-next-dab40e2c?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-20T23:10:00Z",
-     "image": "https://images.mktw.net/im-99240166"
+     "published": "2026-10-21T00:24:00Z",
+     "image": "https://images.mktw.net/im-43495041"
     },
     {
      "title": "Super Micro’s stock soars after surprise update — with Dell and HPE shares joining the rally",
      "url": "https://www.marketwatch.com/story/super-micros-stock-soars-after-surprise-update-with-dell-and-hpe-shares-joining-the-rally-1837a69f?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-20T22:37:00Z",
+     "published": "2026-10-21T00:15:00Z",
      "image": "https://images.mktw.net/im-31427887"
     },
     {
      "title": "Tesla’s stock rises as Elon Musk drops new clues about a possible SpaceX merger",
      "url": "https://www.marketwatch.com/story/teslas-stock-rises-as-elon-musk-drops-new-clues-about-a-possible-spacex-merger-8cc44fc2?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-20T22:33:00Z",
+     "published": "2026-10-21T00:14:00Z",
      "image": "https://images.mktw.net/im-71362137"
-    },
-    {
-     "title": "Netflix vows to revive viewership trends, but investors hit ‘sell’ on the stock",
-     "url": "https://www.marketwatch.com/story/netflix-vows-to-revive-viewership-trends-but-investors-hit-sell-on-the-stock-3e24420a?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-20T22:30:00Z",
-     "image": "https://images.mktw.net/im-73464745"
     },
     {
      "title": "This Janus Henderson fund manager owns CoreWeave debt — here's why he's sticking with it",
      "url": "https://www.cnbc.com/2026/10/20/coreweave-debt-janus-henderson-lloyd.html",
      "source": "CNBC",
-     "published": "2026-10-20T22:06:33Z",
+     "published": "2026-10-21T00:12:44Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108437276-1792501523768-gettyimages-2300448024-TFSPI_16102026-7399.jpeg?v=1792501568&w=1920&h=1080"
+    },
+    {
+     "title": "Netflix vows to revive viewership trends, but investors hit ‘sell’ on the stock",
+     "url": "https://www.marketwatch.com/story/netflix-vows-to-revive-viewership-trends-but-investors-hit-sell-on-the-stock-3e24420a?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-21T00:12:00Z",
+     "image": "https://images.mktw.net/im-73464745"
     },
     {
      "title": "HSBC CEO warns the AI boom won’t make every data center a good bet",
@@ -150,11 +150,11 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "NCC records 6,500 network interventions as operators expand telecom capacity",
-     "url": "https://businessday.ng/technology/article/ncc-records-6500-network-interventions-as-operators-expand-telecom-capacity/",
+     "title": "Nigeria’s monthly diaspora inflows near $1bn as NiDCOM hails investments",
+     "url": "https://businessday.ng/news/article/nigerias-monthly-diaspora-inflows-near-1bn-as-nidcom-hails-investments/",
      "source": "BusinessDay",
-     "published": "2026-10-20T20:58:50Z",
-     "image": "https://cdn.businessday.ng/2021/12/Nigerias-telecoms-market.png"
+     "published": "2026-10-21T04:42:04Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2024/11/NiDCOM-1024x576.png"
     },
     {
      "title": "Nigeria confirms imported Ebola case in FCT, begins contact tracing",
@@ -232,7 +232,7 @@
    "items": 30,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-20T19:28:43Z",
+   "newest": "2026-10-21T01:01:01Z",
    "oldest": "2026-10-06T15:52:22Z"
   },
   {
@@ -242,8 +242,8 @@
    "items": 7,
    "skipped": 3,
    "undated": 0,
-   "newest": "2026-10-20T23:10:00Z",
-   "oldest": "2026-10-20T20:45:00Z"
+   "newest": "2026-10-21T00:24:00Z",
+   "oldest": "2026-10-20T20:57:00Z"
   },
   {
    "source": "CNBC",
@@ -262,7 +262,7 @@
    "items": 29,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-20T22:06:33Z",
+   "newest": "2026-10-21T00:12:44Z",
    "oldest": "2026-09-20T11:59:45Z"
   },
   {
@@ -332,8 +332,8 @@
    "items": 1,
    "skipped": 4,
    "undated": 0,
-   "newest": "2026-10-20T20:58:50Z",
-   "oldest": "2026-10-20T20:58:50Z"
+   "newest": "2026-10-21T04:42:04Z",
+   "oldest": "2026-10-21T04:42:04Z"
   },
   {
    "source": "Premium Times",
@@ -359,11 +359,11 @@
    "source": "The Africa Report",
    "feed": "https://www.theafricareport.com/feed/",
    "ok": true,
-   "items": 5,
-   "skipped": 5,
+   "items": 4,
+   "skipped": 6,
    "undated": 0,
    "newest": "2026-10-20T16:00:00Z",
-   "oldest": "2026-10-19T13:00:00Z"
+   "oldest": "2026-10-20T06:00:00Z"
   }
  ],
  "first_seen": {
