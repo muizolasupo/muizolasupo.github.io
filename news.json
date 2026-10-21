@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T17:22:23Z",
+ "updated": "2026-10-21T21:50:07Z",
  "categories": [
   {
    "id": "economy",
@@ -54,25 +54,39 @@
    "label": "Markets",
    "items": [
     {
-     "title": "Medicare is a bargain. What America can’t afford is private health insurance.",
-     "url": "https://www.marketwatch.com/story/medicare-is-a-bargain-what-america-cant-afford-is-private-health-insurance-8a834023?mod=mw_rss_topstories",
+     "title": "Why investors should be skeptical of a potential Tesla-SpaceX merger",
+     "url": "https://www.marketwatch.com/story/why-investors-should-be-skeptical-of-a-potential-tesla-spacex-merger-9e119d32?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-21T16:34:00Z",
-     "image": "https://images.mktw.net/im-93908222"
+     "published": "2026-10-21T21:44:00Z",
+     "image": "https://images.mktw.net/im-63500950"
     },
     {
-     "title": "Polymarket traders see a 10% chance the AI bubble bursts before New Year’s Day",
-     "url": "https://www.marketwatch.com/story/polymarket-traders-see-a-10-chance-the-ai-bubble-bursts-before-new-years-day-ad33258b?mod=mw_rss_topstories",
+     "title": "Trump says data centers should generate their own electricity — but experts say only states can mandate that",
+     "url": "https://www.marketwatch.com/story/trump-says-data-centers-should-generate-their-own-electricity-but-experts-say-only-states-can-mandate-that-415dcaad?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-21T15:59:00Z",
-     "image": "https://images.mktw.net/im-57386204"
+     "published": "2026-10-21T21:31:00Z",
+     "image": "https://images.mktw.net/im-03800189"
     },
     {
-     "title": "Elon Musk promised a SpaceX share to every kid in America — don’t hold your breath",
-     "url": "https://www.marketwatch.com/story/elon-musk-promised-a-spacex-share-to-every-kid-in-america-dont-hold-your-breath-d6572cdf?mod=mw_rss_topstories",
+     "title": "Oil is now flowing out of the Persian Gulf like before the Iran war. Why prices may still not come down anytime soon.",
+     "url": "https://www.marketwatch.com/story/oil-is-now-flowing-out-of-the-persian-gulf-like-before-the-iran-war-why-prices-may-still-not-come-down-anytime-soon-56df2f48?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-21T15:50:00Z",
-     "image": "https://images.mktw.net/im-21652349"
+     "published": "2026-10-21T21:14:00Z",
+     "image": "https://images.mktw.net/im-89005397"
+    },
+    {
+     "title": "7 healthcare stocks that stand out as investors pay up for the sector",
+     "url": "https://www.marketwatch.com/story/7-healthcare-stocks-that-stand-out-as-investors-pay-up-for-the-sector-d9b0c173?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-21T20:59:00Z",
+     "image": "https://images.mktw.net/im-71455519"
+    },
+    {
+     "title": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
+     "url": "https://www.cnbc.com/2026/10/21/rick-rieder-investment-grade-bonds.html",
+     "source": "CNBC",
+     "published": "2026-10-21T19:54:16Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108315322-1780418958261-pV7cOP_w.jpg?v=1789497012&w=1920&h=1080"
     },
     {
      "title": "Goldman Sachs, JPMorgan and Morgan Stanley are dominating the AI stock boom. Here's their edge",
@@ -80,20 +94,6 @@
      "source": "CNBC",
      "published": "2026-10-21T15:30:50Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108436952-1792496159982-Untitled-7.jpg?v=1792496300&w=1920&h=1080"
-    },
-    {
-     "title": "AI stocks are probably in a bubble — but might be worth holding on to, says Citadel’s Ken Griffin",
-     "url": "https://www.marketwatch.com/story/ai-stocks-are-probably-in-a-bubble-but-might-be-worth-holding-onto-says-citadels-ken-griffin-87f535ce?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-21T15:27:00Z",
-     "image": "https://images.mktw.net/im-80048828"
-    },
-    {
-     "title": "This Janus Henderson fund manager owns CoreWeave debt — here's why he's sticking with it",
-     "url": "https://www.cnbc.com/2026/10/20/coreweave-debt-janus-henderson-lloyd.html",
-     "source": "CNBC",
-     "published": "2026-10-21T00:12:44Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108437276-1792501523768-gettyimages-2300448024-TFSPI_16102026-7399.jpeg?v=1792501568&w=1920&h=1080"
     }
    ]
   },
@@ -150,32 +150,32 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "NBTI unveils $600 million investment pipeline through global partnerships",
-     "url": "https://nairametrics.com/2026/10/21/nbti-unveils-600-million-investment-pipeline-through-global-partnerships/",
-     "source": "Nairametrics",
-     "published": "2026-10-21T17:15:43Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/kazeem-raji-1200.jpg"
-    },
-    {
-     "title": "Elon Musk regains trillionaire status as wealth jumps $88 billion",
-     "url": "https://nairametrics.com/2026/10/21/elon-musk-regains-trillionaire-status-as-wealth-jumps-88-billion/",
-     "source": "Nairametrics",
-     "published": "2026-10-21T16:40:02Z",
-     "image": "https://media.nairametrics.com/2025/05/musk.jpg"
-    },
-    {
-     "title": "Wike banks on APC-PDP alliance to deliver FCT for Tinubu in 2027",
-     "url": "https://businessday.ng/politics/article/wike-banks-on-apc-pdp-alliance-to-deliver-fct-for-tinubu-in-2027/",
+     "title": "Africa’s 2050 urban future: Build deliberately or pay the price—Experts",
+     "url": "https://businessday.ng/education/article/africas-2050-urban-future-build-deliberately-or-pay-the-price-experts/",
      "source": "BusinessDay",
-     "published": "2026-10-21T16:14:27Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2024/06/Nyesom-Wike.png"
+     "published": "2026-10-21T21:21:01Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/Akin-Mabogunje-Pix-large.jpg"
     },
     {
-     "title": "The Nigerian Ports Economic Regulatory Agency Act 2026 – From Shippers’ Council to NPERA 2026: Reshaping the economic regulation of Nigerian ports",
-     "url": "https://businessday.ng/news/legal-business/article/the-nigerian-ports-economic-regulatory-agency-act-2026-from-shippers-council-to-npera-2026-reshaping-the-economic-regulation-of-nigerian-ports/",
-     "source": "BusinessDay",
-     "published": "2026-10-21T15:38:05Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/npera-large.jpg"
+     "title": "Guinness Nigeria’s 9M 2026 pre-tax profit rises 55% to N61.65 billion, declares interim dividend",
+     "url": "https://nairametrics.com/2026/10/21/guinness-nigerias-9m-2026-pre-tax-profit-rises-55-to-n61-65-billion-declares-interim-dividend/",
+     "source": "Nairametrics",
+     "published": "2026-10-21T20:11:15Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/Guiness.webp"
+    },
+    {
+     "title": "AVA Capital posts N2.63 billion 9-month profit as client funds hit N77.79 billion",
+     "url": "https://nairametrics.com/2026/10/21/ava-capital-posts-n2-63-billion-9-month-profit-as-client-funds-hit-n77-79-billion/",
+     "source": "Nairametrics",
+     "published": "2026-10-21T19:47:30Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/ava-building-exterior-1.webp"
+    },
+    {
+     "title": "Cheaper chicken, vegetable oil drive 11.5% fall in jollof rice cost – Report",
+     "url": "https://www.premiumtimesng.com/business/business-news/919003-cheaper-chicken-vegetable-oil-drive-11-5-fall-in-jollof-rice-cost-report.html",
+     "source": "Premium Times",
+     "published": "2026-10-21T19:21:11Z",
+     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2021/12/Jollof.jpg?fit=1015%2C571&ssl=1"
     },
     {
      "title": "Nigeria’s cocoa exports to US surge to $142m in 2025",
@@ -239,11 +239,11 @@
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 8,
-   "skipped": 2,
+   "items": 7,
+   "skipped": 3,
    "undated": 0,
-   "newest": "2026-10-21T16:34:00Z",
-   "oldest": "2026-10-21T14:33:00Z"
+   "newest": "2026-10-21T21:44:00Z",
+   "oldest": "2026-10-21T20:01:00Z"
   },
   {
    "source": "CNBC",
@@ -259,10 +259,10 @@
    "source": "CNBC",
    "feed": "https://www.cnbc.com/id/15839069/device/rss/rss.html",
    "ok": true,
-   "items": 26,
+   "items": 27,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-21T00:12:44Z",
+   "newest": "2026-10-21T19:54:16Z",
    "oldest": "2026-09-21T20:13:33Z"
   },
   {
@@ -322,18 +322,18 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-21T17:15:43Z",
-   "oldest": "2026-10-21T07:25:53Z"
+   "newest": "2026-10-21T20:11:15Z",
+   "oldest": "2026-10-21T08:19:33Z"
   },
   {
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 3,
-   "skipped": 2,
+   "items": 1,
+   "skipped": 4,
    "undated": 0,
-   "newest": "2026-10-21T16:14:27Z",
-   "oldest": "2026-10-21T15:36:46Z"
+   "newest": "2026-10-21T21:21:01Z",
+   "oldest": "2026-10-21T21:21:01Z"
   },
   {
    "source": "Premium Times",
@@ -342,8 +342,8 @@
    "items": 9,
    "skipped": 6,
    "undated": 0,
-   "newest": "2026-10-21T14:41:09Z",
-   "oldest": "2026-10-18T16:02:45Z"
+   "newest": "2026-10-21T19:21:11Z",
+   "oldest": "2026-10-18T19:07:30Z"
   },
   {
    "source": "African Business",
