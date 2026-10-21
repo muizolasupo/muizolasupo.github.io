@@ -1,23 +1,23 @@
 {
- "updated": "2026-10-21T05:00:33Z",
+ "updated": "2026-10-21T12:02:36Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
     {
-     "title": "Car buyers are demanding lower prices and better tech. Automakers must deliver both",
-     "url": "https://www.cnbc.com/2026/10/20/car-buyers-china-tech-price-europe.html",
-     "source": "CNBC",
-     "published": "2026-10-21T01:01:01Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108435362-1792464829404-gettyimages-2291414326-vcg111661264779.jpeg?v=1792464843&w=1920&h=1080"
-    },
-    {
      "title": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
      "url": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html",
      "source": "CNBC",
-     "published": "2026-10-20T19:28:43Z",
+     "published": "2026-10-21T11:20:58Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108327067-1792519521637-108327067-1782417101819-gettyimages-2283316440-_24a0872_jiglfdso.jpeg?v=1792519640&w=1920&h=1080"
+    },
+    {
+     "title": "UK inflation jumps to 3.5% — cementing rate hike expectations",
+     "url": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html",
+     "source": "CNBC",
+     "published": "2026-10-21T07:50:10Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108243682-17660765522025-12-18t164547z_2096923420_rc23jiae5pf5_rtrmadp_0_britain-boe.jpeg?v=1766076616&w=1920&h=1080"
     },
     {
      "title": "The late Perry Mehrling explained the hierarchy of money",
@@ -54,25 +54,32 @@
    "label": "Markets",
    "items": [
     {
-     "title": "Bull markets tend to peak with a whimper, not a bang — but a 15% correction for the S&P 500 may be next",
-     "url": "https://www.marketwatch.com/story/bull-markets-tend-to-peak-with-a-whimper-not-a-bang-but-a-15-correction-for-the-s-p-500-may-be-next-dab40e2c?mod=mw_rss_topstories",
+     "title": "Musk says he’s exploring a SpaceX-Tesla megamerger. What would a combined company be worth?",
+     "url": "https://www.marketwatch.com/story/musk-says-hes-exploring-a-spacex-tesla-megamerger-what-would-a-combined-company-be-worth-f35566aa?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-21T00:24:00Z",
-     "image": "https://images.mktw.net/im-43495041"
+     "published": "2026-10-21T11:39:00Z",
+     "image": "https://images.mktw.net/im-88149230"
     },
     {
-     "title": "Super Micro’s stock soars after surprise update — with Dell and HPE shares joining the rally",
-     "url": "https://www.marketwatch.com/story/super-micros-stock-soars-after-surprise-update-with-dell-and-hpe-shares-joining-the-rally-1837a69f?mod=mw_rss_topstories",
+     "title": "Why SpaceX’s stock is surging — and lifting the broader AI universe along with it",
+     "url": "https://www.marketwatch.com/story/why-spacexs-stock-is-surging-and-lifting-the-broader-ai-universe-along-with-it-0cd62f39?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-21T00:15:00Z",
-     "image": "https://images.mktw.net/im-31427887"
+     "published": "2026-10-21T11:22:00Z",
+     "image": "https://images.mktw.net/im-99240166"
     },
     {
-     "title": "Tesla’s stock rises as Elon Musk drops new clues about a possible SpaceX merger",
-     "url": "https://www.marketwatch.com/story/teslas-stock-rises-as-elon-musk-drops-new-clues-about-a-possible-spacex-merger-8cc44fc2?mod=mw_rss_topstories",
+     "title": "Opposition to data centers will drive up inflation, says BlackRock’s Larry Fink",
+     "url": "https://www.marketwatch.com/story/opposition-to-data-centers-will-drive-up-inflation-says-blackrocks-larry-fink-831c25b9?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-21T00:14:00Z",
-     "image": "https://images.mktw.net/im-71362137"
+     "published": "2026-10-21T10:59:00Z",
+     "image": "https://images.mktw.net/im-66460569"
+    },
+    {
+     "title": "AT&T shrugs off SpaceX fears with its own large haul of new internet subscribers",
+     "url": "https://www.marketwatch.com/story/at-t-shrugs-off-spacex-fears-with-its-own-large-haul-of-new-internet-subscribers-644f66a8?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-21T10:58:00Z",
+     "image": "https://images.mktw.net/im-843608"
     },
     {
      "title": "This Janus Henderson fund manager owns CoreWeave debt — here's why he's sticking with it",
@@ -80,13 +87,6 @@
      "source": "CNBC",
      "published": "2026-10-21T00:12:44Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108437276-1792501523768-gettyimages-2300448024-TFSPI_16102026-7399.jpeg?v=1792501568&w=1920&h=1080"
-    },
-    {
-     "title": "Netflix vows to revive viewership trends, but investors hit ‘sell’ on the stock",
-     "url": "https://www.marketwatch.com/story/netflix-vows-to-revive-viewership-trends-but-investors-hit-sell-on-the-stock-3e24420a?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-21T00:12:00Z",
-     "image": "https://images.mktw.net/im-73464745"
     },
     {
      "title": "HSBC CEO warns the AI boom won’t make every data center a good bet",
@@ -150,46 +150,46 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "Nigeria’s monthly diaspora inflows near $1bn as NiDCOM hails investments",
-     "url": "https://businessday.ng/news/article/nigerias-monthly-diaspora-inflows-near-1bn-as-nidcom-hails-investments/",
+     "title": "Nigeria’s oil gains from the Iran war come with a domestic cost",
+     "url": "https://businessday.ng/business-economy/article/nigerias-oil-gains-from-the-iran-war-come-with-a-domestic-cost/",
      "source": "BusinessDay",
-     "published": "2026-10-21T04:42:04Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2024/11/NiDCOM-1024x576.png"
+     "published": "2026-10-21T11:43:58Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/Untitled-design-2026-10-21T124238.610-large.png"
     },
     {
-     "title": "Nigeria confirms imported Ebola case in FCT, begins contact tracing",
-     "url": "https://nairametrics.com/2026/10/20/nigeria-confirms-imported-ebola-case-in-fct-begins-contact-tracing/",
+     "title": "Naira settles at N1,778/£ as British Pound advances against US dollar",
+     "url": "https://nairametrics.com/2026/10/21/naira-settles-at-n1778-as-british-pound-advances-against-us-dollar/",
      "source": "Nairametrics",
-     "published": "2026-10-20T19:23:49Z",
+     "published": "2026-10-21T11:20:47Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/Naira-dollar-pounds-1.webp"
+    },
+    {
+     "title": "Ghana to end unprocessed mineral exports by 2030",
+     "url": "https://african.business/2026/10/resources/ghana-to-end-unprocessed-mineral-exports-by-2030",
+     "source": "African Business",
+     "published": "2026-10-21T10:37:13Z",
+     "image": "https://african.business/wp-content/uploads/2026/10/000_1AS9C5-scaled.jpg"
+    },
+    {
+     "title": "Uganda denies being source of Nigeria’s imported Ebola case, says investigation ongoing",
+     "url": "https://nairametrics.com/2026/10/21/uganda-denies-being-source-of-nigerias-imported-ebola-case-says-investigation-ongoing/",
+     "source": "Nairametrics",
+     "published": "2026-10-21T10:08:39Z",
      "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/08/Ebola-1.webp"
     },
     {
-     "title": "Oil prices slip from five-month high as Iran, Pakistan discuss peace efforts",
-     "url": "https://nairametrics.com/2026/10/20/oil-prices-slip-from-five-month-high-as-iran-pakistan-discuss-peace-efforts/",
-     "source": "Nairametrics",
-     "published": "2026-10-20T18:20:53Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/crude-oil.webp"
+     "title": "From reacting to anticipating: Takeaways for Africa from Abu Dhabi's Future Health Summit",
+     "url": "https://african.business/2026/10/partner-content/from-reacting-to-anticipating-takeaways-for-africa-from-abu-dhabis-future-health-summit",
+     "source": "African Business",
+     "published": "2026-10-21T09:12:26Z",
+     "image": "https://african.business/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-20-at-12.55.46.jpeg"
     },
     {
-     "title": "EIB Global, FCMB join forces to support private sector, sustainable agriculture with €85 million funding",
-     "url": "https://www.premiumtimesng.com/business/business-news/918560-eib-global-fcmb-join-forces-to-support-private-sector-sustainable-agriculture-with-e85-million-funding.html",
+     "title": "FAAN begins earning MMA2 revenue as 20-year dispute with Bi-Courtney ends",
+     "url": "https://www.premiumtimesng.com/business/business-news/918757-faan-begins-earning-mma2-revenue-as-20-year-dispute-with-bi-courtney-ends.html",
      "source": "Premium Times",
-     "published": "2026-10-20T16:08:20Z",
-     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/10/1000511100.png?fit=1657%2C783&ssl=1"
-    },
-    {
-     "title": "Mines, telecoms, factories: Will African manufacturers succeed without diesel?",
-     "url": "https://www.theafricareport.com/434034/mines-telecoms-factories-will-african-manufacturers-succeed-without-diesel/",
-     "source": "The Africa Report",
-     "published": "2026-10-20T16:00:00Z",
-     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=1215,height=810,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/10/20/tangermed.jpg"
-    },
-    {
-     "title": "Women driving innovation in Cameroon’s economy",
-     "url": "https://www.theafricareport.com/433960/women-driving-innovation-in-cameroons-economy/",
-     "source": "The Africa Report",
-     "published": "2026-10-20T15:00:00Z",
-     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=640,height=475,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/10/20/alvine-tiwoda-e1792510312250.jpg"
+     "published": "2026-10-21T07:21:09Z",
+     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/06/699907411_3001012880104792_589827653028784081_n.jpg?fit=2048%2C1366&ssl=1"
     }
    ]
   }
@@ -232,18 +232,18 @@
    "items": 30,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-21T01:01:01Z",
-   "oldest": "2026-10-06T15:52:22Z"
+   "newest": "2026-10-21T11:20:58Z",
+   "oldest": "2026-10-07T06:16:39Z"
   },
   {
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 7,
-   "skipped": 3,
+   "items": 6,
+   "skipped": 4,
    "undated": 0,
-   "newest": "2026-10-21T00:24:00Z",
-   "oldest": "2026-10-20T20:57:00Z"
+   "newest": "2026-10-21T11:39:00Z",
+   "oldest": "2026-10-21T09:04:00Z"
   },
   {
    "source": "CNBC",
@@ -322,8 +322,8 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-20T19:23:49Z",
-   "oldest": "2026-10-20T11:32:58Z"
+   "newest": "2026-10-21T11:20:47Z",
+   "oldest": "2026-10-21T05:58:36Z"
   },
   {
    "source": "BusinessDay",
@@ -332,18 +332,18 @@
    "items": 1,
    "skipped": 4,
    "undated": 0,
-   "newest": "2026-10-21T04:42:04Z",
-   "oldest": "2026-10-21T04:42:04Z"
+   "newest": "2026-10-21T11:43:58Z",
+   "oldest": "2026-10-21T11:43:58Z"
   },
   {
    "source": "Premium Times",
    "feed": "https://www.premiumtimesng.com/business/feed",
    "ok": true,
-   "items": 11,
-   "skipped": 4,
+   "items": 10,
+   "skipped": 5,
    "undated": 0,
-   "newest": "2026-10-20T16:08:20Z",
-   "oldest": "2026-10-16T19:04:53Z"
+   "newest": "2026-10-21T07:21:09Z",
+   "oldest": "2026-10-17T11:11:43Z"
   },
   {
    "source": "African Business",
@@ -352,18 +352,18 @@
    "items": 25,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-20T10:47:27Z",
-   "oldest": "2026-10-08T11:42:02Z"
+   "newest": "2026-10-21T10:37:13Z",
+   "oldest": "2026-10-09T10:02:12Z"
   },
   {
    "source": "The Africa Report",
    "feed": "https://www.theafricareport.com/feed/",
    "ok": true,
-   "items": 4,
-   "skipped": 6,
+   "items": 3,
+   "skipped": 7,
    "undated": 0,
    "newest": "2026-10-20T16:00:00Z",
-   "oldest": "2026-10-20T06:00:00Z"
+   "oldest": "2026-10-20T10:00:00Z"
   }
  ],
  "first_seen": {
