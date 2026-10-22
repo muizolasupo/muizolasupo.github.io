@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T21:52:50Z",
+ "updated": "2026-10-22T05:07:54Z",
  "boards": [
   {
    "id": "us",
@@ -15,7 +15,7 @@
      "price": 221.97,
      "prev": 216.47,
      "change_pct": 2.54,
-     "market_cap": 5507332178229.848,
+     "market_cap": 5349477000000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/nvda"
@@ -26,7 +26,7 @@
      "price": 343.99,
      "prev": 339.5,
      "change_pct": 1.32,
-     "market_cap": 4980555719783.924,
+     "market_cap": 5020251980000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/aapl"
@@ -37,7 +37,7 @@
      "price": 334.76,
      "prev": 340.27,
      "change_pct": -1.62,
-     "market_cap": 4326729399999.9995,
+     "market_cap": 4073056930000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/googl"
@@ -48,7 +48,7 @@
      "price": 532.95,
      "prev": 531.87,
      "change_pct": 0.2,
-     "market_cap": 4035412835207.8716,
+     "market_cap": 3957444470000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/msft"
@@ -59,7 +59,7 @@
      "price": 262.37,
      "prev": 262.63,
      "change_pct": -0.1,
-     "market_cap": 2789125178170.7275,
+     "market_cap": 2830005090000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/amzn"
@@ -70,7 +70,7 @@
      "price": 697.52,
      "prev": 694.25,
      "change_pct": 0.47,
-     "market_cap": 1942473484598.9182,
+     "market_cap": 1776936540000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/meta"
@@ -81,7 +81,7 @@
      "price": 337.8,
      "prev": 334.37,
      "change_pct": 1.03,
-     "market_cap": 1705665746254.0955,
+     "market_cap": 1612532170000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/avgo"
@@ -92,7 +92,7 @@
      "price": 386.47,
      "prev": 373.71,
      "change_pct": 3.41,
-     "market_cap": 1481988743946.9321,
+     "market_cap": 1527611620000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/tsla"
@@ -103,7 +103,7 @@
      "price": 1270.75,
      "prev": 1283.66,
      "change_pct": -1.01,
-     "market_cap": 1098102414468.8661,
+     "market_cap": 1196229490000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/lly"
@@ -114,21 +114,10 @@
      "price": 538.99,
      "prev": 539.82,
      "change_pct": -0.15,
-     "market_cap": 1000676434069.0867,
+     "market_cap": 1155206130000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/brk-b"
-    },
-    {
-     "symbol": "AMD",
-     "name": "AMD",
-     "price": 552.72,
-     "prev": 534.74,
-     "change_pct": 3.36,
-     "market_cap": 988512555721.4786,
-     "date": "2026-10-21",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/amd"
     },
     {
      "symbol": "WMT",
@@ -136,10 +125,21 @@
      "price": 117.8,
      "prev": 117.85,
      "change_pct": -0.04,
-     "market_cap": 884142590000.0,
+     "market_cap": 934595310000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/wmt"
+    },
+    {
+     "symbol": "AMD",
+     "name": "AMD",
+     "price": 552.72,
+     "prev": 534.74,
+     "change_pct": 3.36,
+     "market_cap": 902301610000.0,
+     "date": "2026-10-21",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/amd"
     },
     {
      "symbol": "JPM",
@@ -147,7 +147,7 @@
      "price": 335.19,
      "prev": 335.26,
      "change_pct": -0.02,
-     "market_cap": 881002646376.9956,
+     "market_cap": 890997430000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/jpm"
@@ -158,7 +158,7 @@
      "price": 407.85,
      "prev": 406.57,
      "change_pct": 0.31,
-     "market_cap": 739462755936.4036,
+     "market_cap": 761475220000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/v"
@@ -169,7 +169,7 @@
      "price": 178.09,
      "prev": 177.86,
      "change_pct": 0.13,
-     "market_cap": 650632360000.0,
+     "market_cap": 732290400000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/xom"
@@ -180,21 +180,10 @@
      "price": 257.78,
      "prev": 259.36,
      "change_pct": -0.61,
-     "market_cap": 599124875505.0876,
+     "market_cap": 621223660000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/jnj"
-    },
-    {
-     "symbol": "INTC",
-     "name": "Intel",
-     "price": 92.96,
-     "prev": 91.69,
-     "change_pct": 1.39,
-     "market_cap": 543464495060.18274,
-     "date": "2026-10-21",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/intc"
     },
     {
      "symbol": "MA",
@@ -202,21 +191,10 @@
      "price": 622.62,
      "prev": 620.42,
      "change_pct": 0.35,
-     "market_cap": 529810833400.6083,
+     "market_cap": 545421310000.00006,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/ma"
-    },
-    {
-     "symbol": "PLTR",
-     "name": "Palantir",
-     "price": 201.72,
-     "prev": 192.6,
-     "change_pct": 4.74,
-     "market_cap": 501446172490.6973,
-     "date": "2026-10-21",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/pltr"
     },
     {
      "symbol": "ABBV",
@@ -224,32 +202,32 @@
      "price": 284.8,
      "prev": 289.08,
      "change_pct": -1.48,
-     "market_cap": 484826296632.7891,
+     "market_cap": 503275000000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/abbv"
     },
     {
-     "symbol": "CSCO",
-     "name": "Cisco",
-     "price": 107.26,
-     "prev": 106.71,
-     "change_pct": 0.52,
-     "market_cap": 453673433703.9186,
+     "symbol": "INTC",
+     "name": "Intel",
+     "price": 92.96,
+     "prev": 91.69,
+     "change_pct": 1.39,
+     "market_cap": 491300060000.0,
      "date": "2026-10-21",
      "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/csco"
+     "url": "https://www.nasdaq.com/market-activity/stocks/intc"
     },
     {
-     "symbol": "ORCL",
-     "name": "Oracle",
-     "price": 129.13,
-     "prev": 131.14,
-     "change_pct": -1.53,
-     "market_cap": 432999005302.9012,
+     "symbol": "PLTR",
+     "name": "Palantir",
+     "price": 201.72,
+     "prev": 192.6,
+     "change_pct": 4.74,
+     "market_cap": 484744960000.0,
      "date": "2026-10-21",
      "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/orcl"
+     "url": "https://www.nasdaq.com/market-activity/stocks/pltr"
     },
     {
      "symbol": "CVX",
@@ -257,7 +235,7 @@
      "price": 226.78,
      "prev": 225.71,
      "change_pct": 0.47,
-     "market_cap": 430184672135.83484,
+     "market_cap": 448065410000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/cvx"
@@ -268,10 +246,21 @@
      "price": 998.31,
      "prev": 994.61,
      "change_pct": 0.37,
-     "market_cap": 423024556711.4618,
+     "market_cap": 442380460000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/cost"
+    },
+    {
+     "symbol": "CSCO",
+     "name": "Cisco",
+     "price": 107.26,
+     "prev": 106.71,
+     "change_pct": 0.52,
+     "market_cap": 422881870000.0,
+     "date": "2026-10-21",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/csco"
     },
     {
      "symbol": "KO",
@@ -279,54 +268,21 @@
      "price": 92.68,
      "prev": 93.49,
      "change_pct": -0.87,
-     "market_cap": 387702678855.0369,
+     "market_cap": 398760260000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/ko"
     },
     {
-     "symbol": "BAC",
-     "name": "Bank of America",
-     "price": 50.78,
-     "prev": 50.64,
-     "change_pct": 0.28,
-     "market_cap": 377328723615.75446,
+     "symbol": "ORCL",
+     "name": "Oracle",
+     "price": 129.13,
+     "prev": 131.14,
+     "change_pct": -1.53,
+     "market_cap": 391457740000.0,
      "date": "2026-10-21",
      "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/bac"
-    },
-    {
-     "symbol": "PG",
-     "name": "Procter & Gamble",
-     "price": 156.84,
-     "prev": 159.32,
-     "change_pct": -1.56,
-     "market_cap": 355461771395.2784,
-     "date": "2026-10-21",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/pg"
-    },
-    {
-     "symbol": "CAT",
-     "name": "Caterpillar",
-     "price": 740.21,
-     "prev": 725.24,
-     "change_pct": 2.06,
-     "market_cap": 355227540563.10223,
-     "date": "2026-10-21",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/cat"
-    },
-    {
-     "symbol": "MRK",
-     "name": "Merck",
-     "price": 149.88,
-     "prev": 148.3,
-     "change_pct": 1.07,
-     "market_cap": 350289020799.5491,
-     "date": "2026-10-21",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/mrk"
+     "url": "https://www.nasdaq.com/market-activity/stocks/orcl"
     },
     {
      "symbol": "UNH",
@@ -334,43 +290,54 @@
      "price": 417,
      "prev": 419.26,
      "change_pct": -0.54,
-     "market_cap": 339075420177.8392,
+     "market_cap": 374297050000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/unh"
     },
     {
-     "symbol": "GE",
-     "name": "GE Aerospace",
-     "price": 295.88,
-     "prev": 299.87,
-     "change_pct": -1.33,
-     "market_cap": 319185367024.26245,
+     "symbol": "MRK",
+     "name": "Merck",
+     "price": 149.88,
+     "prev": 148.3,
+     "change_pct": 1.07,
+     "market_cap": 369779690000.0,
      "date": "2026-10-21",
      "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/ge"
+     "url": "https://www.nasdaq.com/market-activity/stocks/mrk"
     },
     {
-     "symbol": "PM",
-     "name": "Philip Morris",
-     "price": 197.46,
-     "prev": 199.9,
-     "change_pct": -1.22,
-     "market_cap": 310616089475.1901,
+     "symbol": "PG",
+     "name": "Procter & Gamble",
+     "price": 156.84,
+     "prev": 159.32,
+     "change_pct": -1.56,
+     "market_cap": 364287930000.0,
      "date": "2026-10-21",
      "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/pm"
+     "url": "https://www.nasdaq.com/market-activity/stocks/pg"
     },
     {
-     "symbol": "NFLX",
-     "name": "Netflix",
-     "price": 65.04,
-     "prev": 68.69,
-     "change_pct": -5.31,
-     "market_cap": 293391210807.3904,
+     "symbol": "BAC",
+     "name": "Bank of America",
+     "price": 50.78,
+     "prev": 50.64,
+     "change_pct": 0.28,
+     "market_cap": 351534470000.0,
      "date": "2026-10-21",
      "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/nflx"
+     "url": "https://www.nasdaq.com/market-activity/stocks/bac"
+    },
+    {
+     "symbol": "CAT",
+     "name": "Caterpillar",
+     "price": 740.21,
+     "prev": 725.24,
+     "change_pct": 2.06,
+     "market_cap": 340255950000.0,
+     "date": "2026-10-21",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/cat"
     },
     {
      "symbol": "HD",
@@ -378,10 +345,32 @@
      "price": 314.14,
      "prev": 315.11,
      "change_pct": -0.31,
-     "market_cap": 293240932954.2468,
+     "market_cap": 313414220000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/hd"
+    },
+    {
+     "symbol": "PM",
+     "name": "Philip Morris",
+     "price": 197.46,
+     "prev": 199.9,
+     "change_pct": -1.22,
+     "market_cap": 307763810000.0,
+     "date": "2026-10-21",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/pm"
+    },
+    {
+     "symbol": "GE",
+     "name": "GE Aerospace",
+     "price": 295.88,
+     "prev": 299.87,
+     "change_pct": -1.33,
+     "market_cap": 305748170000.0,
+     "date": "2026-10-21",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/ge"
     },
     {
      "symbol": "MS",
@@ -389,21 +378,21 @@
      "price": 187.01,
      "prev": 180.4,
      "change_pct": 3.66,
-     "market_cap": 293130497870.1147,
+     "market_cap": 292670650000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/ms"
     },
     {
-     "symbol": "TXN",
-     "name": "Texas Instruments",
-     "price": 284.65,
-     "prev": 277.78,
-     "change_pct": 2.47,
-     "market_cap": 262878335767.4494,
+     "symbol": "NFLX",
+     "name": "Netflix",
+     "price": 65.04,
+     "prev": 68.69,
+     "change_pct": -5.31,
+     "market_cap": 270822640000.0,
      "date": "2026-10-21",
      "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/txn"
+     "url": "https://www.nasdaq.com/market-activity/stocks/nflx"
     },
     {
      "symbol": "GS",
@@ -411,21 +400,21 @@
      "price": 904.72,
      "prev": 884.81,
      "change_pct": 2.25,
-     "market_cap": 259698702293.7263,
+     "market_cap": 263428599999.99997,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/gs"
     },
     {
-     "symbol": "WFC",
-     "name": "Wells Fargo",
-     "price": 82.42,
-     "prev": 82.2,
-     "change_pct": 0.27,
-     "market_cap": 258340260000.0,
+     "symbol": "TXN",
+     "name": "Texas Instruments",
+     "price": 284.65,
+     "prev": 277.78,
+     "change_pct": 2.47,
+     "market_cap": 259955950000.0,
      "date": "2026-10-21",
      "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/wfc"
+     "url": "https://www.nasdaq.com/market-activity/stocks/txn"
     },
     {
      "symbol": "RTX",
@@ -433,7 +422,7 @@
      "price": 191.6,
      "prev": 193.34,
      "change_pct": -0.9,
-     "market_cap": 246666706707.2404,
+     "market_cap": 258552810000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/rtx"
@@ -444,21 +433,21 @@
      "price": 694.02,
      "prev": 687.37,
      "change_pct": 0.97,
-     "market_cap": 245157235525.7869,
+     "market_cap": 256612010000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/tmo"
     },
     {
-     "symbol": "LIN",
-     "name": "Linde",
-     "price": 500.57,
-     "prev": 501.89,
-     "change_pct": -0.26,
-     "market_cap": 226852951137.08917,
+     "symbol": "WFC",
+     "name": "Wells Fargo",
+     "price": 82.42,
+     "prev": 82.2,
+     "change_pct": 0.27,
+     "market_cap": 247391870000.0,
      "date": "2026-10-21",
      "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/lin"
+     "url": "https://www.nasdaq.com/market-activity/stocks/wfc"
     },
     {
      "symbol": "AMGN",
@@ -466,7 +455,7 @@
      "price": 438.34,
      "prev": 438.94,
      "change_pct": -0.14,
-     "market_cap": 223194526656.07883,
+     "market_cap": 236980630000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/amgn"
@@ -477,10 +466,21 @@
      "price": 251.46,
      "prev": 241.92,
      "change_pct": 3.94,
-     "market_cap": 217425780788.4609,
+     "market_cap": 236909110000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/ibm"
+    },
+    {
+     "symbol": "LIN",
+     "name": "Linde",
+     "price": 500.57,
+     "prev": 501.89,
+     "change_pct": -0.26,
+     "market_cap": 230752840000.0,
+     "date": "2026-10-21",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/lin"
     },
     {
      "symbol": "AXP",
@@ -488,7 +488,7 @@
      "price": 323.61,
      "prev": 318.34,
      "change_pct": 1.66,
-     "market_cap": 209237992090.04745,
+     "market_cap": 218537020000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/axp"
@@ -499,7 +499,7 @@
      "price": 123.85,
      "prev": 122.51,
      "change_pct": 1.09,
-     "market_cap": 208891197766.6822,
+     "market_cap": 204996520000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/c"
@@ -510,21 +510,10 @@
      "price": 241.78,
      "prev": 242.43,
      "change_pct": -0.27,
-     "market_cap": 195882228466.6507,
+     "market_cap": 198984940000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/crm"
-    },
-    {
-     "symbol": "QCOM",
-     "name": "Qualcomm",
-     "price": 177.96,
-     "prev": 175.71,
-     "change_pct": 1.28,
-     "market_cap": 188858082067.46295,
-     "date": "2026-10-21",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/qcom"
     },
     {
      "symbol": "DIS",
@@ -532,7 +521,7 @@
      "price": 111.83,
      "prev": 111.67,
      "change_pct": 0.14,
-     "market_cap": 187483658786.00815,
+     "market_cap": 193095400000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/dis"
@@ -543,10 +532,43 @@
      "price": 153.57,
      "prev": 156.51,
      "change_pct": -1.88,
-     "market_cap": 183414146226.43298,
+     "market_cap": 190419910000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/gild"
+    },
+    {
+     "symbol": "QCOM",
+     "name": "Qualcomm",
+     "price": 177.96,
+     "prev": 175.71,
+     "change_pct": 1.28,
+     "market_cap": 186858000000.0,
+     "date": "2026-10-21",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/qcom"
+    },
+    {
+     "symbol": "BLK",
+     "name": "BlackRock",
+     "price": 1149.6,
+     "prev": 1128.68,
+     "change_pct": 1.85,
+     "market_cap": 186465120000.0,
+     "date": "2026-10-21",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/blk"
+    },
+    {
+     "symbol": "PEP",
+     "name": "PepsiCo",
+     "price": 134.7,
+     "prev": 134.02,
+     "change_pct": 0.51,
+     "market_cap": 183561230000.0,
+     "date": "2026-10-21",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/pep"
     },
     {
      "symbol": "VZ",
@@ -554,10 +576,32 @@
      "price": 43.56,
      "prev": 44.54,
      "change_pct": -2.2,
-     "market_cap": 179403196247.82654,
+     "market_cap": 180982010000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/vz"
+    },
+    {
+     "symbol": "COP",
+     "name": "ConocoPhillips",
+     "price": 145.67,
+     "prev": 145.95,
+     "change_pct": -0.19,
+     "market_cap": 174998830000.0,
+     "date": "2026-10-21",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/cop"
+    },
+    {
+     "symbol": "MCD",
+     "name": "McDonald's",
+     "price": 246.25,
+     "prev": 246.52,
+     "change_pct": -0.11,
+     "market_cap": 174256730000.0,
+     "date": "2026-10-21",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/mcd"
     },
     {
      "symbol": "ABT",
@@ -565,7 +609,7 @@
      "price": 100.51,
      "prev": 102.45,
      "change_pct": -1.89,
-     "market_cap": 177554629960.51633,
+     "market_cap": 173920830000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/abt"
@@ -576,43 +620,10 @@
      "price": 636.54,
      "prev": 632.2,
      "change_pct": 0.69,
-     "market_cap": 175256503815.54193,
+     "market_cap": 171627360000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/de"
-    },
-    {
-     "symbol": "PEP",
-     "name": "PepsiCo",
-     "price": 134.7,
-     "prev": 134.02,
-     "change_pct": 0.51,
-     "market_cap": 173476941031.13513,
-     "date": "2026-10-21",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/pep"
-    },
-    {
-     "symbol": "BLK",
-     "name": "BlackRock",
-     "price": 1149.6,
-     "prev": 1128.68,
-     "change_pct": 1.85,
-     "market_cap": 173219122381.16373,
-     "date": "2026-10-21",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/blk"
-    },
-    {
-     "symbol": "COP",
-     "name": "ConocoPhillips",
-     "price": 145.67,
-     "prev": 145.95,
-     "change_pct": -0.19,
-     "market_cap": 169268454185.31915,
-     "date": "2026-10-21",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/cop"
     },
     {
      "symbol": "UNP",
@@ -620,54 +631,10 @@
      "price": 287.87,
      "prev": 287.61,
      "change_pct": 0.09,
-     "market_cap": 167743162681.5948,
+     "market_cap": 171016510000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/unp"
-    },
-    {
-     "symbol": "MCD",
-     "name": "McDonald's",
-     "price": 246.25,
-     "prev": 246.52,
-     "change_pct": -0.11,
-     "market_cap": 166868932956.78604,
-     "date": "2026-10-21",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/mcd"
-    },
-    {
-     "symbol": "SCHW",
-     "name": "Charles Schwab",
-     "price": 91.64,
-     "prev": 90.89,
-     "change_pct": 0.83,
-     "market_cap": 165912462247.16153,
-     "date": "2026-10-21",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/schw"
-    },
-    {
-     "symbol": "TMUS",
-     "name": "T-Mobile US",
-     "price": 153.75,
-     "prev": 157.75,
-     "change_pct": -2.54,
-     "market_cap": 164901804510.2517,
-     "date": "2026-10-21",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/tmus"
-    },
-    {
-     "symbol": "NEE",
-     "name": "NextEra Energy",
-     "price": 78.28,
-     "prev": 78.86,
-     "change_pct": -0.74,
-     "market_cap": 163165224834.81082,
-     "date": "2026-10-21",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/nee"
     },
     {
      "symbol": "PFE",
@@ -675,10 +642,21 @@
      "price": 29.85,
      "prev": 30.11,
      "change_pct": -0.86,
-     "market_cap": 161699730479.10178,
+     "market_cap": 170135260000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/pfe"
+    },
+    {
+     "symbol": "TMUS",
+     "name": "T-Mobile US",
+     "price": 153.75,
+     "prev": 157.75,
+     "change_pct": -2.54,
+     "market_cap": 164923260000.0,
+     "date": "2026-10-21",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/tmus"
     },
     {
      "symbol": "DHR",
@@ -686,54 +664,32 @@
      "price": 233.86,
      "prev": 224.24,
      "change_pct": 4.29,
-     "market_cap": 156653416793.82858,
+     "market_cap": 164400320000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/dhr"
     },
     {
-     "symbol": "T",
-     "name": "AT&T",
-     "price": 21.91,
-     "prev": 23.42,
-     "change_pct": -6.45,
-     "market_cap": 156577012615.0756,
+     "symbol": "NEE",
+     "name": "NextEra Energy",
+     "price": 78.28,
+     "prev": 78.86,
+     "change_pct": -0.74,
+     "market_cap": 163290370000.0,
      "date": "2026-10-21",
      "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/t"
+     "url": "https://www.nasdaq.com/market-activity/stocks/nee"
     },
     {
-     "symbol": "ISRG",
-     "name": "Intuitive Surgical",
-     "price": 428.12,
-     "prev": 438,
-     "change_pct": -2.26,
-     "market_cap": 149104537056.7186,
+     "symbol": "SCHW",
+     "name": "Charles Schwab",
+     "price": 91.64,
+     "prev": 90.89,
+     "change_pct": 0.83,
+     "market_cap": 158476320000.0,
      "date": "2026-10-21",
      "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/isrg"
-    },
-    {
-     "symbol": "BA",
-     "name": "Boeing",
-     "price": 192.28,
-     "prev": 190.47,
-     "change_pct": 0.95,
-     "market_cap": 147396100389.6926,
-     "date": "2026-10-21",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/ba"
-    },
-    {
-     "symbol": "UBER",
-     "name": "Uber",
-     "price": 67.62,
-     "prev": 68.94,
-     "change_pct": -1.91,
-     "market_cap": 145675392084.48166,
-     "date": "2026-10-21",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/uber"
+     "url": "https://www.nasdaq.com/market-activity/stocks/schw"
     },
     {
      "symbol": "NOW",
@@ -741,10 +697,43 @@
      "price": 153.12,
      "prev": 149.54,
      "change_pct": 2.39,
-     "market_cap": 143322747480.7122,
+     "market_cap": 158304950000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/now"
+    },
+    {
+     "symbol": "BA",
+     "name": "Boeing",
+     "price": 192.28,
+     "prev": 190.47,
+     "change_pct": 0.95,
+     "market_cap": 151972350000.0,
+     "date": "2026-10-21",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/ba"
+    },
+    {
+     "symbol": "ISRG",
+     "name": "Intuitive Surgical",
+     "price": 428.12,
+     "prev": 438,
+     "change_pct": -2.26,
+     "market_cap": 151245390000.0,
+     "date": "2026-10-21",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/isrg"
+    },
+    {
+     "symbol": "T",
+     "name": "AT&T",
+     "price": 21.91,
+     "prev": 23.42,
+     "change_pct": -6.45,
+     "market_cap": 150135770000.0,
+     "date": "2026-10-21",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/t"
     },
     {
      "symbol": "ACN",
@@ -752,54 +741,21 @@
      "price": 240.26,
      "prev": 239.12,
      "change_pct": 0.48,
-     "market_cap": 130686360164.5594,
+     "market_cap": 141930590000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/acn"
     },
     {
-     "symbol": "COF",
-     "name": "Capital One",
-     "price": 206.66,
-     "prev": 201.56,
-     "change_pct": 2.53,
-     "market_cap": 121512934411.82475,
+     "symbol": "UBER",
+     "name": "Uber",
+     "price": 67.62,
+     "prev": 68.94,
+     "change_pct": -1.91,
+     "market_cap": 138117920000.0,
      "date": "2026-10-21",
      "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/cof"
-    },
-    {
-     "symbol": "MO",
-     "name": "Altria",
-     "price": 73.83,
-     "prev": 74.64,
-     "change_pct": -1.09,
-     "market_cap": 119486879338.81831,
-     "date": "2026-10-21",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/mo"
-    },
-    {
-     "symbol": "MDT",
-     "name": "Medtronic",
-     "price": 93.03,
-     "prev": 94.63,
-     "change_pct": -1.69,
-     "market_cap": 118975594828.20712,
-     "date": "2026-10-21",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/mdt"
-    },
-    {
-     "symbol": "BKNG",
-     "name": "Booking Holdings",
-     "price": 158.38,
-     "prev": 163.92,
-     "change_pct": -3.38,
-     "market_cap": 118349936007.24475,
-     "date": "2026-10-21",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/bkng"
+     "url": "https://www.nasdaq.com/market-activity/stocks/uber"
     },
     {
      "symbol": "LMT",
@@ -807,7 +763,7 @@
      "price": 551.51,
      "prev": 548.71,
      "change_pct": 0.51,
-     "market_cap": 116323158062.75783,
+     "market_cap": 127283410000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/lmt"
@@ -818,10 +774,32 @@
      "price": 61.12,
      "prev": 61.68,
      "change_pct": -0.91,
-     "market_cap": 115760640041.24036,
+     "market_cap": 124850720000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/bmy"
+    },
+    {
+     "symbol": "COF",
+     "name": "Capital One",
+     "price": 206.66,
+     "prev": 201.56,
+     "change_pct": 2.53,
+     "market_cap": 124305990000.0,
+     "date": "2026-10-21",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/cof"
+    },
+    {
+     "symbol": "MO",
+     "name": "Altria",
+     "price": 73.83,
+     "prev": 74.64,
+     "change_pct": -1.09,
+     "market_cap": 123277190000.0,
+     "date": "2026-10-21",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/mo"
     },
     {
      "symbol": "CVS",
@@ -829,21 +807,32 @@
      "price": 93.45,
      "prev": 94.75,
      "change_pct": -1.37,
-     "market_cap": 111973850270.9021,
+     "market_cap": 119519780000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/cvs"
     },
     {
-     "symbol": "LOW",
-     "name": "Lowe's",
-     "price": 196.56,
-     "prev": 198.53,
-     "change_pct": -0.99,
-     "market_cap": 105893339180.2687,
+     "symbol": "BKNG",
+     "name": "Booking Holdings",
+     "price": 158.38,
+     "prev": 163.92,
+     "change_pct": -3.38,
+     "market_cap": 119003640000.0,
      "date": "2026-10-21",
      "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/low"
+     "url": "https://www.nasdaq.com/market-activity/stocks/bkng"
+    },
+    {
+     "symbol": "MDT",
+     "name": "Medtronic",
+     "price": 93.03,
+     "prev": 94.63,
+     "change_pct": -1.69,
+     "market_cap": 119001180000.0,
+     "date": "2026-10-21",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/mdt"
     },
     {
      "symbol": "SBUX",
@@ -851,10 +840,21 @@
      "price": 99.08,
      "prev": 99.37,
      "change_pct": -0.29,
-     "market_cap": 104880004162.10652,
+     "market_cap": 112951200000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/sbux"
+    },
+    {
+     "symbol": "LOW",
+     "name": "Lowe's",
+     "price": 196.56,
+     "prev": 198.53,
+     "change_pct": -0.99,
+     "market_cap": 110280780000.0,
+     "date": "2026-10-21",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/low"
     },
     {
      "symbol": "SO",
@@ -862,21 +862,10 @@
      "price": 90.39,
      "prev": 90.71,
      "change_pct": -0.35,
-     "market_cap": 101358488265.65175,
+     "market_cap": 103981310000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/so"
-    },
-    {
-     "symbol": "DUK",
-     "name": "Duke Energy",
-     "price": 120.67,
-     "prev": 121.33,
-     "change_pct": -0.54,
-     "market_cap": 92153006048.82182,
-     "date": "2026-10-21",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/duk"
     },
     {
      "symbol": "ADBE",
@@ -884,21 +873,21 @@
      "price": 255.06,
      "prev": 256.73,
      "change_pct": -0.65,
-     "market_cap": 91960178648.1537,
+     "market_cap": 99269350000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/adbe"
     },
     {
-     "symbol": "EMR",
-     "name": "Emerson",
-     "price": 163.11,
-     "prev": 160.46,
-     "change_pct": 1.65,
-     "market_cap": 91200301773.27956,
+     "symbol": "DUK",
+     "name": "Duke Energy",
+     "price": 120.67,
+     "prev": 121.33,
+     "change_pct": -0.54,
+     "market_cap": 94086660000.0,
      "date": "2026-10-21",
      "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/emr"
+     "url": "https://www.nasdaq.com/market-activity/stocks/duk"
     },
     {
      "symbol": "GD",
@@ -906,7 +895,7 @@
      "price": 344.71,
      "prev": 344.44,
      "change_pct": 0.08,
-     "market_cap": 89938618789.52757,
+     "market_cap": 93263770000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/gd"
@@ -917,10 +906,21 @@
      "price": 59.05,
      "prev": 59.09,
      "change_pct": -0.07,
-     "market_cap": 88637547786.08812,
+     "market_cap": 91999900000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/usb"
+    },
+    {
+     "symbol": "EMR",
+     "name": "Emerson",
+     "price": 163.11,
+     "prev": 160.46,
+     "change_pct": 1.65,
+     "market_cap": 90982760000.0,
+     "date": "2026-10-21",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/emr"
     },
     {
      "symbol": "MMM",
@@ -928,32 +928,10 @@
      "price": 174.74,
      "prev": 171.37,
      "change_pct": 1.97,
-     "market_cap": 83944136701.09329,
+     "market_cap": 90293330000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/mmm"
-    },
-    {
-     "symbol": "AMT",
-     "name": "American Tower",
-     "price": 177.64,
-     "prev": 183.56,
-     "change_pct": -3.23,
-     "market_cap": 83607211100.21008,
-     "date": "2026-10-21",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/amt"
-    },
-    {
-     "symbol": "UPS",
-     "name": "UPS",
-     "price": 99.57,
-     "prev": 98.52,
-     "change_pct": 1.07,
-     "market_cap": 80645579290.7446,
-     "date": "2026-10-21",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/ups"
     },
     {
      "symbol": "INTU",
@@ -961,10 +939,32 @@
      "price": 335.61,
      "prev": 335.29,
      "change_pct": 0.1,
-     "market_cap": 80558287347.08748,
+     "market_cap": 89687070000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/intu"
+    },
+    {
+     "symbol": "UPS",
+     "name": "UPS",
+     "price": 99.57,
+     "prev": 98.52,
+     "change_pct": 1.07,
+     "market_cap": 84712320000.0,
+     "date": "2026-10-21",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/ups"
+    },
+    {
+     "symbol": "AMT",
+     "name": "American Tower",
+     "price": 177.64,
+     "prev": 183.56,
+     "change_pct": -3.23,
+     "market_cap": 82773140000.0,
+     "date": "2026-10-21",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/amt"
     },
     {
      "symbol": "MDLZ",
@@ -972,7 +972,7 @@
      "price": 62.74,
      "prev": 63.99,
      "change_pct": -1.95,
-     "market_cap": 78492942142.32887,
+     "market_cap": 80075570000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/mdlz"
@@ -983,21 +983,10 @@
      "price": 22.08,
      "prev": 22.36,
      "change_pct": -1.25,
-     "market_cap": 74095531499.21082,
+     "market_cap": 78353900000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/cmcsa"
-    },
-    {
-     "symbol": "GM",
-     "name": "General Motors",
-     "price": 76.11,
-     "prev": 77.09,
-     "change_pct": -1.27,
-     "market_cap": 73705931656.76823,
-     "date": "2026-10-21",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/gm"
     },
     {
      "symbol": "CL",
@@ -1005,21 +994,10 @@
      "price": 93.4,
      "prev": 94.54,
      "change_pct": -1.21,
-     "market_cap": 71705695183.39186,
+     "market_cap": 74455940000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/cl"
-    },
-    {
-     "symbol": "TGT",
-     "name": "Target",
-     "price": 152.38,
-     "prev": 154,
-     "change_pct": -1.05,
-     "market_cap": 69048561283.25954,
-     "date": "2026-10-21",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/tgt"
     },
     {
      "symbol": "FDX",
@@ -1027,10 +1005,21 @@
      "price": 298.23,
      "prev": 298.76,
      "change_pct": -0.18,
-     "market_cap": 68774065940.7043,
+     "market_cap": 70582220000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/fdx"
+    },
+    {
+     "symbol": "TGT",
+     "name": "Target",
+     "price": 152.38,
+     "prev": 154,
+     "change_pct": -1.05,
+     "market_cap": 69225740000.0,
+     "date": "2026-10-21",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/tgt"
     },
     {
      "symbol": "HON",
@@ -1038,7 +1027,7 @@
      "price": 214.73,
      "prev": 213.32,
      "change_pct": 0.66,
-     "market_cap": 65698492914.43531,
+     "market_cap": 68056530000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/hon"
@@ -1049,7 +1038,7 @@
      "price": 205.55,
      "prev": 206.99,
      "change_pct": -0.7,
-     "market_cap": 64920612399.13659,
+     "market_cap": 66507660000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/spg"
@@ -1060,10 +1049,21 @@
      "price": 102.18,
      "prev": 101.18,
      "change_pct": 0.99,
-     "market_cap": 63960751705.20365,
+     "market_cap": 64933030000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/met"
+    },
+    {
+     "symbol": "GM",
+     "name": "General Motors",
+     "price": 76.11,
+     "prev": 77.09,
+     "change_pct": -1.27,
+     "market_cap": 64202550000.0,
+     "date": "2026-10-21",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/gm"
     },
     {
      "symbol": "NKE",
@@ -1071,21 +1071,10 @@
      "price": 37.53,
      "prev": 37.88,
      "change_pct": -0.92,
-     "market_cap": 52475960980.39067,
+     "market_cap": 55743640000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/nke"
-    },
-    {
-     "symbol": "F",
-     "name": "Ford",
-     "price": 11.9,
-     "prev": 12.15,
-     "change_pct": -2.06,
-     "market_cap": 48249905358.416664,
-     "date": "2026-10-21",
-     "currency": "USD",
-     "url": "https://www.nasdaq.com/market-activity/stocks/f"
     },
     {
      "symbol": "PYPL",
@@ -1093,10 +1082,21 @@
      "price": 57.2,
      "prev": 57.14,
      "change_pct": 0.1,
-     "market_cap": 48051236776.77806,
+     "market_cap": 48932360000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/pypl"
+    },
+    {
+     "symbol": "F",
+     "name": "Ford",
+     "price": 11.9,
+     "prev": 12.15,
+     "change_pct": -2.06,
+     "market_cap": 47452390000.0,
+     "date": "2026-10-21",
+     "currency": "USD",
+     "url": "https://www.nasdaq.com/market-activity/stocks/f"
     },
     {
      "symbol": "AIG",
@@ -1104,7 +1104,7 @@
      "price": 81.75,
      "prev": 81.88,
      "change_pct": -0.16,
-     "market_cap": 40602649750.65508,
+     "market_cap": 42746520000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/aig"
@@ -1115,7 +1115,7 @@
      "price": 107.26,
      "prev": 110.03,
      "change_pct": -2.52,
-     "market_cap": 18836330303.05474,
+     "market_cap": 12289580000.0,
      "date": "2026-10-21",
      "currency": "USD",
      "url": "https://www.nasdaq.com/market-activity/stocks/chtr"
@@ -3190,412 +3190,412 @@
  ],
  "profiles": {
   "AAPL": {
-   "cap": 4980555719783.924,
-   "checked": "2026-10-14"
+   "cap": 5020251980000.0,
+   "checked": "2026-10-22"
   },
   "ABBV": {
-   "cap": 484826296632.7891,
-   "checked": "2026-10-14"
+   "cap": 503275000000.0,
+   "checked": "2026-10-22"
   },
   "ABT": {
-   "cap": 177554629960.51633,
-   "checked": "2026-10-14"
+   "cap": 173920830000.0,
+   "checked": "2026-10-22"
   },
   "ACN": {
-   "cap": 130686360164.5594,
-   "checked": "2026-10-14"
+   "cap": 141930590000.0,
+   "checked": "2026-10-22"
   },
   "ADBE": {
-   "cap": 91960178648.1537,
-   "checked": "2026-10-14"
+   "cap": 99269350000.0,
+   "checked": "2026-10-22"
   },
   "AIG": {
-   "cap": 40602649750.65508,
-   "checked": "2026-10-14"
+   "cap": 42746520000.0,
+   "checked": "2026-10-22"
   },
   "AMD": {
-   "cap": 988512555721.4786,
-   "checked": "2026-10-14"
+   "cap": 902301610000.0,
+   "checked": "2026-10-22"
   },
   "AMGN": {
-   "cap": 223194526656.07883,
-   "checked": "2026-10-14"
+   "cap": 236980630000.0,
+   "checked": "2026-10-22"
   },
   "AMT": {
-   "cap": 83607211100.21008,
-   "checked": "2026-10-14"
+   "cap": 82773140000.0,
+   "checked": "2026-10-22"
   },
   "AMZN": {
-   "cap": 2789125178170.7275,
-   "checked": "2026-10-14"
+   "cap": 2830005090000.0,
+   "checked": "2026-10-22"
   },
   "AVGO": {
-   "cap": 1705665746254.0955,
-   "checked": "2026-10-14"
+   "cap": 1612532170000.0,
+   "checked": "2026-10-22"
   },
   "AXP": {
-   "cap": 209237992090.04745,
-   "checked": "2026-10-14"
+   "cap": 218537020000.0,
+   "checked": "2026-10-22"
   },
   "BA": {
-   "cap": 147396100389.6926,
-   "checked": "2026-10-14"
+   "cap": 151972350000.0,
+   "checked": "2026-10-22"
   },
   "BAC": {
-   "cap": 377328723615.75446,
-   "checked": "2026-10-14"
+   "cap": 351534470000.0,
+   "checked": "2026-10-22"
   },
   "BK": {
    "cap": null,
-   "checked": "2026-10-14"
+   "checked": "2026-10-22"
   },
   "BKNG": {
-   "cap": 118349936007.24475,
-   "checked": "2026-10-14"
+   "cap": 119003640000.0,
+   "checked": "2026-10-22"
   },
   "BLK": {
-   "cap": 173219122381.16373,
-   "checked": "2026-10-14"
+   "cap": 186465120000.0,
+   "checked": "2026-10-22"
   },
   "BMY": {
-   "cap": 115760640041.24036,
-   "checked": "2026-10-14"
+   "cap": 124850720000.0,
+   "checked": "2026-10-22"
   },
   "BRK.B": {
-   "cap": 1000676434069.0867,
-   "checked": "2026-10-14"
+   "cap": 1155206130000.0,
+   "checked": "2026-10-22"
   },
   "C": {
-   "cap": 208891197766.6822,
-   "checked": "2026-10-14"
+   "cap": 204996520000.0,
+   "checked": "2026-10-22"
   },
   "CAT": {
-   "cap": 355227540563.10223,
-   "checked": "2026-10-14"
+   "cap": 340255950000.0,
+   "checked": "2026-10-22"
   },
   "CHTR": {
-   "cap": 18836330303.05474,
-   "checked": "2026-10-14"
+   "cap": 12289580000.0,
+   "checked": "2026-10-22"
   },
   "CL": {
-   "cap": 71705695183.39186,
-   "checked": "2026-10-14"
+   "cap": 74455940000.0,
+   "checked": "2026-10-22"
   },
   "CMCSA": {
-   "cap": 74095531499.21082,
-   "checked": "2026-10-14"
+   "cap": 78353900000.0,
+   "checked": "2026-10-22"
   },
   "COF": {
-   "cap": 121512934411.82475,
-   "checked": "2026-10-14"
+   "cap": 124305990000.0,
+   "checked": "2026-10-22"
   },
   "COP": {
-   "cap": 169268454185.31915,
-   "checked": "2026-10-14"
+   "cap": 174998830000.0,
+   "checked": "2026-10-22"
   },
   "COST": {
-   "cap": 423024556711.4618,
-   "checked": "2026-10-14"
+   "cap": 442380460000.0,
+   "checked": "2026-10-22"
   },
   "CRM": {
-   "cap": 195882228466.6507,
-   "checked": "2026-10-14"
+   "cap": 198984940000.0,
+   "checked": "2026-10-22"
   },
   "CSCO": {
-   "cap": 453673433703.9186,
-   "checked": "2026-10-14"
+   "cap": 422881870000.0,
+   "checked": "2026-10-22"
   },
   "CVS": {
-   "cap": 111973850270.9021,
-   "checked": "2026-10-14"
+   "cap": 119519780000.0,
+   "checked": "2026-10-22"
   },
   "CVX": {
-   "cap": 430184672135.83484,
-   "checked": "2026-10-14"
+   "cap": 448065410000.0,
+   "checked": "2026-10-22"
   },
   "DE": {
-   "cap": 175256503815.54193,
-   "checked": "2026-10-14"
+   "cap": 171627360000.0,
+   "checked": "2026-10-22"
   },
   "DHR": {
-   "cap": 156653416793.82858,
-   "checked": "2026-10-14"
+   "cap": 164400320000.0,
+   "checked": "2026-10-22"
   },
   "DIS": {
-   "cap": 187483658786.00815,
-   "checked": "2026-10-14"
+   "cap": 193095400000.0,
+   "checked": "2026-10-22"
   },
   "DUK": {
-   "cap": 92153006048.82182,
-   "checked": "2026-10-14"
+   "cap": 94086660000.0,
+   "checked": "2026-10-22"
   },
   "EMR": {
-   "cap": 91200301773.27956,
-   "checked": "2026-10-14"
+   "cap": 90982760000.0,
+   "checked": "2026-10-22"
   },
   "F": {
-   "cap": 48249905358.416664,
-   "checked": "2026-10-14"
+   "cap": 47452390000.0,
+   "checked": "2026-10-22"
   },
   "FDX": {
-   "cap": 68774065940.7043,
-   "checked": "2026-10-14"
+   "cap": 70582220000.0,
+   "checked": "2026-10-22"
   },
   "GD": {
-   "cap": 89938618789.52757,
-   "checked": "2026-10-14"
+   "cap": 93263770000.0,
+   "checked": "2026-10-22"
   },
   "GE": {
-   "cap": 319185367024.26245,
-   "checked": "2026-10-14"
+   "cap": 305748170000.0,
+   "checked": "2026-10-22"
   },
   "GILD": {
-   "cap": 183414146226.43298,
-   "checked": "2026-10-14"
+   "cap": 190419910000.0,
+   "checked": "2026-10-22"
   },
   "GM": {
-   "cap": 73705931656.76823,
-   "checked": "2026-10-14"
+   "cap": 64202550000.0,
+   "checked": "2026-10-22"
   },
   "GOOGL": {
-   "cap": 4326729399999.9995,
-   "checked": "2026-10-14"
+   "cap": 4073056930000.0,
+   "checked": "2026-10-22"
   },
   "GS": {
-   "cap": 259698702293.7263,
-   "checked": "2026-10-14"
+   "cap": 263428599999.99997,
+   "checked": "2026-10-22"
   },
   "HD": {
-   "cap": 293240932954.2468,
-   "checked": "2026-10-14"
+   "cap": 313414220000.0,
+   "checked": "2026-10-22"
   },
   "HON": {
-   "cap": 65698492914.43531,
-   "checked": "2026-10-14"
+   "cap": 68056530000.0,
+   "checked": "2026-10-22"
   },
   "IBM": {
-   "cap": 217425780788.4609,
-   "checked": "2026-10-14"
+   "cap": 236909110000.0,
+   "checked": "2026-10-22"
   },
   "INTC": {
-   "cap": 543464495060.18274,
-   "checked": "2026-10-14"
+   "cap": 491300060000.0,
+   "checked": "2026-10-22"
   },
   "INTU": {
-   "cap": 80558287347.08748,
-   "checked": "2026-10-14"
+   "cap": 89687070000.0,
+   "checked": "2026-10-22"
   },
   "ISRG": {
-   "cap": 149104537056.7186,
-   "checked": "2026-10-14"
+   "cap": 151245390000.0,
+   "checked": "2026-10-22"
   },
   "JNJ": {
-   "cap": 599124875505.0876,
-   "checked": "2026-10-14"
+   "cap": 621223660000.0,
+   "checked": "2026-10-22"
   },
   "JPM": {
-   "cap": 881002646376.9956,
-   "checked": "2026-10-14"
+   "cap": 890997430000.0,
+   "checked": "2026-10-22"
   },
   "KO": {
-   "cap": 387702678855.0369,
-   "checked": "2026-10-14"
+   "cap": 398760260000.0,
+   "checked": "2026-10-22"
   },
   "LIN": {
-   "cap": 226852951137.08917,
-   "checked": "2026-10-14"
+   "cap": 230752840000.0,
+   "checked": "2026-10-22"
   },
   "LLY": {
-   "cap": 1098102414468.8661,
-   "checked": "2026-10-14"
+   "cap": 1196229490000.0,
+   "checked": "2026-10-22"
   },
   "LMT": {
-   "cap": 116323158062.75783,
-   "checked": "2026-10-14"
+   "cap": 127283410000.0,
+   "checked": "2026-10-22"
   },
   "LOW": {
-   "cap": 105893339180.2687,
-   "checked": "2026-10-14"
+   "cap": 110280780000.0,
+   "checked": "2026-10-22"
   },
   "MA": {
-   "cap": 529810833400.6083,
-   "checked": "2026-10-14"
+   "cap": 545421310000.00006,
+   "checked": "2026-10-22"
   },
   "MCD": {
-   "cap": 166868932956.78604,
-   "checked": "2026-10-14"
+   "cap": 174256730000.0,
+   "checked": "2026-10-22"
   },
   "MDLZ": {
-   "cap": 78492942142.32887,
-   "checked": "2026-10-14"
+   "cap": 80075570000.0,
+   "checked": "2026-10-22"
   },
   "MDT": {
-   "cap": 118975594828.20712,
-   "checked": "2026-10-14"
+   "cap": 119001180000.0,
+   "checked": "2026-10-22"
   },
   "MET": {
-   "cap": 63960751705.20365,
-   "checked": "2026-10-14"
+   "cap": 64933030000.0,
+   "checked": "2026-10-22"
   },
   "META": {
-   "cap": 1942473484598.9182,
-   "checked": "2026-10-14"
+   "cap": 1776936540000.0,
+   "checked": "2026-10-22"
   },
   "MMM": {
-   "cap": 83944136701.09329,
-   "checked": "2026-10-14"
+   "cap": 90293330000.0,
+   "checked": "2026-10-22"
   },
   "MO": {
-   "cap": 119486879338.81831,
-   "checked": "2026-10-14"
+   "cap": 123277190000.0,
+   "checked": "2026-10-22"
   },
   "MRK": {
-   "cap": 350289020799.5491,
-   "checked": "2026-10-14"
+   "cap": 369779690000.0,
+   "checked": "2026-10-22"
   },
   "MS": {
-   "cap": 293130497870.1147,
-   "checked": "2026-10-14"
+   "cap": 292670650000.0,
+   "checked": "2026-10-22"
   },
   "MSFT": {
-   "cap": 4035412835207.8716,
-   "checked": "2026-10-14"
+   "cap": 3957444470000.0,
+   "checked": "2026-10-22"
   },
   "NEE": {
-   "cap": 163165224834.81082,
-   "checked": "2026-10-14"
+   "cap": 163290370000.0,
+   "checked": "2026-10-22"
   },
   "NFLX": {
-   "cap": 293391210807.3904,
-   "checked": "2026-10-14"
+   "cap": 270822640000.0,
+   "checked": "2026-10-22"
   },
   "NKE": {
-   "cap": 52475960980.39067,
-   "checked": "2026-10-14"
+   "cap": 55743640000.0,
+   "checked": "2026-10-22"
   },
   "NOW": {
-   "cap": 143322747480.7122,
-   "checked": "2026-10-14"
+   "cap": 158304950000.0,
+   "checked": "2026-10-22"
   },
   "NVDA": {
-   "cap": 5507332178229.848,
-   "checked": "2026-10-14"
+   "cap": 5349477000000.0,
+   "checked": "2026-10-22"
   },
   "ORCL": {
-   "cap": 432999005302.9012,
-   "checked": "2026-10-14"
+   "cap": 391457740000.0,
+   "checked": "2026-10-22"
   },
   "PEP": {
-   "cap": 173476941031.13513,
-   "checked": "2026-10-14"
+   "cap": 183561230000.0,
+   "checked": "2026-10-22"
   },
   "PFE": {
-   "cap": 161699730479.10178,
-   "checked": "2026-10-14"
+   "cap": 170135260000.0,
+   "checked": "2026-10-22"
   },
   "PG": {
-   "cap": 355461771395.2784,
-   "checked": "2026-10-14"
+   "cap": 364287930000.0,
+   "checked": "2026-10-22"
   },
   "PLTR": {
-   "cap": 501446172490.6973,
-   "checked": "2026-10-14"
+   "cap": 484744960000.0,
+   "checked": "2026-10-22"
   },
   "PM": {
-   "cap": 310616089475.1901,
-   "checked": "2026-10-14"
+   "cap": 307763810000.0,
+   "checked": "2026-10-22"
   },
   "PYPL": {
-   "cap": 48051236776.77806,
-   "checked": "2026-10-14"
+   "cap": 48932360000.0,
+   "checked": "2026-10-22"
   },
   "QCOM": {
-   "cap": 188858082067.46295,
-   "checked": "2026-10-14"
+   "cap": 186858000000.0,
+   "checked": "2026-10-22"
   },
   "RTX": {
-   "cap": 246666706707.2404,
-   "checked": "2026-10-14"
+   "cap": 258552810000.0,
+   "checked": "2026-10-22"
   },
   "SBUX": {
-   "cap": 104880004162.10652,
-   "checked": "2026-10-14"
+   "cap": 112951200000.0,
+   "checked": "2026-10-22"
   },
   "SCHW": {
-   "cap": 165912462247.16153,
-   "checked": "2026-10-14"
+   "cap": 158476320000.0,
+   "checked": "2026-10-22"
   },
   "SO": {
-   "cap": 101358488265.65175,
-   "checked": "2026-10-14"
+   "cap": 103981310000.0,
+   "checked": "2026-10-22"
   },
   "SPG": {
-   "cap": 64920612399.13659,
-   "checked": "2026-10-14"
+   "cap": 66507660000.0,
+   "checked": "2026-10-22"
   },
   "T": {
-   "cap": 156577012615.0756,
-   "checked": "2026-10-14"
+   "cap": 150135770000.0,
+   "checked": "2026-10-22"
   },
   "TGT": {
-   "cap": 69048561283.25954,
-   "checked": "2026-10-14"
+   "cap": 69225740000.0,
+   "checked": "2026-10-22"
   },
   "TMO": {
-   "cap": 245157235525.7869,
-   "checked": "2026-10-14"
+   "cap": 256612010000.0,
+   "checked": "2026-10-22"
   },
   "TMUS": {
-   "cap": 164901804510.2517,
-   "checked": "2026-10-14"
+   "cap": 164923260000.0,
+   "checked": "2026-10-22"
   },
   "TSLA": {
-   "cap": 1481988743946.9321,
-   "checked": "2026-10-14"
+   "cap": 1527611620000.0,
+   "checked": "2026-10-22"
   },
   "TXN": {
-   "cap": 262878335767.4494,
-   "checked": "2026-10-14"
+   "cap": 259955950000.0,
+   "checked": "2026-10-22"
   },
   "UBER": {
-   "cap": 145675392084.48166,
-   "checked": "2026-10-14"
+   "cap": 138117920000.0,
+   "checked": "2026-10-22"
   },
   "UNH": {
-   "cap": 339075420177.8392,
-   "checked": "2026-10-14"
+   "cap": 374297050000.0,
+   "checked": "2026-10-22"
   },
   "UNP": {
-   "cap": 167743162681.5948,
-   "checked": "2026-10-14"
+   "cap": 171016510000.0,
+   "checked": "2026-10-22"
   },
   "UPS": {
-   "cap": 80645579290.7446,
-   "checked": "2026-10-14"
+   "cap": 84712320000.0,
+   "checked": "2026-10-22"
   },
   "USB": {
-   "cap": 88637547786.08812,
-   "checked": "2026-10-14"
+   "cap": 91999900000.0,
+   "checked": "2026-10-22"
   },
   "V": {
-   "cap": 739462755936.4036,
-   "checked": "2026-10-14"
+   "cap": 761475220000.0,
+   "checked": "2026-10-22"
   },
   "VZ": {
-   "cap": 179403196247.82654,
-   "checked": "2026-10-14"
+   "cap": 180982010000.0,
+   "checked": "2026-10-22"
   },
   "WFC": {
-   "cap": 258340260000.0,
-   "checked": "2026-10-14"
+   "cap": 247391870000.0,
+   "checked": "2026-10-22"
   },
   "WMT": {
-   "cap": 884142590000.0,
-   "checked": "2026-10-14"
+   "cap": 934595310000.0,
+   "checked": "2026-10-22"
   },
   "XOM": {
-   "cap": 650632360000.0,
-   "checked": "2026-10-14"
+   "cap": 732290400000.0,
+   "checked": "2026-10-22"
   }
  },
  "status": {
