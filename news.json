@@ -1,15 +1,29 @@
 {
- "updated": "2026-10-22T12:05:33Z",
+ "updated": "2026-10-22T17:19:56Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
     {
+     "title": "Jobless claims near the lowest since the 1960s as low-fire trend continues",
+     "url": "https://www.cnbc.com/2026/10/22/jobless-claims-record-low-weekly.html",
+     "source": "CNBC",
+     "published": "2026-10-22T16:40:09Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108368225-1790357106706-gettyimages-2297110253-jr_19003_zvh8bkkg.jpeg?v=1790357497&w=1920&h=1080"
+    },
+    {
+     "title": "Sam Bankman-Fried says he has paid his debts",
+     "url": "https://www.economist.com/finance-and-economics/2026/10/22/sam-bankman-fried-says-he-has-paid-his-debts",
+     "source": "The Economist",
+     "published": "2026-10-22T15:51:39Z",
+     "image": ""
+    },
+    {
      "title": "Trump's approval rating on economy hits all-time low as midterm looms: CNBC survey",
      "url": "https://www.cnbc.com/2026/10/22/trump-economic-approval-rating-midterms-poll.html",
      "source": "CNBC",
-     "published": "2026-10-22T12:03:40Z",
+     "published": "2026-10-22T13:18:36Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108370343-1790783062486-gettyimages-2297724134-kbd14743_rhxmkc0e.jpeg?v=1790803464&w=1920&h=1080"
     },
     {
@@ -18,20 +32,6 @@
      "source": "The Economist",
      "published": "2026-10-22T09:12:40Z",
      "image": ""
-    },
-    {
-     "title": "Brazil’s weird economy needs serious reform",
-     "url": "https://www.economist.com/finance-and-economics/2026/10/22/brazils-weird-economy-needs-serious-reform",
-     "source": "The Economist",
-     "published": "2026-10-22T09:11:38Z",
-     "image": ""
-    },
-    {
-     "title": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
-     "url": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html",
-     "source": "CNBC",
-     "published": "2026-10-21T11:20:58Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108327067-1792519521637-108327067-1782417101819-gettyimages-2283316440-_24a0872_jiglfdso.jpeg?v=1792519640&w=1920&h=1080"
     },
     {
      "title": "What if an AI bubble bursts — and that accelerates AI job losses?",
@@ -54,32 +54,32 @@
    "label": "Markets",
    "items": [
     {
-     "title": "IBM’s stock falls as investors struggle to shake off July earnings miss",
-     "url": "https://www.marketwatch.com/story/ibms-stock-falls-as-investors-struggle-to-shake-off-july-earnings-miss-0969b9e3?mod=mw_rss_topstories",
+     "title": "Young Americans are giving up their cars. It’s a path to financial freedom, for some.",
+     "url": "https://www.marketwatch.com/story/young-americans-are-giving-up-their-cars-its-a-path-to-financial-freedom-for-some-3cce491c?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-22T12:04:00Z",
-     "image": "https://images.mktw.net/im-92733600"
+     "published": "2026-10-22T16:48:00Z",
+     "image": "https://images.mktw.net/im-25886732"
     },
     {
-     "title": "Why this JPMorgan strategist thinks the stock market’s tailspin might have run its course",
-     "url": "https://www.marketwatch.com/story/why-a-jpmorgan-strategist-says-the-stock-markets-tailspin-might-have-run-its-course-71571335?mod=mw_rss_topstories",
+     "title": "Zuckerberg’s California tax move is a win for Meta — and for him",
+     "url": "https://www.marketwatch.com/story/zuckerbergs-california-tax-move-is-a-win-for-meta-and-for-him-aa049c94?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-22T11:57:00Z",
-     "image": "https://images.mktw.net/im-51837852"
+     "published": "2026-10-22T16:48:00Z",
+     "image": "https://images.mktw.net/im-21638670"
     },
     {
-     "title": "Mideast oil exports are recovering. Fresh attacks in Saudi Arabia show risks remain.",
-     "url": "https://www.marketwatch.com/story/mideast-oil-exports-are-recovering-fresh-attacks-in-saudi-arabia-show-risks-remain-1473391a?mod=mw_rss_topstories",
+     "title": "Two big reasons Micron and other chip stocks are falling on Thursday",
+     "url": "https://www.marketwatch.com/story/two-big-reasons-micron-and-other-chip-stocks-are-falling-on-thursday-312f1fb2?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-22T11:35:00Z",
-     "image": "https://images.mktw.net/im-97344316"
+     "published": "2026-10-22T15:33:00Z",
+     "image": "https://images.mktw.net/im-15629837"
     },
     {
-     "title": "Meta teases an opportunity even bigger than advertising — but its stock is falling",
-     "url": "https://www.marketwatch.com/story/metas-stock-rises-as-investors-glimpse-an-opportunity-that-could-dwarf-the-ad-business-89369c6c?mod=mw_rss_topstories",
+     "title": "Investors’ recent money moves show a preference for lowering risks over boosting rewards",
+     "url": "https://www.marketwatch.com/story/investors-recent-money-moves-show-a-preference-for-quality-over-momentum-within-the-s-p-500-ed6b5149?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-22T09:55:00Z",
-     "image": "https://images.mktw.net/im-14136247"
+     "published": "2026-10-22T15:10:00Z",
+     "image": "https://images.mktw.net/im-80001516"
     },
     {
      "title": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
@@ -150,6 +150,34 @@
    "label": "Nigeria & Africa",
    "items": [
     {
+     "title": "Barclays to cut 5,000 jobs as AI drives efficiency push",
+     "url": "https://businessday.ng/technology/article/barclays-to-cut-5000-jobs-as-ai-drives-efficiency-push/",
+     "source": "BusinessDay",
+     "published": "2026-10-22T17:15:57Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/IMG_4067-large.jpeg"
+    },
+    {
+     "title": "ProvidusUnity Bank targets export financing barriers to boost non-oil trade",
+     "url": "https://businessday.ng/companies/article/providusunity-bank-targets-export-financing-barriers-to-boost-non-oil-trade/",
+     "source": "BusinessDay",
+     "published": "2026-10-22T17:14:13Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/06/Providus-Unity-large.webp"
+    },
+    {
+     "title": "Sanlam Allianz Kenya appoints Jacqueline Karasha as CEO from November 1",
+     "url": "https://nairametrics.com/2026/10/22/sanlam-allianz-kenya-appoints-jacqueline-karasha-as-ceo-from-november-1/",
+     "source": "Nairametrics",
+     "published": "2026-10-22T17:03:32Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/karasha-ceo-1200.jpg"
+    },
+    {
+     "title": "BOI targets 3 million jobs, N1.85 trillion annual lending by 2027",
+     "url": "https://nairametrics.com/2026/10/22/boi-targets-3-million-jobs-n1-85-trillion-annual-lending-by-2027/",
+     "source": "Nairametrics",
+     "published": "2026-10-22T16:51:43Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/Dr-Olasupo-Olusi-MD-Bank-of-Industry-1200.jpg"
+    },
+    {
      "title": "Seplat Energy appoints Effiong Okon as chief executive officer",
      "url": "https://www.premiumtimesng.com/business/business-news/919232-seplat-energy-appoints-effiong-okon-as-chief-executive-officer.html",
      "source": "Premium Times",
@@ -157,39 +185,11 @@
      "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2025/12/244381091_159504936372487_4050436558445745549_n-e1765995758601.jpg?fit=513%2C321&ssl=1"
     },
     {
-     "title": "Nigeria targets African capital hub status with new listing rules",
-     "url": "https://businessday.ng/business-economy/article/nigeria-targets-african-capital-hub-status-with-new-listing-rules/",
-     "source": "BusinessDay",
-     "published": "2026-10-22T11:43:27Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/09/IMG_6746-large.jpeg"
-    },
-    {
-     "title": "Dangote expands petroleum network across Africa, invests in pipelines and storage",
-     "url": "https://nairametrics.com/2026/10/22/dangote-expands-petroleum-network-across-africa-invests-in-pipelines-and-storage/",
-     "source": "Nairametrics",
-     "published": "2026-10-22T11:39:27Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/Dangote-new.webp"
-    },
-    {
-     "title": "Shettima proposes peer review framework to accelerate implementation 2023 Electricity Act",
-     "url": "https://businessday.ng/news/article/shettima-proposes-peer-review-framework-to-accelerate-implementation-2023-electricity-act/",
-     "source": "BusinessDay",
-     "published": "2026-10-22T11:00:15Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2024/11/Kashim-Shettima.png"
-    },
-    {
-     "title": "Despite mobile money boom, cash remains king in Africa, undermining potential benefits",
-     "url": "https://african.business/2026/10/african-banker/despite-mobile-money-boom-cash-remains-king-in-africa-undermining-potential-benefits",
+     "title": "Nigeria prepares as first case of Ebola confirmed",
+     "url": "https://african.business/2026/10/trade-investment/nigeria-prepares-as-first-case-of-ebola-confirmed",
      "source": "African Business",
-     "published": "2026-10-22T10:18:18Z",
-     "image": "https://african.business/wp-content/uploads/2026/10/pexels-vurzie-kim-325095862-35064938-scaled.jpg"
-    },
-    {
-     "title": "Abu Dhabi's M42 targets Africa for future growth",
-     "url": "https://african.business/2026/10/partner-content/abu-dhabis-m42-targets-africa-for-future-growth",
-     "source": "African Business",
-     "published": "2026-10-22T10:07:18Z",
-     "image": "https://african.business/wp-content/uploads/2026/10/M42_Siemens_MOU-Photo-scaled.jpg"
+     "published": "2026-10-22T11:19:31Z",
+     "image": "https://african.business/wp-content/uploads/2026/10/000_47NY6YZ-scaled.jpg"
     }
    ]
   }
@@ -222,8 +222,8 @@
    "items": 300,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-22T09:12:40Z",
-   "oldest": "2025-12-21T13:03:31Z"
+   "newest": "2026-10-22T15:51:39Z",
+   "oldest": "2025-12-21T13:18:27Z"
   },
   {
    "source": "CNBC",
@@ -232,18 +232,18 @@
    "items": 30,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-22T12:03:40Z",
-   "oldest": "2026-10-07T06:16:39Z"
+   "newest": "2026-10-22T16:40:09Z",
+   "oldest": "2026-10-07T12:24:32Z"
   },
   {
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 9,
-   "skipped": 1,
+   "items": 5,
+   "skipped": 5,
    "undated": 0,
-   "newest": "2026-10-22T12:04:00Z",
-   "oldest": "2026-10-22T01:50:00Z"
+   "newest": "2026-10-22T16:48:00Z",
+   "oldest": "2026-10-22T15:03:00Z"
   },
   {
    "source": "CNBC",
@@ -259,11 +259,11 @@
    "source": "CNBC",
    "feed": "https://www.cnbc.com/id/15839069/device/rss/rss.html",
    "ok": true,
-   "items": 27,
+   "items": 26,
    "skipped": 0,
    "undated": 0,
    "newest": "2026-10-21T19:54:16Z",
-   "oldest": "2026-09-21T20:13:33Z"
+   "oldest": "2026-09-22T18:09:32Z"
   },
   {
    "source": "Federal Reserve",
@@ -322,18 +322,18 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-22T11:39:27Z",
-   "oldest": "2026-10-21T16:40:02Z"
+   "newest": "2026-10-22T17:03:32Z",
+   "oldest": "2026-10-22T07:22:30Z"
   },
   {
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 2,
-   "skipped": 3,
+   "items": 3,
+   "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-22T11:43:27Z",
-   "oldest": "2026-10-22T11:00:15Z"
+   "newest": "2026-10-22T17:15:57Z",
+   "oldest": "2026-10-22T17:14:05Z"
   },
   {
    "source": "Premium Times",
@@ -352,8 +352,8 @@
    "items": 25,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-22T10:18:18Z",
-   "oldest": "2026-10-09T10:38:04Z"
+   "newest": "2026-10-22T11:19:31Z",
+   "oldest": "2026-10-09T10:48:26Z"
   },
   {
    "source": "The Africa Report",
