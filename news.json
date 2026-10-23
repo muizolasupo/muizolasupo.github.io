@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-22T21:44:56Z",
+ "updated": "2026-10-23T05:03:00Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
+    {
+     "title": "Gene editing scientists slowed down for safety. Could AI leaders follow their guide?",
+     "url": "https://www.npr.org/2026/10/22/nx-s1-6001731/gene-editing-scientists-slowed-down-for-safety-could-ai-leaders-follow-their-guide",
+     "source": "NPR",
+     "published": "2026-10-22T21:38:53Z",
+     "image": ""
+    },
     {
      "title": "Jobless claims near the lowest since the 1960s as low-fire trend continues",
      "url": "https://www.cnbc.com/2026/10/22/jobless-claims-record-low-weekly.html",
@@ -39,13 +46,6 @@
      "source": "NPR",
      "published": "2026-10-20T10:30:00Z",
      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6007x3559+0+0/resize/6007x3559!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F30%2F73%2F30ccbe9b4d3c903bb381870a6cf5%2Fgettyimages-1466243146.jpg"
-    },
-    {
-     "title": "Why these 5 everyday items fluctuate in price at the grocery store",
-     "url": "https://www.npr.org/2026/10/20/nx-s1-5989636/grocery-prices-eggs-coffee-inflation",
-     "source": "NPR",
-     "published": "2026-10-20T09:00:00Z",
-     "image": ""
     }
    ]
   },
@@ -54,10 +54,24 @@
    "label": "Markets",
    "items": [
     {
-     "title": "Treasury yields see extreme plunge. Why investors are ducking for cover.",
+     "title": "CoreWeave set off a wave of anxiety — but Wall Street’s dire prognosis is premature",
+     "url": "https://www.marketwatch.com/story/coreweave-set-off-a-wave-of-anxiety-but-wall-streets-dire-prognosis-is-premature-edc3f5dd?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-22T22:54:00Z",
+     "image": "https://images.mktw.net/im-36916244"
+    },
+    {
+     "title": "The U.S. stock market is fracturing into two camps, and it’s leaving investors with a brutal case of whiplash",
+     "url": "https://www.marketwatch.com/story/the-u-s-stock-market-is-fracturing-into-two-camps-and-its-leaving-investors-with-a-brutal-case-of-whiplash-e8580a99?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-22T22:17:00Z",
+     "image": "https://images.mktw.net/im-91980124"
+    },
+    {
+     "title": "Treasury yields log biggest drop since the 2023 banking crisis. Here’s what’s going on.",
      "url": "https://www.marketwatch.com/story/treasury-yields-see-extreme-plunge-why-investors-are-ducking-for-cover-60044c66?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-22T21:32:00Z",
+     "published": "2026-10-22T22:07:00Z",
      "image": "https://images.mktw.net/im-46225712"
     },
     {
@@ -66,20 +80,6 @@
      "source": "MarketWatch",
      "published": "2026-10-22T21:28:00Z",
      "image": "https://images.mktw.net/im-12925124"
-    },
-    {
-     "title": "3 big reasons Micron and other chip stocks fell hard on Thursday",
-     "url": "https://www.marketwatch.com/story/two-big-reasons-micron-and-other-chip-stocks-are-falling-on-thursday-312f1fb2?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-22T21:19:00Z",
-     "image": "https://images.mktw.net/im-15629837"
-    },
-    {
-     "title": "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze",
-     "url": "https://www.marketwatch.com/story/oil-prices-approach-iran-war-highs-as-soaring-tanker-rates-trigger-a-second-energy-squeeze-2d726982?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-22T20:46:00Z",
-     "image": "https://images.mktw.net/im-75849474"
     },
     {
      "title": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
@@ -150,11 +150,18 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "Dangote says Africa needs power, capital to become manufacturing giant",
-     "url": "https://businessday.ng/news/article/dangote-says-africa-needs-power-capital-to-become-manufacturing-giant/",
+     "title": "Hidden Economy: How Nigerian clubs nurture players, miss out on transfer fees",
+     "url": "https://businessday.ng/sports/article/hidden-economy-how-nigerian-clubs-nurture-players-miss-out-on-transfer-fees/",
      "source": "BusinessDay",
-     "published": "2026-10-22T20:57:41Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/05/Aliko-Dangote-large.jpg"
+     "published": "2026-10-23T03:00:55Z",
+     "image": "https://cdn.businessday.ng/2023/08/NPFL-20232024-league-season.jpg"
+    },
+    {
+     "title": "Toxic Food Series: Agric Ministry, NAFDAC trade blame as unsafe food floods markets",
+     "url": "https://businessday.ng/agriculture/article/toxic-food-series-agric-ministry-nafdac-trade-blame-as-unsafe-food-floods-markets/",
+     "source": "BusinessDay",
+     "published": "2026-10-23T02:30:18Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2025/12/food-large.png"
     },
     {
      "title": "NEC approves 90-day plan to cut food costs, ease Nigeria’s cost-of-living crisis",
@@ -183,13 +190,6 @@
      "source": "African Business",
      "published": "2026-10-22T11:19:31Z",
      "image": "https://african.business/wp-content/uploads/2026/10/000_47NY6YZ-scaled.jpg"
-    },
-    {
-     "title": "Despite mobile money boom, cash remains king in Africa, undermining potential benefits",
-     "url": "https://african.business/2026/10/african-banker/despite-mobile-money-boom-cash-remains-king-in-africa-undermining-potential-benefits",
-     "source": "African Business",
-     "published": "2026-10-22T10:18:18Z",
-     "image": "https://african.business/wp-content/uploads/2026/10/pexels-vurzie-kim-325095862-35064938-scaled.jpg"
     }
    ]
   }
@@ -202,8 +202,8 @@
    "items": 10,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-20T10:30:00Z",
-   "oldest": "2026-10-12T21:43:46Z"
+   "newest": "2026-10-22T21:38:53Z",
+   "oldest": "2026-10-13T10:30:00Z"
   },
   {
    "source": "PBS NewsHour",
@@ -239,11 +239,11 @@
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 9,
-   "skipped": 1,
+   "items": 8,
+   "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-22T21:32:00Z",
-   "oldest": "2026-10-22T17:21:00Z"
+   "newest": "2026-10-22T22:54:00Z",
+   "oldest": "2026-10-22T19:25:00Z"
   },
   {
    "source": "CNBC",
@@ -329,11 +329,11 @@
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 1,
-   "skipped": 4,
+   "items": 2,
+   "skipped": 3,
    "undated": 0,
-   "newest": "2026-10-22T20:57:41Z",
-   "oldest": "2026-10-22T20:57:41Z"
+   "newest": "2026-10-23T03:00:55Z",
+   "oldest": "2026-10-23T02:30:18Z"
   },
   {
    "source": "Premium Times",
