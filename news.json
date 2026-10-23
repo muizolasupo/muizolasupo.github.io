@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-23T17:17:07Z",
+ "updated": "2026-10-23T21:30:47Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
+    {
+     "title": "Trump's approval rating on economy hits all-time low as midterm looms: CNBC survey",
+     "url": "https://www.cnbc.com/2026/10/22/trump-economic-approval-rating-midterms-poll.html",
+     "source": "CNBC",
+     "published": "2026-10-23T20:49:42Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108370343-1790783062486-gettyimages-2297724134-kbd14743_rhxmkc0e.jpeg?v=1790803464&w=1920&h=1080"
+    },
     {
      "title": "Why Meta is charging to post more hyperlinks",
      "url": "https://www.npr.org/sections/planet-money/2026/10/23/nx-s1-6012726/why-meta-is-charging-to-post-more-hyperlinks",
@@ -34,13 +41,6 @@
      "image": ""
     },
     {
-     "title": "Trump's approval rating on economy hits all-time low as midterm looms: CNBC survey",
-     "url": "https://www.cnbc.com/2026/10/22/trump-economic-approval-rating-midterms-poll.html",
-     "source": "CNBC",
-     "published": "2026-10-22T13:18:36Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108370343-1790783062486-gettyimages-2297724134-kbd14743_rhxmkc0e.jpeg?v=1790803464&w=1920&h=1080"
-    },
-    {
      "title": "New research tries to defuse the “China shock”",
      "url": "https://www.economist.com/finance-and-economics/2026/10/22/new-research-tries-to-defuse-the-china-shock",
      "source": "The Economist",
@@ -54,32 +54,32 @@
    "label": "Markets",
    "items": [
     {
-     "title": "Walmart, Best Buy and other stores now use digital price tags. Critics say they could lead to different prices for different shoppers.",
-     "url": "https://www.marketwatch.com/story/walmart-best-buy-and-other-stores-now-use-digital-price-tags-critics-say-they-could-lead-to-different-prices-for-different-shoppers-19e2f4da?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-23T16:41:00Z",
-     "image": "https://images.mktw.net/im-37834610"
-    },
-    {
-     "title": "Retire on 8% a year with little or no risk? How to use annuities the right way.",
-     "url": "https://www.marketwatch.com/story/retire-on-8-a-year-with-little-or-no-risk-how-to-use-annuities-the-right-way-06ababc5?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-23T15:56:00Z",
-     "image": "https://images.mktw.net/im-45881566"
-    },
-    {
-     "title": "Everyone’s talking about Roth conversions, but here’s how few people really do them — and why you shouldn’t have FOMO about it",
-     "url": "https://www.marketwatch.com/story/everyones-talking-about-roth-conversions-but-heres-how-few-people-really-do-them-and-why-you-shouldnt-have-fomo-about-it-1b50db07?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-23T15:00:00Z",
-     "image": "https://images.mktw.net/im-02166585"
-    },
-    {
      "title": "This hot AI-fueled stock has been in a rut. It just beat earnings expectations by 36%.",
      "url": "https://www.marketwatch.com/story/this-hot-ai-fueled-stock-has-been-in-a-rut-it-just-beat-earnings-expectations-by-36-4a4188cb?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-23T14:40:00Z",
+     "published": "2026-10-23T21:13:00Z",
      "image": "https://images.mktw.net/im-50517059"
+    },
+    {
+     "title": "The mobile ambitions of SpaceX are hitting telecom stocks again. Here’s what the latest developments mean.",
+     "url": "https://www.marketwatch.com/story/the-mobile-ambitions-of-spacex-see-telecom-stocks-get-hit-again-what-the-latest-developments-mean-9a4159b5?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-23T21:11:00Z",
+     "image": "https://images.mktw.net/im-85027218"
+    },
+    {
+     "title": "The real test for Moderna’s cancer vaccine isn’t about beating Keytruda. It’s keeping cancer from coming back in the long term.",
+     "url": "https://www.marketwatch.com/story/the-real-test-for-modernas-cancer-vaccine-isnt-about-beating-keytruda-its-keeping-cancer-from-coming-back-in-the-long-term-da9af99f?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-23T21:06:00Z",
+     "image": "https://images.mktw.net/im-30668986"
+    },
+    {
+     "title": "Some Republicans are opposing Trump on tariffs. Maine’s Susan Collins just got him to back down on Canadian levies.",
+     "url": "https://www.marketwatch.com/story/some-republicans-are-opposing-trump-on-tariffs-maines-susan-collins-just-got-him-to-back-down-on-canadian-levies-02b202ae?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-23T20:50:00Z",
+     "image": "https://images.mktw.net/im-20078796"
     },
     {
      "title": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
@@ -150,6 +150,34 @@
    "label": "Nigeria & Africa",
    "items": [
     {
+     "title": "FG launches trade intelligence tools to help exporters find markets",
+     "url": "https://businessday.ng/business-economy/article/fg-launches-trade-intelligence-tools-to-help-exporters-find-markets/",
+     "source": "BusinessDay",
+     "published": "2026-10-23T21:18:25Z",
+     "image": "https://cdn.businessday.ng/2020/02/jumoke-oduwole.png"
+    },
+    {
+     "title": "US firm files FOIA request for Nigeria-US Mining Pact amid transparency concerns",
+     "url": "https://businessday.ng/news/article/us-firm-files-foia-request-for-nigeria-us-mining-pact-amid-transparency-concerns/",
+     "source": "BusinessDay",
+     "published": "2026-10-23T20:58:06Z",
+     "image": ""
+    },
+    {
+     "title": "NGX market capitalisation soars past N160 trillion as equities close week on green",
+     "url": "https://nairametrics.com/2026/10/23/ngx-market-capitalisation-soars-past-n160-trillion-as-equities-close-week-on-green/",
+     "source": "Nairametrics",
+     "published": "2026-10-23T19:53:48Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/09/stock-1-scaled-1.webp"
+    },
+    {
+     "title": "First HoldCo shares gain 10% after nine-month profit surge",
+     "url": "https://nairametrics.com/2026/10/23/first-holdco-shares-gain-10-after-nine-month-profit-surge/",
+     "source": "Nairametrics",
+     "published": "2026-10-23T19:38:26Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/FirstHoldCo-1-1.webp"
+    },
+    {
      "title": "BOI to expand financing for agriculture, healthcare manufacturing in 2027",
      "url": "https://www.premiumtimesng.com/business/business-news/919696-we-will-deploy-our-new-european-investment-bank-facilities-into-agriculture-and-local-healthcare-manufacturing-so-that-nigeria-produces-more-of-the-food-and-medicines-it-consumes-h.html",
      "source": "Premium Times",
@@ -157,39 +185,11 @@
      "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2024/12/Bank-of-Industry-Corporate-Office-BOI-Tower-II-in-Abuja-Nigeria.png?fit=1156%2C650&ssl=1"
     },
     {
-     "title": "Naira sheds N9.68 as CBN’s $800m FX intervention faces test",
-     "url": "https://businessday.ng/business-economy/article/naira-sheds-n9-68-as-cbns-800m-fx-intervention-faces-test/",
-     "source": "BusinessDay",
-     "published": "2026-10-23T16:33:17Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/08/Naira-Dollar-large.jpg"
-    },
-    {
-     "title": "Market liquidity surges as NGX nine months stock deals surpass N15.06trn",
-     "url": "https://businessday.ng/markets/article/market-liquidity-surges-as-ngx-nine-months-stock-deals-surpass-n15-06trn/",
-     "source": "BusinessDay",
-     "published": "2026-10-23T16:28:09Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/09/stocks-large.webp"
-    },
-    {
      "title": "First HoldCo’s nine-month profit leaps 63% to N744.5 billion",
      "url": "https://www.premiumtimesng.com/business/business-news/919651-first-holdcos-nine-month-profit-leaps-63-to-n744-5-billion.html",
      "source": "Premium Times",
      "published": "2026-10-23T15:49:33Z",
      "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2025/07/Untitled-design-43.jpg?fit=1920%2C1080&ssl=1"
-    },
-    {
-     "title": "Lagos-Calabar Coastal Highway to be completed in three years, Umahi says",
-     "url": "https://nairametrics.com/2026/10/23/lagos-calabar-coastal-highway-to-be-completed-in-three-years-umahi-says/",
-     "source": "Nairametrics",
-     "published": "2026-10-23T15:19:32Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/David-Umahi-1.webp"
-    },
-    {
-     "title": "Q3 2026: Unilever Nigeria sustains profitable growth delivers ₦184bn revenue, ₦26.4bn net profit and declares interim dividend",
-     "url": "https://nairametrics.com/2026/10/23/q3-2026-unilever-nigeria-sustains-profitable-growth-delivers-%e2%82%a6184bn-revenue-%e2%82%a626-4bn-net-profit-and-declares-interim-dividend/",
-     "source": "Nairametrics",
-     "published": "2026-10-23T14:52:27Z",
-     "image": ""
     }
    ]
   }
@@ -232,18 +232,18 @@
    "items": 30,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-22T16:40:09Z",
+   "newest": "2026-10-23T20:49:42Z",
    "oldest": "2026-10-07T12:24:32Z"
   },
   {
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 6,
-   "skipped": 4,
+   "items": 7,
+   "skipped": 3,
    "undated": 0,
-   "newest": "2026-10-23T16:41:00Z",
-   "oldest": "2026-10-23T14:23:00Z"
+   "newest": "2026-10-23T21:13:00Z",
+   "oldest": "2026-10-23T19:49:00Z"
   },
   {
    "source": "CNBC",
@@ -259,11 +259,11 @@
    "source": "CNBC",
    "feed": "https://www.cnbc.com/id/15839069/device/rss/rss.html",
    "ok": true,
-   "items": 26,
+   "items": 25,
    "skipped": 0,
    "undated": 0,
    "newest": "2026-10-21T19:54:16Z",
-   "oldest": "2026-09-22T18:09:32Z"
+   "oldest": "2026-09-22T22:35:50Z"
   },
   {
    "source": "Federal Reserve",
@@ -322,18 +322,18 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-23T15:19:32Z",
-   "oldest": "2026-10-23T09:38:50Z"
+   "newest": "2026-10-23T19:53:48Z",
+   "oldest": "2026-10-23T10:31:18Z"
   },
   {
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 3,
-   "skipped": 2,
+   "items": 2,
+   "skipped": 3,
    "undated": 0,
-   "newest": "2026-10-23T16:33:17Z",
-   "oldest": "2026-10-23T16:23:29Z"
+   "newest": "2026-10-23T21:18:25Z",
+   "oldest": "2026-10-23T20:58:06Z"
   },
   {
    "source": "Premium Times",
