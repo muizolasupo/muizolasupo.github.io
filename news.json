@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-24T20:58:21Z",
+ "updated": "2026-10-24T23:22:58Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
+    {
+     "title": "Trade tariffs cause whiplash at Port Milwaukee",
+     "url": "https://www.npr.org/2026/10/24/nx-s1-6011193/trade-tariffs-cause-whiplash-at-port-milwaukee",
+     "source": "NPR",
+     "published": "2026-10-24T21:20:55Z",
+     "image": ""
+    },
     {
      "title": "AI panic and market volatility: Are the stock market's big gains unsustainable?",
      "url": "https://www.npr.org/2026/10/24/nx-s1-6013402/ai-panic-and-market-volatility-are-the-stock-markets-big-gains-unsustainable",
@@ -32,13 +39,6 @@
      "source": "CNBC",
      "published": "2026-10-23T20:49:42Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108370343-1790783062486-gettyimages-2297724134-kbd14743_rhxmkc0e.jpeg?v=1790803464&w=1920&h=1080"
-    },
-    {
-     "title": "Why Meta is charging to post more hyperlinks",
-     "url": "https://www.npr.org/sections/planet-money/2026/10/23/nx-s1-6012726/why-meta-is-charging-to-post-more-hyperlinks",
-     "source": "NPR",
-     "published": "2026-10-23T11:00:00Z",
-     "image": ""
     },
     {
      "title": "Jobless claims near the lowest since the 1960s as low-fire trend continues",
@@ -202,8 +202,8 @@
    "items": 10,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-24T11:42:12Z",
-   "oldest": "2026-10-14T13:33:44Z"
+   "newest": "2026-10-24T21:20:55Z",
+   "oldest": "2026-10-14T20:27:56Z"
   },
   {
    "source": "PBS NewsHour",
