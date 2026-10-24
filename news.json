@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T16:04:44Z",
+ "updated": "2026-10-24T20:58:21Z",
  "categories": [
   {
    "id": "economy",
@@ -54,32 +54,39 @@
    "label": "Markets",
    "items": [
     {
-     "title": "Money-saving habits to cope with higher prices — from our readers",
-     "url": "https://www.marketwatch.com/story/money-saving-hacks-to-cope-with-higher-prices-from-our-readers-a092767e?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-24T15:27:00Z",
-     "image": "https://images.mktw.net/im-66111298"
+     "title": "Biotech stocks are surging. How investors can play the new drug innovation boom",
+     "url": "https://www.cnbc.com/2026/10/24/biotech-stocks-drug-innovation-rally.html",
+     "source": "CNBC",
+     "published": "2026-10-24T18:56:29Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108100625-1739282958280-gettyimages-2151784607-MODERNA_RSV_VACCINE.jpeg?v=1792438619&w=1920&h=1080"
     },
     {
-     "title": "Is getting a wedding band from Quince a bad idea? It’s a third of the price of a local jeweler.",
-     "url": "https://www.marketwatch.com/story/is-getting-a-wedding-band-from-quince-a-bad-idea-its-a-third-of-the-price-fa89c9b2?mod=mw_rss_topstories",
+     "title": "Young Americans are giving up on car ownership. It’s a path to financial freedom for some.",
+     "url": "https://www.marketwatch.com/story/young-americans-are-giving-up-their-cars-its-a-path-to-financial-freedom-for-some-3cce491c?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-24T15:10:00Z",
-     "image": "https://images.mktw.net/im-23308572"
+     "published": "2026-10-24T18:45:00Z",
+     "image": "https://images.mktw.net/im-25886732"
     },
     {
-     "title": "Looking for AI stocks that are still cheap? Consider these two under-the-radar picks.",
-     "url": "https://www.marketwatch.com/story/looking-for-ai-stocks-that-are-still-cheap-consider-these-two-under-the-radar-picks-b4ca2b28?mod=mw_rss_topstories",
+     "title": "Over 40% of Americans are heading toward retirement ‘blind’ — with no plan",
+     "url": "https://www.marketwatch.com/story/over-40-of-americans-are-heading-toward-retirement-blind-with-no-plan-e49b502f?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-24T14:40:00Z",
-     "image": "https://images.mktw.net/im-91198545"
+     "published": "2026-10-24T17:23:00Z",
+     "image": "https://images.mktw.net/im-73908727"
     },
     {
-     "title": "Everyone’s talking about Roth conversions, but here’s how few people really do them — and why you shouldn’t have FOMO about it",
-     "url": "https://www.marketwatch.com/story/everyones-talking-about-roth-conversions-but-heres-how-few-people-really-do-them-and-why-you-shouldnt-have-fomo-about-it-1b50db07?mod=mw_rss_topstories",
+     "title": "Elon Musk promised a SpaceX share to every kid in America — don’t hold your breath",
+     "url": "https://www.marketwatch.com/story/elon-musk-promised-a-spacex-share-to-every-kid-in-america-dont-hold-your-breath-d6572cdf?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-24T14:24:00Z",
-     "image": "https://images.mktw.net/im-02166585"
+     "published": "2026-10-24T16:59:00Z",
+     "image": "https://images.mktw.net/im-21652349"
+    },
+    {
+     "title": "The Social Security Administration wants more babies signed up for ‘Trump accounts.’ But there’s still a catch.",
+     "url": "https://www.marketwatch.com/story/the-social-security-administration-wants-more-babies-signed-up-for-trump-accounts-but-theres-still-a-catch-4096f16e?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-24T16:46:00Z",
+     "image": "https://images.mktw.net/im-00292967"
     },
     {
      "title": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
@@ -87,13 +94,6 @@
      "source": "CNBC",
      "published": "2026-10-21T19:54:16Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108315322-1780418958261-pV7cOP_w.jpg?v=1789497012&w=1920&h=1080"
-    },
-    {
-     "title": "Goldman Sachs, JPMorgan and Morgan Stanley are dominating the AI stock boom. Here's their edge",
-     "url": "https://www.cnbc.com/2026/10/21/goldman-sachs-jpmorgan-morgan-stanley-ai-trading.html",
-     "source": "CNBC",
-     "published": "2026-10-21T15:30:50Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108436952-1792496159982-Untitled-7.jpg?v=1792496300&w=1920&h=1080"
     }
    ]
   },
@@ -150,25 +150,25 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "FG adds 640MW transmission capacity to national grid with six new substations",
-     "url": "https://nairametrics.com/2026/10/24/fg-adds-640mw-transmission-capacity-to-national-grid-with-six-new-substations/",
+     "title": "Africa Prudential’s pre-tax profit hits N4.07 billion in 9M as interest income jumps 46%",
+     "url": "https://nairametrics.com/2026/10/24/africa-prudentials-pre-tax-profit-hits-n4-07-billion-in-9m-as-interest-income-jumps-46/",
      "source": "Nairametrics",
-     "published": "2026-10-24T14:50:30Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/Power-transmission.webp"
+     "published": "2026-10-24T20:10:34Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/Africa-Prudential-Plc.webp"
     },
     {
-     "title": "Salone del Mobile enters Lagos as Italian furniture exports to Nigeria rise 27%",
-     "url": "https://businessday.ng/bd-weekender/article/salone-del-mobile-enters-lagos-as-italian-furniture-exports-to-nigeria-rise-27/",
-     "source": "BusinessDay",
-     "published": "2026-10-24T14:49:33Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/3J3A5307-scaled-large.jpg"
+     "title": "ABC Transport obtains approval to raise N6.5 billion in fresh capital",
+     "url": "https://nairametrics.com/2026/10/24/abc-transport-obtains-approval-to-raise-n6-5-billion-in-fresh-capital/",
+     "source": "Nairametrics",
+     "published": "2026-10-24T19:36:03Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/ABC-Transport-2-1.webp"
     },
     {
-     "title": "Super Falcons’ World Cup qualification failure to cost Nigeria $2.5 million in FIFA funding",
-     "url": "https://nairametrics.com/2026/10/24/super-falcons-world-cup-qualification-failure-to-cost-nigeria-2-5-million-in-fifa-funding/",
-     "source": "Nairametrics",
-     "published": "2026-10-24T14:12:50Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/SUPER-FALCONS-1-1.webp"
+     "title": "CBN grants JP Morgan approval-in-principle to set up merchant bank",
+     "url": "https://www.premiumtimesng.com/business/business-news/919923-cbn-grants-jp-morgan-approval-in-principle-to-set-up-merchant-bank.html",
+     "source": "Premium Times",
+     "published": "2026-10-24T17:50:32Z",
+     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2019/07/JPMorgan.jpeg?fit=1320%2C824&ssl=1"
     },
     {
      "title": "Unilever Nigeria posts 20% jump in nine-month profit, raises interim dividend fourfold",
@@ -178,18 +178,18 @@
      "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2021/01/unilever-logo_tcm1283-409212_w720.jpg?fit=720%2C405&ssl=1"
     },
     {
-     "title": "BOI to expand financing for agriculture, healthcare manufacturing in 2027",
-     "url": "https://www.premiumtimesng.com/business/business-news/919696-we-will-deploy-our-new-european-investment-bank-facilities-into-agriculture-and-local-healthcare-manufacturing-so-that-nigeria-produces-more-of-the-food-and-medicines-it-consumes-h.html",
-     "source": "Premium Times",
-     "published": "2026-10-23T16:57:53Z",
-     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2024/12/Bank-of-Industry-Corporate-Office-BOI-Tower-II-in-Abuja-Nigeria.png?fit=1156%2C650&ssl=1"
-    },
-    {
      "title": "Four technologies that could reshape Africa's energy future",
      "url": "https://african.business/2026/10/energy-resources/four-technologies-that-could-reshape-africas-energy-future",
      "source": "African Business",
      "published": "2026-10-23T10:38:58Z",
      "image": "https://african.business/wp-content/uploads/2025/11/000_par8269197-scaled.jpg"
+    },
+    {
+     "title": "Kenya walks a tightrope in Dangote fuel supply deal amid exclusivity row, pipeline stake",
+     "url": "https://www.theafricareport.com/434324/kenya-walks-a-tightrope-in-dangote-fuel-supply-deal-amid-exclusivity-row-pipeline-stake/",
+     "source": "The Africa Report",
+     "published": "2026-10-23T07:51:23Z",
+     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=2525,height=1683,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/10/23/2026-09-30t132122z_1515139318_rc2ptnahw4a6_rtrmadp_3_kenya-dangote-refinery.jpg"
     }
    ]
   }
@@ -239,11 +239,11 @@
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 6,
-   "skipped": 4,
+   "items": 5,
+   "skipped": 5,
    "undated": 0,
-   "newest": "2026-10-24T15:27:00Z",
-   "oldest": "2026-10-24T13:37:00Z"
+   "newest": "2026-10-24T18:45:00Z",
+   "oldest": "2026-10-24T16:18:00Z"
   },
   {
    "source": "CNBC",
@@ -259,10 +259,10 @@
    "source": "CNBC",
    "feed": "https://www.cnbc.com/id/15839069/device/rss/rss.html",
    "ok": true,
-   "items": 25,
+   "items": 26,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-21T19:54:16Z",
+   "newest": "2026-10-24T18:56:29Z",
    "oldest": "2026-09-22T22:35:50Z"
   },
   {
@@ -322,18 +322,18 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-24T14:50:30Z",
-   "oldest": "2026-10-23T14:52:27Z"
+   "newest": "2026-10-24T20:10:34Z",
+   "oldest": "2026-10-24T09:21:53Z"
   },
   {
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 1,
-   "skipped": 4,
+   "items": 0,
+   "skipped": 5,
    "undated": 0,
-   "newest": "2026-10-24T14:49:33Z",
-   "oldest": "2026-10-24T14:49:33Z"
+   "newest": null,
+   "oldest": null
   },
   {
    "source": "Premium Times",
@@ -342,8 +342,8 @@
    "items": 10,
    "skipped": 5,
    "undated": 0,
-   "newest": "2026-10-24T13:18:21Z",
-   "oldest": "2026-10-21T07:21:09Z"
+   "newest": "2026-10-24T17:50:32Z",
+   "oldest": "2026-10-21T14:41:09Z"
   },
   {
    "source": "African Business",
