@@ -300,3 +300,11 @@ footer .meso-logo img{filter:none;width:30px;height:30px}.teaching-gallery{margi
 @media(max-width:700px){.lane-row{grid-template-columns:1fr}}
 @media(max-width:460px){.score-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.score{padding:14px 12px 12px}.score::before{left:12px}.score-value{font-size:1.5rem}}
 @media(max-width:340px){.score-grid{grid-template-columns:1fr}}
+/* Article hero photo: wider than the reading column, sharp at every screen size. */
+.article-hero{width:min(1040px,calc(100% - 64px));margin:32px auto 0}
+.article-hero img{display:block;width:100%;height:auto;border-radius:14px;background:#eee}
+.article-hero figcaption{margin-top:10px;font-size:.8rem;line-height:1.5;color:#6b6b6b}
+.article-hero figcaption a{color:#6b6b6b}
+.article .article-hero+.article-body{padding-top:28px}
+@media(max-width:700px){.article-hero{width:calc(100% - 40px);margin-top:22px}.article-hero img{border-radius:10px}}
+@media(max-width:650px){.article-hero{width:calc(100% - 48px)}}
