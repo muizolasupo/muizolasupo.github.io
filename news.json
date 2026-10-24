@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-24T11:16:20Z",
+ "updated": "2026-10-24T16:04:44Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
+    {
+     "title": "AI panic and market volatility: Are the stock market's big gains unsustainable?",
+     "url": "https://www.npr.org/2026/10/24/nx-s1-6013402/ai-panic-and-market-volatility-are-the-stock-markets-big-gains-unsustainable",
+     "source": "NPR",
+     "published": "2026-10-24T11:42:12Z",
+     "image": ""
+    },
     {
      "title": "Treasury proposes rule to curb high-tech investments in China and other adversaries",
      "url": "https://www.pbs.org/newshour/politics/treasury-proposes-rule-to-curb-high-tech-investments-in-china-and-other-adversaries",
@@ -34,13 +41,6 @@
      "image": ""
     },
     {
-     "title": "Gene editing scientists slowed down for safety. Could AI leaders follow their guide?",
-     "url": "https://www.npr.org/2026/10/22/nx-s1-6001731/gene-editing-scientists-slowed-down-for-safety-could-ai-leaders-follow-their-guide",
-     "source": "NPR",
-     "published": "2026-10-22T21:38:53Z",
-     "image": ""
-    },
-    {
      "title": "Jobless claims near the lowest since the 1960s as low-fire trend continues",
      "url": "https://www.cnbc.com/2026/10/22/jobless-claims-record-low-weekly.html",
      "source": "CNBC",
@@ -54,32 +54,32 @@
    "label": "Markets",
    "items": [
     {
-     "title": "Do machines have feelings? AI has philosophers and tech leaders rethinking consciousness.",
-     "url": "https://www.marketwatch.com/story/do-machines-have-feelings-ai-has-philosophers-and-tech-leaders-rethinking-consciousness-00e5ad78?mod=mw_rss_topstories",
+     "title": "Money-saving habits to cope with higher prices — from our readers",
+     "url": "https://www.marketwatch.com/story/money-saving-hacks-to-cope-with-higher-prices-from-our-readers-a092767e?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-24T11:00:00Z",
-     "image": "https://images.mktw.net/im-19616422"
+     "published": "2026-10-24T15:27:00Z",
+     "image": "https://images.mktw.net/im-66111298"
     },
     {
-     "title": "Will Anthropic pull off a November IPO? Time is running out to file key paperwork.",
-     "url": "https://www.marketwatch.com/story/will-anthropic-pull-off-a-november-ipo-time-is-running-out-to-file-key-paperwork-52677343?mod=mw_rss_topstories",
+     "title": "Is getting a wedding band from Quince a bad idea? It’s a third of the price of a local jeweler.",
+     "url": "https://www.marketwatch.com/story/is-getting-a-wedding-band-from-quince-a-bad-idea-its-a-third-of-the-price-fa89c9b2?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-23T22:00:00Z",
-     "image": "https://images.mktw.net/im-31670167"
+     "published": "2026-10-24T15:10:00Z",
+     "image": "https://images.mktw.net/im-23308572"
     },
     {
-     "title": "Investors piled a record sum into a leveraged semiconductor ETF last week. Things didn’t work out.",
-     "url": "https://www.marketwatch.com/story/investors-piled-a-record-sum-into-a-leveraged-semiconductor-etf-last-week-things-didnt-work-out-4680b2f3?mod=mw_rss_topstories",
+     "title": "Looking for AI stocks that are still cheap? Consider these two under-the-radar picks.",
+     "url": "https://www.marketwatch.com/story/looking-for-ai-stocks-that-are-still-cheap-consider-these-two-under-the-radar-picks-b4ca2b28?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-23T21:46:00Z",
-     "image": "https://images.mktw.net/im-51837852"
+     "published": "2026-10-24T14:40:00Z",
+     "image": "https://images.mktw.net/im-91198545"
     },
     {
-     "title": "This hot AI-fueled stock has been in a rut. It just beat earnings expectations by 36%.",
-     "url": "https://www.marketwatch.com/story/this-hot-ai-fueled-stock-has-been-in-a-rut-it-just-beat-earnings-expectations-by-36-4a4188cb?mod=mw_rss_topstories",
+     "title": "Everyone’s talking about Roth conversions, but here’s how few people really do them — and why you shouldn’t have FOMO about it",
+     "url": "https://www.marketwatch.com/story/everyones-talking-about-roth-conversions-but-heres-how-few-people-really-do-them-and-why-you-shouldnt-have-fomo-about-it-1b50db07?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-23T21:13:00Z",
-     "image": "https://images.mktw.net/im-50517059"
+     "published": "2026-10-24T14:24:00Z",
+     "image": "https://images.mktw.net/im-02166585"
     },
     {
      "title": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
@@ -150,32 +150,32 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "Dapo Olagunju: From treasury markets to JPMorgan’s Nigerian banking ambition",
-     "url": "https://businessday.ng/news/article/dapo-olagunju-from-treasury-markets-to-jpmorgans-nigerian-banking-ambition/",
-     "source": "BusinessDay",
-     "published": "2026-10-24T10:33:07Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/Adedapo-Adedayo-Olagunju-large.webp"
-    },
-    {
-     "title": "Nigerian Bonny Light hits $115 a barrel as Strait of Hormuz attacks surge",
-     "url": "https://nairametrics.com/2026/10/24/nigerian-bonny-light-hits-115-a-barrel-as-strait-of-hormuz-attacks-surge/",
+     "title": "FG adds 640MW transmission capacity to national grid with six new substations",
+     "url": "https://nairametrics.com/2026/10/24/fg-adds-640mw-transmission-capacity-to-national-grid-with-six-new-substations/",
      "source": "Nairametrics",
-     "published": "2026-10-24T10:08:59Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/crude-oil.webp"
+     "published": "2026-10-24T14:50:30Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/Power-transmission.webp"
     },
     {
-     "title": "Netherlands to introduce new rules for employers sponsoring foreign workers from November 1",
-     "url": "https://nairametrics.com/2026/10/24/netherlands-to-introduce-new-rules-for-employers-sponsoring-foreign-workers-from-november-1/",
-     "source": "Nairametrics",
-     "published": "2026-10-24T09:34:31Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/Netherlands.webp"
-    },
-    {
-     "title": "NEPC pushes Ebonyi products for global markets, urges quality certification",
-     "url": "https://businessday.ng/news/article/nepc-pushes-ebonyi-products-for-global-markets-urges-quality-certification/",
+     "title": "Salone del Mobile enters Lagos as Italian furniture exports to Nigeria rise 27%",
+     "url": "https://businessday.ng/bd-weekender/article/salone-del-mobile-enters-lagos-as-italian-furniture-exports-to-nigeria-rise-27/",
      "source": "BusinessDay",
-     "published": "2026-10-24T08:12:45Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/02/Untitled-design-2026-02-08T074745.563-1-large.png"
+     "published": "2026-10-24T14:49:33Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/3J3A5307-scaled-large.jpg"
+    },
+    {
+     "title": "Super Falcons’ World Cup qualification failure to cost Nigeria $2.5 million in FIFA funding",
+     "url": "https://nairametrics.com/2026/10/24/super-falcons-world-cup-qualification-failure-to-cost-nigeria-2-5-million-in-fifa-funding/",
+     "source": "Nairametrics",
+     "published": "2026-10-24T14:12:50Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/SUPER-FALCONS-1-1.webp"
+    },
+    {
+     "title": "Unilever Nigeria posts 20% jump in nine-month profit, raises interim dividend fourfold",
+     "url": "https://www.premiumtimesng.com/business/business-news/919846-unilever-nigeria-posts-20-jump-in-nine-month-profit-raises-interim-dividend-fourfold.html",
+     "source": "Premium Times",
+     "published": "2026-10-24T13:18:21Z",
+     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2021/01/unilever-logo_tcm1283-409212_w720.jpg?fit=720%2C405&ssl=1"
     },
     {
      "title": "BOI to expand financing for agriculture, healthcare manufacturing in 2027",
@@ -185,11 +185,11 @@
      "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2024/12/Bank-of-Industry-Corporate-Office-BOI-Tower-II-in-Abuja-Nigeria.png?fit=1156%2C650&ssl=1"
     },
     {
-     "title": "First HoldCo’s nine-month profit leaps 63% to N744.5 billion",
-     "url": "https://www.premiumtimesng.com/business/business-news/919651-first-holdcos-nine-month-profit-leaps-63-to-n744-5-billion.html",
-     "source": "Premium Times",
-     "published": "2026-10-23T15:49:33Z",
-     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2025/07/Untitled-design-43.jpg?fit=1920%2C1080&ssl=1"
+     "title": "Four technologies that could reshape Africa's energy future",
+     "url": "https://african.business/2026/10/energy-resources/four-technologies-that-could-reshape-africas-energy-future",
+     "source": "African Business",
+     "published": "2026-10-23T10:38:58Z",
+     "image": "https://african.business/wp-content/uploads/2025/11/000_par8269197-scaled.jpg"
     }
    ]
   }
@@ -202,8 +202,8 @@
    "items": 10,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-23T11:00:00Z",
-   "oldest": "2026-10-13T20:03:30Z"
+   "newest": "2026-10-24T11:42:12Z",
+   "oldest": "2026-10-14T13:33:44Z"
   },
   {
    "source": "PBS NewsHour",
@@ -239,11 +239,11 @@
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 7,
-   "skipped": 3,
+   "items": 6,
+   "skipped": 4,
    "undated": 0,
-   "newest": "2026-10-24T11:00:00Z",
-   "oldest": "2026-10-23T20:50:00Z"
+   "newest": "2026-10-24T15:27:00Z",
+   "oldest": "2026-10-24T13:37:00Z"
   },
   {
    "source": "CNBC",
@@ -322,18 +322,18 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-24T10:08:59Z",
-   "oldest": "2026-10-23T14:16:22Z"
+   "newest": "2026-10-24T14:50:30Z",
+   "oldest": "2026-10-23T14:52:27Z"
   },
   {
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 4,
-   "skipped": 1,
+   "items": 1,
+   "skipped": 4,
    "undated": 0,
-   "newest": "2026-10-24T10:33:07Z",
-   "oldest": "2026-10-24T08:06:30Z"
+   "newest": "2026-10-24T14:49:33Z",
+   "oldest": "2026-10-24T14:49:33Z"
   },
   {
    "source": "Premium Times",
@@ -342,8 +342,8 @@
    "items": 10,
    "skipped": 5,
    "undated": 0,
-   "newest": "2026-10-23T16:57:53Z",
-   "oldest": "2026-10-21T07:05:50Z"
+   "newest": "2026-10-24T13:18:21Z",
+   "oldest": "2026-10-21T07:21:09Z"
   },
   {
    "source": "African Business",
