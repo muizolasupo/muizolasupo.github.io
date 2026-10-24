@@ -1,10 +1,24 @@
 {
- "updated": "2026-10-23T21:30:47Z",
+ "updated": "2026-10-24T04:47:50Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
+    {
+     "title": "Treasury proposes rule to curb high-tech investments in China and other adversaries",
+     "url": "https://www.pbs.org/newshour/politics/treasury-proposes-rule-to-curb-high-tech-investments-in-china-and-other-adversaries",
+     "source": "PBS NewsHour",
+     "published": "2026-10-23T23:19:32Z",
+     "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-09-23T164555Z_940496461_RC24PNADYA0L_RTRMADP_3_USA-CHINA-BESSENT-HE-1024x683.jpg"
+    },
+    {
+     "title": "Seeking to help Collins in Maine, Trump exempts some Canadian imports from his 50% tariffs",
+     "url": "https://www.pbs.org/newshour/politics/seeking-to-help-collins-in-maine-trump-exempts-some-canadian-imports-from-his-50-tariffs",
+     "source": "PBS NewsHour",
+     "published": "2026-10-23T22:48:08Z",
+     "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-10-08T195917Z_1328933617_RC26ZNAFVNYE_RTRMADP_3_USA-ELECTION-MAINE-1024x723.jpg"
+    },
     {
      "title": "Trump's approval rating on economy hits all-time low as midterm looms: CNBC survey",
      "url": "https://www.cnbc.com/2026/10/22/trump-economic-approval-rating-midterms-poll.html",
@@ -32,20 +46,6 @@
      "source": "CNBC",
      "published": "2026-10-22T16:40:09Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108368225-1790357106706-gettyimages-2297110253-jr_19003_zvh8bkkg.jpeg?v=1790357497&w=1920&h=1080"
-    },
-    {
-     "title": "Sam Bankman-Fried says he has paid his debts",
-     "url": "https://www.economist.com/finance-and-economics/2026/10/22/sam-bankman-fried-says-he-has-paid-his-debts",
-     "source": "The Economist",
-     "published": "2026-10-22T15:51:39Z",
-     "image": ""
-    },
-    {
-     "title": "New research tries to defuse the “China shock”",
-     "url": "https://www.economist.com/finance-and-economics/2026/10/22/new-research-tries-to-defuse-the-china-shock",
-     "source": "The Economist",
-     "published": "2026-10-22T09:12:40Z",
-     "image": ""
     }
    ]
   },
@@ -53,6 +53,20 @@
    "id": "markets",
    "label": "Markets",
    "items": [
+    {
+     "title": "Will Anthropic pull off a November IPO? Time is running out to file key paperwork.",
+     "url": "https://www.marketwatch.com/story/will-anthropic-pull-off-a-november-ipo-time-is-running-out-to-file-key-paperwork-52677343?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-23T22:00:00Z",
+     "image": "https://images.mktw.net/im-31670167"
+    },
+    {
+     "title": "Investors piled a record sum into a leveraged semiconductor ETF last week. Things didn’t work out.",
+     "url": "https://www.marketwatch.com/story/investors-piled-a-record-sum-into-a-leveraged-semiconductor-etf-last-week-things-didnt-work-out-4680b2f3?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-23T21:46:00Z",
+     "image": "https://images.mktw.net/im-51837852"
+    },
     {
      "title": "This hot AI-fueled stock has been in a rut. It just beat earnings expectations by 36%.",
      "url": "https://www.marketwatch.com/story/this-hot-ai-fueled-stock-has-been-in-a-rut-it-just-beat-earnings-expectations-by-36-4a4188cb?mod=mw_rss_topstories",
@@ -66,20 +80,6 @@
      "source": "MarketWatch",
      "published": "2026-10-23T21:11:00Z",
      "image": "https://images.mktw.net/im-85027218"
-    },
-    {
-     "title": "The real test for Moderna’s cancer vaccine isn’t about beating Keytruda. It’s keeping cancer from coming back in the long term.",
-     "url": "https://www.marketwatch.com/story/the-real-test-for-modernas-cancer-vaccine-isnt-about-beating-keytruda-its-keeping-cancer-from-coming-back-in-the-long-term-da9af99f?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-23T21:06:00Z",
-     "image": "https://images.mktw.net/im-30668986"
-    },
-    {
-     "title": "Some Republicans are opposing Trump on tariffs. Maine’s Susan Collins just got him to back down on Canadian levies.",
-     "url": "https://www.marketwatch.com/story/some-republicans-are-opposing-trump-on-tariffs-maines-susan-collins-just-got-him-to-back-down-on-canadian-levies-02b202ae?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-23T20:50:00Z",
-     "image": "https://images.mktw.net/im-20078796"
     },
     {
      "title": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
@@ -150,18 +150,18 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "FG launches trade intelligence tools to help exporters find markets",
-     "url": "https://businessday.ng/business-economy/article/fg-launches-trade-intelligence-tools-to-help-exporters-find-markets/",
+     "title": "Nigerian firms must strengthen financial reporting ahead of IFRS 18, says Kreston Pedabo’s Asemah",
+     "url": "https://businessday.ng/bd-weekender/article/nigerian-firms-must-strengthen-financial-reporting-ahead-of-ifrs-18-says-kreston-pedabos-asemah/",
      "source": "BusinessDay",
-     "published": "2026-10-23T21:18:25Z",
-     "image": "https://cdn.businessday.ng/2020/02/jumoke-oduwole.png"
+     "published": "2026-10-24T04:20:03Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/1-54-large.jpg"
     },
     {
-     "title": "US firm files FOIA request for Nigeria-US Mining Pact amid transparency concerns",
-     "url": "https://businessday.ng/news/article/us-firm-files-foia-request-for-nigeria-us-mining-pact-amid-transparency-concerns/",
+     "title": "Seplat CEO, Ghanaian University Vice-Chancellor, BOI Executive, others to lead Africa-wide talks on workplace safety and industrial growth",
+     "url": "https://businessday.ng/bd-weekender/article/seplat-ceo-ghanaian-university-vice-chancellor-boi-executive-others-to-lead-africa-wide-talks-on-workplace-safety-and-industrial-growth/",
      "source": "BusinessDay",
-     "published": "2026-10-23T20:58:06Z",
-     "image": ""
+     "published": "2026-10-24T04:00:14Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/1-1-large.jpeg"
     },
     {
      "title": "NGX market capitalisation soars past N160 trillion as equities close week on green",
@@ -209,11 +209,11 @@
    "source": "PBS NewsHour",
    "feed": "https://www.pbs.org/newshour/feeds/rss/economy",
    "ok": true,
-   "items": 12,
-   "skipped": 8,
+   "items": 13,
+   "skipped": 7,
    "undated": 0,
-   "newest": "2026-10-19T13:55:29Z",
-   "oldest": "2026-10-09T20:33:22Z"
+   "newest": "2026-10-23T23:19:32Z",
+   "oldest": "2026-10-12T13:26:30Z"
   },
   {
    "source": "The Economist",
@@ -239,11 +239,11 @@
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 7,
-   "skipped": 3,
+   "items": 8,
+   "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-23T21:13:00Z",
-   "oldest": "2026-10-23T19:49:00Z"
+   "newest": "2026-10-23T22:00:00Z",
+   "oldest": "2026-10-23T20:19:00Z"
   },
   {
    "source": "CNBC",
@@ -332,8 +332,8 @@
    "items": 2,
    "skipped": 3,
    "undated": 0,
-   "newest": "2026-10-23T21:18:25Z",
-   "oldest": "2026-10-23T20:58:06Z"
+   "newest": "2026-10-24T04:20:03Z",
+   "oldest": "2026-10-24T04:00:14Z"
   },
   {
    "source": "Premium Times",
