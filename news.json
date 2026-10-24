@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T04:47:50Z",
+ "updated": "2026-10-24T11:16:20Z",
  "categories": [
   {
    "id": "economy",
@@ -54,6 +54,13 @@
    "label": "Markets",
    "items": [
     {
+     "title": "Do machines have feelings? AI has philosophers and tech leaders rethinking consciousness.",
+     "url": "https://www.marketwatch.com/story/do-machines-have-feelings-ai-has-philosophers-and-tech-leaders-rethinking-consciousness-00e5ad78?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-24T11:00:00Z",
+     "image": "https://images.mktw.net/im-19616422"
+    },
+    {
      "title": "Will Anthropic pull off a November IPO? Time is running out to file key paperwork.",
      "url": "https://www.marketwatch.com/story/will-anthropic-pull-off-a-november-ipo-time-is-running-out-to-file-key-paperwork-52677343?mod=mw_rss_topstories",
      "source": "MarketWatch",
@@ -73,13 +80,6 @@
      "source": "MarketWatch",
      "published": "2026-10-23T21:13:00Z",
      "image": "https://images.mktw.net/im-50517059"
-    },
-    {
-     "title": "The mobile ambitions of SpaceX are hitting telecom stocks again. Here’s what the latest developments mean.",
-     "url": "https://www.marketwatch.com/story/the-mobile-ambitions-of-spacex-see-telecom-stocks-get-hit-again-what-the-latest-developments-mean-9a4159b5?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-23T21:11:00Z",
-     "image": "https://images.mktw.net/im-85027218"
     },
     {
      "title": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
@@ -150,32 +150,32 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "Nigerian firms must strengthen financial reporting ahead of IFRS 18, says Kreston Pedabo’s Asemah",
-     "url": "https://businessday.ng/bd-weekender/article/nigerian-firms-must-strengthen-financial-reporting-ahead-of-ifrs-18-says-kreston-pedabos-asemah/",
+     "title": "Dapo Olagunju: From treasury markets to JPMorgan’s Nigerian banking ambition",
+     "url": "https://businessday.ng/news/article/dapo-olagunju-from-treasury-markets-to-jpmorgans-nigerian-banking-ambition/",
      "source": "BusinessDay",
-     "published": "2026-10-24T04:20:03Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/1-54-large.jpg"
+     "published": "2026-10-24T10:33:07Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/Adedapo-Adedayo-Olagunju-large.webp"
     },
     {
-     "title": "Seplat CEO, Ghanaian University Vice-Chancellor, BOI Executive, others to lead Africa-wide talks on workplace safety and industrial growth",
-     "url": "https://businessday.ng/bd-weekender/article/seplat-ceo-ghanaian-university-vice-chancellor-boi-executive-others-to-lead-africa-wide-talks-on-workplace-safety-and-industrial-growth/",
+     "title": "Nigerian Bonny Light hits $115 a barrel as Strait of Hormuz attacks surge",
+     "url": "https://nairametrics.com/2026/10/24/nigerian-bonny-light-hits-115-a-barrel-as-strait-of-hormuz-attacks-surge/",
+     "source": "Nairametrics",
+     "published": "2026-10-24T10:08:59Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/crude-oil.webp"
+    },
+    {
+     "title": "Netherlands to introduce new rules for employers sponsoring foreign workers from November 1",
+     "url": "https://nairametrics.com/2026/10/24/netherlands-to-introduce-new-rules-for-employers-sponsoring-foreign-workers-from-november-1/",
+     "source": "Nairametrics",
+     "published": "2026-10-24T09:34:31Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/Netherlands.webp"
+    },
+    {
+     "title": "NEPC pushes Ebonyi products for global markets, urges quality certification",
+     "url": "https://businessday.ng/news/article/nepc-pushes-ebonyi-products-for-global-markets-urges-quality-certification/",
      "source": "BusinessDay",
-     "published": "2026-10-24T04:00:14Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/1-1-large.jpeg"
-    },
-    {
-     "title": "NGX market capitalisation soars past N160 trillion as equities close week on green",
-     "url": "https://nairametrics.com/2026/10/23/ngx-market-capitalisation-soars-past-n160-trillion-as-equities-close-week-on-green/",
-     "source": "Nairametrics",
-     "published": "2026-10-23T19:53:48Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/09/stock-1-scaled-1.webp"
-    },
-    {
-     "title": "First HoldCo shares gain 10% after nine-month profit surge",
-     "url": "https://nairametrics.com/2026/10/23/first-holdco-shares-gain-10-after-nine-month-profit-surge/",
-     "source": "Nairametrics",
-     "published": "2026-10-23T19:38:26Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/FirstHoldCo-1-1.webp"
+     "published": "2026-10-24T08:12:45Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/02/Untitled-design-2026-02-08T074745.563-1-large.png"
     },
     {
      "title": "BOI to expand financing for agriculture, healthcare manufacturing in 2027",
@@ -239,11 +239,11 @@
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 8,
-   "skipped": 2,
+   "items": 7,
+   "skipped": 3,
    "undated": 0,
-   "newest": "2026-10-23T22:00:00Z",
-   "oldest": "2026-10-23T20:19:00Z"
+   "newest": "2026-10-24T11:00:00Z",
+   "oldest": "2026-10-23T20:50:00Z"
   },
   {
    "source": "CNBC",
@@ -322,18 +322,18 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-23T19:53:48Z",
-   "oldest": "2026-10-23T10:31:18Z"
+   "newest": "2026-10-24T10:08:59Z",
+   "oldest": "2026-10-23T14:16:22Z"
   },
   {
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 2,
-   "skipped": 3,
+   "items": 4,
+   "skipped": 1,
    "undated": 0,
-   "newest": "2026-10-24T04:20:03Z",
-   "oldest": "2026-10-24T04:00:14Z"
+   "newest": "2026-10-24T10:33:07Z",
+   "oldest": "2026-10-24T08:06:30Z"
   },
   {
    "source": "Premium Times",
