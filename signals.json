@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T16:05:52Z",
+ "updated": "2026-10-25T04:57:06Z",
  "panels": [
   {
    "id": "us",
@@ -540,7 +540,7 @@
        "status": null,
        "source_name": "FRED",
        "source_url": "https://fred.stlouisfed.org/series/DGS2",
-       "move_z": -4.14
+       "move_z": -4.12
       },
       {
        "id": "DGS10",
@@ -761,7 +761,7 @@
        "status": null,
        "source_name": "FRED",
        "source_url": "https://fred.stlouisfed.org/series/DGS10",
-       "move_z": -4.84
+       "move_z": -4.82
       },
       {
        "id": "T10Y2Y",
@@ -1522,7 +1522,7 @@
        "status": null,
        "source_name": "FRED",
        "source_url": "https://fred.stlouisfed.org/series/T10YIE",
-       "move_z": 1.25
+       "move_z": 1.24
       },
       {
        "id": "DCOILWTICO",

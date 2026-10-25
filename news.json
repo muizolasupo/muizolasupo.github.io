@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T23:22:58Z",
+ "updated": "2026-10-25T04:56:06Z",
  "categories": [
   {
    "id": "economy",
@@ -150,6 +150,20 @@
    "label": "Nigeria & Africa",
    "items": [
     {
+     "title": "Should Nigeria introduce minimum capital requirements for hospitals?",
+     "url": "https://businessday.ng/life/article/should-nigeria-introduce-minimum-capital-requirements-for-hospitals/",
+     "source": "BusinessDay",
+     "published": "2026-10-25T03:48:53Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/Wale-Olajubu-large.jpg"
+    },
+    {
+     "title": "Dangote Cement Gboko commits millions of naira in scholarship scheme",
+     "url": "https://businessday.ng/life/article/dangote-cement-gboko-commits-millions-of-naira-in-scholarship-scheme/",
+     "source": "BusinessDay",
+     "published": "2026-10-25T03:31:31Z",
+     "image": "https://cdn.businessday.ng/2022/10/dangote-cement-obajana-plant.jpg"
+    },
+    {
      "title": "Africa Prudential’s pre-tax profit hits N4.07 billion in 9M as interest income jumps 46%",
      "url": "https://nairametrics.com/2026/10/24/africa-prudentials-pre-tax-profit-hits-n4-07-billion-in-9m-as-interest-income-jumps-46/",
      "source": "Nairametrics",
@@ -176,20 +190,6 @@
      "source": "Premium Times",
      "published": "2026-10-24T13:18:21Z",
      "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2021/01/unilever-logo_tcm1283-409212_w720.jpg?fit=720%2C405&ssl=1"
-    },
-    {
-     "title": "Four technologies that could reshape Africa's energy future",
-     "url": "https://african.business/2026/10/energy-resources/four-technologies-that-could-reshape-africas-energy-future",
-     "source": "African Business",
-     "published": "2026-10-23T10:38:58Z",
-     "image": "https://african.business/wp-content/uploads/2025/11/000_par8269197-scaled.jpg"
-    },
-    {
-     "title": "Kenya walks a tightrope in Dangote fuel supply deal amid exclusivity row, pipeline stake",
-     "url": "https://www.theafricareport.com/434324/kenya-walks-a-tightrope-in-dangote-fuel-supply-deal-amid-exclusivity-row-pipeline-stake/",
-     "source": "The Africa Report",
-     "published": "2026-10-23T07:51:23Z",
-     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=2525,height=1683,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/10/23/2026-09-30t132122z_1515139318_rc2ptnahw4a6_rtrmadp_3_kenya-dangote-refinery.jpg"
     }
    ]
   }
@@ -329,11 +329,11 @@
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 0,
-   "skipped": 5,
+   "items": 2,
+   "skipped": 3,
    "undated": 0,
-   "newest": null,
-   "oldest": null
+   "newest": "2026-10-25T03:48:53Z",
+   "oldest": "2026-10-25T03:31:31Z"
   },
   {
    "source": "Premium Times",
