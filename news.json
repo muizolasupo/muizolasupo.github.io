@@ -1,10 +1,17 @@
 {
- "updated": "2026-10-25T20:58:29Z",
+ "updated": "2026-10-25T23:21:02Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
+    {
+     "title": "Home sellers are lowering their prices and helping buyers to make a deal in a stagnant market",
+     "url": "https://www.pbs.org/newshour/economy/home-sellers-are-lowering-their-prices-and-helping-buyers-to-make-a-deal-in-a-stagnant-market",
+     "source": "PBS NewsHour",
+     "published": "2026-10-25T20:55:56Z",
+     "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2025-04-22T101954Z_536240925_RC21ZDAWRQSZ_RTRMADP_3_USA-TRUMP-SNOWBIRDS-2-1024x683.jpg"
+    },
     {
      "title": "Trade tariffs cause whiplash at Port Milwaukee",
      "url": "https://www.npr.org/2026/10/24/nx-s1-6011193/trade-tariffs-cause-whiplash-at-port-milwaukee",
@@ -25,13 +32,6 @@
      "source": "PBS NewsHour",
      "published": "2026-10-23T23:19:32Z",
      "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-09-23T164555Z_940496461_RC24PNADYA0L_RTRMADP_3_USA-CHINA-BESSENT-HE-1024x683.jpg"
-    },
-    {
-     "title": "Seeking to help Collins in Maine, Trump exempts some Canadian imports from his 50% tariffs",
-     "url": "https://www.pbs.org/newshour/politics/seeking-to-help-collins-in-maine-trump-exempts-some-canadian-imports-from-his-50-tariffs",
-     "source": "PBS NewsHour",
-     "published": "2026-10-23T22:48:08Z",
-     "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-10-08T195917Z_1328933617_RC26ZNAFVNYE_RTRMADP_3_USA-ELECTION-MAINE-1024x723.jpg"
     },
     {
      "title": "Trump's approval rating on economy hits all-time low as midterm looms: CNBC survey",
@@ -195,10 +195,10 @@
    "source": "PBS NewsHour",
    "feed": "https://www.pbs.org/newshour/feeds/rss/economy",
    "ok": true,
-   "items": 13,
-   "skipped": 7,
+   "items": 14,
+   "skipped": 6,
    "undated": 0,
-   "newest": "2026-10-23T23:19:32Z",
+   "newest": "2026-10-25T20:55:56Z",
    "oldest": "2026-10-12T13:26:30Z"
   },
   {
