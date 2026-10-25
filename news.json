@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T11:45:51Z",
+ "updated": "2026-10-25T16:34:44Z",
  "categories": [
   {
    "id": "economy",
@@ -54,11 +54,32 @@
    "label": "Markets",
    "items": [
     {
-     "title": "Here’s the real signal to watch for the Fed’s next move",
-     "url": "https://www.marketwatch.com/story/heres-the-real-signal-to-watch-for-the-feds-next-move-9189cb51?mod=mw_rss_topstories",
+     "title": "More than a third of S&P 500 companies are about to report earnings as market confidence cracks",
+     "url": "https://www.marketwatch.com/story/more-than-a-third-of-s-p-500-companies-are-about-to-report-earnings-as-market-confidence-cracks-03b7a8f1?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-25T11:30:00Z",
-     "image": "https://images.mktw.net/im-02259041"
+     "published": "2026-10-25T14:00:00Z",
+     "image": "https://images.mktw.net/im-16577626"
+    },
+    {
+     "title": "Worried about this stock-market selloff? Relief may be coming after the midterms — no matter who wins.",
+     "url": "https://www.marketwatch.com/story/worried-about-this-stock-market-selloff-relief-may-be-coming-after-the-midterms-no-matter-who-wins-39322c07?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-25T13:00:00Z",
+     "image": "https://images.mktw.net/im-63364096"
+    },
+    {
+     "title": "‘Nonanswers’ aren’t working. This is what investors really need from the Fed.",
+     "url": "https://www.marketwatch.com/story/non-answers-arent-working-this-is-what-investors-really-need-from-the-fed-673a9dce?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-25T12:44:00Z",
+     "image": "https://images.mktw.net/im-25605110"
+    },
+    {
+     "title": "Why economic health no longer dictates stock-market returns",
+     "url": "https://www.marketwatch.com/story/why-economic-health-no-longer-dictates-stock-market-returns-c44b88f2?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-25T12:00:00Z",
+     "image": "https://images.mktw.net/im-16022613"
     },
     {
      "title": "Biotech stocks are surging. How investors can play the new drug innovation boom",
@@ -66,27 +87,6 @@
      "source": "CNBC",
      "published": "2026-10-24T18:56:29Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108100625-1739282958280-gettyimages-2151784607-MODERNA_RSV_VACCINE.jpeg?v=1792438619&w=1920&h=1080"
-    },
-    {
-     "title": "Young Americans are giving up on car ownership. It’s a path to financial freedom for some.",
-     "url": "https://www.marketwatch.com/story/young-americans-are-giving-up-their-cars-its-a-path-to-financial-freedom-for-some-3cce491c?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-24T18:45:00Z",
-     "image": "https://images.mktw.net/im-25886732"
-    },
-    {
-     "title": "Over 40% of Americans are heading toward retirement ‘blind’ — with no plan",
-     "url": "https://www.marketwatch.com/story/over-40-of-americans-are-heading-toward-retirement-blind-with-no-plan-e49b502f?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-24T17:23:00Z",
-     "image": "https://images.mktw.net/im-73908727"
-    },
-    {
-     "title": "Elon Musk promised a SpaceX share to every kid in America — don’t hold your breath",
-     "url": "https://www.marketwatch.com/story/elon-musk-promised-a-spacex-share-to-every-kid-in-america-dont-hold-your-breath-d6572cdf?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-24T16:59:00Z",
-     "image": "https://images.mktw.net/im-21652349"
     },
     {
      "title": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
@@ -150,32 +150,32 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "Domestic equity trading hits N13.52 trillion, surpasses full-year 2025",
-     "url": "https://nairametrics.com/2026/10/25/domestic-equity-trading-hits-n13-52-trillion-surpasses-full-year-2025/",
+     "title": "NCDC identifies two suspected Ebola cases, traces 53 primary contacts",
+     "url": "https://nairametrics.com/2026/10/25/ncdc-identifies-two-suspected-ebola-cases-traces-53-primary-contacts/",
      "source": "Nairametrics",
-     "published": "2026-10-25T11:29:25Z",
-     "image": "https://media.nairametrics.com/2026/06/point-normal-tpaJBkqH5EQ-unsplash-scaled.jpg"
+     "published": "2026-10-25T15:58:46Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/Ebola.webp"
     },
     {
-     "title": "Holy See urges UN to redirect arms spending towards human capital development",
-     "url": "https://businessday.ng/life/article/holy-see-urges-un-to-redirect-arms-spending-towards-human-capital-development/",
-     "source": "BusinessDay",
-     "published": "2026-10-25T11:11:26Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/IMG_7179-large.jpeg"
-    },
-    {
-     "title": "Otufodunrin elected president WACC-Africa, to lead new growth trajectory",
-     "url": "https://businessday.ng/life/article/otufodunrin-elected-president-wacc-africa-to-lead-new-growth-trajectory/",
-     "source": "BusinessDay",
-     "published": "2026-10-25T11:03:31Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/IMG_7181-large.jpeg"
-    },
-    {
-     "title": "IMF blames over-optimistic tax estimates, weak implementation for revenue shortfalls",
-     "url": "https://nairametrics.com/2026/10/25/imf-blames-over-optimistic-tax-estimates-weak-implementation-for-revenue-shortfalls/",
+     "title": "Robert Mbonu and the N200 billion Nigerian art market",
+     "url": "https://nairametrics.com/2026/10/25/robert-mbonu-and-the-n200-billion-nigerian-art-market/",
      "source": "Nairametrics",
-     "published": "2026-10-25T08:40:31Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/09/IMF-.webp"
+     "published": "2026-10-25T15:37:31Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/robert-mbonu.jpg"
+    },
+    {
+     "title": "Nigeria must stay the course: Continuity is now an economic imperative",
+     "url": "https://businessday.ng/life/article/nigeria-must-stay-the-course-continuity-is-now-an-economic-imperative/",
+     "source": "BusinessDay",
+     "published": "2026-10-25T15:27:07Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/06/CUPP-backs-Reps-call-for-Tinubu-to-resign-over-insecurity-economic-hardship-large.png"
+    },
+    {
+     "title": "Nigerian businesses need more than bank loans to thrive – Finance Minister",
+     "url": "https://www.premiumtimesng.com/business/business-news/920094-nigerian-businesses-need-more-than-bank-loans-to-thrive-finance-minister.html",
+     "source": "Premium Times",
+     "published": "2026-10-25T13:20:45Z",
+     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2026/06/701385325_10235973202284108_1386022563267335218_n-e1780647385197.jpg?fit=1522%2C985&ssl=1"
     },
     {
      "title": "CBN grants JP Morgan approval-in-principle to set up merchant bank",
@@ -185,11 +185,11 @@
      "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2019/07/JPMorgan.jpeg?fit=1320%2C824&ssl=1"
     },
     {
-     "title": "Unilever Nigeria posts 20% jump in nine-month profit, raises interim dividend fourfold",
-     "url": "https://www.premiumtimesng.com/business/business-news/919846-unilever-nigeria-posts-20-jump-in-nine-month-profit-raises-interim-dividend-fourfold.html",
-     "source": "Premium Times",
-     "published": "2026-10-24T13:18:21Z",
-     "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2021/01/unilever-logo_tcm1283-409212_w720.jpg?fit=720%2C405&ssl=1"
+     "title": "Four technologies that could reshape Africa's energy future",
+     "url": "https://african.business/2026/10/energy-resources/four-technologies-that-could-reshape-africas-energy-future",
+     "source": "African Business",
+     "published": "2026-10-23T10:38:58Z",
+     "image": "https://african.business/wp-content/uploads/2025/11/000_par8269197-scaled.jpg"
     }
    ]
   }
@@ -239,11 +239,11 @@
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 5,
-   "skipped": 5,
+   "items": 6,
+   "skipped": 4,
    "undated": 0,
-   "newest": "2026-10-25T11:30:00Z",
-   "oldest": "2026-10-24T16:46:00Z"
+   "newest": "2026-10-25T14:00:00Z",
+   "oldest": "2026-10-24T18:45:00Z"
   },
   {
    "source": "CNBC",
@@ -259,11 +259,11 @@
    "source": "CNBC",
    "feed": "https://www.cnbc.com/id/15839069/device/rss/rss.html",
    "ok": true,
-   "items": 26,
+   "items": 25,
    "skipped": 0,
    "undated": 0,
    "newest": "2026-10-24T18:56:29Z",
-   "oldest": "2026-09-22T22:35:50Z"
+   "oldest": "2026-09-23T18:06:25Z"
   },
   {
    "source": "Federal Reserve",
@@ -322,18 +322,18 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-25T11:29:25Z",
-   "oldest": "2026-10-24T11:16:45Z"
+   "newest": "2026-10-25T15:58:46Z",
+   "oldest": "2026-10-24T14:12:50Z"
   },
   {
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 3,
-   "skipped": 2,
+   "items": 1,
+   "skipped": 4,
    "undated": 0,
-   "newest": "2026-10-25T11:11:26Z",
-   "oldest": "2026-10-25T10:57:35Z"
+   "newest": "2026-10-25T15:27:07Z",
+   "oldest": "2026-10-25T15:27:07Z"
   },
   {
    "source": "Premium Times",
@@ -342,8 +342,8 @@
    "items": 10,
    "skipped": 5,
    "undated": 0,
-   "newest": "2026-10-24T17:50:32Z",
-   "oldest": "2026-10-21T14:41:09Z"
+   "newest": "2026-10-25T13:20:45Z",
+   "oldest": "2026-10-21T19:21:11Z"
   },
   {
    "source": "African Business",
