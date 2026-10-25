@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T16:34:44Z",
+ "updated": "2026-10-25T20:58:29Z",
  "categories": [
   {
    "id": "economy",
@@ -54,6 +54,13 @@
    "label": "Markets",
    "items": [
     {
+     "title": "We stopped helping our neighbors with free home repairs and our friendship cooled. Who’s to blame?",
+     "url": "https://www.marketwatch.com/story/we-stopped-helping-our-neighbors-with-free-home-repairs-and-our-friendship-cooled-whos-to-blame-d20b0720?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-25T19:30:00Z",
+     "image": "https://images.mktw.net/im-13210750"
+    },
+    {
      "title": "More than a third of S&P 500 companies are about to report earnings as market confidence cracks",
      "url": "https://www.marketwatch.com/story/more-than-a-third-of-s-p-500-companies-are-about-to-report-earnings-as-market-confidence-cracks-03b7a8f1?mod=mw_rss_topstories",
      "source": "MarketWatch",
@@ -68,32 +75,11 @@
      "image": "https://images.mktw.net/im-63364096"
     },
     {
-     "title": "‘Nonanswers’ aren’t working. This is what investors really need from the Fed.",
-     "url": "https://www.marketwatch.com/story/non-answers-arent-working-this-is-what-investors-really-need-from-the-fed-673a9dce?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-25T12:44:00Z",
-     "image": "https://images.mktw.net/im-25605110"
-    },
-    {
-     "title": "Why economic health no longer dictates stock-market returns",
-     "url": "https://www.marketwatch.com/story/why-economic-health-no-longer-dictates-stock-market-returns-c44b88f2?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-25T12:00:00Z",
-     "image": "https://images.mktw.net/im-16022613"
-    },
-    {
      "title": "Biotech stocks are surging. How investors can play the new drug innovation boom",
      "url": "https://www.cnbc.com/2026/10/24/biotech-stocks-drug-innovation-rally.html",
      "source": "CNBC",
      "published": "2026-10-24T18:56:29Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108100625-1739282958280-gettyimages-2151784607-MODERNA_RSV_VACCINE.jpeg?v=1792438619&w=1920&h=1080"
-    },
-    {
-     "title": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
-     "url": "https://www.cnbc.com/2026/10/21/rick-rieder-investment-grade-bonds.html",
-     "source": "CNBC",
-     "published": "2026-10-21T19:54:16Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108315322-1780418958261-pV7cOP_w.jpg?v=1789497012&w=1920&h=1080"
     }
    ]
   },
@@ -150,25 +136,25 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "NCDC identifies two suspected Ebola cases, traces 53 primary contacts",
-     "url": "https://nairametrics.com/2026/10/25/ncdc-identifies-two-suspected-ebola-cases-traces-53-primary-contacts/",
-     "source": "Nairametrics",
-     "published": "2026-10-25T15:58:46Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/07/Ebola.webp"
-    },
-    {
-     "title": "Robert Mbonu and the N200 billion Nigerian art market",
-     "url": "https://nairametrics.com/2026/10/25/robert-mbonu-and-the-n200-billion-nigerian-art-market/",
-     "source": "Nairametrics",
-     "published": "2026-10-25T15:37:31Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/robert-mbonu.jpg"
-    },
-    {
-     "title": "Nigeria must stay the course: Continuity is now an economic imperative",
-     "url": "https://businessday.ng/life/article/nigeria-must-stay-the-course-continuity-is-now-an-economic-imperative/",
+     "title": "The Business of Fashion: How Paciencia is championing craftsmanship and the growth of Nigerian fashion brands",
+     "url": "https://businessday.ng/bd-weekender/article/the-business-of-fashion-how-paciencia-is-championing-craftsmanship-and-the-growth-of-nigerian-fashion-brands/",
      "source": "BusinessDay",
-     "published": "2026-10-25T15:27:07Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/06/CUPP-backs-Reps-call-for-Tinubu-to-resign-over-insecurity-economic-hardship-large.png"
+     "published": "2026-10-25T20:19:58Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/1-63-large.jpg"
+    },
+    {
+     "title": "NDLEA arrests South African woman with 36.65kg of cocaine at Lagos airport",
+     "url": "https://nairametrics.com/2026/10/25/ndlea-arrests-south-african-woman-with-36-65kg-of-cocaine-at-lagos-airport/",
+     "source": "Nairametrics",
+     "published": "2026-10-25T19:31:03Z",
+     "image": "https://media.nairametrics.com/2025/06/ndlea.webp"
+    },
+    {
+     "title": "IG proposes 200% gratuity and pension for retired police officers",
+     "url": "https://nairametrics.com/2026/10/25/ig-proposes-200-gratuity-and-pension-for-retired-police-officers/",
+     "source": "Nairametrics",
+     "published": "2026-10-25T19:19:30Z",
+     "image": "https://media.nairametrics.com/2025/01/Nigeria-Police.jpg"
     },
     {
      "title": "Nigerian businesses need more than bank loans to thrive – Finance Minister",
@@ -239,11 +225,11 @@
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 6,
-   "skipped": 4,
+   "items": 3,
+   "skipped": 7,
    "undated": 0,
-   "newest": "2026-10-25T14:00:00Z",
-   "oldest": "2026-10-24T18:45:00Z"
+   "newest": "2026-10-25T19:30:00Z",
+   "oldest": "2026-10-25T13:00:00Z"
   },
   {
    "source": "CNBC",
@@ -322,8 +308,8 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-25T15:58:46Z",
-   "oldest": "2026-10-24T14:12:50Z"
+   "newest": "2026-10-25T19:31:03Z",
+   "oldest": "2026-10-24T16:28:52Z"
   },
   {
    "source": "BusinessDay",
@@ -332,18 +318,18 @@
    "items": 1,
    "skipped": 4,
    "undated": 0,
-   "newest": "2026-10-25T15:27:07Z",
-   "oldest": "2026-10-25T15:27:07Z"
+   "newest": "2026-10-25T20:19:58Z",
+   "oldest": "2026-10-25T20:19:58Z"
   },
   {
    "source": "Premium Times",
    "feed": "https://www.premiumtimesng.com/business/feed",
    "ok": true,
-   "items": 10,
-   "skipped": 5,
+   "items": 9,
+   "skipped": 6,
    "undated": 0,
    "newest": "2026-10-25T13:20:45Z",
-   "oldest": "2026-10-21T19:21:11Z"
+   "oldest": "2026-10-22T12:00:27Z"
   },
   {
    "source": "African Business",
