@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T04:56:06Z",
+ "updated": "2026-10-25T11:45:51Z",
  "categories": [
   {
    "id": "economy",
@@ -54,6 +54,13 @@
    "label": "Markets",
    "items": [
     {
+     "title": "Here’s the real signal to watch for the Fed’s next move",
+     "url": "https://www.marketwatch.com/story/heres-the-real-signal-to-watch-for-the-feds-next-move-9189cb51?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-25T11:30:00Z",
+     "image": "https://images.mktw.net/im-02259041"
+    },
+    {
      "title": "Biotech stocks are surging. How investors can play the new drug innovation boom",
      "url": "https://www.cnbc.com/2026/10/24/biotech-stocks-drug-innovation-rally.html",
      "source": "CNBC",
@@ -80,13 +87,6 @@
      "source": "MarketWatch",
      "published": "2026-10-24T16:59:00Z",
      "image": "https://images.mktw.net/im-21652349"
-    },
-    {
-     "title": "The Social Security Administration wants more babies signed up for ‘Trump accounts.’ But there’s still a catch.",
-     "url": "https://www.marketwatch.com/story/the-social-security-administration-wants-more-babies-signed-up-for-trump-accounts-but-theres-still-a-catch-4096f16e?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-24T16:46:00Z",
-     "image": "https://images.mktw.net/im-00292967"
     },
     {
      "title": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
@@ -150,32 +150,32 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "Should Nigeria introduce minimum capital requirements for hospitals?",
-     "url": "https://businessday.ng/life/article/should-nigeria-introduce-minimum-capital-requirements-for-hospitals/",
-     "source": "BusinessDay",
-     "published": "2026-10-25T03:48:53Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/Wale-Olajubu-large.jpg"
-    },
-    {
-     "title": "Dangote Cement Gboko commits millions of naira in scholarship scheme",
-     "url": "https://businessday.ng/life/article/dangote-cement-gboko-commits-millions-of-naira-in-scholarship-scheme/",
-     "source": "BusinessDay",
-     "published": "2026-10-25T03:31:31Z",
-     "image": "https://cdn.businessday.ng/2022/10/dangote-cement-obajana-plant.jpg"
-    },
-    {
-     "title": "Africa Prudential’s pre-tax profit hits N4.07 billion in 9M as interest income jumps 46%",
-     "url": "https://nairametrics.com/2026/10/24/africa-prudentials-pre-tax-profit-hits-n4-07-billion-in-9m-as-interest-income-jumps-46/",
+     "title": "Domestic equity trading hits N13.52 trillion, surpasses full-year 2025",
+     "url": "https://nairametrics.com/2026/10/25/domestic-equity-trading-hits-n13-52-trillion-surpasses-full-year-2025/",
      "source": "Nairametrics",
-     "published": "2026-10-24T20:10:34Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/Africa-Prudential-Plc.webp"
+     "published": "2026-10-25T11:29:25Z",
+     "image": "https://media.nairametrics.com/2026/06/point-normal-tpaJBkqH5EQ-unsplash-scaled.jpg"
     },
     {
-     "title": "ABC Transport obtains approval to raise N6.5 billion in fresh capital",
-     "url": "https://nairametrics.com/2026/10/24/abc-transport-obtains-approval-to-raise-n6-5-billion-in-fresh-capital/",
+     "title": "Holy See urges UN to redirect arms spending towards human capital development",
+     "url": "https://businessday.ng/life/article/holy-see-urges-un-to-redirect-arms-spending-towards-human-capital-development/",
+     "source": "BusinessDay",
+     "published": "2026-10-25T11:11:26Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/IMG_7179-large.jpeg"
+    },
+    {
+     "title": "Otufodunrin elected president WACC-Africa, to lead new growth trajectory",
+     "url": "https://businessday.ng/life/article/otufodunrin-elected-president-wacc-africa-to-lead-new-growth-trajectory/",
+     "source": "BusinessDay",
+     "published": "2026-10-25T11:03:31Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/IMG_7181-large.jpeg"
+    },
+    {
+     "title": "IMF blames over-optimistic tax estimates, weak implementation for revenue shortfalls",
+     "url": "https://nairametrics.com/2026/10/25/imf-blames-over-optimistic-tax-estimates-weak-implementation-for-revenue-shortfalls/",
      "source": "Nairametrics",
-     "published": "2026-10-24T19:36:03Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/ABC-Transport-2-1.webp"
+     "published": "2026-10-25T08:40:31Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/09/IMF-.webp"
     },
     {
      "title": "CBN grants JP Morgan approval-in-principle to set up merchant bank",
@@ -242,8 +242,8 @@
    "items": 5,
    "skipped": 5,
    "undated": 0,
-   "newest": "2026-10-24T18:45:00Z",
-   "oldest": "2026-10-24T16:18:00Z"
+   "newest": "2026-10-25T11:30:00Z",
+   "oldest": "2026-10-24T16:46:00Z"
   },
   {
    "source": "CNBC",
@@ -322,18 +322,18 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-24T20:10:34Z",
-   "oldest": "2026-10-24T09:21:53Z"
+   "newest": "2026-10-25T11:29:25Z",
+   "oldest": "2026-10-24T11:16:45Z"
   },
   {
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 2,
-   "skipped": 3,
+   "items": 3,
+   "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-25T03:48:53Z",
-   "oldest": "2026-10-25T03:31:31Z"
+   "newest": "2026-10-25T11:11:26Z",
+   "oldest": "2026-10-25T10:57:35Z"
   },
   {
    "source": "Premium Times",
