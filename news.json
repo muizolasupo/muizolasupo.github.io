@@ -1,16 +1,30 @@
 {
- "updated": "2026-10-26T13:18:32Z",
+ "updated": "2026-10-26T20:36:18Z",
  "categories": [
   {
    "id": "economy",
    "label": "Economy",
    "items": [
     {
-     "title": "Home sellers are lowering their prices and helping buyers to make a deal in a stagnant market",
-     "url": "https://www.pbs.org/newshour/economy/home-sellers-are-lowering-their-prices-and-helping-buyers-to-make-a-deal-in-a-stagnant-market",
+     "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
+     "url": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
+     "source": "CNBC",
+     "published": "2026-10-26T18:33:51Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108364024-17895883942026-09-16t194825z_342271609_rc2iknaojij8_rtrmadp_0_usa-fed.jpeg?v=1789588428&w=1920&h=1080"
+    },
+    {
+     "title": "Anthropic files for potentially the biggest IPO ever as CEO warns of AI's existential risk to humanity",
+     "url": "https://www.pbs.org/newshour/nation/anthropic-files-for-potentially-the-biggest-ipo-ever-as-ceo-warns-of-ais-existential-risk-to-humanity",
      "source": "PBS NewsHour",
-     "published": "2026-10-25T20:55:56Z",
-     "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2025-04-22T101954Z_536240925_RC21ZDAWRQSZ_RTRMADP_3_USA-TRUMP-SNOWBIRDS-2-1024x683.jpg"
+     "published": "2026-10-26T16:40:54Z",
+     "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/09/2026-09-12T151731Z_1930509281_RC2UOJAYBQH0_RTRMADP_3_ANTHROPIC-AI-1024x698.jpg"
+    },
+    {
+     "title": "Trump promised to stop inflation. Now Republicans may pay the price in the midterm elections",
+     "url": "https://www.pbs.org/newshour/politics/trump-promised-to-stop-inflation-now-republicans-may-pay-the-price-in-the-midterm-elections",
+     "source": "PBS NewsHour",
+     "published": "2026-10-26T15:27:02Z",
+     "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-10-15T022314Z_786665944_RC2E3OAV7W6F_RTRMADP_3_USA-TRUMP-1024x689.jpg"
     },
     {
      "title": "Trade tariffs cause whiplash at Port Milwaukee",
@@ -27,25 +41,11 @@
      "image": ""
     },
     {
-     "title": "Treasury proposes rule to curb high-tech investments in China and other adversaries",
-     "url": "https://www.pbs.org/newshour/politics/treasury-proposes-rule-to-curb-high-tech-investments-in-china-and-other-adversaries",
-     "source": "PBS NewsHour",
-     "published": "2026-10-23T23:19:32Z",
-     "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-09-23T164555Z_940496461_RC24PNADYA0L_RTRMADP_3_USA-CHINA-BESSENT-HE-1024x683.jpg"
-    },
-    {
      "title": "Trump's approval rating on economy hits all-time low as midterm looms: CNBC survey",
      "url": "https://www.cnbc.com/2026/10/22/trump-economic-approval-rating-midterms-poll.html",
      "source": "CNBC",
      "published": "2026-10-23T20:49:42Z",
      "image": "https://image.cnbcfm.com/api/v1/image/108370343-1790783062486-gettyimages-2297724134-kbd14743_rhxmkc0e.jpeg?v=1790803464&w=1920&h=1080"
-    },
-    {
-     "title": "Jobless claims near the lowest since the 1960s as low-fire trend continues",
-     "url": "https://www.cnbc.com/2026/10/22/jobless-claims-record-low-weekly.html",
-     "source": "CNBC",
-     "published": "2026-10-22T16:40:09Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108368225-1790357106706-gettyimages-2297110253-jr_19003_zvh8bkkg.jpeg?v=1790357497&w=1920&h=1080"
     }
    ]
   },
@@ -54,46 +54,46 @@
    "label": "Markets",
    "items": [
     {
-     "title": "Apollo to buy nearly 10% stake in Abu Dhabi-backed alternative asset manager Mubadala Capital",
-     "url": "https://www.cnbc.com/2026/10/26/apollo-mubadala-capital-stake.html",
+     "title": "We stopped helping our neighbors with free home repairs and our friendship cooled. Who’s to blame?",
+     "url": "https://www.marketwatch.com/story/we-stopped-helping-our-neighbors-with-free-home-repairs-and-our-friendship-cooled-whos-to-blame-d20b0720?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-26T20:15:00Z",
+     "image": "https://images.mktw.net/im-13210750"
+    },
+    {
+     "title": "Sorry investors, but there’s no such thing as an early ‘Santa Claus rally.’ Here’s when the real gains typically happen.",
+     "url": "https://www.marketwatch.com/story/sorry-investors-but-theres-no-such-thing-as-an-early-santa-claus-rally-heres-when-the-real-gains-typically-happen-7af822cd?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-26T20:09:00Z",
+     "image": "https://images.mktw.net/im-65391550"
+    },
+    {
+     "title": "Prediction market traders say an Anthropic IPO is near-certain this year after company filed with SEC",
+     "url": "https://www.cnbc.com/2026/10/26/prediction-markets-think-anthropic-ipo-near-certain-in-2026.html",
      "source": "CNBC",
-     "published": "2026-10-26T13:09:26Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108293431-1776453839694-CNBC_INVESTINAMERICA_AC_041526_0463.jpg?v=1776454257&w=1920&h=1080"
+     "published": "2026-10-26T20:08:57Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108463868-17930177542026-10-22t132024z_1161924906_rc2d8oa92yke_rtrmadp_0_energy-europe-batteries.jpeg?v=1793017796&w=1920&h=1080"
     },
     {
-     "title": "Musk says SpaceX’s AI rivals are in trouble, sending their stocks lower",
-     "url": "https://www.marketwatch.com/story/musk-says-spacex-landed-a-40-billion-debt-deal-and-forecasts-doom-for-some-ai-rivals-a0a4991e?mod=mw_rss_topstories",
+     "title": "The house, the kids’ college and the raise: Where people in their 30s and 40s go wrong",
+     "url": "https://www.marketwatch.com/story/the-house-the-kids-college-and-the-raise-where-people-in-their-30s-and-40s-go-wrong-69ec6c90?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "published": "2026-10-26T12:39:00Z",
-     "image": "https://images.mktw.net/im-46961561"
+     "published": "2026-10-26T19:42:00Z",
+     "image": "https://images.mktw.net/im-15921386"
     },
     {
-     "title": "A dot-com survivor warns retail investors against buying the tech dip: ‘You’re taking a knife to a gunfight.’",
-     "url": "https://www.marketwatch.com/story/a-dot-com-survivor-warns-retail-investors-against-buying-the-tech-dip-youre-taking-a-knife-to-a-gunfight-6c940361?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-26T12:10:00Z",
-     "image": "https://images.mktw.net/im-39510986"
-    },
-    {
-     "title": "Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering",
-     "url": "https://www.marketwatch.com/story/nvidia-amd-and-broadcom-could-buy-meta-shares-as-part-of-35-billion-stock-offering-d816fec2?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-26T12:08:00Z",
-     "image": "https://images.mktw.net/im-00003294"
-    },
-    {
-     "title": "The stock market’s biggest test in weeks is here",
-     "url": "https://www.marketwatch.com/story/the-stock-markets-biggest-test-in-weeks-is-here-256f5a37?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-26T11:37:00Z",
-     "image": "https://images.mktw.net/im-38365187"
-    },
-    {
-     "title": "Biotech stocks are surging. How investors can play the new drug innovation boom",
-     "url": "https://www.cnbc.com/2026/10/24/biotech-stocks-drug-innovation-rally.html",
+     "title": "As AI becomes more fractured, one names stands out: AMD",
+     "url": "https://www.cnbc.com/2026/10/26/-as-ai-becomes-more-fractured-one-names-stands-out-amd.html",
      "source": "CNBC",
-     "published": "2026-10-24T18:56:29Z",
-     "image": "https://image.cnbcfm.com/api/v1/image/108100625-1739282958280-gettyimages-2151784607-MODERNA_RSV_VACCINE.jpeg?v=1792438619&w=1920&h=1080"
+     "published": "2026-10-26T19:38:17Z",
+     "image": "https://image.cnbcfm.com/api/v1/image/108369527-1790698704107-gettyimages-2297195028-TRUMP_TECH_AI.jpeg?v=1790698736&w=1920&h=1080"
+    },
+    {
+     "title": "McDonald’s new bet on chicken hits a snag as franchisees say the birds are too big",
+     "url": "https://www.marketwatch.com/story/mcdonalds-new-bet-on-chicken-hits-a-snag-as-franchisees-say-the-birds-are-too-big-c3e8dd77?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-26T19:17:00Z",
+     "image": "https://images.mktw.net/im-48023311"
     }
    ]
   },
@@ -150,46 +150,46 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "ACAMB Advises Bank Customers Against Phishing Scams, Urges Protection of Sensitive Information",
-     "url": "https://nairametrics.com/2026/10/26/acamb-advises-bank-customers-against-phishing-scams-urges-protection-of-sensitive-information/",
-     "source": "Nairametrics",
-     "published": "2026-10-26T13:16:36Z",
-     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/10/ACAMB.jpeg"
-    },
-    {
-     "title": "UBA Launches Group-Wide Climate Action Week to Advance Green Finance and Sustainability Across Africa",
-     "url": "https://nairametrics.com/2026/10/26/uba-launches-group-wide-climate-action-week-to-advance-green-finance-and-sustainability-across-africa/",
-     "source": "Nairametrics",
-     "published": "2026-10-26T13:14:48Z",
-     "image": "https://media.nairametrics.com/2025/10/Oliver-Alawuba-e1760593099541.jpeg"
-    },
-    {
-     "title": "State health budgets: From budgetary promises to healthcare delivery",
-     "url": "https://businessday.ng/uncategorized/article/state-health-budgets-from-budgetary-promises-to-healthcare-delivery/",
+     "title": "United Capital cuts borrowings by N52bn as cash reserves more than double",
+     "url": "https://businessday.ng/companies/article/united-capital-cuts-borrowings-by-n52bn-as-cash-reserves-more-than-double/",
      "source": "BusinessDay",
-     "published": "2026-10-26T12:37:20Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/05/Healthcare-image-large.png"
+     "published": "2026-10-26T18:51:43Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/04/United-Capital-large.png"
     },
     {
-     "title": "Morocco reclaims top spot from S/A in Africa safest banks ranking",
-     "url": "https://businessday.ng/africa/article/morocco-reclaims-top-spot-from-s-a-in-africa-safest-banks-ranking/",
+     "title": "United Capital grows profit by 66% on stronger investment returns",
+     "url": "https://businessday.ng/companies/article/united-capital-grows-profit-by-66-on-stronger-investment-returns/",
      "source": "BusinessDay",
-     "published": "2026-10-26T12:36:59Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/Golden-Minaret-Over-a-Modern-Skyline-large.png"
+     "published": "2026-10-26T18:50:16Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/04/United-Capital-large.png"
     },
     {
-     "title": "Why Ecobank's new moves in China matter for Africa's cost of capital",
-     "url": "https://african.business/2026/10/african-banker/why-ecobanks-new-moves-in-china-matter-for-africas-cost-of-capital",
-     "source": "African Business",
-     "published": "2026-10-26T11:55:03Z",
-     "image": "https://african.business/wp-content/uploads/2026/10/CIPS-partnership.jpg"
+     "title": "NGX rallies as equity market cap reaches record N163.1 trillion",
+     "url": "https://nairametrics.com/2026/10/26/ngx-rallies-as-equity-market-cap-reaches-record-n163-1-trillion/",
+     "source": "Nairametrics",
+     "published": "2026-10-26T18:23:34Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/09/stock-1-scaled-1.webp"
     },
     {
-     "title": "Beyond payments: Ghana's Tralo targets the missing data layer in African commerce",
-     "url": "https://african.business/2026/10/innov-africa-deals/beyond-payments-ghanas-tralo-targets-the-missing-data-layer-in-african-commerce",
+     "title": "US moves to tighten employment-based green card requirements for foreign workers",
+     "url": "https://nairametrics.com/2026/10/26/us-moves-to-tighten-employment-based-green-card-requirements-for-foreign-workers/",
+     "source": "Nairametrics",
+     "published": "2026-10-26T17:50:59Z",
+     "image": "https://cdn.nairametrics.com/wp-content/uploads/2026/08/American_Flag_Waving_on_a_Flag_Pole-300x200-2.webp"
+    },
+    {
+     "title": "How to bypass 'geographic bias' and plug into trillion dollar finance pool",
+     "url": "https://african.business/2026/10/african-banker/how-to-bypass-geographic-bias-and-plug-into-trillion-dollar-finance-pool",
      "source": "African Business",
-     "published": "2026-10-26T07:58:57Z",
-     "image": "https://african.business/wp-content/uploads/2026/10/Tralo.jpg"
+     "published": "2026-10-26T15:27:09Z",
+     "image": "https://african.business/wp-content/uploads/2026/10/AdobeStock_112372700.jpeg"
+    },
+    {
+     "title": "Why English-speaking investors are flocking to Casablanca Finance City",
+     "url": "https://www.theafricareport.com/434562/why-english-speaking-investors-are-flocking-to-casablanca-finance-city/",
+     "source": "The Africa Report",
+     "published": "2026-10-26T15:00:00Z",
+     "image": "https://prod.cdn-medias.theafricareport.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=1215,height=810,fit=cover/https://prod.cdn-medias.theafricareport.com/medias/2026/10/26/jad20261023-mmo-maroc-finance-casablanca-finance-city.jpg"
     }
    ]
   }
@@ -212,8 +212,8 @@
    "items": 14,
    "skipped": 6,
    "undated": 0,
-   "newest": "2026-10-25T20:55:56Z",
-   "oldest": "2026-10-12T13:26:30Z"
+   "newest": "2026-10-26T16:40:54Z",
+   "oldest": "2026-10-14T13:37:33Z"
   },
   {
    "source": "The Economist",
@@ -232,18 +232,18 @@
    "items": 30,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-23T20:49:42Z",
+   "newest": "2026-10-26T18:33:51Z",
    "oldest": "2026-10-07T12:24:32Z"
   },
   {
    "source": "MarketWatch",
    "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
    "ok": true,
-   "items": 8,
-   "skipped": 2,
+   "items": 7,
+   "skipped": 3,
    "undated": 0,
-   "newest": "2026-10-26T12:39:00Z",
-   "oldest": "2026-10-26T10:43:00Z"
+   "newest": "2026-10-26T20:15:00Z",
+   "oldest": "2026-10-26T17:32:00Z"
   },
   {
    "source": "CNBC",
@@ -259,10 +259,10 @@
    "source": "CNBC",
    "feed": "https://www.cnbc.com/id/15839069/device/rss/rss.html",
    "ok": true,
-   "items": 25,
+   "items": 29,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-26T13:09:26Z",
+   "newest": "2026-10-26T20:08:57Z",
    "oldest": "2026-09-28T17:53:31Z"
   },
   {
@@ -322,8 +322,8 @@
    "items": 20,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-26T13:16:36Z",
-   "oldest": "2026-10-26T07:12:14Z"
+   "newest": "2026-10-26T18:23:34Z",
+   "oldest": "2026-10-26T13:16:36Z"
   },
   {
    "source": "BusinessDay",
@@ -332,8 +332,8 @@
    "items": 4,
    "skipped": 1,
    "undated": 0,
-   "newest": "2026-10-26T12:37:20Z",
-   "oldest": "2026-10-26T12:28:27Z"
+   "newest": "2026-10-26T18:51:43Z",
+   "oldest": "2026-10-26T18:48:56Z"
   },
   {
    "source": "Premium Times",
@@ -352,8 +352,8 @@
    "items": 25,
    "skipped": 0,
    "undated": 0,
-   "newest": "2026-10-26T11:55:03Z",
-   "oldest": "2026-10-12T06:26:47Z"
+   "newest": "2026-10-26T15:27:09Z",
+   "oldest": "2026-10-12T13:07:41Z"
   },
   {
    "source": "The Africa Report",
@@ -362,8 +362,8 @@
    "items": 2,
    "skipped": 8,
    "undated": 0,
-   "newest": "2026-10-26T06:00:00Z",
-   "oldest": "2026-10-23T07:51:23Z"
+   "newest": "2026-10-26T15:00:00Z",
+   "oldest": "2026-10-26T06:00:00Z"
   }
  ],
  "first_seen": {
