@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T23:21:02Z",
+ "updated": "2026-10-26T04:59:15Z",
  "categories": [
   {
    "id": "economy",
@@ -54,6 +54,13 @@
    "label": "Markets",
    "items": [
     {
+     "title": "Musk says SpaceX landed a $40 billion debt deal — and forecasts doom for some AI rivals",
+     "url": "https://www.marketwatch.com/story/musk-says-spacex-landed-a-40-billion-debt-deal-and-forecasts-doom-for-some-ai-rivals-a0a4991e?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-10-26T01:50:00Z",
+     "image": "https://images.mktw.net/im-46961561"
+    },
+    {
      "title": "We stopped helping our neighbors with free home repairs and our friendship cooled. Who’s to blame?",
      "url": "https://www.marketwatch.com/story/we-stopped-helping-our-neighbors-with-free-home-repairs-and-our-friendship-cooled-whos-to-blame-d20b0720?mod=mw_rss_topstories",
      "source": "MarketWatch",
@@ -66,13 +73,6 @@
      "source": "MarketWatch",
      "published": "2026-10-25T14:00:00Z",
      "image": "https://images.mktw.net/im-16577626"
-    },
-    {
-     "title": "Worried about this stock-market selloff? Relief may be coming after the midterms — no matter who wins.",
-     "url": "https://www.marketwatch.com/story/worried-about-this-stock-market-selloff-relief-may-be-coming-after-the-midterms-no-matter-who-wins-39322c07?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-10-25T13:00:00Z",
-     "image": "https://images.mktw.net/im-63364096"
     },
     {
      "title": "Biotech stocks are surging. How investors can play the new drug innovation boom",
@@ -88,17 +88,17 @@
    "label": "Policy & research",
    "items": [
     {
-     "title": "Export Controls and the Economics of National Security",
-     "url": "https://www.nber.org/papers/w35898#fromrss",
+     "title": "Beliefs Over Contracts",
+     "url": "https://www.nber.org/papers/w35788#fromrss",
      "source": "NBER",
-     "published": "2026-10-19T04:54:05Z",
+     "published": "2026-10-26T04:59:15Z",
      "image": "https://www.nber.org/sites/default/files/2022-06/NBER-FB-Share-Tile-1200.jpg"
     },
     {
-     "title": "The Net Present Value of the California Billionaire Tax Act",
-     "url": "https://www.nber.org/papers/w35899#fromrss",
+     "title": "HouseholdBench: Evaluating Large Language Models as Predictors of Household Economic Behavior",
+     "url": "https://www.nber.org/papers/w35927#fromrss",
      "source": "NBER",
-     "published": "2026-10-19T04:54:05Z",
+     "published": "2026-10-26T04:59:15Z",
      "image": "https://www.nber.org/sites/default/files/2022-06/NBER-FB-Share-Tile-1200.jpg"
     },
     {
@@ -136,11 +136,18 @@
    "label": "Nigeria & Africa",
    "items": [
     {
-     "title": "The Business of Fashion: How Paciencia is championing craftsmanship and the growth of Nigerian fashion brands",
-     "url": "https://businessday.ng/bd-weekender/article/the-business-of-fashion-how-paciencia-is-championing-craftsmanship-and-the-growth-of-nigerian-fashion-brands/",
+     "title": "First HoldCo, Seplat, HBM lead Nigeria’s big corporate stock returns",
+     "url": "https://businessday.ng/markets/article/first-holdco-seplat-hbm-lead-nigerias-big-corporate-stock-returns/",
      "source": "BusinessDay",
-     "published": "2026-10-25T20:19:58Z",
-     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/1-63-large.jpg"
+     "published": "2026-10-26T03:00:26Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/Nigerias-stock-market-1-large.png"
+    },
+    {
+     "title": "Why J.P. Morgan picked these five Nigerians to lead its merchant bank",
+     "url": "https://businessday.ng/companies/article/meet-the-five-nigerians-appointed-to-lead-jpmorgans-first-african-merchant-bank/",
+     "source": "BusinessDay",
+     "published": "2026-10-26T02:45:43Z",
+     "image": "https://cdn.businessday.ng/wp-content/uploads/2026/10/J.P.-Morgan-1-large.png"
     },
     {
      "title": "NDLEA arrests South African woman with 36.65kg of cocaine at Lagos airport",
@@ -169,13 +176,6 @@
      "source": "Premium Times",
      "published": "2026-10-24T17:50:32Z",
      "image": "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2019/07/JPMorgan.jpeg?fit=1320%2C824&ssl=1"
-    },
-    {
-     "title": "Four technologies that could reshape Africa's energy future",
-     "url": "https://african.business/2026/10/energy-resources/four-technologies-that-could-reshape-africas-energy-future",
-     "source": "African Business",
-     "published": "2026-10-23T10:38:58Z",
-     "image": "https://african.business/wp-content/uploads/2025/11/000_par8269197-scaled.jpg"
     }
    ]
   }
@@ -228,8 +228,8 @@
    "items": 3,
    "skipped": 7,
    "undated": 0,
-   "newest": "2026-10-25T19:30:00Z",
-   "oldest": "2026-10-25T13:00:00Z"
+   "newest": "2026-10-26T01:50:00Z",
+   "oldest": "2026-10-25T14:00:00Z"
   },
   {
    "source": "CNBC",
@@ -285,11 +285,11 @@
    "source": "NBER",
    "feed": "https://www.nber.org/rss/new.xml",
    "ok": true,
-   "items": 29,
+   "items": 35,
    "skipped": 0,
-   "undated": 29,
-   "newest": "2026-10-19T04:54:05Z",
-   "oldest": "2026-10-19T04:54:05Z"
+   "undated": 35,
+   "newest": "2026-10-26T04:59:15Z",
+   "oldest": "2026-10-26T04:59:15Z"
   },
   {
    "source": "Liberty Street Economics",
@@ -315,11 +315,11 @@
    "source": "BusinessDay",
    "feed": "https://businessday.ng/feed/",
    "ok": true,
-   "items": 1,
-   "skipped": 4,
+   "items": 3,
+   "skipped": 2,
    "undated": 0,
-   "newest": "2026-10-25T20:19:58Z",
-   "oldest": "2026-10-25T20:19:58Z"
+   "newest": "2026-10-26T03:00:26Z",
+   "oldest": "2026-10-26T02:30:42Z"
   },
   {
    "source": "Premium Times",
@@ -353,34 +353,40 @@
   }
  ],
  "first_seen": {
-  "https://www.nber.org/papers/w35898#fromrss": "2026-10-19T04:54:05Z",
-  "https://www.nber.org/papers/w35899#fromrss": "2026-10-19T04:54:05Z",
-  "https://www.nber.org/papers/w35900#fromrss": "2026-10-19T04:54:05Z",
-  "https://www.nber.org/papers/w35901#fromrss": "2026-10-19T04:54:05Z",
-  "https://www.nber.org/papers/w35902#fromrss": "2026-10-19T04:54:05Z",
-  "https://www.nber.org/papers/w35903#fromrss": "2026-10-19T04:54:05Z",
-  "https://www.nber.org/papers/w35904#fromrss": "2026-10-19T04:54:05Z",
-  "https://www.nber.org/papers/w35905#fromrss": "2026-10-19T04:54:05Z",
-  "https://www.nber.org/papers/w35906#fromrss": "2026-10-19T04:54:05Z",
-  "https://www.nber.org/papers/w35907#fromrss": "2026-10-19T04:54:05Z",
-  "https://www.nber.org/papers/w35908#fromrss": "2026-10-19T04:54:05Z",
-  "https://www.nber.org/papers/w35909#fromrss": "2026-10-19T04:54:05Z",
-  "https://www.nber.org/papers/w35910#fromrss": "2026-10-19T04:54:05Z",
-  "https://www.nber.org/papers/w35911#fromrss": "2026-10-19T04:54:05Z",
-  "https://www.nber.org/papers/w35912#fromrss": "2026-10-19T04:54:05Z",
-  "https://www.nber.org/papers/w35913#fromrss": "2026-10-19T04:54:05Z",
-  "https://www.nber.org/papers/w35914#fromrss": "2026-10-19T04:54:05Z",
-  "https://www.nber.org/papers/w35915#fromrss": "2026-10-19T04:54:05Z",
-  "https://www.nber.org/papers/w35916#fromrss": "2026-10-19T04:54:05Z",
-  "https://www.nber.org/papers/w35917#fromrss": "2026-10-19T04:54:05Z",
-  "https://www.nber.org/papers/w35918#fromrss": "2026-10-19T04:54:05Z",
-  "https://www.nber.org/papers/w35919#fromrss": "2026-10-19T04:54:05Z",
-  "https://www.nber.org/papers/w35920#fromrss": "2026-10-19T04:54:05Z",
-  "https://www.nber.org/papers/w35921#fromrss": "2026-10-19T04:54:05Z",
-  "https://www.nber.org/papers/w35922#fromrss": "2026-10-19T04:54:05Z",
-  "https://www.nber.org/papers/w35923#fromrss": "2026-10-19T04:54:05Z",
-  "https://www.nber.org/papers/w35924#fromrss": "2026-10-19T04:54:05Z",
-  "https://www.nber.org/papers/w35925#fromrss": "2026-10-19T04:54:05Z",
-  "https://www.nber.org/papers/w35926#fromrss": "2026-10-19T04:54:05Z"
+  "https://www.nber.org/papers/w35788#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35927#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35928#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35929#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35930#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35931#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35932#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35933#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35934#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35935#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35936#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35937#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35938#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35939#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35940#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35941#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35942#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35943#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35944#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35945#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35946#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35947#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35948#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35949#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35950#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35951#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35952#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35953#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35954#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35955#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35956#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35957#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35958#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35959#fromrss": "2026-10-26T04:59:15Z",
+  "https://www.nber.org/papers/w35960#fromrss": "2026-10-26T04:59:15Z"
  }
 }
