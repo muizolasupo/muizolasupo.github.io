@@ -198,7 +198,7 @@ footer .meso-logo img{filter:none;width:30px;height:30px}.teaching-gallery{margi
 
 /* ---------- Articles section (articles.html, /articles/*.html, home teaser) ---------- */
 /* Menu: nine links sit in three even rows of three on phones and tablets. */
-@media(max-width:900px){.nav .links,.nav .links.open{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:900px){.nav .links,.nav .links.open{grid-template-columns:repeat(4,minmax(0,1fr))}}
 /* Reading column: narrower than the site column for comfortable line length. */
 @media(min-width:701px){.article .wrap{width:min(760px,calc(100% - 64px))}}
 .article-head{padding:60px 0 34px;border-bottom:1px solid #e5e5e5;background:#fafafa}
